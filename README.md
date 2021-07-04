@@ -2,6 +2,7 @@
 2021 Defi Online Hackathon
 
 * 소개 페이지
+
 (영어) http://taebit.com/hackathon 
 
 (한국어) https://www.notion.so/DeFi-bf6621b59ddc425897714a1c9423e9ca
