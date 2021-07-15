@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- profile -->
+    <item
+        android:id="@+id/navigation_profile"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="@string/title_profile" />
+
+    <!--wallet-->
+    <item
+        android:id="@+id/navigation_wallet"
+        android:icon="@drawable/ic_dashboard_black_24dp"
+        android:title="@string/title_wallet" />
+
+    <!--notifications-->
+    <item
+        android:id="@+id/navigation_notifications"
+        android:icon="@drawable/ic_notifications_black_24dp"
+        android:title="@string/title_notifications" />
+
+    <!--exchange-->
+    <item
+        android:id="@+id/navigation_exchange"
+        android:icon="@drawable/ic_notifications_black_24dp"
+        android:title="@string/title_exchange" />
+
+    <!--chart-->
+    <item
+        android:id="@+id/navigation_chart"
+        android:icon="@drawable/ic_notifications_black_24dp"
+        android:title="@string/title_chart" />
+
+</menu>
