@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_home.xml",
+        "source": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\src\\main\\res\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_wallet.xml",
+        "source": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\src\\main\\res\\layout\\fragment_wallet.xml"
+    },
+    {
+        "merged": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_dashboard.xml",
+        "source": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\src\\main\\res\\layout\\fragment_dashboard.xml"
+    },
+    {
+        "merged": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_exchange.xml",
+        "source": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\src\\main\\res\\layout\\fragment_exchange.xml"
+    },
+    {
+        "merged": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_notifications.xml",
+        "source": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\src\\main\\res\\layout\\fragment_notifications.xml"
+    },
+    {
+        "merged": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\src\\main\\res\\layout\\activity_main.xml"
+    }
+]
