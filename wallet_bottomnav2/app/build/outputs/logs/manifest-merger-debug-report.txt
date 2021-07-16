@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\User PC\AndroidStudioProjects\wallet_bottomnav2\app\src\main\AndroidManifest.xml:2:1-26:12
-INJECTED from C:\Users\User PC\AndroidStudioProjects\wallet_bottomnav2\app\src\main\AndroidManifest.xml:2:1-26:12
-INJECTED from C:\Users\User PC\AndroidStudioProjects\wallet_bottomnav2\app\src\main\AndroidManifest.xml:2:1-26:12
-INJECTED from C:\Users\User PC\AndroidStudioProjects\wallet_bottomnav2\app\src\main\AndroidManifest.xml:2:1-26:12
+ADDED from C:\Users\User PC\AndroidStudioProjects\wallet_bottomnav2\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from C:\Users\User PC\AndroidStudioProjects\wallet_bottomnav2\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from C:\Users\User PC\AndroidStudioProjects\wallet_bottomnav2\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from C:\Users\User PC\AndroidStudioProjects\wallet_bottomnav2\app\src\main\AndroidManifest.xml:2:1-28:12
 MERGED from [androidx.databinding:viewbinding:4.2.2] C:\Users\User PC\.gradle\caches\transforms-2\files-2.1\e100e1d87f3eab663026c1e722d50103\viewbinding-4.2.2\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.navigation:navigation-ui:2.3.5] C:\Users\User PC\.gradle\caches\transforms-2\files-2.1\964bbc8f20eb7c96ad970a8ac9ea4eac\navigation-ui-2.3.5\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.material:material:1.4.0] C:\Users\User PC\.gradle\caches\transforms-2\files-2.1\10046aad9e73cbf22653afacdcab8838\material-1.4.0\AndroidManifest.xml:17:1-24:12
@@ -47,27 +47,27 @@ MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\User PC\.gradle\
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\User PC\.gradle\caches\transforms-2\files-2.1\b93e2b8a7319b8231fdc1936a598b860\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] C:\Users\User PC\.gradle\caches\transforms-2\files-2.1\f8503f66578d12caa389b09e1e5eca48\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\User PC\.gradle\caches\transforms-2\files-2.1\8b1826e082b884f9fc593d27a9580a45\annotation-experimental-1.0.0\AndroidManifest.xml:17:1-24:12
-INJECTED from C:\Users\User PC\AndroidStudioProjects\wallet_bottomnav2\app\src\main\AndroidManifest.xml:2:1-26:12
-INJECTED from C:\Users\User PC\AndroidStudioProjects\wallet_bottomnav2\app\src\main\AndroidManifest.xml:2:1-26:12
-INJECTED from C:\Users\User PC\AndroidStudioProjects\wallet_bottomnav2\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from C:\Users\User PC\AndroidStudioProjects\wallet_bottomnav2\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from C:\Users\User PC\AndroidStudioProjects\wallet_bottomnav2\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from C:\Users\User PC\AndroidStudioProjects\wallet_bottomnav2\app\src\main\AndroidManifest.xml:2:1-28:12
 	package
 		ADDED from C:\Users\User PC\AndroidStudioProjects\wallet_bottomnav2\app\src\main\AndroidManifest.xml:4:5-46
 		INJECTED from C:\Users\User PC\AndroidStudioProjects\wallet_bottomnav2\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\User PC\AndroidStudioProjects\wallet_bottomnav2\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\User PC\AndroidStudioProjects\wallet_bottomnav2\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\User PC\AndroidStudioProjects\wallet_bottomnav2\app\src\main\AndroidManifest.xml:2:1-26:12
+		ADDED from C:\Users\User PC\AndroidStudioProjects\wallet_bottomnav2\app\src\main\AndroidManifest.xml:2:1-28:12
 		INJECTED from C:\Users\User PC\AndroidStudioProjects\wallet_bottomnav2\app\src\main\AndroidManifest.xml
 	xmlns:tools
 		ADDED from C:\Users\User PC\AndroidStudioProjects\wallet_bottomnav2\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from C:\Users\User PC\AndroidStudioProjects\wallet_bottomnav2\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\User PC\AndroidStudioProjects\wallet_bottomnav2\app\src\main\AndroidManifest.xml:2:1-26:12
+		ADDED from C:\Users\User PC\AndroidStudioProjects\wallet_bottomnav2\app\src\main\AndroidManifest.xml:2:1-28:12
 		INJECTED from C:\Users\User PC\AndroidStudioProjects\wallet_bottomnav2\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\User PC\AndroidStudioProjects\wallet_bottomnav2\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from C:\Users\User PC\AndroidStudioProjects\wallet_bottomnav2\app\src\main\AndroidManifest.xml:6:5-24:19
+ADDED from C:\Users\User PC\AndroidStudioProjects\wallet_bottomnav2\app\src\main\AndroidManifest.xml:6:5-26:19
 MERGED from [com.google.android.material:material:1.4.0] C:\Users\User PC\.gradle\caches\transforms-2\files-2.1\10046aad9e73cbf22653afacdcab8838\material-1.4.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.4.0] C:\Users\User PC\.gradle\caches\transforms-2\files-2.1\10046aad9e73cbf22653afacdcab8838\material-1.4.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\User PC\.gradle\caches\transforms-2\files-2.1\0db51bfebffdf02cab6c3906aa1040ae\constraintlayout-2.0.4\AndroidManifest.xml:9:5-20
@@ -79,33 +79,45 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Us
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.5.0] C:\Users\User PC\.gradle\caches\transforms-2\files-2.1\cc5e9dcdc56dc39042f72c501235e83f\core-1.5.0\AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from C:\Users\User PC\AndroidStudioProjects\wallet_bottomnav2\app\src\main\AndroidManifest.xml:12:9-35
+		ADDED from C:\Users\User PC\AndroidStudioProjects\wallet_bottomnav2\app\src\main\AndroidManifest.xml:11:9-35
 	android:label
-		ADDED from C:\Users\User PC\AndroidStudioProjects\wallet_bottomnav2\app\src\main\AndroidManifest.xml:10:9-41
+		ADDED from C:\Users\User PC\AndroidStudioProjects\wallet_bottomnav2\app\src\main\AndroidManifest.xml:9:9-41
 	android:roundIcon
-		ADDED from C:\Users\User PC\AndroidStudioProjects\wallet_bottomnav2\app\src\main\AndroidManifest.xml:11:9-54
+		ADDED from C:\Users\User PC\AndroidStudioProjects\wallet_bottomnav2\app\src\main\AndroidManifest.xml:10:9-54
 	android:icon
-		ADDED from C:\Users\User PC\AndroidStudioProjects\wallet_bottomnav2\app\src\main\AndroidManifest.xml:9:9-43
+		ADDED from C:\Users\User PC\AndroidStudioProjects\wallet_bottomnav2\app\src\main\AndroidManifest.xml:8:9-43
 	android:allowBackup
-		ADDED from C:\Users\User PC\AndroidStudioProjects\wallet_bottomnav2\app\src\main\AndroidManifest.xml:8:9-35
+		ADDED from C:\Users\User PC\AndroidStudioProjects\wallet_bottomnav2\app\src\main\AndroidManifest.xml:7:9-35
 	android:theme
-		ADDED from C:\Users\User PC\AndroidStudioProjects\wallet_bottomnav2\app\src\main\AndroidManifest.xml:13:9-55
-activity#com.example.wallet_bottom_nav_2.MainActivity
-ADDED from C:\Users\User PC\AndroidStudioProjects\wallet_bottomnav2\app\src\main\AndroidManifest.xml:15:9-23:20
+		ADDED from C:\Users\User PC\AndroidStudioProjects\wallet_bottomnav2\app\src\main\AndroidManifest.xml:12:9-55
+activity#com.example.wallet_bottom_nav_2.ui.login.LoginActivity
+ADDED from C:\Users\User PC\AndroidStudioProjects\wallet_bottomnav2\app\src\main\AndroidManifest.xml:13:9-15:69
 	android:label
-		ADDED from C:\Users\User PC\AndroidStudioProjects\wallet_bottomnav2\app\src\main\AndroidManifest.xml:17:13-45
+		ADDED from C:\Users\User PC\AndroidStudioProjects\wallet_bottomnav2\app\src\main\AndroidManifest.xml:15:13-57
 	android:name
-		ADDED from C:\Users\User PC\AndroidStudioProjects\wallet_bottomnav2\app\src\main\AndroidManifest.xml:16:13-41
+		ADDED from C:\Users\User PC\AndroidStudioProjects\wallet_bottomnav2\app\src\main\AndroidManifest.xml:14:13-51
+activity#com.example.wallet_bottom_nav_2.MainActivity
+ADDED from C:\Users\User PC\AndroidStudioProjects\wallet_bottomnav2\app\src\main\AndroidManifest.xml:16:9-24:20
+	android:label
+		ADDED from C:\Users\User PC\AndroidStudioProjects\wallet_bottomnav2\app\src\main\AndroidManifest.xml:18:13-45
+	android:name
+		ADDED from C:\Users\User PC\AndroidStudioProjects\wallet_bottomnav2\app\src\main\AndroidManifest.xml:17:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\User PC\AndroidStudioProjects\wallet_bottomnav2\app\src\main\AndroidManifest.xml:18:13-22:29
+ADDED from C:\Users\User PC\AndroidStudioProjects\wallet_bottomnav2\app\src\main\AndroidManifest.xml:19:13-23:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\User PC\AndroidStudioProjects\wallet_bottomnav2\app\src\main\AndroidManifest.xml:19:17-69
+ADDED from C:\Users\User PC\AndroidStudioProjects\wallet_bottomnav2\app\src\main\AndroidManifest.xml:20:17-69
 	android:name
-		ADDED from C:\Users\User PC\AndroidStudioProjects\wallet_bottomnav2\app\src\main\AndroidManifest.xml:19:25-66
+		ADDED from C:\Users\User PC\AndroidStudioProjects\wallet_bottomnav2\app\src\main\AndroidManifest.xml:20:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\User PC\AndroidStudioProjects\wallet_bottomnav2\app\src\main\AndroidManifest.xml:21:17-77
+ADDED from C:\Users\User PC\AndroidStudioProjects\wallet_bottomnav2\app\src\main\AndroidManifest.xml:22:17-77
 	android:name
-		ADDED from C:\Users\User PC\AndroidStudioProjects\wallet_bottomnav2\app\src\main\AndroidManifest.xml:21:27-74
+		ADDED from C:\Users\User PC\AndroidStudioProjects\wallet_bottomnav2\app\src\main\AndroidManifest.xml:22:27-74
+meta-data#android.max_aspect
+ADDED from C:\Users\User PC\AndroidStudioProjects\wallet_bottomnav2\app\src\main\AndroidManifest.xml:25:9-76
+	android:value
+		ADDED from C:\Users\User PC\AndroidStudioProjects\wallet_bottomnav2\app\src\main\AndroidManifest.xml:25:54-73
+	android:name
+		ADDED from C:\Users\User PC\AndroidStudioProjects\wallet_bottomnav2\app\src\main\AndroidManifest.xml:25:20-53
 uses-sdk
 INJECTED from C:\Users\User PC\AndroidStudioProjects\wallet_bottomnav2\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\User PC\AndroidStudioProjects\wallet_bottomnav2\app\src\main\AndroidManifest.xml

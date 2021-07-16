@@ -2,7 +2,7 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
-        android:id="@+id/navigation_market"
+        android:id="@+id/navigation_home"
         android:icon="@drawable/ic_home_black_24dp"
         android:title="@string/title_market" />
 
@@ -12,7 +12,7 @@
         android:title="@string/title_exchange" />
 
     <item
-        android:id="@+id/navigation_add"
+        android:id="@+id/navigation_wallet"
         android:icon="@drawable/ic_add_blue"
         android:title="@string/title_add" />
 
@@ -22,8 +22,8 @@
         android:title="@string/title_notifications" />
 
     <item
-        android:id="@+id/navigation_profile"
+        android:id="@+id/navigation_dashboard"
         android:icon="@drawable/ic_user_grey"
-        android:title="@string/title_profile" />
+        android:title="@string/title_dashboard" />
 
 </menu>

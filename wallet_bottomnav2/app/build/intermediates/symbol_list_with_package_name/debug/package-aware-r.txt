@@ -1627,6 +1627,7 @@ dimen test_navigation_bar_item_min_width
 dimen test_navigation_bar_label_padding
 dimen test_navigation_bar_shadow_height
 dimen test_navigation_bar_text_size
+dimen text_margin
 dimen tooltip_corner_radius
 dimen tooltip_horizontal_padding
 dimen tooltip_margin
@@ -1725,6 +1726,7 @@ drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
 drawable button_shape
+drawable button_shape2
 drawable design_fab_background
 drawable design_ic_visibility
 drawable design_ic_visibility_off
@@ -1746,6 +1748,7 @@ drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
 drawable ic_notifications_black_24dp
 drawable ic_refresh_black
+drawable ic_setting_black
 drawable ic_user_grey
 drawable material_cursor_drawable
 drawable material_ic_calendar_black_24dp
@@ -1840,6 +1843,7 @@ id action_bar_root
 id action_bar_spinner
 id action_bar_subtitle
 id action_bar_title
+id action_btn1
 id action_container
 id action_context_bar
 id action_divider
@@ -1877,7 +1881,9 @@ id beginning
 id blocking
 id bottom
 id bounce
+id button
 id button2
+id button3
 id buttonPanel
 id button_wallet1
 id button_wallet2
@@ -2006,6 +2012,8 @@ id linearLayout
 id linearLayout2
 id listMode
 id list_item
+id loading
+id login
 id masked
 id material_clock_display
 id material_clock_face
@@ -2065,7 +2073,6 @@ id nav_controller_view_tag
 id nav_host_fragment_activity_main
 id nav_host_fragment_container
 id nav_view
-id navigation_add
 id navigation_bar_item_icon_view
 id navigation_bar_item_labels_group
 id navigation_bar_item_large_label_view
@@ -2074,9 +2081,7 @@ id navigation_dashboard
 id navigation_exchange
 id navigation_header_container
 id navigation_home
-id navigation_market
 id navigation_notifications
-id navigation_profile
 id navigation_wallet
 id never
 id noScroll
@@ -2095,6 +2100,7 @@ id parent
 id parentPanel
 id parentRelative
 id parent_matrix
+id password
 id password_toggle
 id path
 id pathRelative
@@ -2236,6 +2242,7 @@ id uniform
 id unlabeled
 id up
 id useLogo
+id username
 id view_offset_helper
 id view_tree_lifecycle_owner
 id view_tree_saved_state_registry_owner
@@ -2315,6 +2322,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_login
 layout activity_main
 layout custom_dialog
 layout design_bottom_navigation_item
@@ -2390,6 +2398,7 @@ layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
 layout support_simple_spinner_dropdown_item
+layout temp1
 layout test_action_chip
 layout test_chip_zero_corner_radius
 layout test_design_checkbox
@@ -2405,11 +2414,13 @@ layout text_view_with_line_height_from_layout
 layout text_view_with_line_height_from_style
 layout text_view_with_theme_line_height
 layout text_view_without_line_height
+menu action_bar_menu
 menu bottom_nav_menu
 mipmap ic_launcher
 mipmap ic_launcher_round
 navigation mobile_navigation
 plurals mtrl_badge_content_description
+string _0_00
 string abc_action_bar_home_description
 string abc_action_bar_up_description
 string abc_action_menu_overflow_description
@@ -2437,10 +2448,15 @@ string abc_searchview_description_voice
 string abc_shareactionprovider_share_with
 string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
+string action_sign_in
+string action_sign_in_short
 string app_name
 string appbar_scrolling_view_behavior
+string balance
+string balance_here
 string bottom_sheet_behavior
 string bottomsheet_action_expand_halfway
+string button
 string character_counter_content_description
 string character_counter_overflowed_content_description
 string character_counter_pattern
@@ -2452,7 +2468,12 @@ string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
 string hide_bottom_view_on_scroll_behavior
 string icon_content_description
+string invalid_password
+string invalid_username
 string item_view_role_description
+string krw
+string large_text
+string login_failed
 string material_clock_display_divider
 string material_clock_toggle_content_description
 string material_hour_selection
@@ -2515,8 +2536,14 @@ string path_password_eye
 string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
+string prompt_email
+string prompt_password
 string search_menu_title
+string settings
+string show_more
 string status_bar_notification_info_overflow
+string textview
+string title_activity_login
 string title_add
 string title_chart
 string title_copy
@@ -2529,6 +2556,9 @@ string title_profile
 string title_receive
 string title_send
 string title_wallet
+string welcome
+string your_accounts
+string your_balance_here
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
 style AndroidThemeColorAccentYellow
@@ -2537,6 +2567,7 @@ style Animation_AppCompat_DropDownUp
 style Animation_AppCompat_Tooltip
 style Animation_Design_BottomSheetDialog
 style Animation_MaterialComponents_BottomSheetDialog
+style AppTheme
 style Base_AlertDialog_AppCompat
 style Base_AlertDialog_AppCompat_Light
 style Base_Animation_AppCompat_Dialog

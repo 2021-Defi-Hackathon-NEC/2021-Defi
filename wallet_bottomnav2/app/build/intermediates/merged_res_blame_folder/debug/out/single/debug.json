@@ -4,32 +4,16 @@
         "source": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
-        "merged": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_notifications_black_24dp.xml.flat",
-        "source": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_notifications_black_24dp.xml"
-    },
-    {
-        "merged": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_dashboard_black_24dp.png.flat",
-        "source": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_dashboard_black_24dp.png"
+        "merged": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_button_shape2.xml.flat",
+        "source": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\src\\main\\res\\drawable\\button_shape2.xml"
     },
     {
         "merged": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_add_blue.png.flat",
         "source": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\src\\main\\res\\drawable-mdpi\\ic_add_blue.png"
     },
     {
-        "merged": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_launcher_background.png.flat",
-        "source": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_launcher_background.png"
-    },
-    {
-        "merged": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_launcher_background.png.flat",
-        "source": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_launcher_background.png"
-    },
-    {
         "merged": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_exchange.xml.flat",
         "source": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\src\\main\\res\\layout\\fragment_exchange.xml"
-    },
-    {
-        "merged": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_dashboard_black_24dp.png.flat",
-        "source": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_dashboard_black_24dp.png"
     },
     {
         "merged": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_user_grey.png.flat",
@@ -38,18 +22,6 @@
     {
         "merged": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
         "source": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
-    },
-    {
-        "merged": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_notifications_black_24dp.png.flat",
-        "source": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_notifications_black_24dp.png"
-    },
-    {
-        "merged": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_notifications_black_24dp.png.flat",
-        "source": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_notifications_black_24dp.png"
-    },
-    {
-        "merged": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_dashboard_black_24dp.png.flat",
-        "source": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_dashboard_black_24dp.png"
     },
     {
         "merged": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
@@ -64,8 +36,8 @@
         "source": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_dashboard_black_24dp.png.flat",
-        "source": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_dashboard_black_24dp.png"
+        "merged": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_dashboard_black_24dp.xml.flat",
+        "source": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\src\\main\\res\\drawable\\ic_dashboard_black_24dp.xml"
     },
     {
         "merged": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_shadow.xml.flat",
@@ -84,16 +56,16 @@
         "source": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_3dots_black.png"
     },
     {
-        "merged": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_notifications_black_24dp.png.flat",
-        "source": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_notifications_black_24dp.png"
+        "merged": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
     },
     {
         "merged": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_3dots_black.png.flat",
         "source": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\src\\main\\res\\drawable-mdpi\\ic_3dots_black.png"
     },
     {
-        "merged": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_home_black_24dp.png.flat",
-        "source": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_home_black_24dp.png"
+        "merged": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_setting_black.png.flat",
+        "source": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\src\\main\\res\\drawable-hdpi\\ic_setting_black.png"
     },
     {
         "merged": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\menu_bottom_nav_menu.xml.flat",
@@ -112,20 +84,12 @@
         "source": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_add_blue.png"
     },
     {
+        "merged": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_setting_black.png.flat",
+        "source": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\src\\main\\res\\drawable-mdpi\\ic_setting_black.png"
+    },
+    {
         "merged": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_wallet.xml.flat",
         "source": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\src\\main\\res\\layout\\fragment_wallet.xml"
-    },
-    {
-        "merged": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_home_black_24dp.png.flat",
-        "source": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_home_black_24dp.png"
-    },
-    {
-        "merged": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_dashboard_black_24dp.png.flat",
-        "source": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_dashboard_black_24dp.png"
-    },
-    {
-        "merged": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher_background.png.flat",
-        "source": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_launcher_background.png"
     },
     {
         "merged": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_user_grey.png.flat",
@@ -140,14 +104,6 @@
         "source": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_notifications_black_24dp.png.flat",
-        "source": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_notifications_black_24dp.png"
-    },
-    {
-        "merged": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_dashboard_black_24dp.xml.flat",
-        "source": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_dashboard_black_24dp.xml"
-    },
-    {
         "merged": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_user_grey.png.flat",
         "source": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\src\\main\\res\\drawable-xhdpi\\ic_user_grey.png"
     },
@@ -156,32 +112,8 @@
         "source": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\src\\main\\res\\drawable-mdpi\\ic_refresh_black.png"
     },
     {
-        "merged": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_dashboard_black_24dp.png.flat",
-        "source": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_dashboard_black_24dp.png"
-    },
-    {
-        "merged": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_home_black_24dp.png.flat",
-        "source": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_home_black_24dp.png"
-    },
-    {
-        "merged": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_home_black_24dp.xml.flat",
-        "source": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_home_black_24dp.xml"
-    },
-    {
-        "merged": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_home_black_24dp.png.flat",
-        "source": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_home_black_24dp.png"
-    },
-    {
-        "merged": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher_background.png.flat",
-        "source": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_launcher_background.png"
-    },
-    {
-        "merged": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_launcher_background.png.flat",
-        "source": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_launcher_background.png"
-    },
-    {
-        "merged": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_notifications_black_24dp.png.flat",
-        "source": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_notifications_black_24dp.png"
+        "merged": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_notifications_black_24dp.xml.flat",
+        "source": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\src\\main\\res\\drawable\\ic_notifications_black_24dp.xml"
     },
     {
         "merged": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
@@ -212,10 +144,6 @@
         "source": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\src\\main\\res\\drawable-xxhdpi\\ic_add_blue.png"
     },
     {
-        "merged": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_notifications_black_24dp.png.flat",
-        "source": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_notifications_black_24dp.png"
-    },
-    {
         "merged": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
         "source": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
     },
@@ -232,12 +160,24 @@
         "source": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\src\\main\\res\\drawable-xhdpi\\ic_exchange_black.png"
     },
     {
+        "merged": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\layout_temp1.xml.flat",
+        "source": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\src\\main\\res\\layout\\temp1.xml"
+    },
+    {
         "merged": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
         "source": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
     },
     {
         "merged": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_user_grey.png.flat",
         "source": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\src\\main\\res\\drawable-mdpi\\ic_user_grey.png"
+    },
+    {
+        "merged": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_setting_black.png.flat",
+        "source": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\src\\main\\res\\drawable-xhdpi\\ic_setting_black.png"
+    },
+    {
+        "merged": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_setting_black.png.flat",
+        "source": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_setting_black.png"
     },
     {
         "merged": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
@@ -248,8 +188,8 @@
         "source": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\src\\main\\res\\drawable-xhdpi\\ic_add_blue.png"
     },
     {
-        "merged": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_home_black_24dp.png.flat",
-        "source": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_home_black_24dp.png"
+        "merged": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_home_black_24dp.xml.flat",
+        "source": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\src\\main\\res\\drawable\\ic_home_black_24dp.xml"
     },
     {
         "merged": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_home.xml.flat",
@@ -266,10 +206,6 @@
     {
         "merged": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_3dots_black.png.flat",
         "source": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\src\\main\\res\\drawable-hdpi\\ic_3dots_black.png"
-    },
-    {
-        "merged": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_launcher_background.png.flat",
-        "source": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_launcher_background.png"
     },
     {
         "merged": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_refresh_black.png.flat",
@@ -296,16 +232,20 @@
         "source": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_home_black_24dp.png.flat",
-        "source": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_home_black_24dp.png"
+        "merged": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_setting_black.png.flat",
+        "source": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\src\\main\\res\\drawable-xxhdpi\\ic_setting_black.png"
     },
     {
         "merged": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
         "source": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_launcher_background.xml.flat",
-        "source": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_launcher_background.xml"
+        "merged": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\menu_action_bar_menu.xml.flat",
+        "source": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\src\\main\\res\\menu\\action_bar_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_login.xml.flat",
+        "source": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\src\\main\\res\\layout\\activity_login.xml"
     },
     {
         "merged": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_exchange_black.png.flat",
