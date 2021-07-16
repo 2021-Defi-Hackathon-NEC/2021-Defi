@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">wallet_bottom-nav-2</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_exchange">Exchange</string>
+    <string name="title_chart">Chart</string>
+    <string name="title_add">Add Wallet</string>
+    <string name="title_profile">Profile</string>
+    <string name="title_market">Market</string>
+    <string name="title_wallet">Wallet</string>
+    <string name="title_copy">Copy</string>
+    <string name="title_send">Send</string>
+    <string name="title_receive">Receive</string>
+
+
+</resources>
