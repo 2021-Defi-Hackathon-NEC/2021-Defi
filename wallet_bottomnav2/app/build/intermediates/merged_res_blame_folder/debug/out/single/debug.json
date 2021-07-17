@@ -1,254 +1,254 @@
 [
     {
-        "merged": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+        "merged": "C:\\Users\\geeni\\Desktop\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_home_black_24dp.xml.flat",
+        "source": "C:\\Users\\geeni\\Desktop\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\drawable\\ic_home_black_24dp.xml"
     },
     {
-        "merged": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_button_shape2.xml.flat",
-        "source": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\src\\main\\res\\drawable\\button_shape2.xml"
+        "merged": "C:\\Users\\geeni\\Desktop\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_3dots_black.png.flat",
+        "source": "C:\\Users\\geeni\\Desktop\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\drawable-mdpi\\ic_3dots_black.png"
     },
     {
-        "merged": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_add_blue.png.flat",
-        "source": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\src\\main\\res\\drawable-mdpi\\ic_add_blue.png"
+        "merged": "C:\\Users\\geeni\\Desktop\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_user_grey.png.flat",
+        "source": "C:\\Users\\geeni\\Desktop\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\drawable-xxhdpi\\ic_user_grey.png"
     },
     {
-        "merged": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_exchange.xml.flat",
-        "source": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\src\\main\\res\\layout\\fragment_exchange.xml"
+        "merged": "C:\\Users\\geeni\\Desktop\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_exchange_black.png.flat",
+        "source": "C:\\Users\\geeni\\Desktop\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_exchange_black.png"
     },
     {
-        "merged": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_user_grey.png.flat",
-        "source": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\src\\main\\res\\drawable-hdpi\\ic_user_grey.png"
+        "merged": "C:\\Users\\geeni\\Desktop\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_refresh_black.png.flat",
+        "source": "C:\\Users\\geeni\\Desktop\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\drawable-xhdpi\\ic_refresh_black.png"
     },
     {
-        "merged": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\geeni\\Desktop\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\geeni\\Desktop\\2021-Defi\\wallet_bottomnav2\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+        "merged": "C:\\Users\\geeni\\Desktop\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_user_grey.png.flat",
+        "source": "C:\\Users\\geeni\\Desktop\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\drawable-mdpi\\ic_user_grey.png"
     },
     {
-        "merged": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_notifications.xml.flat",
-        "source": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\src\\main\\res\\layout\\fragment_notifications.xml"
+        "merged": "C:\\Users\\geeni\\Desktop\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_add_blue.png.flat",
+        "source": "C:\\Users\\geeni\\Desktop\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\drawable-hdpi\\ic_add_blue.png"
     },
     {
-        "merged": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+        "merged": "C:\\Users\\geeni\\Desktop\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_shadow.xml.flat",
+        "source": "C:\\Users\\geeni\\Desktop\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\drawable\\shadow.xml"
     },
     {
-        "merged": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_dashboard_black_24dp.xml.flat",
-        "source": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\src\\main\\res\\drawable\\ic_dashboard_black_24dp.xml"
+        "merged": "C:\\Users\\geeni\\Desktop\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_button_shape2.xml.flat",
+        "source": "C:\\Users\\geeni\\Desktop\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\drawable\\button_shape2.xml"
     },
     {
-        "merged": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_shadow.xml.flat",
-        "source": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\src\\main\\res\\drawable\\shadow.xml"
+        "merged": "C:\\Users\\geeni\\Desktop\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_3dots_black.png.flat",
+        "source": "C:\\Users\\geeni\\Desktop\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_3dots_black.png"
     },
     {
-        "merged": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_3dots_black.png.flat",
-        "source": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\src\\main\\res\\drawable-xxhdpi\\ic_3dots_black.png"
+        "merged": "C:\\Users\\geeni\\Desktop\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\geeni\\Desktop\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
     },
     {
-        "merged": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\geeni\\Desktop\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\geeni\\Desktop\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_3dots_black.png.flat",
-        "source": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_3dots_black.png"
+        "merged": "C:\\Users\\geeni\\Desktop\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\geeni\\Desktop\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_background.xml.flat",
-        "source": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+        "merged": "C:\\Users\\geeni\\Desktop\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_notifications.xml.flat",
+        "source": "C:\\Users\\geeni\\Desktop\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\layout\\fragment_notifications.xml"
     },
     {
-        "merged": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_3dots_black.png.flat",
-        "source": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\src\\main\\res\\drawable-mdpi\\ic_3dots_black.png"
+        "merged": "C:\\Users\\geeni\\Desktop\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_setting_black.png.flat",
+        "source": "C:\\Users\\geeni\\Desktop\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\drawable-xhdpi\\ic_setting_black.png"
     },
     {
-        "merged": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_setting_black.png.flat",
-        "source": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\src\\main\\res\\drawable-hdpi\\ic_setting_black.png"
+        "merged": "C:\\Users\\geeni\\Desktop\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_setting_black.png.flat",
+        "source": "C:\\Users\\geeni\\Desktop\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\drawable-hdpi\\ic_setting_black.png"
     },
     {
-        "merged": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\menu_bottom_nav_menu.xml.flat",
-        "source": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\src\\main\\res\\menu\\bottom_nav_menu.xml"
+        "merged": "C:\\Users\\geeni\\Desktop\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\geeni\\Desktop\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_dashboard.xml.flat",
-        "source": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\src\\main\\res\\layout\\fragment_dashboard.xml"
+        "merged": "C:\\Users\\geeni\\Desktop\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_exchange_black.png.flat",
+        "source": "C:\\Users\\geeni\\Desktop\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\drawable-xhdpi\\ic_exchange_black.png"
     },
     {
-        "merged": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\navigation_mobile_navigation.xml.flat",
-        "source": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\src\\main\\res\\navigation\\mobile_navigation.xml"
+        "merged": "C:\\Users\\geeni\\Desktop\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_user_grey.png.flat",
+        "source": "C:\\Users\\geeni\\Desktop\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\drawable-hdpi\\ic_user_grey.png"
     },
     {
-        "merged": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_add_blue.png.flat",
-        "source": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_add_blue.png"
+        "merged": "C:\\Users\\geeni\\Desktop\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_dracula_gradient.xml.flat",
+        "source": "C:\\Users\\geeni\\Desktop\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\drawable\\dracula_gradient.xml"
     },
     {
-        "merged": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_setting_black.png.flat",
-        "source": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\src\\main\\res\\drawable-mdpi\\ic_setting_black.png"
+        "merged": "C:\\Users\\geeni\\Desktop\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\layout_temp1.xml.flat",
+        "source": "C:\\Users\\geeni\\Desktop\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\layout\\temp1.xml"
     },
     {
-        "merged": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_wallet.xml.flat",
-        "source": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\src\\main\\res\\layout\\fragment_wallet.xml"
+        "merged": "C:\\Users\\geeni\\Desktop\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\geeni\\Desktop\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_user_grey.png.flat",
-        "source": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\src\\main\\res\\drawable-xxhdpi\\ic_user_grey.png"
+        "merged": "C:\\Users\\geeni\\Desktop\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\geeni\\Desktop\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_exchange_black.png.flat",
-        "source": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_exchange_black.png"
+        "merged": "C:\\Users\\geeni\\Desktop\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\geeni\\Desktop\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+        "merged": "C:\\Users\\geeni\\Desktop\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_user_grey.png.flat",
+        "source": "C:\\Users\\geeni\\Desktop\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_user_grey.png"
     },
     {
-        "merged": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_user_grey.png.flat",
-        "source": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\src\\main\\res\\drawable-xhdpi\\ic_user_grey.png"
+        "merged": "C:\\Users\\geeni\\Desktop\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_add_blue.png.flat",
+        "source": "C:\\Users\\geeni\\Desktop\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\drawable-xxhdpi\\ic_add_blue.png"
     },
     {
-        "merged": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_refresh_black.png.flat",
-        "source": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\src\\main\\res\\drawable-mdpi\\ic_refresh_black.png"
+        "merged": "C:\\Users\\geeni\\Desktop\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\menu_bottom_nav_menu.xml.flat",
+        "source": "C:\\Users\\geeni\\Desktop\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\menu\\bottom_nav_menu.xml"
     },
     {
-        "merged": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_notifications_black_24dp.xml.flat",
-        "source": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\src\\main\\res\\drawable\\ic_notifications_black_24dp.xml"
+        "merged": "C:\\Users\\geeni\\Desktop\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_exchange.xml.flat",
+        "source": "C:\\Users\\geeni\\Desktop\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\layout\\fragment_exchange.xml"
     },
     {
-        "merged": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
-        "source": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\src\\main\\res\\layout\\activity_main.xml"
+        "merged": "C:\\Users\\geeni\\Desktop\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_refresh_black.png.flat",
+        "source": "C:\\Users\\geeni\\Desktop\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\drawable-hdpi\\ic_refresh_black.png"
     },
     {
-        "merged": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_dracula_gradient.xml.flat",
-        "source": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\src\\main\\res\\drawable\\dracula_gradient.xml"
+        "merged": "C:\\Users\\geeni\\Desktop\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\geeni\\Desktop\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
-        "merged": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_exchange_black.png.flat",
-        "source": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\src\\main\\res\\drawable-xxhdpi\\ic_exchange_black.png"
+        "merged": "C:\\Users\\geeni\\Desktop\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\geeni\\Desktop\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_menu_selector_color.xml.flat",
-        "source": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\src\\main\\res\\drawable\\menu_selector_color.xml"
+        "merged": "C:\\Users\\geeni\\Desktop\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_login.xml.flat",
+        "source": "C:\\Users\\geeni\\Desktop\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\layout\\activity_login.xml"
     },
     {
-        "merged": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_3dots_black.png.flat",
-        "source": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\src\\main\\res\\drawable-xhdpi\\ic_3dots_black.png"
+        "merged": "C:\\Users\\geeni\\Desktop\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_exchange_black.png.flat",
+        "source": "C:\\Users\\geeni\\Desktop\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\drawable-mdpi\\ic_exchange_black.png"
     },
     {
-        "merged": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_button_shape.xml.flat",
-        "source": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\src\\main\\res\\drawable\\button_shape.xml"
+        "merged": "C:\\Users\\geeni\\Desktop\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\geeni\\Desktop\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_add_blue.png.flat",
-        "source": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\src\\main\\res\\drawable-xxhdpi\\ic_add_blue.png"
+        "merged": "C:\\Users\\geeni\\Desktop\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_user_grey.png.flat",
+        "source": "C:\\Users\\geeni\\Desktop\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\drawable-xhdpi\\ic_user_grey.png"
     },
     {
-        "merged": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+        "merged": "C:\\Users\\geeni\\Desktop\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\navigation_mobile_navigation.xml.flat",
+        "source": "C:\\Users\\geeni\\Desktop\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\navigation\\mobile_navigation.xml"
     },
     {
-        "merged": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_exchange_black.png.flat",
-        "source": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\src\\main\\res\\drawable-hdpi\\ic_exchange_black.png"
+        "merged": "C:\\Users\\geeni\\Desktop\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_add_blue.png.flat",
+        "source": "C:\\Users\\geeni\\Desktop\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_add_blue.png"
     },
     {
-        "merged": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+        "merged": "C:\\Users\\geeni\\Desktop\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_add_blue.png.flat",
+        "source": "C:\\Users\\geeni\\Desktop\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\drawable-mdpi\\ic_add_blue.png"
     },
     {
-        "merged": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_exchange_black.png.flat",
-        "source": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\src\\main\\res\\drawable-xhdpi\\ic_exchange_black.png"
+        "merged": "C:\\Users\\geeni\\Desktop\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_dashboard.xml.flat",
+        "source": "C:\\Users\\geeni\\Desktop\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\layout\\fragment_dashboard.xml"
     },
     {
-        "merged": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\layout_temp1.xml.flat",
-        "source": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\src\\main\\res\\layout\\temp1.xml"
+        "merged": "C:\\Users\\geeni\\Desktop\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_setting_black.png.flat",
+        "source": "C:\\Users\\geeni\\Desktop\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\drawable-mdpi\\ic_setting_black.png"
     },
     {
-        "merged": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+        "merged": "C:\\Users\\geeni\\Desktop\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_setting_black.png.flat",
+        "source": "C:\\Users\\geeni\\Desktop\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_setting_black.png"
     },
     {
-        "merged": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_user_grey.png.flat",
-        "source": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\src\\main\\res\\drawable-mdpi\\ic_user_grey.png"
+        "merged": "C:\\Users\\geeni\\Desktop\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_home.xml.flat",
+        "source": "C:\\Users\\geeni\\Desktop\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\layout\\fragment_home.xml"
     },
     {
-        "merged": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_setting_black.png.flat",
-        "source": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\src\\main\\res\\drawable-xhdpi\\ic_setting_black.png"
+        "merged": "C:\\Users\\geeni\\Desktop\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_refresh_black.png.flat",
+        "source": "C:\\Users\\geeni\\Desktop\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\drawable-mdpi\\ic_refresh_black.png"
     },
     {
-        "merged": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_setting_black.png.flat",
-        "source": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_setting_black.png"
+        "merged": "C:\\Users\\geeni\\Desktop\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_refresh_black.png.flat",
+        "source": "C:\\Users\\geeni\\Desktop\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\drawable-xxhdpi\\ic_refresh_black.png"
     },
     {
-        "merged": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\geeni\\Desktop\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_dashboard_black_24dp.xml.flat",
+        "source": "C:\\Users\\geeni\\Desktop\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\drawable\\ic_dashboard_black_24dp.xml"
     },
     {
-        "merged": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_add_blue.png.flat",
-        "source": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\src\\main\\res\\drawable-xhdpi\\ic_add_blue.png"
+        "merged": "C:\\Users\\geeni\\Desktop\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_exchange_black.png.flat",
+        "source": "C:\\Users\\geeni\\Desktop\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\drawable-xxhdpi\\ic_exchange_black.png"
     },
     {
-        "merged": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_home_black_24dp.xml.flat",
-        "source": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\src\\main\\res\\drawable\\ic_home_black_24dp.xml"
+        "merged": "C:\\Users\\geeni\\Desktop\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_menu_selector_color.xml.flat",
+        "source": "C:\\Users\\geeni\\Desktop\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\drawable\\menu_selector_color.xml"
     },
     {
-        "merged": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_home.xml.flat",
-        "source": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\src\\main\\res\\layout\\fragment_home.xml"
+        "merged": "C:\\Users\\geeni\\Desktop\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_add_blue.png.flat",
+        "source": "C:\\Users\\geeni\\Desktop\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\drawable-xhdpi\\ic_add_blue.png"
     },
     {
-        "merged": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_add_blue.png.flat",
-        "source": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\src\\main\\res\\drawable-hdpi\\ic_add_blue.png"
+        "merged": "C:\\Users\\geeni\\Desktop\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_refresh_black.png.flat",
+        "source": "C:\\Users\\geeni\\Desktop\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_refresh_black.png"
     },
     {
-        "merged": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_refresh_black.png.flat",
-        "source": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\src\\main\\res\\drawable-xxhdpi\\ic_refresh_black.png"
+        "merged": "C:\\Users\\geeni\\Desktop\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_exchange_black.png.flat",
+        "source": "C:\\Users\\geeni\\Desktop\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\drawable-hdpi\\ic_exchange_black.png"
     },
     {
-        "merged": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_3dots_black.png.flat",
-        "source": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\src\\main\\res\\drawable-hdpi\\ic_3dots_black.png"
+        "merged": "C:\\Users\\geeni\\Desktop\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_3dots_black.png.flat",
+        "source": "C:\\Users\\geeni\\Desktop\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\drawable-xxhdpi\\ic_3dots_black.png"
     },
     {
-        "merged": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_refresh_black.png.flat",
-        "source": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\src\\main\\res\\drawable-xhdpi\\ic_refresh_black.png"
+        "merged": "C:\\Users\\geeni\\Desktop\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_3dots_black.png.flat",
+        "source": "C:\\Users\\geeni\\Desktop\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\drawable-xhdpi\\ic_3dots_black.png"
     },
     {
-        "merged": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\geeni\\Desktop\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_button_shape.xml.flat",
+        "source": "C:\\Users\\geeni\\Desktop\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\drawable\\button_shape.xml"
     },
     {
-        "merged": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_refresh_black.png.flat",
-        "source": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\src\\main\\res\\drawable-hdpi\\ic_refresh_black.png"
+        "merged": "C:\\Users\\geeni\\Desktop\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_notifications_black_24dp.xml.flat",
+        "source": "C:\\Users\\geeni\\Desktop\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\drawable\\ic_notifications_black_24dp.xml"
     },
     {
-        "merged": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_user_grey.png.flat",
-        "source": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_user_grey.png"
+        "merged": "C:\\Users\\geeni\\Desktop\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_wallet.xml.flat",
+        "source": "C:\\Users\\geeni\\Desktop\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\layout\\fragment_wallet.xml"
     },
     {
-        "merged": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_refresh_black.png.flat",
-        "source": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_refresh_black.png"
+        "merged": "C:\\Users\\geeni\\Desktop\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\geeni\\Desktop\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\geeni\\Desktop\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\geeni\\Desktop\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_setting_black.png.flat",
-        "source": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\src\\main\\res\\drawable-xxhdpi\\ic_setting_black.png"
+        "merged": "C:\\Users\\geeni\\Desktop\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\menu_action_bar_menu.xml.flat",
+        "source": "C:\\Users\\geeni\\Desktop\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\menu\\action_bar_menu.xml"
     },
     {
-        "merged": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
-        "source": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+        "merged": "C:\\Users\\geeni\\Desktop\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_setting_black.png.flat",
+        "source": "C:\\Users\\geeni\\Desktop\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\drawable-xxhdpi\\ic_setting_black.png"
     },
     {
-        "merged": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\menu_action_bar_menu.xml.flat",
-        "source": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\src\\main\\res\\menu\\action_bar_menu.xml"
+        "merged": "C:\\Users\\geeni\\Desktop\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_3dots_black.png.flat",
+        "source": "C:\\Users\\geeni\\Desktop\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\drawable-hdpi\\ic_3dots_black.png"
     },
     {
-        "merged": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_login.xml.flat",
-        "source": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\src\\main\\res\\layout\\activity_login.xml"
+        "merged": "C:\\Users\\geeni\\Desktop\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\geeni\\Desktop\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_exchange_black.png.flat",
-        "source": "C:\\Users\\User PC\\AndroidStudioProjects\\wallet_bottomnav2\\app\\src\\main\\res\\drawable-mdpi\\ic_exchange_black.png"
+        "merged": "C:\\Users\\geeni\\Desktop\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\geeni\\Desktop\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
     }
 ]
