@@ -4,6 +4,10 @@ import android.annotation.SuppressLint;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.AdapterView;
+import android.widget.Spinner;
+import android.widget.Toast;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
@@ -18,6 +22,11 @@ import com.example.wallet_bottom_nav_2.databinding.ActivityMainBinding;
 public class MainActivity extends AppCompatActivity {
 
     private ActivityMainBinding binding;
+
+    private Spinner mSpinner;
+    String[] spinnerCoins;
+    int[] spinnerImages;
+    int selected_coin_idx = 0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -36,7 +45,47 @@ public class MainActivity extends AppCompatActivity {
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment_activity_main);
         NavigationUI.setupActionBarWithNavController(this, navController, appBarConfiguration);
         NavigationUI.setupWithNavController(binding.navView, navController);
+
+        //super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+
+        mSpinner = (Spinner)findViewById(R.id.spinner);
+
+        spinnerCoins = new String[]{"Ethereum", "Bitcoin", "Ethereum Classic", "Persistence", "Solana"};
+        spinnerImages = new int[]{R.drawable.bitcoin
+                , R.drawable.bitcoin
+                , R.drawable.bitcoin
+                , R.drawable.bitcoin
+                , R.drawable.bitcoin};
+
+        CustomSpinnerAdapter customSpinnerAdapter = new CustomSpinnerAdapter(MainActivity.this, spinnerCoins, spinnerImages);
+        mSpinner.setAdapter(customSpinnerAdapter);
+
+
+
+        mSpinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+
+            @Override
+            public void onItemSelected(AdapterView<?> adapterView, View view, int i, long id) {
+                selected_coin_idx = mSpinner.getSelectedItemPosition();
+                Toast.makeText(MainActivity.this, spinnerCoins[i], Toast.LENGTH_SHORT).show();
+            }
+
+            @Override
+            public void onNothingSelected(AdapterView<?> parent) {
+
+            }
+
+        });
+
+        CustomSpinnerAdapter mCustomAdapter = new CustomSpinnerAdapter(MainActivity.this, spinnerCoins, spinnerImages);
+        mSpinner.setAdapter(mCustomAdapter);
+
     }
+
+
+
+
     
     // 액션바 버튼
 //    @Override

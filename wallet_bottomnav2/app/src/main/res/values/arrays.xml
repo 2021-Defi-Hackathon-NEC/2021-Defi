@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name = "coins">
+        <item>Ethereum</item>
+        <item>Bitcoin</item>
+        <item>Ethereum Classic</item>
+        <item>Persistence</item>
+        <item>Solana</item>
+    </string-array>
+</resources>

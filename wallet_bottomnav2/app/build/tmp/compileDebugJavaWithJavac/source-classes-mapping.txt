@@ -2,22 +2,28 @@ com/example/wallet_bottom_nav_2/MainActivity.java
  com.example.wallet_bottom_nav_2.MainActivity
 com/example/wallet_bottom_nav_2/databinding/Temp1Binding.java
  com.example.wallet_bottom_nav_2.databinding.Temp1Binding
+com/example/wallet_bottom_nav_2/login2.java
+ com.example.wallet_bottom_nav_2.login2
 com/example/wallet_bottom_nav_2/databinding/FragmentDashboardBinding.java
  com.example.wallet_bottom_nav_2.databinding.FragmentDashboardBinding
+com/example/wallet_bottom_nav_2/databinding/ActivityLogin1Binding.java
+ com.example.wallet_bottom_nav_2.databinding.ActivityLogin1Binding
 com/example/wallet_bottom_nav_2/data/model/LoggedInUser.java
  com.example.wallet_bottom_nav_2.data.model.LoggedInUser
+com/example/wallet_bottom_nav_2/databinding/ActivityLogin2Binding.java
+ com.example.wallet_bottom_nav_2.databinding.ActivityLogin2Binding
 com/example/wallet_bottom_nav_2/ui/exchange/ExchangeFragment.java
  com.example.wallet_bottom_nav_2.ui.exchange.ExchangeFragment
  com.example.wallet_bottom_nav_2.ui.exchange.ExchangeFragment$1
 com/example/wallet_bottom_nav_2/data/LoginDataSource.java
  com.example.wallet_bottom_nav_2.data.LoginDataSource
+com/example/wallet_bottom_nav_2/login_1.java
+ com.example.wallet_bottom_nav_2.login_1
 com/example/wallet_bottom_nav_2/ui/dashboard/DashboardFragment.java
  com.example.wallet_bottom_nav_2.ui.dashboard.DashboardFragment
  com.example.wallet_bottom_nav_2.ui.dashboard.DashboardFragment$1
 com/example/wallet_bottom_nav_2/ui/wallet/WalletViewModel.java
  com.example.wallet_bottom_nav_2.ui.wallet.WalletViewModel
-com/example/wallet_bottom_nav_2/databinding/ActivityLoginBinding.java
- com.example.wallet_bottom_nav_2.databinding.ActivityLoginBinding
 com/example/wallet_bottom_nav_2/ui/notifications/NotificationsViewModel.java
  com.example.wallet_bottom_nav_2.ui.notifications.NotificationsViewModel
 com/example/wallet_bottom_nav_2/databinding/FragmentNotificationsBinding.java
@@ -34,13 +40,6 @@ com/example/wallet_bottom_nav_2/ui/login/LoginViewModel.java
  com.example.wallet_bottom_nav_2.ui.login.LoginViewModel
 com/example/wallet_bottom_nav_2/ui/exchange/ExchangeViewModel.java
  com.example.wallet_bottom_nav_2.ui.exchange.ExchangeViewModel
-com/example/wallet_bottom_nav_2/ui/login/LoginActivity.java
- com.example.wallet_bottom_nav_2.ui.login.LoginActivity
- com.example.wallet_bottom_nav_2.ui.login.LoginActivity$1
- com.example.wallet_bottom_nav_2.ui.login.LoginActivity$2
- com.example.wallet_bottom_nav_2.ui.login.LoginActivity$3
- com.example.wallet_bottom_nav_2.ui.login.LoginActivity$4
- com.example.wallet_bottom_nav_2.ui.login.LoginActivity$5
 com/example/wallet_bottom_nav_2/data/Result.java
  com.example.wallet_bottom_nav_2.data.Result
  com.example.wallet_bottom_nav_2.data.Result$1

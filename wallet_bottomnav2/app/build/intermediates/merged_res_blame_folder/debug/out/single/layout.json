@@ -20,8 +20,8 @@
         "source": "C:\\Users\\geeni\\Desktop\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\geeni\\Desktop\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_login.xml",
-        "source": "C:\\Users\\geeni\\Desktop\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\layout\\activity_login.xml"
+        "merged": "C:\\Users\\geeni\\Desktop\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_login1.xml",
+        "source": "C:\\Users\\geeni\\Desktop\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\layout\\activity_login1.xml"
     },
     {
         "merged": "C:\\Users\\geeni\\Desktop\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_wallet.xml",
@@ -30,5 +30,9 @@
     {
         "merged": "C:\\Users\\geeni\\Desktop\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_notifications.xml",
         "source": "C:\\Users\\geeni\\Desktop\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\layout\\fragment_notifications.xml"
+    },
+    {
+        "merged": "C:\\Users\\geeni\\Desktop\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_login2.xml",
+        "source": "C:\\Users\\geeni\\Desktop\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\layout\\activity_login2.xml"
     }
 ]
