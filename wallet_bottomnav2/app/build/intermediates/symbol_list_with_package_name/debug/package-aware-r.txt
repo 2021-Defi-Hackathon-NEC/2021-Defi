@@ -35,6 +35,7 @@ anim nav_default_enter_anim
 anim nav_default_exit_anim
 anim nav_default_pop_enter_anim
 anim nav_default_pop_exit_anim
+anim spin
 animator design_appbar_state_list_animator
 animator design_fab_hide_motion_spec
 animator design_fab_show_motion_spec
@@ -65,6 +66,7 @@ animator nav_default_enter_anim
 animator nav_default_exit_anim
 animator nav_default_pop_enter_anim
 animator nav_default_pop_exit_anim
+array coins
 attr action
 attr actionBarDivider
 attr actionBarItemBackground
@@ -1090,8 +1092,11 @@ color error_color_material_dark
 color error_color_material_light
 color foreground_material_dark
 color foreground_material_light
+color grey
 color highlighted_text_material_dark
 color highlighted_text_material_light
+color light_blue_grey
+color lightgrey
 color material_blue_grey_800
 color material_blue_grey_900
 color material_blue_grey_950
@@ -1717,6 +1722,8 @@ drawable abc_textfield_search_material
 drawable abc_vector_test
 drawable avd_hide_password
 drawable avd_show_password
+drawable bitcoin
+drawable bottom_navigation_selector
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
 drawable btn_checkbox_unchecked_mtrl
@@ -1784,7 +1791,9 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable qr_code
 drawable round_box
+drawable round_box_2
 drawable round_button
 drawable shadow
 drawable test_custom_background
@@ -1887,6 +1896,7 @@ id button
 id button2
 id button3
 id button4
+id button5
 id buttonPanel
 id button_wallet1
 id button_wallet2
@@ -1999,6 +2009,9 @@ id imageButton5
 id imageButton6
 id imageView
 id imageView2
+id imageView4
+id imageView5
+id imageView_spinner_image
 id info
 id invisible
 id inward
@@ -2159,6 +2172,7 @@ id snap
 id snapMargins
 id spacer
 id special_effects_controller_view_tag
+id spinner
 id spline
 id split_action_bar
 id spread
@@ -2204,6 +2218,8 @@ id textSpacerNoTitle
 id textStart
 id textTop
 id textView
+id textView11
+id textView12
 id textView2
 id textView3
 id textView4
@@ -2211,6 +2227,7 @@ id textView5
 id textView6
 id textView7
 id textView8
+id textView9
 id textWallet
 id text_dashboard
 id text_exchange
@@ -2225,6 +2242,7 @@ id textinput_helper_text
 id textinput_placeholder
 id textinput_prefix_text
 id textinput_suffix_text
+id textview_spinner_name
 id time
 id title
 id titleDividerNoCustom
@@ -2247,6 +2265,8 @@ id uniform
 id unlabeled
 id up
 id useLogo
+id view
+id view2
 id view_offset_helper
 id view_tree_lifecycle_owner
 id view_tree_saved_state_registry_owner
@@ -2326,6 +2346,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_before_main
 layout activity_login1
 layout activity_login2
 layout activity_main
@@ -2350,6 +2371,7 @@ layout fragment_exchange
 layout fragment_home
 layout fragment_notifications
 layout fragment_wallet
+layout fragment_wallet_bal
 layout material_chip_input_combo
 layout material_clock_display
 layout material_clock_display_divider
@@ -2402,6 +2424,7 @@ layout notification_template_part_time
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
+layout spinner_row
 layout support_simple_spinner_dropdown_item
 layout temp1
 layout test_action_chip
@@ -2457,10 +2480,12 @@ string action_sign_in
 string action_sign_in_short
 string app_name
 string appbar_scrolling_view_behavior
+string bal_wallet
 string balance
 string balance_here
 string bottom_sheet_behavior
 string bottomsheet_action_expand_halfway
+string btc_wallet
 string button
 string character_counter_content_description
 string character_counter_overflowed_content_description
@@ -2468,11 +2493,14 @@ string character_counter_pattern
 string chip_text
 string clear_text_end_icon_content_description
 string error_icon_content_description
+string eth_wallet
 string exposed_dropdown_menu_content_description
 string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
+string hash_1
 string hide_bottom_view_on_scroll_behavior
 string icon_content_description
+string inform1
 string invalid_password
 string invalid_username
 string item_view_role_description
@@ -2536,6 +2564,9 @@ string mtrl_picker_toggle_to_text_input_mode
 string mtrl_picker_toggle_to_year_selection
 string nav_app_bar_navigate_up_description
 string nav_app_bar_open_drawer_description
+string noisy_empty_carts
+string not_yet
+string okay_no_problem
 string password_toggle_content_description
 string path_password_eye
 string path_password_eye_mask_strike_through
@@ -2544,9 +2575,11 @@ string path_password_strike_through
 string prompt_email
 string prompt_password
 string search_menu_title
+string select_chain
 string settings
 string show_more
 string status_bar_notification_info_overflow
+string taebit_wallet
 string textview
 string title_activity_login
 string title_add
@@ -2561,7 +2594,9 @@ string title_profile
 string title_receive
 string title_send
 string title_wallet
+string wallet_address
 string welcome
+string welcome1
 string your_accounts
 string your_balance_here
 style AlertDialog_AppCompat
@@ -2572,6 +2607,7 @@ style Animation_AppCompat_DropDownUp
 style Animation_AppCompat_Tooltip
 style Animation_Design_BottomSheetDialog
 style Animation_MaterialComponents_BottomSheetDialog
+style AppBaseTheme
 style AppTheme
 style Base_AlertDialog_AppCompat
 style Base_AlertDialog_AppCompat_Light
@@ -2807,6 +2843,9 @@ style MaterialAlertDialog_MaterialComponents_Title_Panel
 style MaterialAlertDialog_MaterialComponents_Title_Panel_CenterStacked
 style MaterialAlertDialog_MaterialComponents_Title_Text
 style MaterialAlertDialog_MaterialComponents_Title_Text_CenterStacked
+style MyActionBar
+style MyActionBarTitleText
+style MyTitleTextStyle
 style Platform_AppCompat
 style Platform_AppCompat_Light
 style Platform_MaterialComponents

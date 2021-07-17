@@ -7,14 +7,12 @@ android {
 
     defaultConfig {
         applicationId "com.example.wallet_bottom_nav_2"
-        minSdkVersion 21
+        minSdkVersion 23
         targetSdkVersion 30
         versionCode 1
         versionName "1.0"
+
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
-        vectorDrawables{
-            useSupportLibrary = true
-        }
     }
 
     buildTypes {

@@ -11,34 +11,14 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="NONE" />
   </component>
-  <component name="BranchesTreeState">
-    <expand>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-    </expand>
-    <select />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="a9c033f6-e498-4d3b-bd28-316548165b73" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" afterDir="false" />
-    </list>
+    <list default="true" id="a9c033f6-e498-4d3b-bd28-316548165b73" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[VirtualDevicePath@C:\Users\geeni\.android\avd\Pixel_2_API_30.avd]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[VirtualDevicePath@C:\Users\User PC\.android\avd\Samsung_Galaxy_S7_API_25.avd]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -47,34 +27,36 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
-        <option value="layoutResourceFile" />
         <option value="valueResourceFile" />
+        <option value="layoutResourceFile" />
+        <option value="Class" />
         <option value="resourceFile" />
       </list>
     </option>
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
-  </component>
   <component name="ProjectId" id="1vMb0xXNDKiPTOIX8ah1kWmnm6m" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="VirtualDevicePath@C:\Users\User PC\.android\avd\Samsung_Galaxy_S7_API_25.avd" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2021-07-17T06:21:17.408728Z" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/drawable-hdpi" />
     <property name="project.structure.last.edited" value="SDK Location" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="android.template.-35407043">
       <recent name="com.example.wallet_bottom_nav_2" />
+    </key>
+    <key name="android.template.509555912">
+      <recent name="com.example.wallet_bottom_nav_2" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\User PC\AndroidStudioProjects\wallet_bottomnav2\app\src\main\res\drawable-hdpi" />
     </key>
   </component>
   <component name="RunManager">
@@ -155,69 +137,55 @@
     </task>
     <servers />
   </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
   <component name="WindowStateProjectService">
-    <state x="353" y="109" key="#PSD" timestamp="1626504762888">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="294" y="90" key="#PSD" timestamp="1626436740549">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="294" y="90" key="#PSD/0.0.1280.680@0.0.1280.680" timestamp="1626436740549" />
-    <state x="353" y="109" key="#PSD/0.0.1536.824@0.0.1536.824" timestamp="1626504762888" />
-    <state x="446" y="46" key="#com.intellij.ide.util.MemberChooser" timestamp="1626453247349">
+    <state x="446" y="46" key="#com.intellij.ide.util.MemberChooser" timestamp="1626553981151">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="446" y="46" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1626453247349" />
-    <state x="371" y="87" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1626451707185">
+    <state x="446" y="46" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1626553981151" />
+    <state x="398" y="208" width="487" height="272" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1626547433863">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="371" y="87" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680@0.0.1280.680" timestamp="1626451707185" />
+    <state x="398" y="208" width="487" height="272" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1280.680@0.0.1280.680" timestamp="1626547433863" />
+    <state x="371" y="87" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1626557369333">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="371" y="87" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680@0.0.1280.680" timestamp="1626557369333" />
     <state x="93" y="93" width="1095" height="495" key="AVDManager" timestamp="1626449207342">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="93" y="93" width="1095" height="495" key="AVDManager/0.0.1280.680@0.0.1280.680" timestamp="1626449207342" />
-    <state x="284" y="110" key="AndroidCreateResourceFileDialog" timestamp="1626503740114">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="237" y="91" key="AndroidCreateResourceFileDialog/0.0.1280.680@0.0.1280.680" timestamp="1626457484998" />
-    <state x="284" y="110" key="AndroidCreateResourceFileDialog/0.0.1536.824@0.0.1536.824" timestamp="1626503740114" />
-    <state x="699" y="151" key="AndroidCreateXmlResourceDialog" timestamp="1626457768763">
+    <state x="313" y="89" key="AndroidCreateResourceFileDialog" timestamp="1626556671088">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="699" y="151" key="AndroidCreateXmlResourceDialog/0.0.1280.680@0.0.1280.680" timestamp="1626457768763" />
-    <state x="654" y="120" key="FileChooserDialogImpl" timestamp="1626503759265">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="545" y="99" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1626457720322" />
-    <state x="654" y="120" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1626503759265" />
-    <state width="1237" height="189" key="GridCell.Tab.0.bottom" timestamp="1626453493055">
+    <state x="313" y="89" key="AndroidCreateResourceFileDialog/0.0.1280.680@0.0.1280.680" timestamp="1626556671088" />
+    <state x="699" y="151" key="AndroidCreateXmlResourceDialog" timestamp="1626555627719">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="189" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1626453493055" />
-    <state width="1237" height="189" key="GridCell.Tab.0.center" timestamp="1626453493054">
+    <state x="699" y="151" key="AndroidCreateXmlResourceDialog/0.0.1280.680@0.0.1280.680" timestamp="1626555627719" />
+    <state x="545" y="99" key="FileChooserDialogImpl" timestamp="1626550413150">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="189" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1626453493054" />
-    <state width="1237" height="189" key="GridCell.Tab.0.left" timestamp="1626453493054">
+    <state x="545" y="99" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1626550413150" />
+    <state width="1237" height="161" key="GridCell.Tab.0.bottom" timestamp="1626555329137">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="189" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1626453493054" />
-    <state width="1237" height="189" key="GridCell.Tab.0.right" timestamp="1626453493054">
+    <state width="1237" height="161" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1626555329137" />
+    <state width="1237" height="161" key="GridCell.Tab.0.center" timestamp="1626555329137">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="189" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1626453493054" />
-    <state x="277" y="57" key="SettingsEditor" timestamp="1626504961795">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1237" height="161" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1626555329137" />
+    <state width="1237" height="161" key="GridCell.Tab.0.left" timestamp="1626555329137">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1626504961795" />
+    <state width="1237" height="161" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1626555329137" />
+    <state width="1237" height="161" key="GridCell.Tab.0.right" timestamp="1626555329137">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="161" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1626555329137" />
     <state x="0" y="0" width="587" height="680" key="find.popup" timestamp="1626378939139">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

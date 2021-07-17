@@ -37,7 +37,7 @@
                                             <option name="values">
                                               <map>
                                                 <entry key="color" value="000000" />
-                                                <entry key="imagePath" value="C:\Users\User PC\Desktop\settings.png" />
+                                                <entry key="imagePath" value="C:\Users\User PC\Desktop\qr_code_image.png" />
                                                 <entry key="opacityPercent" value="80" />
                                               </map>
                                             </option>
@@ -71,8 +71,8 @@
                                   <option name="values">
                                     <map>
                                       <entry key="assetType" value="IMAGE" />
-                                      <entry key="imageAsset" value="C:\Users\User PC\Desktop\settings.png" />
-                                      <entry key="outputName" value="ic_setting_black" />
+                                      <entry key="imageAsset" value="C:\Users\User PC\Desktop\qr_code_image.png" />
+                                      <entry key="outputName" value="qr_code" />
                                       <entry key="theme" value="CUSTOM" />
                                       <entry key="themeColor" value="000000" />
                                     </map>
