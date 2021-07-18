@@ -2348,7 +2348,6 @@ layout activity_before_main
 layout activity_login1
 layout activity_login2
 layout activity_main
-layout activity_test_wallet_bal
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
@@ -2844,6 +2843,7 @@ style MaterialAlertDialog_MaterialComponents_Title_Text_CenterStacked
 style MyActionBar
 style MyActionBarTitleText
 style MyTitleTextStyle
+style NoActionBar
 style Platform_AppCompat
 style Platform_AppCompat_Light
 style Platform_MaterialComponents

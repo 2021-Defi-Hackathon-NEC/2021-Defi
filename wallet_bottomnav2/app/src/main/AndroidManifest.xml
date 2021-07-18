@@ -11,8 +11,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Wallet_bottomnav2">
 
-        <activity android:name=".login_1"></activity>
-        <activity android:name=".login_2"></activity>
+        <activity android:name=".login_1">
+
+        </activity>
+        <activity android:name=".login_2">
+
+        </activity>
         <activity android:name=".before_main">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

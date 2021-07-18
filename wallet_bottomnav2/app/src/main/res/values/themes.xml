@@ -26,6 +26,10 @@
         <item name="actionBarStyle">@style/MyActionBar</item>
     </style>
 
+    <style name="NoActionBar" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="actionBarStyle">@style/MyActionBar</item>
+    </style>
+
     <style name="MyActionBar" parent="@style/Widget.AppCompat.ActionBar.Solid">
         <item name="titleTextStyle">@style/MyTitleTextStyle</item>
     </style>

@@ -6677,6 +6677,8 @@
         <item name="android:textColor">@color/black</item>
     </style><style name="MyActionBarTitleText" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">
         <item name="android:textColor">@color/black</item>
+    </style><style name="NoActionBar" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="actionBarStyle">@style/MyActionBar</item>
     </style></file><file path="C:\Users\User PC\Documents\GitHub\2021-Defi\wallet_bottomnav2\app\src\main\res\values-night\themes.xml" qualifiers="night-v8"><style name="Theme.Wallet_bottomnav2" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         
 
@@ -6691,7 +6693,7 @@
         
         <item name="android:statusBarColor" ns2:targetApi="l">?attr/colorPrimaryVariant</item>
         
-    </style></file><file name="activity_test_wallet_bal" path="C:\Users\User PC\Documents\GitHub\2021-Defi\wallet_bottomnav2\app\src\main\res\layout\activity_test_wallet_bal.xml" qualifiers="" type="layout"/></source><source path="C:\Users\User PC\Documents\GitHub\2021-Defi\wallet_bottomnav2\app\build\generated\res\rs\debug"/><source path="C:\Users\User PC\Documents\GitHub\2021-Defi\wallet_bottomnav2\app\build\generated\res\resValues\debug"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="debug$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\User PC\Documents\GitHub\2021-Defi\wallet_bottomnav2\app\src\debug\res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="debug" generated-set="debug$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\User PC\Documents\GitHub\2021-Defi\wallet_bottomnav2\app\src\debug\res"/></dataSet><mergedItems><configuration qualifiers=""><declare-styleable name="AlertDialog">
+    </style></file></source><source path="C:\Users\User PC\Documents\GitHub\2021-Defi\wallet_bottomnav2\app\build\generated\res\rs\debug"/><source path="C:\Users\User PC\Documents\GitHub\2021-Defi\wallet_bottomnav2\app\build\generated\res\resValues\debug"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="debug$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\User PC\Documents\GitHub\2021-Defi\wallet_bottomnav2\app\src\debug\res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="debug" generated-set="debug$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\User PC\Documents\GitHub\2021-Defi\wallet_bottomnav2\app\src\debug\res"/></dataSet><mergedItems><configuration qualifiers=""><declare-styleable name="AlertDialog">
         <attr name="android:layout"/>
         <attr format="reference" name="buttonPanelSideLayout"/>
         <attr format="reference" name="listLayout"/>

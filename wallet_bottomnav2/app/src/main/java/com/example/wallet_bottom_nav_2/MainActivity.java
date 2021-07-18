@@ -11,6 +11,7 @@ import android.widget.Button;
 import com.example.wallet_bottom_nav_2.ui.wallet.BALWalletFragment;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
+import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.navigation.NavController;
 import androidx.navigation.Navigation;
@@ -40,6 +41,8 @@ public class MainActivity extends AppCompatActivity {
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment_activity_main);
         NavigationUI.setupActionBarWithNavController(this, navController, appBarConfiguration);
         NavigationUI.setupWithNavController(binding.navView, navController);
+
+
         
         // setOnClickListener에서 (혹은 intent 생성 시 onClick에서) NullPointerException 에러가 발생해서 주석 처리함
 //        //BAL 버튼 클릭 시 액티비티 전환 
