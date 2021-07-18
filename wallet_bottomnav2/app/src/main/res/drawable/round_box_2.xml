@@ -12,6 +12,7 @@
         android:right="16dp"
         android:bottom="3dp"
         />
+
     <!-- shadow (밑으로) : 그림자 -->
     <item android:top="3dp">
         <shape>

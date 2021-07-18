@@ -1891,9 +1891,7 @@ int id beginning 0x7f090059
 int id blocking 0x7f09005a
 int id bottom 0x7f09005b
 int id bounce 0x7f09005c
-int id button 0x7f09005d
 int id button2 0x7f09005e
-int id button3 0x7f09005f
 int id button4 0x7f090060
 int id button5 0x7f090061
 int id buttonPanel 0x7f090062
@@ -2425,7 +2423,6 @@ int layout select_dialog_multichoice_material 0x7f0c0068
 int layout select_dialog_singlechoice_material 0x7f0c0069
 int layout spinner_row 0x7f0c006a
 int layout support_simple_spinner_dropdown_item 0x7f0c006b
-int layout temp1 0x7f0c006c
 int layout test_action_chip 0x7f0c006d
 int layout test_chip_zero_corner_radius 0x7f0c006e
 int layout test_design_checkbox 0x7f0c006f
@@ -2845,6 +2842,7 @@ int style MaterialAlertDialog_MaterialComponents_Title_Text_CenterStacked 0x7f12
 int style MyActionBar 0x7f1200f4
 int style MyActionBarTitleText 0x7f1200f5
 int style MyTitleTextStyle 0x7f1200f6
+int style NoActionBar 0x7f1202d7
 int style Platform_AppCompat 0x7f1200f7
 int style Platform_AppCompat_Light 0x7f1200f8
 int style Platform_MaterialComponents 0x7f1200f9

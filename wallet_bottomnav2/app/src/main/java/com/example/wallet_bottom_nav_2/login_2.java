@@ -1,5 +1,6 @@
 package com.example.wallet_bottom_nav_2;
 
+import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.os.Looper;
@@ -46,5 +47,8 @@ public class login_2 extends AppCompatActivity {
 
             }
         });
+
+        ActionBar actionbar = getSupportActionBar();
+        actionbar.hide();
     }
 }

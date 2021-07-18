@@ -1,9 +1,5 @@
 com/example/wallet_bottom_nav_2/MainActivity.java
  com.example.wallet_bottom_nav_2.MainActivity
-com/example/wallet_bottom_nav_2/databinding/Temp1Binding.java
- com.example.wallet_bottom_nav_2.databinding.Temp1Binding
-com/example/wallet_bottom_nav_2/login2.java
- com.example.wallet_bottom_nav_2.login2
 com/example/wallet_bottom_nav_2/databinding/FragmentDashboardBinding.java
  com.example.wallet_bottom_nav_2.databinding.FragmentDashboardBinding
 com/example/wallet_bottom_nav_2/databinding/ActivityLogin1Binding.java
