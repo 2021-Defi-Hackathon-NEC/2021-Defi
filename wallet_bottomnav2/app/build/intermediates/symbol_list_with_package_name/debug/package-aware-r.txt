@@ -1892,9 +1892,7 @@ id beginning
 id blocking
 id bottom
 id bounce
-id button
 id button2
-id button3
 id button4
 id button5
 id buttonPanel
@@ -2350,6 +2348,7 @@ layout activity_before_main
 layout activity_login1
 layout activity_login2
 layout activity_main
+layout activity_test_wallet_bal
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
@@ -2426,7 +2425,6 @@ layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
 layout spinner_row
 layout support_simple_spinner_dropdown_item
-layout temp1
 layout test_action_chip
 layout test_chip_zero_corner_radius
 layout test_design_checkbox

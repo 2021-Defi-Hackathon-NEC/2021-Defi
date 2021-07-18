@@ -19,16 +19,16 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme.Wallet_bottomnav2" >
-        <activity android:name="com.example.wallet_bottom_nav_2.login_1" >
-        </activity>
-        <activity android:name="com.example.wallet_bottom_nav_2.login_2" >
-        </activity>
-        <activity android:name="com.example.wallet_bottom_nav_2.before_main" >
+        <activity android:name="com.example.wallet_bottom_nav_2.test_walletBal" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity android:name="com.example.wallet_bottom_nav_2.login_1" />
+        <activity android:name="com.example.wallet_bottom_nav_2.login_2" />
+        <activity android:name="com.example.wallet_bottom_nav_2.before_main" >
         </activity> <!-- <activity -->
         <!-- android:name=".ui.login.LoginActivity" -->
         <!-- android:label="@string/title_activity_login"></activity> -->
