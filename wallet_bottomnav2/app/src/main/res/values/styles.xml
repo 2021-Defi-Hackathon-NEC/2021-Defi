@@ -13,9 +13,58 @@
 
         <!--상태바 숨기지 않음-->
         <item name="android:windowFullscreen">false</item>
-
-
     </style>
 
+    <style name="PinTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@android:color/transparent</item>        //colorPrimary
+        <item name="colorPrimaryDark">@android:color/transparent</item>    //colorPrimary
+        <item name="colorAccent">@android:color/transparent</item>         //colorAccent
+
+        <!-- Customized pin auth design. -->
+        <item name="pf_lock_screen">@style/PinLockScreenStyle</item>
+        <item name="pf_key_button">@style/PinLockButtonStyle</item>
+        <item name="pf_code_view">@style/PinLockCodeView</item>
+        <item name="pf_delete_button">@style/PinLockDeleteButtonStyle</item>
+        <item name="pf_title">@style/PinLockTitleStyle</item>
+        <item name="pf_next">@style/PinLockNextButtonStyle</item>
+        <item name="pf_hint">@style/PinLockHintStyle</item>
+    </style>
+
+    <style name="PinLockScreenStyle">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:foreground">@android:color/transparent</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="PinLockButtonStyle">
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">18dp</item>
+        <item name="android:foreground">@android:color/transparent</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+<!--    <style name="PinLockDeleteButtonStyle">-->
+<!--        <item name="android:src">@drawable/pin_delete_button</item> //drawable pin_delete_button-->
+<!--    </style>-->
+
+<!--    <style name="PinLockCodeView">-->
+<!--        <item name="android:button">@drawable/pin_selector</item>   //drawable pin_selector-->
+<!--    </style>-->
+
+    <style name="PinLockTitleStyle">
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="PinLockNextButtonStyle">
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">23dp</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:layout_margin">0dp</item>
+    </style>
+
+    <style name="PinLockHintStyle">
+        <item name="android:textColor">@android:color/black</item>
+    </style>
 
 </resources>

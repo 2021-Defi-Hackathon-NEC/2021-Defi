@@ -90,19 +90,19 @@ public class auth_pincode extends AppCompatActivity {
             fragment.setEncodedPinCode(sharedPreferences.getString("encoded_pin_code", ""));
             builder = new PFFLockScreenConfiguration.Builder(this).
                     setMode(PFFLockScreenConfiguration.MODE_AUTH)
-                    .setTitle("PIN 번호를 인증해주세요")
+                    .setTitle("Enter the Password")
                     .setLeftButton("취소")
-                    .setNextButton("다음")
+                    .setNextButton("Continue")
                     .setCodeLength(6);
         }else {
             Log.d("encoded_pin_code","저장된 핀코드 확인 ...");
             Toast.makeText(getApplicationContext(), "저장된 핀번호가 없습니다. 핀번호를 생성해주세요.", Toast.LENGTH_LONG).show();
             builder = new PFFLockScreenConfiguration.Builder(this).
                     setMode(PFFLockScreenConfiguration.MODE_CREATE)
-                    .setTitle("PIN 번호를 생성해주세요")
+                    .setTitle("Create a Password")
                     .setNewCodeValidation(true)
-                    .setNewCodeValidationTitle("다시 한 번 PIN 번호를 입력해주세요")
-                    .setNextButton("다음")
+                    .setNewCodeValidationTitle("Enter the Password again")
+                    .setNextButton("Continue")
                     .setUseFingerprint(false)
                     .setCodeLength(6);
         }
@@ -143,8 +143,8 @@ public class auth_pincode extends AppCompatActivity {
 
             @Override
             public void onPinLoginFailed() {
-                Log.d("encoded_pin_code", "핀 인증 실패");
-                Toast.makeText(getApplicationContext(), "핀번호 인증에 실패하였습니다.", Toast.LENGTH_LONG).show();
+                Log.d("encoded_pin_code", "Try Again");
+                Toast.makeText(getApplicationContext(), "Input value does not match", Toast.LENGTH_LONG).show();
             }
 
             @Override
@@ -159,7 +159,7 @@ public class auth_pincode extends AppCompatActivity {
                 editor.putString("encoded_pin_code", encodedCode);
                 editor.commit();
                 Log.d("encoded_pin_code", "핀 번호 생성 완료 : " + encodedCode);
-                Toast.makeText(getApplicationContext(), "핀번호가 생성되었습니다.", Toast.LENGTH_LONG).show();
+                Toast.makeText(getApplicationContext(), "Password generated Successfully", Toast.LENGTH_LONG).show();
                 finish();
             }
 
