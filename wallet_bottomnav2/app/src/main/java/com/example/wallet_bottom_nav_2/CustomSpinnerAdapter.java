@@ -17,7 +17,7 @@ public class CustomSpinnerAdapter extends ArrayAdapter<String>{
     int[] spinnerImages;
     Context mContext;
 
-    public CustomSpinnerAdapter(@NonNull Context context, String[] titles, int[] images) {
+    public CustomSpinnerAdapter(@NonNull login_2 context, String[] titles, int[] images) {
         super(context, R.layout.spinner_row);
         this.spinnerCoins = titles;
         this.spinnerImages = images;
@@ -34,8 +34,7 @@ public class CustomSpinnerAdapter extends ArrayAdapter<String>{
     public View getView(int position, @Nullable View convertView, @NonNull ViewGroup parent) {
         ViewHolder mViewHolder = new ViewHolder();
         if (convertView == null) {
-            LayoutInflater mInflater = (LayoutInflater) mContext.
-                    getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+            LayoutInflater mInflater = (LayoutInflater) mContext.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
             convertView = mInflater.inflate(R.layout.spinner_row, parent, false);
             mViewHolder.mCoin = (ImageView) convertView.findViewById(R.id.imageView_spinner_image);
             mViewHolder.mName = (TextView) convertView.findViewById(R.id.textview_spinner_name);
@@ -51,7 +50,7 @@ public class CustomSpinnerAdapter extends ArrayAdapter<String>{
 
     @Override
     public View getDropDownView(int position, @Nullable View convertView, @NonNull ViewGroup parent) {
-        return super.getView(position, convertView, parent);
+        return getView(position, convertView, parent);
     }
     private static class ViewHolder {
         ImageView mCoin;

@@ -2172,7 +2172,7 @@ id snap
 id snapMargins
 id spacer
 id special_effects_controller_view_tag
-id spinner
+id spinner_coins
 id spline
 id split_action_bar
 id spread
