@@ -19,7 +19,7 @@ import androidx.lifecycle.ViewModelProvider;
 import com.example.wallet_bottom_nav_2.R;
 import com.example.wallet_bottom_nav_2.databinding.FragmentWalletBinding;
 
-public class WalletFragment extends Fragment {
+public class WalletFragment extends Fragment{
 
     private WalletViewModel walletViewModel;
     private FragmentWalletBinding binding;
@@ -41,6 +41,12 @@ public class WalletFragment extends Fragment {
         });
         return root;
     }
+
+    // 코드 수정중
+//    public void clickBtn(View view){
+//        Intent intent = new Intent(this, BALWalletFragment.class);
+//        startActivity(intent);
+//    }
 
     @Override
     public void onDestroyView() {

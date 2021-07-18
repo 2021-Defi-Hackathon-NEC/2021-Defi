@@ -12,6 +12,24 @@
                         "endLines": "6",
                         "endColumns": "13",
                         "endOffsets": "327"
+                    },
+                    "to": {
+                        "startLines": "5",
+                        "startColumns": "4",
+                        "startOffsets": "202",
+                        "endLines": "9",
+                        "endColumns": "13",
+                        "endOffsets": "474"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\User PC\\.gradle\\caches\\transforms-2\\files-2.1\\8274e7f6ccc9969f6dc667153d2ec521\\jetified-PFLockScreen-Android-1.0.0-beta7\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,113,158",
+                        "endColumns": "57,44,43",
+                        "endOffsets": "108,153,197"
                     }
                 }
             ]

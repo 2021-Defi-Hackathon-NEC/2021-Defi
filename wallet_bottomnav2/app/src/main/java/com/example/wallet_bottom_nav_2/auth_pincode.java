@@ -2,12 +2,17 @@ package com.example.wallet_bottom_nav_2;
 
 import android.content.Context;
 import android.content.SharedPreferences;
+import android.os.Build;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+import android.view.WindowInsets;
+import android.view.WindowInsetsController;
+import android.view.WindowManager;
 import android.widget.Toast;
 
 import androidx.annotation.Nullable;
+import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.lifecycle.Observer;
 import androidx.security.crypto.EncryptedSharedPreferences;
@@ -42,6 +47,23 @@ public class auth_pincode extends AppCompatActivity {
 
         context = this;
         showLockScreenFragment();
+
+        // 액션바 숨기기
+        ActionBar actionbar = getSupportActionBar();
+        actionbar.hide();
+
+        // 상태바 숨기기
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.R) {
+            final WindowInsetsController insetsController = getWindow().getInsetsController();
+            if (insetsController != null) {
+                insetsController.hide(WindowInsets.Type.statusBars());
+            }
+        } else {
+            getWindow().setFlags(
+                    WindowManager.LayoutParams.FLAG_FULLSCREEN,
+                    WindowManager.LayoutParams.FLAG_FULLSCREEN
+            );
+        }
     }
 
     private void showLockScreenFragment(boolean isPinExist) {
