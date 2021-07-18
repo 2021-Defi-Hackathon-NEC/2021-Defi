@@ -62,6 +62,7 @@
     <string name="hash_1">0xbe80ceed72e1798c ... 11367abd7f836f</string>
     <string name="taebit_wallet">TAEBIT\nWALLET</string>
     <string name="enter_a_private_key">Enter a Private Key</string>
+    <string name="received">Received</string>
 
 
 </resources>

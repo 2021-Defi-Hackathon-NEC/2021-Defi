@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.wallet.WalletFragment">
+    tools:context=".ui.wallet.BALWalletFragment">
 
     <ImageView
         android:id="@+id/imageView"
@@ -79,6 +79,8 @@
         android:background="@drawable/button_shape"
         android:text="@string/bal_wallet"
         android:textColor="#000000"
+        android:onClick="clickBtn"
+        tools:context=".ui.wallet.BALWalletFragment"
         app:backgroundTint="#FFFFFF"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

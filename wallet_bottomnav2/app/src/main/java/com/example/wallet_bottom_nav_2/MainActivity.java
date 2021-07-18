@@ -7,6 +7,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
 
 import com.example.wallet_bottom_nav_2.ui.wallet.BALWalletFragment;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
@@ -41,14 +42,33 @@ public class MainActivity extends AppCompatActivity {
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment_activity_main);
         NavigationUI.setupActionBarWithNavController(this, navController, appBarConfiguration);
         NavigationUI.setupWithNavController(binding.navView, navController);
+    }
+
+    // 코드 수정중
+    public void clickBtn(View view){
+        Intent intent = new Intent(this, BALWalletFragment.class);
+        startActivity(intent);
+    }
+
+    public void clickBtn_toast_msg(View view){
+        switch(view.getId()){
+            case R.id.imageButton5: // copy
+                Toast.makeText(getApplicationContext(), "Copied!", Toast.LENGTH_SHORT).show();
+                break;
+            case R.id.imageButton6: // Receive
+                Toast.makeText(getApplicationContext(), "Received!", Toast.LENGTH_SHORT).show();
+                break;
+            case R.id.imageButton4: // Send
+                Toast.makeText(getApplicationContext(), "Sent!", Toast.LENGTH_SHORT).show();
+                break;
+        }
+    }
 
 
-        
         // setOnClickListener에서 (혹은 intent 생성 시 onClick에서) NullPointerException 에러가 발생해서 주석 처리함
-//        //BAL 버튼 클릭 시 액티비티 전환 
+//        //BAL 버튼 클릭 시 액티비티 전환
 //        Button button_wallet1 = findViewById(R.id.button_wallet1);
 //        button_wallet1.setOnClickListener(new MyListener());
-    }
 
     // 액션바 버튼
 //    @Override

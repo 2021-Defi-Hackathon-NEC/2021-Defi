@@ -42,12 +42,6 @@ public class WalletFragment extends Fragment{
         return root;
     }
 
-    // 코드 수정중
-//    public void clickBtn(View view){
-//        Intent intent = new Intent(this, BALWalletFragment.class);
-//        startActivity(intent);
-//    }
-
     @Override
     public void onDestroyView() {
         super.onDestroyView();

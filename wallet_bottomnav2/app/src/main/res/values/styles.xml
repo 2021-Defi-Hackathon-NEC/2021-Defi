@@ -24,8 +24,8 @@
         <!-- Customized pin auth design. -->
         <item name="pf_lock_screen">@style/PinLockScreenStyle</item>
         <item name="pf_key_button">@style/PinLockButtonStyle</item>
-        <item name="pf_code_view">@style/PinLockCodeView</item>
-        <item name="pf_delete_button">@style/PinLockDeleteButtonStyle</item>
+<!--        <item name="pf_code_view">@style/PinLockCodeView</item>-->
+<!--        <item name="pf_delete_button">@style/PinLockDeleteButtonStyle</item>-->
         <item name="pf_title">@style/PinLockTitleStyle</item>
         <item name="pf_next">@style/PinLockNextButtonStyle</item>
         <item name="pf_hint">@style/PinLockHintStyle</item>
@@ -65,6 +65,10 @@
 
     <style name="PinLockHintStyle">
         <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="ButtonClicked">
+        <item name="colorControlHighlight">@color/purple_200</item>
     </style>
 
 </resources>
