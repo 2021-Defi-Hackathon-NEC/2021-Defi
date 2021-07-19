@@ -1,5 +1,9 @@
 [
     {
+        "merged": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_wallet_btc.xml",
+        "source": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\layout\\activity_wallet_btc.xml"
+    },
+    {
         "merged": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_wallet.xml",
         "source": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\layout\\fragment_wallet.xml"
     },
@@ -18,6 +22,10 @@
     {
         "merged": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_dashboard.xml",
         "source": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\layout\\fragment_dashboard.xml"
+    },
+    {
+        "merged": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_wallet_eth.xml",
+        "source": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\layout\\activity_wallet_eth.xml"
     },
     {
         "merged": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_before_main.xml",

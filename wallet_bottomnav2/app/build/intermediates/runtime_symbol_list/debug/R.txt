@@ -1966,6 +1966,8 @@ int id button_wallet1 0x7f090071
 int id button_wallet2 0x7f090072
 int id button_wallet4 0x7f090073
 int id button_wallet_bal 0x7f090074
+int id button_wallet_btc 0x7f09020c
+int id button_wallet_eth 0x7f09020d
 int id cache_measures 0x7f090075
 int id cancel_button 0x7f090076
 int id center 0x7f090077
@@ -2446,6 +2448,8 @@ int layout activity_before_main 0x7f0c001d
 int layout activity_login1 0x7f0c001e
 int layout activity_login2 0x7f0c001f
 int layout activity_main 0x7f0c0020
+int layout activity_wallet_btc 0x7f0c0082
+int layout activity_wallet_eth 0x7f0c0083
 int layout custom_dialog 0x7f0c0021
 int layout design_bottom_navigation_item 0x7f0c0022
 int layout design_bottom_sheet_dialog 0x7f0c0023

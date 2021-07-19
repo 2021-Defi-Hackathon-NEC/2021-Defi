@@ -46,8 +46,24 @@ public class MainActivity extends AppCompatActivity {
 
     // 코드 수정중
     public void clickBtn(View view){
-        Intent intent = new Intent(this, BALWalletFragment.class);
-        startActivity(intent);
+        Intent intent;
+        switch(view.getId()){
+            case R.id.button_wallet1: // BAL Wallet
+                intent = new Intent(this, BALWalletFragment.class);
+                startActivity(intent);
+                break;
+            case R.id.button_wallet2: // BTC Wallet
+                intent = new Intent(this, wallet_BTC.class);
+                startActivity(intent);
+                break;
+            case R.id.button_wallet4: // ETH Wallet
+                intent = new Intent(this, wallet_ETH.class);
+                startActivity(intent);
+                break;
+            default:
+                break;
+        }
+
     }
 
     public void clickBtn_toast_msg(View view){

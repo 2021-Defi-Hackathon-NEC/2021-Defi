@@ -1967,6 +1967,8 @@ id button_wallet1
 id button_wallet2
 id button_wallet4
 id button_wallet_bal
+id button_wallet_btc
+id button_wallet_eth
 id cache_measures
 id cancel_button
 id center
@@ -2447,6 +2449,8 @@ layout activity_before_main
 layout activity_login1
 layout activity_login2
 layout activity_main
+layout activity_wallet_btc
+layout activity_wallet_eth
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog

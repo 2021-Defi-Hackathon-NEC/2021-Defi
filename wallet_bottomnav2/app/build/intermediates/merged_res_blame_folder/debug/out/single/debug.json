@@ -1,5 +1,9 @@
 [
     {
+        "merged": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_wallet_btc.xml.flat",
+        "source": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\layout\\activity_wallet_btc.xml"
+    },
+    {
         "merged": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_home.xml.flat",
         "source": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\layout\\fragment_home.xml"
     },
@@ -138,6 +142,10 @@
     {
         "merged": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_add_blue.png.flat",
         "source": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\drawable-hdpi\\ic_add_blue.png"
+    },
+    {
+        "merged": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_wallet_eth.xml.flat",
+        "source": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\layout\\activity_wallet_eth.xml"
     },
     {
         "merged": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_notifications_black_24dp.xml.flat",
