@@ -23,9 +23,12 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme.Wallet_bottomnav2" >
-        <activity android:name="com.example.wallet_bottom_nav_2.auth_pincode" >
+        <activity
+            android:name="com.example.wallet_bottom_nav_2.auth_pincode"
+            android:theme="@style/PinTheme" >
         </activity>
-        <activity android:name="com.example.wallet_bottom_nav_2.login_1" />
+        <activity android:name="com.example.wallet_bottom_nav_2.login_1" >
+        </activity>
         <activity android:name="com.example.wallet_bottom_nav_2.login_2" >
         </activity>
         <activity android:name="com.example.wallet_bottom_nav_2.before_main" >

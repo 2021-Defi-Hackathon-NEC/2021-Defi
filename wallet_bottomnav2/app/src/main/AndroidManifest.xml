@@ -10,10 +10,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Wallet_bottomnav2">
-        <activity android:name=".auth_pincode">
+
+        <activity
+            android:name=".auth_pincode"
+            android:theme="@style/PinTheme">
 
         </activity>
-        <activity android:name=".login_1" />
+        <activity android:name=".login_1">
+
+        </activity>
         <activity android:name=".login_2">
 
         </activity>
@@ -23,6 +28,7 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
         </activity> <!-- <activity -->
         <!-- android:name=".ui.login.LoginActivity" -->
         <!-- android:label="@string/title_activity_login"></activity> -->
