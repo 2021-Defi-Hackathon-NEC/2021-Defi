@@ -63,6 +63,11 @@
     <string name="taebit_wallet">TAEBIT\nWALLET</string>
     <string name="enter_a_private_key">  Enter a Private Key</string>
     <string name="received">Received</string>
+    <string name="your_total_crypto_assets">Your Total Crypto Assets</string>
+    <string name="investment_information">Investment Information</string>
+    <string name="today_s_recommendation">Today\'s Recommendation</string>
+    <string name="market_price">Market Price</string>
+    <string name="see_more">See more</string>
 
 
 </resources>

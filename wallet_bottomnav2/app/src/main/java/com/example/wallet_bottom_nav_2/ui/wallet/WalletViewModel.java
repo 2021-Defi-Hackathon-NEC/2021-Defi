@@ -11,7 +11,7 @@ public class WalletViewModel extends ViewModel {
 
     public WalletViewModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("This is wallet fragment");
+        mText.setValue("15.00");
     }
 
     public LiveData<String> getText() {

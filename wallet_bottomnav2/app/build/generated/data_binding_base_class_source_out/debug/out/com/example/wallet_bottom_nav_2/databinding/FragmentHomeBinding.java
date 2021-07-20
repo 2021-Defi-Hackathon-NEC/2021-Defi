@@ -4,6 +4,7 @@ package com.example.wallet_bottom_nav_2.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -19,11 +20,46 @@ public final class FragmentHomeBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
-  public final TextView textHome;
+  public final TextView balance3;
 
-  private FragmentHomeBinding(@NonNull ConstraintLayout rootView, @NonNull TextView textHome) {
+  @NonNull
+  public final TextView balance4;
+
+  @NonNull
+  public final ImageView imageView;
+
+  @NonNull
+  public final TextView textView21;
+
+  @NonNull
+  public final TextView textView22;
+
+  @NonNull
+  public final TextView textView23;
+
+  @NonNull
+  public final TextView textView6;
+
+  @NonNull
+  public final View view10;
+
+  @NonNull
+  public final View view9;
+
+  private FragmentHomeBinding(@NonNull ConstraintLayout rootView, @NonNull TextView balance3,
+      @NonNull TextView balance4, @NonNull ImageView imageView, @NonNull TextView textView21,
+      @NonNull TextView textView22, @NonNull TextView textView23, @NonNull TextView textView6,
+      @NonNull View view10, @NonNull View view9) {
     this.rootView = rootView;
-    this.textHome = textHome;
+    this.balance3 = balance3;
+    this.balance4 = balance4;
+    this.imageView = imageView;
+    this.textView21 = textView21;
+    this.textView22 = textView22;
+    this.textView23 = textView23;
+    this.textView6 = textView6;
+    this.view10 = view10;
+    this.view9 = view9;
   }
 
   @Override
@@ -53,13 +89,62 @@ public final class FragmentHomeBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.text_home;
-      TextView textHome = rootView.findViewById(id);
-      if (textHome == null) {
+      id = R.id.balance3;
+      TextView balance3 = rootView.findViewById(id);
+      if (balance3 == null) {
         break missingId;
       }
 
-      return new FragmentHomeBinding((ConstraintLayout) rootView, textHome);
+      id = R.id.balance4;
+      TextView balance4 = rootView.findViewById(id);
+      if (balance4 == null) {
+        break missingId;
+      }
+
+      id = R.id.imageView;
+      ImageView imageView = rootView.findViewById(id);
+      if (imageView == null) {
+        break missingId;
+      }
+
+      id = R.id.textView21;
+      TextView textView21 = rootView.findViewById(id);
+      if (textView21 == null) {
+        break missingId;
+      }
+
+      id = R.id.textView22;
+      TextView textView22 = rootView.findViewById(id);
+      if (textView22 == null) {
+        break missingId;
+      }
+
+      id = R.id.textView23;
+      TextView textView23 = rootView.findViewById(id);
+      if (textView23 == null) {
+        break missingId;
+      }
+
+      id = R.id.textView6;
+      TextView textView6 = rootView.findViewById(id);
+      if (textView6 == null) {
+        break missingId;
+      }
+
+      id = R.id.view10;
+      View view10 = rootView.findViewById(id);
+      if (view10 == null) {
+        break missingId;
+      }
+
+      id = R.id.view9;
+      View view9 = rootView.findViewById(id);
+      if (view9 == null) {
+        break missingId;
+      }
+
+      return new FragmentHomeBinding((ConstraintLayout) rootView, balance3, balance4, imageView,
+          textView21, textView22, textView23, textView6, view10, view9);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

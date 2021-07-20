@@ -32,7 +32,7 @@ public class WalletFragment extends Fragment{
         binding = FragmentWalletBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
 
-        final TextView textView = binding.textWallet;
+        final TextView textView = binding.balance4;
         walletViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
             @Override
             public void onChanged(@Nullable String s) {

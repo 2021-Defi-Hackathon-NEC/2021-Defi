@@ -1944,6 +1944,7 @@ id beginning
 id blocking
 id bottom
 id bounce
+id button
 id button2
 id button4
 id button5
@@ -2032,8 +2033,8 @@ id dropdown_menu
 id easeIn
 id easeInOut
 id easeOut
+id editTextMnemonic
 id editTextTextPassword
-id editTextTextPersonName
 id edit_query
 id elastic
 id end
@@ -2312,6 +2313,9 @@ id textView17
 id textView18
 id textView19
 id textView2
+id textView21
+id textView22
+id textView23
 id textView3
 id textView4
 id textView5
@@ -2319,14 +2323,11 @@ id textView6
 id textView7
 id textView8
 id textView9
-id textWallet
 id text_dashboard
 id text_exchange
-id text_home
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
-id text_notifications
 id textinput_counter
 id textinput_error
 id textinput_helper_text
@@ -2358,6 +2359,7 @@ id unlabeled
 id up
 id useLogo
 id view
+id view10
 id view2
 id view3
 id view4
@@ -2365,6 +2367,7 @@ id view5
 id view6
 id view7
 id view8
+id view9
 id view_offset_helper
 id view_tree_lifecycle_owner
 id view_tree_saved_state_registry_owner
@@ -2448,6 +2451,7 @@ layout activity_auth_pincode
 layout activity_before_main
 layout activity_login1
 layout activity_login2
+layout activity_login3_ethereum
 layout activity_main
 layout activity_wallet_btc
 layout activity_wallet_eth
@@ -2631,11 +2635,13 @@ string icon_content_description
 string inform1
 string invalid_password
 string invalid_username
+string investment_information
 string item_view_role_description
 string krw
 string large_text
 string lock_screen_title_pf
 string login_failed
+string market_price
 string material_clock_display_divider
 string material_clock_toggle_content_description
 string material_hour_selection
@@ -2709,6 +2715,7 @@ string prompt_email
 string prompt_password
 string received
 string search_menu_title
+string see_more
 string select_chain
 string settings
 string settings_pf
@@ -2730,12 +2737,14 @@ string title_profile
 string title_receive
 string title_send
 string title_wallet
+string today_s_recommendation
 string use_pin_pf
 string wallet_address
 string welcome
 string welcome1
 string your_accounts
 string your_balance_here
+string your_total_crypto_assets
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
 style AndroidThemeColorAccentYellow

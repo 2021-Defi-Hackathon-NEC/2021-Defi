@@ -47,13 +47,10 @@ public final class FragmentWalletBinding implements ViewBinding {
   @NonNull
   public final TextView textView7;
 
-  @NonNull
-  public final TextView textWallet;
-
   private FragmentWalletBinding(@NonNull ConstraintLayout rootView, @NonNull TextView balance3,
       @NonNull TextView balance4, @NonNull Button button2, @NonNull Button buttonWallet1,
       @NonNull Button buttonWallet2, @NonNull Button buttonWallet4, @NonNull ImageView imageView,
-      @NonNull TextView textView6, @NonNull TextView textView7, @NonNull TextView textWallet) {
+      @NonNull TextView textView6, @NonNull TextView textView7) {
     this.rootView = rootView;
     this.balance3 = balance3;
     this.balance4 = balance4;
@@ -64,7 +61,6 @@ public final class FragmentWalletBinding implements ViewBinding {
     this.imageView = imageView;
     this.textView6 = textView6;
     this.textView7 = textView7;
-    this.textWallet = textWallet;
   }
 
   @Override
@@ -148,14 +144,8 @@ public final class FragmentWalletBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.textWallet;
-      TextView textWallet = rootView.findViewById(id);
-      if (textWallet == null) {
-        break missingId;
-      }
-
       return new FragmentWalletBinding((ConstraintLayout) rootView, balance3, balance4, button2,
-          buttonWallet1, buttonWallet2, buttonWallet4, imageView, textView6, textView7, textWallet);
+          buttonWallet1, buttonWallet2, buttonWallet4, imageView, textView6, textView7);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

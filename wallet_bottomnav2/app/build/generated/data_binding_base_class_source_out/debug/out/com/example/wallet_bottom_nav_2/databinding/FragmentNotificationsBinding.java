@@ -61,9 +61,6 @@ public final class FragmentNotificationsBinding implements ViewBinding {
   public final LinearLayout linearLayout3;
 
   @NonNull
-  public final TextView textNotifications;
-
-  @NonNull
   public final TextView textView10;
 
   @NonNull
@@ -129,14 +126,13 @@ public final class FragmentNotificationsBinding implements ViewBinding {
       @NonNull ImageView imageView10, @NonNull ImageView imageView6, @NonNull ImageView imageView7,
       @NonNull ImageView imageView8, @NonNull ImageView imageView9,
       @NonNull LinearLayout linearLayout, @NonNull LinearLayout linearLayout2,
-      @NonNull LinearLayout linearLayout3, @NonNull TextView textNotifications,
-      @NonNull TextView textView10, @NonNull TextView textView11, @NonNull TextView textView12,
-      @NonNull TextView textView13, @NonNull TextView textView14, @NonNull TextView textView15,
-      @NonNull TextView textView16, @NonNull TextView textView17, @NonNull TextView textView18,
-      @NonNull TextView textView19, @NonNull TextView textView3, @NonNull TextView textView4,
-      @NonNull TextView textView5, @NonNull TextView today, @NonNull View view3,
-      @NonNull View view4, @NonNull View view5, @NonNull View view6, @NonNull View view7,
-      @NonNull View view8) {
+      @NonNull LinearLayout linearLayout3, @NonNull TextView textView10,
+      @NonNull TextView textView11, @NonNull TextView textView12, @NonNull TextView textView13,
+      @NonNull TextView textView14, @NonNull TextView textView15, @NonNull TextView textView16,
+      @NonNull TextView textView17, @NonNull TextView textView18, @NonNull TextView textView19,
+      @NonNull TextView textView3, @NonNull TextView textView4, @NonNull TextView textView5,
+      @NonNull TextView today, @NonNull View view3, @NonNull View view4, @NonNull View view5,
+      @NonNull View view6, @NonNull View view7, @NonNull View view8) {
     this.rootView = rootView;
     this.balance = balance;
     this.balance2 = balance2;
@@ -151,7 +147,6 @@ public final class FragmentNotificationsBinding implements ViewBinding {
     this.linearLayout = linearLayout;
     this.linearLayout2 = linearLayout2;
     this.linearLayout3 = linearLayout3;
-    this.textNotifications = textNotifications;
     this.textView10 = textView10;
     this.textView11 = textView11;
     this.textView12 = textView12;
@@ -279,12 +274,6 @@ public final class FragmentNotificationsBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.text_notifications;
-      TextView textNotifications = rootView.findViewById(id);
-      if (textNotifications == null) {
-        break missingId;
-      }
-
       id = R.id.textView10;
       TextView textView10 = rootView.findViewById(id);
       if (textView10 == null) {
@@ -407,10 +396,10 @@ public final class FragmentNotificationsBinding implements ViewBinding {
 
       return new FragmentNotificationsBinding((ConstraintLayout) rootView, balance, balance2,
           imageButton4, imageButton5, imageButton6, imageView10, imageView6, imageView7, imageView8,
-          imageView9, linearLayout, linearLayout2, linearLayout3, textNotifications, textView10,
-          textView11, textView12, textView13, textView14, textView15, textView16, textView17,
-          textView18, textView19, textView3, textView4, textView5, today, view3, view4, view5,
-          view6, view7, view8);
+          imageView9, linearLayout, linearLayout2, linearLayout3, textView10, textView11,
+          textView12, textView13, textView14, textView15, textView16, textView17, textView18,
+          textView19, textView3, textView4, textView5, today, view3, view4, view5, view6, view7,
+          view8);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
