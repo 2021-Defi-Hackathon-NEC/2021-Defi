@@ -66,6 +66,8 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+    // 토스트 메시지 출력
+    @SuppressLint("NonConstantResourceId")
     public void clickBtn_toast_msg(View view){
         switch(view.getId()){
             case R.id.imageButton5: // copy
@@ -77,6 +79,7 @@ public class MainActivity extends AppCompatActivity {
             case R.id.imageButton4: // Send
                 Toast.makeText(getApplicationContext(), "Sent!", Toast.LENGTH_SHORT).show();
                 break;
+
         }
     }
 

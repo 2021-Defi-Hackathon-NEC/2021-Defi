@@ -6,6 +6,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
+import android.widget.ScrollView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -42,6 +44,12 @@ public final class FragmentWalletBinding implements ViewBinding {
   public final ImageView imageView;
 
   @NonNull
+  public final LinearLayout linearLayout4;
+
+  @NonNull
+  public final ScrollView scrollView2;
+
+  @NonNull
   public final TextView textView6;
 
   @NonNull
@@ -50,6 +58,7 @@ public final class FragmentWalletBinding implements ViewBinding {
   private FragmentWalletBinding(@NonNull ConstraintLayout rootView, @NonNull TextView balance3,
       @NonNull TextView balance4, @NonNull Button button2, @NonNull Button buttonWallet1,
       @NonNull Button buttonWallet2, @NonNull Button buttonWallet4, @NonNull ImageView imageView,
+      @NonNull LinearLayout linearLayout4, @NonNull ScrollView scrollView2,
       @NonNull TextView textView6, @NonNull TextView textView7) {
     this.rootView = rootView;
     this.balance3 = balance3;
@@ -59,6 +68,8 @@ public final class FragmentWalletBinding implements ViewBinding {
     this.buttonWallet2 = buttonWallet2;
     this.buttonWallet4 = buttonWallet4;
     this.imageView = imageView;
+    this.linearLayout4 = linearLayout4;
+    this.scrollView2 = scrollView2;
     this.textView6 = textView6;
     this.textView7 = textView7;
   }
@@ -132,6 +143,18 @@ public final class FragmentWalletBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.linearLayout4;
+      LinearLayout linearLayout4 = rootView.findViewById(id);
+      if (linearLayout4 == null) {
+        break missingId;
+      }
+
+      id = R.id.scrollView2;
+      ScrollView scrollView2 = rootView.findViewById(id);
+      if (scrollView2 == null) {
+        break missingId;
+      }
+
       id = R.id.textView6;
       TextView textView6 = rootView.findViewById(id);
       if (textView6 == null) {
@@ -145,7 +168,8 @@ public final class FragmentWalletBinding implements ViewBinding {
       }
 
       return new FragmentWalletBinding((ConstraintLayout) rootView, balance3, balance4, button2,
-          buttonWallet1, buttonWallet2, buttonWallet4, imageView, textView6, textView7);
+          buttonWallet1, buttonWallet2, buttonWallet4, imageView, linearLayout4, scrollView2,
+          textView6, textView7);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

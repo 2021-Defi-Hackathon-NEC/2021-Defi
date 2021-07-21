@@ -92,6 +92,10 @@
         "source": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\drawable-mdpi\\ic_3dots_black.png"
     },
     {
+        "merged": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_button_shape4.xml.flat",
+        "source": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\drawable\\button_shape4.xml"
+    },
+    {
         "merged": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_qr_code.png.flat",
         "source": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\drawable-mdpi\\qr_code.png"
     },

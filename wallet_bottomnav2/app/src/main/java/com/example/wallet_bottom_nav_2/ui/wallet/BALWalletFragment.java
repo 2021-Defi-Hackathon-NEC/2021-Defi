@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -24,11 +25,13 @@ public class BALWalletFragment extends AppCompatActivity {
         actionBar.setTitle("BAL Wallet");
     }
 
-    // 코드 수정중
-//    public void clickBtn(View view){
-//        Intent intent = new Intent(this, BALWalletFragment.class);
-//        startActivity(intent);
-//    }
+    public void clickBtn_toast_msg(View view){
+        switch(view.getId()){
+            case R.id.imageButton: // BAL_Wallet refresh
+                Toast.makeText(getApplicationContext(), "Refreshed", Toast.LENGTH_SHORT).show();
+                break;
+        }
+    }
 
 }
 

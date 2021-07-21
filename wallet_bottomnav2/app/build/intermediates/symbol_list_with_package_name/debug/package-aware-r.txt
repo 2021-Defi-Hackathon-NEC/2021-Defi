@@ -1768,6 +1768,7 @@ drawable button_selector_blue
 drawable button_shape
 drawable button_shape2
 drawable button_shape3
+drawable button_shape4
 drawable circle_background_pf_lock_screen
 drawable circle_code_empty_pf_lockscreen
 drawable circle_code_fill_pf_lockscreen
@@ -2082,6 +2083,7 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
+id imageButton
 id imageButton4
 id imageButton5
 id imageButton6
@@ -2112,6 +2114,7 @@ id linear
 id linearLayout
 id linearLayout2
 id linearLayout3
+id linearLayout4
 id listMode
 id list_item
 id masked
@@ -2229,6 +2232,7 @@ id scroll
 id scrollIndicatorDown
 id scrollIndicatorUp
 id scrollView
+id scrollView2
 id scrollable
 id search_badge
 id search_bar

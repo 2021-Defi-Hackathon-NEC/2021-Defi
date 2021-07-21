@@ -8,7 +8,7 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="350dp"
+        android:layout_width="330dp"
         android:layout_height="178dp"
         android:layout_marginTop="16dp"
         android:src="@drawable/dracula_gradient"
@@ -62,69 +62,91 @@
         android:id="@+id/textView7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="30dp"
+        android:layout_marginLeft="16dp"
         android:layout_marginRight="16dp"
         android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
         android:text="@string/your_accounts"
+        android:textColor="@color/black"
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
-    <Button
-        android:id="@+id/button_wallet1"
-        android:layout_width="350dp"
-        android:layout_height="75dp"
-        android:layout_marginTop="9dp"
-        android:background="@drawable/button_shape"
-        android:text="@string/bal_wallet"
-        android:textColor="#000000"
-        android:onClick="clickBtn"
-        tools:context=".ui.wallet.BALWalletFragment"
-        app:backgroundTint="#FFFFFF"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView7" />
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="408dp"
+        android:layout_height="367dp"
+        android:layout_marginTop="30dp"
+        android:layout_above="@id/button2"
 
-    <Button
-        android:id="@+id/button_wallet2"
-        android:layout_width="350dp"
-        android:layout_height="75dp"
-        android:layout_marginTop="9dp"
-        android:background="@drawable/button_shape"
-        android:text="@string/btc_wallet"
-        android:onClick="clickBtn"
-        android:textColor="#000000"
-        app:backgroundTint="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button_wallet1" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView">
 
-    <Button
-        android:id="@+id/button_wallet4"
-        android:layout_width="350dp"
-        android:layout_height="75dp"
-        android:layout_marginTop="9dp"
-        android:background="@drawable/button_shape"
-        android:text="@string/eth_wallet"
-        android:onClick="clickBtn"
-        android:textColor="#000000"
-        app:backgroundTint="#FFFFFF"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button_wallet2" />
+        <LinearLayout
+            android:id="@+id/linearLayout4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/button_wallet2"
+                android:layout_width="330dp"
+                android:layout_height="75dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="9dp"
+                android:background="@drawable/button_shape"
+                android:onClick="clickBtn"
+                android:text="@string/btc_wallet"
+                android:textColor="#000000"
+                app:backgroundTint="#FFFFFF" />
+
+            <Button
+                android:id="@+id/button_wallet1"
+                android:layout_width="330dp"
+                android:layout_height="75dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="9dp"
+                android:background="@drawable/button_shape"
+                android:onClick="clickBtn"
+                android:text="@string/bal_wallet"
+                android:textColor="#000000"
+                app:backgroundTint="#FFFFFF"
+                tools:context=".ui.wallet.BALWalletFragment" />
+
+            <Button
+                android:id="@+id/button_wallet4"
+                android:layout_width="330dp"
+                android:layout_height="75dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="9dp"
+                android:background="@drawable/button_shape"
+                android:onClick="clickBtn"
+                android:text="@string/eth_wallet"
+                android:textColor="#000000"
+                app:backgroundTint="#FFFFFF" />
+
+        </LinearLayout>
+    </ScrollView>
 
     <Button
         android:id="@+id/button2"
-        android:layout_width="352dp"
-        android:layout_height="61dp"
+        android:layout_width="330dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
         android:background="@drawable/button_shape2"
         android:text="@string/show_more"
+        android:textColor="@color/white"
+        android:layout_alignParentBottom="true"
         app:backgroundTint="@color/dracula_blue"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button_wallet4"
-        app:layout_constraintVertical_bias="0.373" />
+        app:layout_constraintTop_toBottomOf="@+id/scrollView2" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
