@@ -70,6 +70,7 @@
     <string name="today_s_recommendation">Today\'s Recommendation</string>
     <string name="market_price">Market Price</string>
     <string name="see_more">See more</string>
+    <string name="enter_mnemonic">Enter Mnemonic</string>
 
 
 </resources>
