@@ -1945,7 +1945,6 @@ int id blocking 0x7f09005b
 int id bottom 0x7f09005c
 int id bounce 0x7f09005d
 int id button 0x7f09005e
-int id button2 0x7f09005f
 int id button4 0x7f090060
 int id button5 0x7f090061
 int id buttonPanel 0x7f090062
@@ -2083,18 +2082,15 @@ int id ignore 0x7f0900e5
 int id ignoreRequest 0x7f0900e6
 int id image 0x7f0900e7
 int id imageButton 0x7f090213
+int id imageButton2 0x7f09021a
+int id imageButton3 0x7f09021b
 int id imageButton4 0x7f0900e8
 int id imageButton5 0x7f0900e9
 int id imageButton6 0x7f0900ea
 int id imageView 0x7f0900eb
-int id imageView10 0x7f0900ec
 int id imageView2 0x7f0900ed
 int id imageView4 0x7f0900ee
 int id imageView5 0x7f0900ef
-int id imageView6 0x7f0900f0
-int id imageView7 0x7f0900f1
-int id imageView8 0x7f0900f2
-int id imageView9 0x7f0900f3
 int id imageView_spinner_image 0x7f0900f4
 int id info 0x7f0900f5
 int id invisible 0x7f0900f6
@@ -2112,8 +2108,6 @@ int id line3 0x7f090101
 int id linear 0x7f090102
 int id linearLayout 0x7f090103
 int id linearLayout2 0x7f090104
-int id linearLayout3 0x7f090105
-int id linearLayout4 0x7f090106
 int id listMode 0x7f090107
 int id list_item 0x7f090108
 int id masked 0x7f090109
@@ -2231,7 +2225,6 @@ int id scroll 0x7f090178
 int id scrollIndicatorDown 0x7f090179
 int id scrollIndicatorUp 0x7f09017a
 int id scrollView 0x7f09017b
-int id scrollView2 0x7f09017c
 int id scrollable 0x7f09017d
 int id search_badge 0x7f09017e
 int id search_bar 0x7f09017f
@@ -2611,6 +2604,7 @@ int string confirm_device_credential_password 0x7f11002e
 int string default_error_msg 0x7f11002f
 int string description_fingerprint_icon_pf 0x7f110030
 int string enter_a_private_key 0x7f110031
+int string enter_mnemonic 0x7f1100bb
 int string error_icon_content_description 0x7f110032
 int string eth_wallet 0x7f110033
 int string exposed_dropdown_menu_content_description 0x7f110034
@@ -2702,6 +2696,7 @@ int string mtrl_picker_toggle_to_text_input_mode 0x7f110089
 int string mtrl_picker_toggle_to_year_selection 0x7f11008a
 int string nav_app_bar_navigate_up_description 0x7f11008b
 int string nav_app_bar_open_drawer_description 0x7f11008c
+int string next 0x7f1100bc
 int string next_pf 0x7f11008d
 int string no_fingerprints_message_pf 0x7f11008e
 int string no_fingerprints_title_pf 0x7f11008f

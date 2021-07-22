@@ -5,8 +5,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageButton;
-import android.widget.ImageView;
 import android.widget.LinearLayout;
+import android.widget.ScrollView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -37,28 +37,13 @@ public final class FragmentNotificationsBinding implements ViewBinding {
   public final ImageButton imageButton6;
 
   @NonNull
-  public final ImageView imageView10;
-
-  @NonNull
-  public final ImageView imageView6;
-
-  @NonNull
-  public final ImageView imageView7;
-
-  @NonNull
-  public final ImageView imageView8;
-
-  @NonNull
-  public final ImageView imageView9;
-
-  @NonNull
   public final LinearLayout linearLayout;
 
   @NonNull
   public final LinearLayout linearLayout2;
 
   @NonNull
-  public final LinearLayout linearLayout3;
+  public final ScrollView scrollView;
 
   @NonNull
   public final TextView textView10;
@@ -123,30 +108,23 @@ public final class FragmentNotificationsBinding implements ViewBinding {
   private FragmentNotificationsBinding(@NonNull ConstraintLayout rootView,
       @NonNull TextView balance, @NonNull TextView balance2, @NonNull ImageButton imageButton4,
       @NonNull ImageButton imageButton5, @NonNull ImageButton imageButton6,
-      @NonNull ImageView imageView10, @NonNull ImageView imageView6, @NonNull ImageView imageView7,
-      @NonNull ImageView imageView8, @NonNull ImageView imageView9,
       @NonNull LinearLayout linearLayout, @NonNull LinearLayout linearLayout2,
-      @NonNull LinearLayout linearLayout3, @NonNull TextView textView10,
-      @NonNull TextView textView11, @NonNull TextView textView12, @NonNull TextView textView13,
-      @NonNull TextView textView14, @NonNull TextView textView15, @NonNull TextView textView16,
-      @NonNull TextView textView17, @NonNull TextView textView18, @NonNull TextView textView19,
-      @NonNull TextView textView3, @NonNull TextView textView4, @NonNull TextView textView5,
-      @NonNull TextView today, @NonNull View view3, @NonNull View view4, @NonNull View view5,
-      @NonNull View view6, @NonNull View view7, @NonNull View view8) {
+      @NonNull ScrollView scrollView, @NonNull TextView textView10, @NonNull TextView textView11,
+      @NonNull TextView textView12, @NonNull TextView textView13, @NonNull TextView textView14,
+      @NonNull TextView textView15, @NonNull TextView textView16, @NonNull TextView textView17,
+      @NonNull TextView textView18, @NonNull TextView textView19, @NonNull TextView textView3,
+      @NonNull TextView textView4, @NonNull TextView textView5, @NonNull TextView today,
+      @NonNull View view3, @NonNull View view4, @NonNull View view5, @NonNull View view6,
+      @NonNull View view7, @NonNull View view8) {
     this.rootView = rootView;
     this.balance = balance;
     this.balance2 = balance2;
     this.imageButton4 = imageButton4;
     this.imageButton5 = imageButton5;
     this.imageButton6 = imageButton6;
-    this.imageView10 = imageView10;
-    this.imageView6 = imageView6;
-    this.imageView7 = imageView7;
-    this.imageView8 = imageView8;
-    this.imageView9 = imageView9;
     this.linearLayout = linearLayout;
     this.linearLayout2 = linearLayout2;
-    this.linearLayout3 = linearLayout3;
+    this.scrollView = scrollView;
     this.textView10 = textView10;
     this.textView11 = textView11;
     this.textView12 = textView12;
@@ -226,36 +204,6 @@ public final class FragmentNotificationsBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.imageView10;
-      ImageView imageView10 = rootView.findViewById(id);
-      if (imageView10 == null) {
-        break missingId;
-      }
-
-      id = R.id.imageView6;
-      ImageView imageView6 = rootView.findViewById(id);
-      if (imageView6 == null) {
-        break missingId;
-      }
-
-      id = R.id.imageView7;
-      ImageView imageView7 = rootView.findViewById(id);
-      if (imageView7 == null) {
-        break missingId;
-      }
-
-      id = R.id.imageView8;
-      ImageView imageView8 = rootView.findViewById(id);
-      if (imageView8 == null) {
-        break missingId;
-      }
-
-      id = R.id.imageView9;
-      ImageView imageView9 = rootView.findViewById(id);
-      if (imageView9 == null) {
-        break missingId;
-      }
-
       id = R.id.linearLayout;
       LinearLayout linearLayout = rootView.findViewById(id);
       if (linearLayout == null) {
@@ -268,9 +216,9 @@ public final class FragmentNotificationsBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.linearLayout3;
-      LinearLayout linearLayout3 = rootView.findViewById(id);
-      if (linearLayout3 == null) {
+      id = R.id.scrollView;
+      ScrollView scrollView = rootView.findViewById(id);
+      if (scrollView == null) {
         break missingId;
       }
 
@@ -395,11 +343,10 @@ public final class FragmentNotificationsBinding implements ViewBinding {
       }
 
       return new FragmentNotificationsBinding((ConstraintLayout) rootView, balance, balance2,
-          imageButton4, imageButton5, imageButton6, imageView10, imageView6, imageView7, imageView8,
-          imageView9, linearLayout, linearLayout2, linearLayout3, textView10, textView11,
-          textView12, textView13, textView14, textView15, textView16, textView17, textView18,
-          textView19, textView3, textView4, textView5, today, view3, view4, view5, view6, view7,
-          view8);
+          imageButton4, imageButton5, imageButton6, linearLayout, linearLayout2, scrollView,
+          textView10, textView11, textView12, textView13, textView14, textView15, textView16,
+          textView17, textView18, textView19, textView3, textView4, textView5, today, view3, view4,
+          view5, view6, view7, view8);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

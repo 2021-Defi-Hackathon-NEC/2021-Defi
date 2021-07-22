@@ -1946,7 +1946,6 @@ id blocking
 id bottom
 id bounce
 id button
-id button2
 id button4
 id button5
 id buttonPanel
@@ -2084,18 +2083,15 @@ id ignore
 id ignoreRequest
 id image
 id imageButton
+id imageButton2
+id imageButton3
 id imageButton4
 id imageButton5
 id imageButton6
 id imageView
-id imageView10
 id imageView2
 id imageView4
 id imageView5
-id imageView6
-id imageView7
-id imageView8
-id imageView9
 id imageView_spinner_image
 id info
 id invisible
@@ -2113,8 +2109,6 @@ id line3
 id linear
 id linearLayout
 id linearLayout2
-id linearLayout3
-id linearLayout4
 id listMode
 id list_item
 id masked
@@ -2232,7 +2226,6 @@ id scroll
 id scrollIndicatorDown
 id scrollIndicatorUp
 id scrollView
-id scrollView2
 id scrollable
 id search_badge
 id search_bar
@@ -2612,6 +2605,7 @@ string confirm_device_credential_password
 string default_error_msg
 string description_fingerprint_icon_pf
 string enter_a_private_key
+string enter_mnemonic
 string error_icon_content_description
 string eth_wallet
 string exposed_dropdown_menu_content_description
@@ -2703,6 +2697,7 @@ string mtrl_picker_toggle_to_text_input_mode
 string mtrl_picker_toggle_to_year_selection
 string nav_app_bar_navigate_up_description
 string nav_app_bar_open_drawer_description
+string next
 string next_pf
 string no_fingerprints_message_pf
 string no_fingerprints_title_pf

@@ -5,6 +5,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
+import android.widget.ScrollView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -29,6 +30,9 @@ public final class FragmentHomeBinding implements ViewBinding {
   public final ImageView imageView;
 
   @NonNull
+  public final ScrollView scrollView;
+
+  @NonNull
   public final TextView textView21;
 
   @NonNull
@@ -47,13 +51,14 @@ public final class FragmentHomeBinding implements ViewBinding {
   public final View view9;
 
   private FragmentHomeBinding(@NonNull ConstraintLayout rootView, @NonNull TextView balance3,
-      @NonNull TextView balance4, @NonNull ImageView imageView, @NonNull TextView textView21,
-      @NonNull TextView textView22, @NonNull TextView textView23, @NonNull TextView textView6,
-      @NonNull View view10, @NonNull View view9) {
+      @NonNull TextView balance4, @NonNull ImageView imageView, @NonNull ScrollView scrollView,
+      @NonNull TextView textView21, @NonNull TextView textView22, @NonNull TextView textView23,
+      @NonNull TextView textView6, @NonNull View view10, @NonNull View view9) {
     this.rootView = rootView;
     this.balance3 = balance3;
     this.balance4 = balance4;
     this.imageView = imageView;
+    this.scrollView = scrollView;
     this.textView21 = textView21;
     this.textView22 = textView22;
     this.textView23 = textView23;
@@ -107,6 +112,12 @@ public final class FragmentHomeBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.scrollView;
+      ScrollView scrollView = rootView.findViewById(id);
+      if (scrollView == null) {
+        break missingId;
+      }
+
       id = R.id.textView21;
       TextView textView21 = rootView.findViewById(id);
       if (textView21 == null) {
@@ -144,7 +155,7 @@ public final class FragmentHomeBinding implements ViewBinding {
       }
 
       return new FragmentHomeBinding((ConstraintLayout) rootView, balance3, balance4, imageView,
-          textView21, textView22, textView23, textView6, view10, view9);
+          scrollView, textView21, textView22, textView23, textView6, view10, view9);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

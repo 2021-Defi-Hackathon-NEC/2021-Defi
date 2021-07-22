@@ -10,7 +10,6 @@
         android:id="@+id/imageView"
         android:layout_width="330dp"
         android:layout_height="178dp"
-        android:layout_marginTop="16dp"
         android:src="@drawable/dracula_gradient"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -74,21 +73,17 @@
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
     <ScrollView
-        android:id="@+id/scrollView2"
-        android:layout_width="408dp"
-        android:layout_height="367dp"
-        android:layout_marginTop="30dp"
-        android:layout_above="@id/button2"
-
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView">
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toBottomOf="@+id/textView7"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-2dp">
 
         <LinearLayout
-            android:id="@+id/linearLayout4"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:layout_marginTop="16dp"
             android:orientation="vertical">
 
@@ -129,24 +124,23 @@
                 android:textColor="#000000"
                 app:backgroundTint="#FFFFFF" />
 
+
         </LinearLayout>
     </ScrollView>
 
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="330dp"
-        android:layout_height="60dp"
-        android:layout_gravity="center"
-        android:layout_marginTop="16dp"
-        android:layout_marginBottom="16dp"
-        android:background="@drawable/button_shape2"
-        android:text="@string/show_more"
-        android:textColor="@color/white"
-        android:layout_alignParentBottom="true"
-        app:backgroundTint="@color/dracula_blue"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/scrollView2" />
+<!--    <Button-->
+<!--        android:id="@+id/button2"-->
+<!--        android:layout_width="330dp"-->
+<!--        android:layout_height="60dp"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_marginBottom="16dp"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:background="@drawable/button_shape2"-->
+<!--        android:text="@string/show_more"-->
+<!--        android:textColor="@color/white"-->
+<!--        app:backgroundTint="@color/dracula_blue"-->
+<!--        app:layout_constraintBottom_toBottomOf="@id/scrollView"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent" />-->
 
 </androidx.constraintlayout.widget.ConstraintLayout>

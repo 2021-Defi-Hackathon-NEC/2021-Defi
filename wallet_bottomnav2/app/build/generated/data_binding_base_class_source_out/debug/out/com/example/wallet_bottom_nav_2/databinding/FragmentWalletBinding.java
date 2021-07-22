@@ -6,7 +6,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.ImageView;
-import android.widget.LinearLayout;
 import android.widget.ScrollView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
@@ -29,9 +28,6 @@ public final class FragmentWalletBinding implements ViewBinding {
   public final TextView balance4;
 
   @NonNull
-  public final Button button2;
-
-  @NonNull
   public final Button buttonWallet1;
 
   @NonNull
@@ -44,10 +40,7 @@ public final class FragmentWalletBinding implements ViewBinding {
   public final ImageView imageView;
 
   @NonNull
-  public final LinearLayout linearLayout4;
-
-  @NonNull
-  public final ScrollView scrollView2;
+  public final ScrollView scrollView;
 
   @NonNull
   public final TextView textView6;
@@ -56,20 +49,17 @@ public final class FragmentWalletBinding implements ViewBinding {
   public final TextView textView7;
 
   private FragmentWalletBinding(@NonNull ConstraintLayout rootView, @NonNull TextView balance3,
-      @NonNull TextView balance4, @NonNull Button button2, @NonNull Button buttonWallet1,
-      @NonNull Button buttonWallet2, @NonNull Button buttonWallet4, @NonNull ImageView imageView,
-      @NonNull LinearLayout linearLayout4, @NonNull ScrollView scrollView2,
+      @NonNull TextView balance4, @NonNull Button buttonWallet1, @NonNull Button buttonWallet2,
+      @NonNull Button buttonWallet4, @NonNull ImageView imageView, @NonNull ScrollView scrollView,
       @NonNull TextView textView6, @NonNull TextView textView7) {
     this.rootView = rootView;
     this.balance3 = balance3;
     this.balance4 = balance4;
-    this.button2 = button2;
     this.buttonWallet1 = buttonWallet1;
     this.buttonWallet2 = buttonWallet2;
     this.buttonWallet4 = buttonWallet4;
     this.imageView = imageView;
-    this.linearLayout4 = linearLayout4;
-    this.scrollView2 = scrollView2;
+    this.scrollView = scrollView;
     this.textView6 = textView6;
     this.textView7 = textView7;
   }
@@ -113,12 +103,6 @@ public final class FragmentWalletBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.button2;
-      Button button2 = rootView.findViewById(id);
-      if (button2 == null) {
-        break missingId;
-      }
-
       id = R.id.button_wallet1;
       Button buttonWallet1 = rootView.findViewById(id);
       if (buttonWallet1 == null) {
@@ -143,15 +127,9 @@ public final class FragmentWalletBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.linearLayout4;
-      LinearLayout linearLayout4 = rootView.findViewById(id);
-      if (linearLayout4 == null) {
-        break missingId;
-      }
-
-      id = R.id.scrollView2;
-      ScrollView scrollView2 = rootView.findViewById(id);
-      if (scrollView2 == null) {
+      id = R.id.scrollView;
+      ScrollView scrollView = rootView.findViewById(id);
+      if (scrollView == null) {
         break missingId;
       }
 
@@ -167,9 +145,8 @@ public final class FragmentWalletBinding implements ViewBinding {
         break missingId;
       }
 
-      return new FragmentWalletBinding((ConstraintLayout) rootView, balance3, balance4, button2,
-          buttonWallet1, buttonWallet2, buttonWallet4, imageView, linearLayout4, scrollView2,
-          textView6, textView7);
+      return new FragmentWalletBinding((ConstraintLayout) rootView, balance3, balance4,
+          buttonWallet1, buttonWallet2, buttonWallet4, imageView, scrollView, textView6, textView7);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
