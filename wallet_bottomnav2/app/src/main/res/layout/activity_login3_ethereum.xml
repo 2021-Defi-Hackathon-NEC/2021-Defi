@@ -69,7 +69,7 @@
             android:background="@drawable/round_button"
             android:ems="10"
             android:hint="@string/enter_a_private_key"
-            android:inputType="textPassword"
+            android:inputType="text"
             android:padding="10dp"
             android:paddingStart="20dp"
             android:singleLine="false"
@@ -78,7 +78,8 @@
             app:layout_constraintHorizontal_bias="0.496"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView8"
-            app:layout_constraintVertical_bias="0.58" />
+            app:layout_constraintVertical_bias="0.58"
+            tools:ignore="TextFields" />
 
         <EditText
             android:id="@+id/editTextMnemonic"
@@ -87,7 +88,7 @@
             android:layout_marginBottom="224dp"
             android:background="@drawable/round_button"
             android:ems="10"
-            android:hint="Enter Mnemonic"
+            android:hint="@string/enter_mnemonic"
             android:inputType="textPassword"
             android:padding="10dp"
             android:paddingStart="20dp"
