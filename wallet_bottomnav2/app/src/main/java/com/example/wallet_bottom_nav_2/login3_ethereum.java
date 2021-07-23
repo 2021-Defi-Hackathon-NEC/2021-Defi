@@ -3,6 +3,7 @@ package com.example.wallet_bottom_nav_2;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.graphics.Color;
+import android.graphics.Typeface;
 import android.os.Bundle;
 import android.text.Editable;
 import android.text.TextWatcher;
@@ -18,6 +19,7 @@ public class login3_ethereum extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login3_ethereum);
         Button button4 = (Button) findViewById(R.id.button4) ;
+        editText.setTypeface(Typeface.DEFAULT);
 
         editText.addTextChangedListener(new TextWatcher() {
             @Override
