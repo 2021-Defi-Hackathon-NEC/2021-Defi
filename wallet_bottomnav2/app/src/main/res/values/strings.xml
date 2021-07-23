@@ -60,7 +60,7 @@
     <string name="btc_wallet">BTC Wallet</string>
     <string name="eth_wallet">ETH Wallet</string>
     <string name="wallet_address">Wallet Address</string>
-    <string name="hash_1">0xbe80ceed72e1798c ... 11367abd7f836f</string>
+    <string name="hash_1">0xbe80ceed72e1798c11367abd7f836f</string>
     <string name="taebit_wallet">TAEBIT\nWALLET</string>
     <string name="enter_a_private_key">Enter a Private Key</string>
     <string name="enter_mnemonic">Enter Mnemonic</string>
@@ -73,6 +73,27 @@
     <string name="select_chain2">Select Chain</string>
     <string name="add_plus">Add+</string>
     <string name="well_done">Well Done !</string>
+    <string name="hash_2">001d3f1ef827552ae1114027bd3ecf1f086ba0f9</string>
+    <string name="hash_3">1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa</string>
+    <string name="ethereum">Ethereum</string>
+    <string name="bitcoin">Bitcoin</string>
+    <string name="balancer">Balancer</string>
+    <string name="nec">NEC</string>
+    <string name="taebit">Taebit</string>
+    <string name="confirm">Confirm</string>
+    <string name="send_crypto">Send Crypto</string>
+    <string name="add_contract">Add\nContract</string>
+    <string name="geniee">Geniee</string>
+    <string name="hhkim">hhkim</string>
+    <string name="select_crypto">Select Crypto</string>
+    <string name="btc">BTC</string>
+    <string name="eth">ETH</string>
+    <string name="set_the_amount">Set the Amount</string>
+    <string name="jimmim">jimmim</string>
+    <string name="zoo1">zoo1</string>
+    <string name="chaerin">chaerin</string>
+    <string name="bal">BAL</string>
+    <string name="klay">KLAY</string>
 
 
 </resources>

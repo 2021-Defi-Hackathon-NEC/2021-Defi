@@ -89,6 +89,23 @@
                         "endColumns": "99,101",
                         "endOffsets": "8088,8190"
                     }
+                },
+                {
+                    "source": "C:\\Users\\User PC\\.gradle\\caches\\transforms-2\\files-2.1\\e99aa0dee2f9d2caf53bae7686ca9a34\\jetified-zxing-android-embedded-3.4.0\\res\\values-ko\\values-ko.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,106,153,260",
+                        "endColumns": "50,46,106,71",
+                        "endOffsets": "101,148,255,327"
+                    },
+                    "to": {
+                        "startLines": "104,105,106,107",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "8447,8498,8545,8652",
+                        "endColumns": "50,46,106,71",
+                        "endOffsets": "8493,8540,8647,8719"
+                    }
                 }
             ]
         }

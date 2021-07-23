@@ -28,6 +28,9 @@ public final class FragmentWalletBinding implements ViewBinding {
   public final TextView balance4;
 
   @NonNull
+  public final Button buttonShowMore;
+
+  @NonNull
   public final Button buttonWallet1;
 
   @NonNull
@@ -49,12 +52,13 @@ public final class FragmentWalletBinding implements ViewBinding {
   public final TextView textView7;
 
   private FragmentWalletBinding(@NonNull ConstraintLayout rootView, @NonNull TextView balance3,
-      @NonNull TextView balance4, @NonNull Button buttonWallet1, @NonNull Button buttonWallet2,
-      @NonNull Button buttonWallet4, @NonNull ImageView imageView, @NonNull ScrollView scrollView,
-      @NonNull TextView textView6, @NonNull TextView textView7) {
+      @NonNull TextView balance4, @NonNull Button buttonShowMore, @NonNull Button buttonWallet1,
+      @NonNull Button buttonWallet2, @NonNull Button buttonWallet4, @NonNull ImageView imageView,
+      @NonNull ScrollView scrollView, @NonNull TextView textView6, @NonNull TextView textView7) {
     this.rootView = rootView;
     this.balance3 = balance3;
     this.balance4 = balance4;
+    this.buttonShowMore = buttonShowMore;
     this.buttonWallet1 = buttonWallet1;
     this.buttonWallet2 = buttonWallet2;
     this.buttonWallet4 = buttonWallet4;
@@ -103,6 +107,12 @@ public final class FragmentWalletBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.button_show_more;
+      Button buttonShowMore = rootView.findViewById(id);
+      if (buttonShowMore == null) {
+        break missingId;
+      }
+
       id = R.id.button_wallet1;
       Button buttonWallet1 = rootView.findViewById(id);
       if (buttonWallet1 == null) {
@@ -146,7 +156,8 @@ public final class FragmentWalletBinding implements ViewBinding {
       }
 
       return new FragmentWalletBinding((ConstraintLayout) rootView, balance3, balance4,
-          buttonWallet1, buttonWallet2, buttonWallet4, imageView, scrollView, textView6, textView7);
+          buttonShowMore, buttonWallet1, buttonWallet2, buttonWallet4, imageView, scrollView,
+          textView6, textView7);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

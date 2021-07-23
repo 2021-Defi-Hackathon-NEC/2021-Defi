@@ -4,6 +4,23 @@
             "outputFile": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-pl\\values-pl.xml",
             "map": [
                 {
+                    "source": "C:\\Users\\User PC\\.gradle\\caches\\transforms-2\\files-2.1\\e99aa0dee2f9d2caf53bae7686ca9a34\\jetified-zxing-android-embedded-3.4.0\\res\\values-pl\\values-pl.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,114,161,325",
+                        "endColumns": "58,46,163,109",
+                        "endOffsets": "109,156,320,430"
+                    },
+                    "to": {
+                        "startLines": "106,107,108,109",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "9440,9499,9546,9710",
+                        "endColumns": "58,46,163,109",
+                        "endOffsets": "9494,9541,9705,9815"
+                    }
+                },
+                {
                     "source": "C:\\Users\\User PC\\.gradle\\caches\\transforms-2\\files-2.1\\cc5e9dcdc56dc39042f72c501235e83f\\core-1.5.0\\res\\values-pl\\values-pl.xml",
                     "from": {
                         "startLines": "2",

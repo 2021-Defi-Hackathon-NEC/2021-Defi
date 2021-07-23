@@ -54,6 +54,7 @@
             android:text="@string/okay_no_problem"
             android:textColor="@color/white"
             android:textSize="20sp"
+            android:onClick="clickBtn_login3"
             app:backgroundTint="@color/dracula_red"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"

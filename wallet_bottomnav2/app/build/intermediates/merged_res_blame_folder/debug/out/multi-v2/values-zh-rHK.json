@@ -21,6 +21,23 @@
                     }
                 },
                 {
+                    "source": "C:\\Users\\User PC\\.gradle\\caches\\transforms-2\\files-2.1\\e99aa0dee2f9d2caf53bae7686ca9a34\\jetified-zxing-android-embedded-3.4.0\\res\\values-zh-rHK\\values-zh-rHK.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,104,151,244",
+                        "endColumns": "48,46,92,69",
+                        "endOffsets": "99,146,239,309"
+                    },
+                    "to": {
+                        "startLines": "104,105,106,107",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "8243,8292,8339,8432",
+                        "endColumns": "48,46,92,69",
+                        "endOffsets": "8287,8334,8427,8497"
+                    }
+                },
+                {
                     "source": "C:\\Users\\User PC\\.gradle\\caches\\transforms-2\\files-2.1\\b05c18cc156f99dba6d1f8294d86c7de\\biometric-1.2.0-alpha03\\res\\values-zh-rHK\\values-zh-rHK.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14",

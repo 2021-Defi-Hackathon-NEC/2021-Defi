@@ -43,7 +43,7 @@ public class login3_ethereum extends AppCompatActivity {
         spinnerImages = new int[]{R.drawable.bitcoin
                 , R.drawable.ethereum
                 , R.drawable.ethereum_classic
-              h  , R.drawable.binance
+                , R.drawable.binance
                 , R.drawable.link};
 
         CustomSpinnerAdapter customSpinnerAdapter = new CustomSpinnerAdapter(login3_ethereum.this, spinnerNames, spinnerImages);
@@ -64,11 +64,11 @@ public class login3_ethereum extends AppCompatActivity {
         ActionBar actionbar = getSupportActionBar();
         actionbar.hide();
 
-        //Button 추가 코드
+        // Button 추가 코드
         Button addButton = (Button) findViewById(R.id.addButton) ;
         Mnemonic.setTypeface(Typeface.DEFAULT);
 
-        //Button invisible
+        // Button invisible
         addButton.setVisibility(View.GONE);
         addButton.setClickable(false);
         Mnemonic.setVisibility(View.GONE);
@@ -76,7 +76,7 @@ public class login3_ethereum extends AppCompatActivity {
         nextButton.setVisibility(View.GONE);
         nextButton.setClickable(false);
 
-        //Ethereum Mnemonic
+        // Ethereum Mnemonic
         ArrayAdapter<String> coinAdapter = new ArrayAdapter<>(this, simple_spinner_item, spinnerNames);
         coinAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
 
@@ -124,9 +124,9 @@ public class login3_ethereum extends AppCompatActivity {
             }
         });
 
-        //한희님 여기예요
-        //여기 고칠거 많아요
-        //주목해주세요
+//        한희님 여기예요
+//        여기 고칠거 많아요
+//        주목해주세요
         nextButton.setOnClickListener(new View.OnClickListener(){
 
             @Override

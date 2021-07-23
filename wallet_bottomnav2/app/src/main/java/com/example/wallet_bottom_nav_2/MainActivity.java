@@ -16,6 +16,8 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.wallet_bottom_nav_2.ui.wallet.BALWalletFragment;
+import com.example.wallet_bottom_nav_2.ui.wallet.WalletFragment;
+import com.example.wallet_bottom_nav_2.ui.wallet.WalletViewModel;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 import androidx.appcompat.app.ActionBar;
@@ -66,6 +68,14 @@ public class MainActivity extends AppCompatActivity {
                 intent = new Intent(this, wallet_ETH.class);
                 startActivity(intent);
                 break;
+            case R.id.button_show_more: // Show More
+                intent = new Intent(this, wallet_coins.class);
+                startActivity(intent);
+                break;
+//            case R.id.button_confirm: // Confirm
+//                intent = new Intent(this, WalletFragment.class);
+//                startActivity(intent);
+//                break;
             default:
                 break;
         }

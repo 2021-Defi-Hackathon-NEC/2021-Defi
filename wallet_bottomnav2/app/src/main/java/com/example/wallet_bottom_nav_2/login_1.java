@@ -28,4 +28,10 @@ public class login_1 extends AppCompatActivity {
             }
         });
     }
+
+//    public void clickBtn_login3(View view){
+////        Intent intent = new Intent(getApplicationContext(), login3_ethereum.class);
+//        Intent intent = new Intent(this, login3_ethereum.class);
+//        startActivity(intent);
+//    }
 }
