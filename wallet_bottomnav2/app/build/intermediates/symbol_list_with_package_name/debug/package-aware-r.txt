@@ -2459,7 +2459,6 @@ layout abc_tooltip
 layout activity_auth_pincode
 layout activity_before_main
 layout activity_login1
-layout activity_login2
 layout activity_login3_ethereum
 layout activity_login_popup_error
 layout activity_login_popup_great
