@@ -39,7 +39,7 @@
             android:background="@drawable/round_button"
             android:hint="Select Chain"
             android:spinnerMode="dropdown"
-            app:layout_constraintBottom_toTopOf="@+id/button4"
+            app:layout_constraintBottom_toTopOf="@+id/nextButton"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.497"
             app:layout_constraintStart_toStartOf="parent"
@@ -69,7 +69,7 @@
             tools:ignore="TextFields" />
 
         <EditText
-            android:id="@+id/editTextMnemonic"
+            android:id="@+id/Mnemonic"
             android:layout_width="270dp"
             android:layout_height="50dp"
             android:layout_marginBottom="224dp"
@@ -98,11 +98,11 @@
             android:textSize="18sp"
             android:textColor="@color/white"
             android:gravity="center"
-            app:layout_constraintBottom_toBottomOf="@+id/editTextMnemonic"
-            app:layout_constraintEnd_toEndOf="@+id/editTextMnemonic"
+            app:layout_constraintBottom_toBottomOf="@+id/Mnemonic"
+            app:layout_constraintEnd_toEndOf="@+id/Mnemonic"
             app:layout_constraintHorizontal_bias="0.945"
-            app:layout_constraintStart_toStartOf="@+id/editTextMnemonic"
-            app:layout_constraintTop_toTopOf="@+id/editTextMnemonic" />
+            app:layout_constraintStart_toStartOf="@+id/Mnemonic"
+            app:layout_constraintTop_toTopOf="@+id/Mnemonic" />
 
         <TextView
             android:id="@+id/textView25"
