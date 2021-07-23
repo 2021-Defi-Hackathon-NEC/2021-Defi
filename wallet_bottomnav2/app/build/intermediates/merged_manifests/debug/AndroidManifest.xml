@@ -32,9 +32,17 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.example.wallet_bottom_nav_2.login_popup_great" >
+        <activity
+            android:name="com.example.wallet_bottom_nav_2.login_popup_great"
+            android:screenOrientation="portrait"
+            android:theme="@style/PopupTheme" >
         </activity>
-        <activity android:name="com.example.wallet_bottom_nav_2.login_popup_error" />
+        <activity
+            android:name="com.example.wallet_bottom_nav_2.login_popup_error"
+            android:screenOrientation="portrait"
+            android:theme="@style/PopupTheme" >
+        </activity>
+
         <!-- <activity android:name=".login3_ethereum" /> -->
         <activity android:name="com.example.wallet_bottom_nav_2.wallet_ETH" />
         <activity android:name="com.example.wallet_bottom_nav_2.wallet_BTC" />

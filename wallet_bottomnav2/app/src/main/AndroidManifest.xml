@@ -22,10 +22,17 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".login_popup_great">
-
+        <activity
+            android:name=".login_popup_great"
+            android:theme="@style/PopupTheme" android:screenOrientation="portrait">
         </activity>
-        <activity android:name=".login_popup_error" />
+
+        <activity
+            android:name=".login_popup_error"
+            android:theme="@style/PopupTheme" android:screenOrientation="portrait">
+        </activity>
+
+
 <!--        <activity android:name=".login3_ethereum" />-->
         <activity android:name=".wallet_ETH" />
         <activity android:name=".wallet_BTC" />

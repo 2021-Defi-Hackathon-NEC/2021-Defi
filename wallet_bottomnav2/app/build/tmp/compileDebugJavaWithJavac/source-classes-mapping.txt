@@ -33,6 +33,19 @@ com/example/wallet_bottom_nav_2/login3_ethereum.java
  com.example.wallet_bottom_nav_2.login3_ethereum
  com.example.wallet_bottom_nav_2.login3_ethereum$1
  com.example.wallet_bottom_nav_2.login3_ethereum$2
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+ com.example.wallet_bottom_nav_2.login3_ethereum$2$1
+ com.example.wallet_bottom_nav_2.login3_ethereum$3
+=======
+<<<<<<< HEAD
+com/example/wallet_bottom_nav_2/data/model/LoggedInUser.java
+ com.example.wallet_bottom_nav_2.data.model.LoggedInUser
+=======
+>>>>>>> b1f58d8e0f8402439758aa9ce9208f2f4581129c
+>>>>>>> ef51d26241fb0e1d1978fe59dea08bcba118c95a
+>>>>>>> 5c42336d48e803fea6e43827c7e43fb7a4bb5449
 com/example/wallet_bottom_nav_2/auth_pincode.java
  com.example.wallet_bottom_nav_2.auth_pincode
  com.example.wallet_bottom_nav_2.auth_pincode$1
