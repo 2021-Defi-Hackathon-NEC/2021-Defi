@@ -105,19 +105,4 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent" />
 
-    <ImageButton
-        android:id="@+id/imageButton3"
-        android:layout_width="36dp"
-        android:layout_height="36dp"
-        android:layout_marginStart="30dp"
-        android:layout_marginTop="16dp"
-        android:background="@drawable/button_shape4"
-        android:elevation="2dp"
-        android:onClick="clickBtn_toast_msg"
-        app:layout_constraintBottom_toTopOf="@+id/textView12"
-        app:layout_constraintEnd_toEndOf="@+id/view2"
-        app:layout_constraintStart_toEndOf="@+id/textView11"
-        app:layout_constraintTop_toBottomOf="@+id/imageView5"
-        app:srcCompat="@drawable/ic_refresh_black" />
-
 </androidx.constraintlayout.widget.ConstraintLayout>
