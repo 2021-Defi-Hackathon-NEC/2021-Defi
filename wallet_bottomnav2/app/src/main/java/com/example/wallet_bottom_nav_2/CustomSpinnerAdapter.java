@@ -4,7 +4,6 @@ import android.content.Context;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import android.media.Image;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -17,7 +16,7 @@ public class CustomSpinnerAdapter extends ArrayAdapter<String>{
     int[] spinnerImages;
     Context mContext;
 
-    public CustomSpinnerAdapter(@NonNull login_2 context, String[] titles, int[] images) {
+    public CustomSpinnerAdapter(@NonNull login3_ethereum context, String[] titles, int[] images) {
         super(context, R.layout.spinner_row);
         this.spinnerCoins = titles;
         this.spinnerImages = images;
