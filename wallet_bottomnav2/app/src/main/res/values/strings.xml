@@ -70,7 +70,9 @@
     <string name="today_s_recommendation">Today\'s Recommendation</string>
     <string name="market_price">Market Price</string>
     <string name="see_more">See more</string>
-    <string name="enter_mnemonic">Enter Mnemonic</string>
+    <string name="select_chain2">Select Chain</string>
+    <string name="add_plus">Add+</string>
+    <string name="well_done">Well Done !</string>
 
 
 </resources>
