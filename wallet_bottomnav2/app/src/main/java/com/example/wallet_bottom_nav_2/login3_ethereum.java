@@ -12,17 +12,17 @@ import android.widget.Button;
 import android.widget.EditText;
 
 public class login3_ethereum extends AppCompatActivity {
-    private EditText editText;
+    private EditText editTextMnemonic;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login3_ethereum);
-        Button button4 = (Button) findViewById(R.id.button4) ;
-        editText.setTypeface(Typeface.DEFAULT);
-        button4.setVisibility(View.GONE);
-        button4.setClickable(false);
-        editText.addTextChangedListener(new TextWatcher() {
+        Button addButton = (Button) findViewById(R.id.addButton) ;
+        editTextMnemonic.setTypeface(Typeface.DEFAULT);
+        addButton.setVisibility(View.GONE);
+        addButton.setClickable(false);
+        editTextMnemonic.addTextChangedListener(new TextWatcher() {
             @Override
             public void beforeTextChanged(CharSequence charSequence, int i, int i1, int i2) {
 
@@ -36,10 +36,10 @@ public class login3_ethereum extends AppCompatActivity {
             @Override
             public void afterTextChanged(Editable editable) {
                 if (editable.length() > 3) {
-                    button4.setVisibility(View.VISIBLE);
-                    button4.setClickable(true);
+                    addButton.setVisibility(View.VISIBLE);
+                    addButton.setClickable(true);
                 } else {
-                    button4.setClickable(false);
+                    addButton.setClickable(false);
                 }
             }
         });
