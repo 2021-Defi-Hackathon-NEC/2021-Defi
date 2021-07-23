@@ -1,12 +1,18 @@
 package com.example.wallet_bottom_nav_2;
 
 import android.annotation.SuppressLint;
+import android.content.ClipData;
+import android.content.ClipboardManager;
+import static android.content.Context.CLIPBOARD_SERVICE;
+
+import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.wallet_bottom_nav_2.ui.wallet.BALWalletFragment;
@@ -82,6 +88,24 @@ public class MainActivity extends AppCompatActivity {
 
         }
     }
+
+    // 클립보드에 복사
+
+//    public void clickBtn_clipboard_copy(View view){
+//        switch(view.getId()){
+//            case R.id.textView12:
+//                TextView title1 = (TextView) findViewById(R.id.textView12);
+//                // Gets a handle to the clipboard service.
+//                ClipboardManager clipboard = (ClipboardManager)getSystemService(Context.CLIPBOARD_SERVICE);
+//                // Creates a new text clip to put on the clipboard
+//                ClipData clip = ClipData.newPlainText("simple text", title1.getText().toString());
+//                Toast.makeText(getApplicationContext(), "Copied!", Toast.LENGTH_SHORT).show();
+//                // Set the clipboard's primary clip.
+//                clipboard.setPrimaryClip(clip);
+//        }
+//    }
+
+    // if the user selects copy
 
 
         // setOnClickListener에서 (혹은 intent 생성 시 onClick에서) NullPointerException 에러가 발생해서 주석 처리함
