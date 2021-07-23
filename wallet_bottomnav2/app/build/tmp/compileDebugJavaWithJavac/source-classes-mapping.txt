@@ -33,6 +33,8 @@ com/example/wallet_bottom_nav_2/login3_ethereum.java
  com.example.wallet_bottom_nav_2.login3_ethereum
  com.example.wallet_bottom_nav_2.login3_ethereum$1
  com.example.wallet_bottom_nav_2.login3_ethereum$2
+ com.example.wallet_bottom_nav_2.login3_ethereum$2$1
+ com.example.wallet_bottom_nav_2.login3_ethereum$3
 com/example/wallet_bottom_nav_2/auth_pincode.java
  com.example.wallet_bottom_nav_2.auth_pincode
  com.example.wallet_bottom_nav_2.auth_pincode$1

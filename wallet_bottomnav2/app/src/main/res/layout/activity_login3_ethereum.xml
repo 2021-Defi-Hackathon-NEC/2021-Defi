@@ -47,7 +47,7 @@
             app:layout_constraintVertical_bias="0.101" />
 
         <EditText
-            android:id="@+id/editTextTextPassword"
+            android:id="@+id/editPrivate"
             android:layout_width="270dp"
             android:layout_height="50dp"
             android:layout_marginBottom="224dp"
@@ -80,7 +80,7 @@
             android:padding="10dp"
             android:paddingStart="20dp"
             android:textColor="#B3000000"
-            android:textSize="18sp"
+            android:textSize="20sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.503"
@@ -109,7 +109,7 @@
             android:layout_width="270dp"
             android:layout_height="50dp"
             android:background="@drawable/round_button"
-            android:backgroundTint="@color/grey"
+            android:backgroundTint="#B3D53A3A"
             android:gravity="center"
             android:text="@string/not_yet"
             android:textColor="#B3000000"
@@ -118,7 +118,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.496"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword"
+            app:layout_constraintTop_toBottomOf="@+id/editPrivate"
             app:layout_constraintVertical_bias="0.64" />
 
         <Button
@@ -135,7 +135,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.496"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword"
+            app:layout_constraintTop_toBottomOf="@+id/editPrivate"
             app:layout_constraintVertical_bias="0.64" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>

@@ -6743,6 +6743,9 @@
         <item name="android:textColor">@android:color/black</item>
     </style><style name="ButtonClicked">
         <item name="colorControlHighlight">@color/purple_200</item>
+    </style><style name="PopupTheme" parent="Theme.AppCompat.DayNight.Dialog">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
     </style></file><file path="C:\Users\geeni\Desktop\2021-Defi\wallet_bottomnav2\app\src\main\res\values\themes.xml" qualifiers=""><style name="Theme.Wallet_bottomnav2" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         
         
