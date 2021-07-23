@@ -29,6 +29,10 @@
         </activity>
         <activity android:name="com.example.wallet_bottom_nav_2.login3_ethereum" >
         </activity>
+        <activity android:name="com.example.wallet_bottom_nav_2.login_popup_great" >
+        </activity>
+        <activity android:name="com.example.wallet_bottom_nav_2.login_popup_error" />
+        <!-- <activity android:name=".login3_ethereum" /> -->
         <activity android:name="com.example.wallet_bottom_nav_2.wallet_ETH" />
         <activity android:name="com.example.wallet_bottom_nav_2.wallet_BTC" />
         <activity

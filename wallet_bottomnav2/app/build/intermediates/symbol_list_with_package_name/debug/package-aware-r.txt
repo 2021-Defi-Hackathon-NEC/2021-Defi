@@ -1754,6 +1754,7 @@ drawable abc_vector_test
 drawable avd_hide_password
 drawable avd_show_password
 drawable background_pf
+drawable binance
 drawable bitcoin
 drawable bottom_navigation_selector
 drawable btn_checkbox_checked_mtrl
@@ -1781,6 +1782,8 @@ drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
 drawable dracula_gradient
+drawable ethereum
+drawable ethereum_classic
 drawable fingerprint_dialog_error
 drawable fingerprint_dialog_fp_icon
 drawable fingerprint_lockscreen_pf
@@ -1804,6 +1807,7 @@ drawable ic_notifications_black_24dp
 drawable ic_refresh_black
 drawable ic_setting_black
 drawable ic_user_grey
+drawable link
 drawable material_cursor_drawable
 drawable material_ic_calendar_black_24dp
 drawable material_ic_clear_black_24dp
@@ -1946,8 +1950,10 @@ id blocking
 id bottom
 id bounce
 id button
+id button3
 id button4
 id button5
+id button6
 id buttonPanel
 id button_0
 id button_1
@@ -2310,9 +2316,12 @@ id textView17
 id textView18
 id textView19
 id textView2
+id textView20
 id textView21
 id textView22
 id textView23
+id textView24
+id textView25
 id textView3
 id textView4
 id textView5
@@ -2449,6 +2458,8 @@ layout activity_before_main
 layout activity_login1
 layout activity_login2
 layout activity_login3_ethereum
+layout activity_login_popup_error
+layout activity_login_popup_great
 layout activity_main
 layout activity_wallet_btc
 layout activity_wallet_eth
@@ -2585,6 +2596,7 @@ string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
 string action_sign_in
 string action_sign_in_short
+string add_plus
 string app_name
 string app_name_pf
 string appbar_scrolling_view_behavior
@@ -2716,6 +2728,7 @@ string received
 string search_menu_title
 string see_more
 string select_chain
+string select_chain2
 string settings
 string settings_pf
 string show_more
@@ -2741,6 +2754,7 @@ string use_pin_pf
 string wallet_address
 string welcome
 string welcome1
+string well_done
 string your_accounts
 string your_balance_here
 string your_total_crypto_assets

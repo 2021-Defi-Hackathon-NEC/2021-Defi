@@ -19,11 +19,13 @@ public class wallet_BTC extends AppCompatActivity {
         actionBar.setTitle("BTC Wallet");
     }
 
-    public void clickBtn_toast_msg(View view){
-        switch(view.getId()){
-            case R.id.imageButton2: // BTC_Wallet refresh
-                Toast.makeText(getApplicationContext(), "Refreshed", Toast.LENGTH_SHORT).show();
-                break;
-        }
-    }
+
+
+//    public void clickBtn_toast_msg(View view){
+//        switch(view.getId()){
+//            case R.id.imageButton2: // BTC_Wallet refresh
+//                Toast.makeText(getApplicationContext(), "Refreshed", Toast.LENGTH_SHORT).show();
+//                break;
+//        }
+//    }
 }
