@@ -20,7 +20,8 @@ public class login3_ethereum extends AppCompatActivity {
         setContentView(R.layout.activity_login3_ethereum);
         Button button4 = (Button) findViewById(R.id.button4) ;
         editText.setTypeface(Typeface.DEFAULT);
-
+        button4.setVisibility(View.GONE);
+        button4.setClickable(false);
         editText.addTextChangedListener(new TextWatcher() {
             @Override
             public void beforeTextChanged(CharSequence charSequence, int i, int i1, int i2) {
@@ -35,11 +36,10 @@ public class login3_ethereum extends AppCompatActivity {
             @Override
             public void afterTextChanged(Editable editable) {
                 if (editable.length() > 3) {
+                    button4.setVisibility(View.VISIBLE);
                     button4.setClickable(true);
-                    button4.setBackgroundColor(Color.BLUE);
                 } else {
                     button4.setClickable(false);
-                    button4.setBackgroundColor(Color.GRAY);
                 }
             }
         });

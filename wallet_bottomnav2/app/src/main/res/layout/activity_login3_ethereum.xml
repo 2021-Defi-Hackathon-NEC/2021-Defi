@@ -32,23 +32,6 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
-        <Button
-            android:id="@+id/button4"
-            android:layout_width="270dp"
-            android:layout_height="50dp"
-            android:background="@drawable/round_button"
-            android:text="@string/not_yet"
-            android:textSize="20sp"
-            android:textColor="@color/white"
-            android:gravity="center"
-            android:backgroundTint="@color/dracula_red"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.496"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword"
-            app:layout_constraintVertical_bias="0.64" />
-
         <Spinner
             android:id="@+id/spinner_coins"
             android:layout_width="270dp"
@@ -120,6 +103,40 @@
             app:layout_constraintHorizontal_bias="0.945"
             app:layout_constraintStart_toStartOf="@+id/editTextMnemonic"
             app:layout_constraintTop_toTopOf="@+id/editTextMnemonic" />
+
+        <TextView
+            android:id="@+id/textView25"
+            android:layout_width="270dp"
+            android:layout_height="50dp"
+            android:background="@drawable/round_button"
+            android:backgroundTint="@color/grey"
+            android:gravity="center"
+            android:text="Not yet"
+            android:textColor="#B3000000"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword"
+            app:layout_constraintVertical_bias="0.64" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="270dp"
+            android:layout_height="50dp"
+            android:background="@drawable/round_button"
+            android:text="Well Done !"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:backgroundTint="@color/dracula_red"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword"
+            app:layout_constraintVertical_bias="0.64" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
     <LinearLayout
