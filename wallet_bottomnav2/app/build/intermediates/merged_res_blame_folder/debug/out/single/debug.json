@@ -16,16 +16,26 @@
         "source": "C:\\Users\\geeni\\Desktop\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\drawable-mdpi\\ic_3dots_black.png"
     },
     {
+<<<<<<< HEAD
+        "merged": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+=======
         "merged": "C:\\Users\\geeni\\Desktop\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_user_grey.png.flat",
         "source": "C:\\Users\\geeni\\Desktop\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\drawable-xxhdpi\\ic_user_grey.png"
+>>>>>>> b1f58d8e0f8402439758aa9ce9208f2f4581129c
     },
     {
         "merged": "C:\\Users\\geeni\\Desktop\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_before_main.xml.flat",
         "source": "C:\\Users\\geeni\\Desktop\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\layout\\activity_before_main.xml"
     },
     {
+<<<<<<< HEAD
+        "merged": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_exchange_black.png.flat",
+        "source": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\drawable-xxhdpi\\ic_exchange_black.png"
+=======
         "merged": "C:\\Users\\geeni\\Desktop\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_exchange_black.png.flat",
         "source": "C:\\Users\\geeni\\Desktop\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_exchange_black.png"
+>>>>>>> b1f58d8e0f8402439758aa9ce9208f2f4581129c
     },
     {
         "merged": "C:\\Users\\geeni\\Desktop\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_refresh_black.png.flat",
@@ -68,8 +78,17 @@
         "source": "C:\\Users\\geeni\\Desktop\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_3dots_black.png"
     },
     {
+<<<<<<< HEAD
+        "merged": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_logo.PNG.flat",
+        "source": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\drawable-hdpi\\logo.PNG"
+    },
+    {
+        "merged": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+=======
         "merged": "C:\\Users\\geeni\\Desktop\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_background.xml.flat",
         "source": "C:\\Users\\geeni\\Desktop\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+>>>>>>> b1f58d8e0f8402439758aa9ce9208f2f4581129c
     },
     {
         "merged": "C:\\Users\\geeni\\Desktop\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
