@@ -26,12 +26,12 @@ public class login_2 extends AppCompatActivity {
 
         spinner_coins = (Spinner)findViewById(R.id.spinner_coins);
 
-        spinnerNames = new String[]{"Ethereum", "Bitcoin", "Ethereum Classic", "Persistence", "Solana"};
+        spinnerNames = new String[]{"Bitcoin", "Ethereum", "Ethereum Classic", "Binance coin", "ChainLink"};
         spinnerImages = new int[]{R.drawable.bitcoin
-            , R.drawable.bitcoin
-            , R.drawable.bitcoin
-            , R.drawable.bitcoin
-            , R.drawable.bitcoin};
+            , R.drawable.ethereum
+            , R.drawable.ethereum_classic
+            , R.drawable.binance
+            , R.drawable.link};
 
         CustomSpinnerAdapter customSpinnerAdapter = new CustomSpinnerAdapter(login_2.this, spinnerNames, spinnerImages);
         spinner_coins.setAdapter(customSpinnerAdapter);
