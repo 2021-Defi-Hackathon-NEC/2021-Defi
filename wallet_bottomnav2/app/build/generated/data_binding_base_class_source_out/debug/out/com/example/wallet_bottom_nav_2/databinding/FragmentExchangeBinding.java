@@ -4,6 +4,7 @@ package com.example.wallet_bottom_nav_2.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.EditText;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -19,11 +20,15 @@ public final class FragmentExchangeBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
+  public final EditText editTextTextPersonName;
+
+  @NonNull
   public final TextView textExchange;
 
   private FragmentExchangeBinding(@NonNull ConstraintLayout rootView,
-      @NonNull TextView textExchange) {
+      @NonNull EditText editTextTextPersonName, @NonNull TextView textExchange) {
     this.rootView = rootView;
+    this.editTextTextPersonName = editTextTextPersonName;
     this.textExchange = textExchange;
   }
 
@@ -54,13 +59,20 @@ public final class FragmentExchangeBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.editTextTextPersonName;
+      EditText editTextTextPersonName = rootView.findViewById(id);
+      if (editTextTextPersonName == null) {
+        break missingId;
+      }
+
       id = R.id.text_exchange;
       TextView textExchange = rootView.findViewById(id);
       if (textExchange == null) {
         break missingId;
       }
 
-      return new FragmentExchangeBinding((ConstraintLayout) rootView, textExchange);
+      return new FragmentExchangeBinding((ConstraintLayout) rootView, editTextTextPersonName,
+          textExchange);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

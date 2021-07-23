@@ -39,7 +39,7 @@ public class BALWalletFragment extends AppCompatActivity {
 
     public void clickBtn_clipboard_copy(View view){
         switch(view.getId()){
-            case R.id.textView12:
+            case R.id.button5: // copy button
                 TextView title1 = (TextView) findViewById(R.id.textView12);
                 // Gets a handle to the clipboard service.
                 ClipboardManager clipboard = (ClipboardManager)getSystemService(Context.CLIPBOARD_SERVICE);
@@ -48,6 +48,12 @@ public class BALWalletFragment extends AppCompatActivity {
                 Toast.makeText(getApplicationContext(), "Copied!", Toast.LENGTH_SHORT).show();
                 // Set the clipboard's primary clip.
                 clipboard.setPrimaryClip(clip);
+
+                // 클립보드에서 붙여넣기
+                clipboard = (ClipboardManager) getSystemService(Context.CLIPBOARD_SERVICE);
+                String pasteData = "";
+
+
         }
     }
 }

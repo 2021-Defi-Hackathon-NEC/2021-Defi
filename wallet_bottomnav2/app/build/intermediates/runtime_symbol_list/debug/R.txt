@@ -1860,6 +1860,7 @@ int id BOTTOM_START 0x7f090002
 int id CTRL 0x7f090003
 int id FUNCTION 0x7f090004
 int id META 0x7f090005
+int id Mnemonic 0x7f090213
 int id NO_DEBUG 0x7f090006
 int id SHIFT 0x7f090007
 int id SHOW_ALL 0x7f090008
@@ -2038,8 +2039,8 @@ int id dropdown_menu 0x7f0900b4
 int id easeIn 0x7f0900b5
 int id easeInOut 0x7f0900b6
 int id easeOut 0x7f0900b7
-int id editTextMnemonic 0x7f0900b8
 int id editTextTextPassword 0x7f0900b9
+int id editTextTextPersonName 0x7f090214
 int id edit_query 0x7f0900ba
 int id elastic 0x7f0900bb
 int id end 0x7f0900bc
