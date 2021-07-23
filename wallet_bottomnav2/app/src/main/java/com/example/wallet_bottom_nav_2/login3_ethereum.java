@@ -55,7 +55,7 @@ public class login3_ethereum extends AppCompatActivity {
         ActionBar actionbar = getSupportActionBar();
         actionbar.hide();
 
-
+        //Button 추가 코드
         Button addButton = (Button) findViewById(R.id.addButton) ;
         Mnemonic.setTypeface(Typeface.DEFAULT);
 

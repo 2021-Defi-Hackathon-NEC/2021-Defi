@@ -23,7 +23,7 @@ public class login_1 extends AppCompatActivity {
 
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(), login_2.class);
+                Intent intent = new Intent(getApplicationContext(), login3_ethereum.class);
                 startActivity(intent);
             }
         });

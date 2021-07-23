@@ -14,9 +14,6 @@
         <activity android:name=".login_1">
 
         </activity>
-        <activity android:name=".login_2">
-
-        </activity>
         <activity android:name=".login3_ethereum">
 
         </activity>
