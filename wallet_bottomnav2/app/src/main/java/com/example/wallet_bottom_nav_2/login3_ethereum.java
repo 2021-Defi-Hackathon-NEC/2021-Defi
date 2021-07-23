@@ -34,7 +34,7 @@ public class login3_ethereum extends AppCompatActivity {
         spinnerImages = new int[]{R.drawable.bitcoin
                 , R.drawable.ethereum
                 , R.drawable.ethereum_classic
-                , R.drawable.binance
+              h  , R.drawable.binance
                 , R.drawable.link};
 
         CustomSpinnerAdapter customSpinnerAdapter = new CustomSpinnerAdapter(login3_ethereum.this, spinnerNames, spinnerImages);

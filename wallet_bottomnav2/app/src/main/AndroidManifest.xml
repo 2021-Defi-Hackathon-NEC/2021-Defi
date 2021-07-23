@@ -15,7 +15,11 @@
 
         </activity>
         <activity android:name=".login3_ethereum">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
 
         <activity android:name=".login_popup_great">
@@ -30,11 +34,7 @@
             android:theme="@style/PinTheme" />
 
         <activity android:name=".before_main">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
 <!--        <activity-->
 <!--            android:name=".ui.login.LoginActivity"-->
