@@ -1924,6 +1924,7 @@ id action_text
 id actions
 id activity_chooser_view_content
 id add
+id addButton
 id alertTitle
 id aligned
 id all
@@ -1949,7 +1950,6 @@ id beginning
 id blocking
 id bottom
 id bounce
-id button
 id button3
 id button4
 id button5
@@ -2187,6 +2187,7 @@ id navigation_home
 id navigation_notifications
 id navigation_wallet
 id never
+id nextButton
 id noScroll
 id none
 id normal
