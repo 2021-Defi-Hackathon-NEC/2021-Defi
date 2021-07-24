@@ -1780,6 +1780,7 @@ drawable avd_show_password
 drawable background_pf
 drawable binance
 drawable bitcoin
+drawable bitcoin_customize
 drawable bottom_navigation_selector
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
@@ -1789,12 +1790,14 @@ drawable btn_radio_off_mtrl
 drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
+drawable button_selected
 drawable button_selector_blue
 drawable button_shape
 drawable button_shape2
 drawable button_shape3
 drawable button_shape4
 drawable button_shape5
+drawable button_shape6
 drawable circle_background_pf_lock_screen
 drawable circle_code_empty_pf_lockscreen
 drawable circle_code_fill_pf_lockscreen
@@ -1809,6 +1812,7 @@ drawable design_snackbar_background
 drawable dracula_gradient
 drawable ethereum
 drawable ethereum_classic
+drawable ethereum_customize
 drawable fingerprint_dialog_error
 drawable fingerprint_dialog_fp_icon
 drawable fingerprint_lockscreen_pf
@@ -1978,6 +1982,7 @@ id beginning
 id blocking
 id bottom
 id bounce
+id btn_search
 id button
 id button10
 id button11
@@ -2092,6 +2097,7 @@ id easeInOut
 id easeOut
 id editPrivate
 id editTextNumberDecimal
+id edit_coinNm
 id edit_query
 id elastic
 id end
@@ -2250,6 +2256,7 @@ id notification_main_column
 id notification_main_column_container
 id off
 id on
+id opening_price
 id outline
 id outward
 id packed
@@ -2527,6 +2534,7 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_auth_pincode
 layout activity_before_main
+layout activity_coinmarketcap
 layout activity_login1
 layout activity_login3_ethereum
 layout activity_login_popup_error
@@ -2703,6 +2711,7 @@ string character_counter_overflowed_content_description
 string character_counter_pattern
 string chip_text
 string clear_text_end_icon_content_description
+string coinmarketcap
 string confirm
 string confirm_device_credential_password
 string default_error_msg
@@ -2829,6 +2838,7 @@ string search_menu_title
 string see_more
 string select_chain
 string select_chain2
+string select_coins
 string select_crypto
 string send_crypto
 string set_the_amount

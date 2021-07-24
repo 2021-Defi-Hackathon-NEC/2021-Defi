@@ -1,4 +1,8 @@
+<<<<<<< HEAD
+#Sat Jul 24 16:40:31 KST 2021
+=======
 #Sat Jul 24 10:45:09 KST 2021
+>>>>>>> a4a8b82bed966788e50d60ce8537930226b318bc
 path.4=1/classes.dex
 path.3=15/classes.dex
 path.2=11/classes.dex

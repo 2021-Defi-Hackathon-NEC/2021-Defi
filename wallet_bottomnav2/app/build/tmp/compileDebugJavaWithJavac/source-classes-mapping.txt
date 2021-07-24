@@ -45,6 +45,12 @@ com/example/wallet_bottom_nav_2/databinding/ActivityWalletEthBinding.java
  com.example.wallet_bottom_nav_2.databinding.ActivityWalletEthBinding
 com/example/wallet_bottom_nav_2/ui/home/HomeViewModel.java
  com.example.wallet_bottom_nav_2.ui.home.HomeViewModel
+<<<<<<< HEAD
+com/example/wallet_bottom_nav_2/databinding/FragmentHomeBinding.java
+ com.example.wallet_bottom_nav_2.databinding.FragmentHomeBinding
+com/example/wallet_bottom_nav_2/wallet_BTC.java
+ com.example.wallet_bottom_nav_2.wallet_BTC
+=======
 com/example/wallet_bottom_nav_2/databinding/FragmentExchangeBinding.java
  com.example.wallet_bottom_nav_2.databinding.FragmentExchangeBinding
 com/example/wallet_bottom_nav_2/databinding/ActivityAuthPincodeBinding.java
@@ -54,6 +60,7 @@ com/example/wallet_bottom_nav_2/databinding/FragmentHomeBinding.java
 com/example/wallet_bottom_nav_2/ui/notifications/NotificationsFragment.java
  com.example.wallet_bottom_nav_2.ui.notifications.NotificationsFragment
  com.example.wallet_bottom_nav_2.ui.notifications.NotificationsFragment$1
+>>>>>>> a4a8b82bed966788e50d60ce8537930226b318bc
 com/example/wallet_bottom_nav_2/databinding/ActivityLogin1Binding.java
  com.example.wallet_bottom_nav_2.databinding.ActivityLogin1Binding
 com/example/wallet_bottom_nav_2/data/model/LoggedInUser.java
@@ -105,17 +112,30 @@ com/example/wallet_bottom_nav_2/databinding/ActivityLoginPopupGreatBinding.java
  com.example.wallet_bottom_nav_2.databinding.ActivityLoginPopupGreatBinding
 com/example/wallet_bottom_nav_2/databinding/ActivityLoginPopupErrorBinding.java
  com.example.wallet_bottom_nav_2.databinding.ActivityLoginPopupErrorBinding
-com/example/wallet_bottom_nav_2/before_main.java
- com.example.wallet_bottom_nav_2.before_main
- com.example.wallet_bottom_nav_2.before_main$1
- com.example.wallet_bottom_nav_2.before_main$SplashHandler
+com/example/wallet_bottom_nav_2/ui/wallet/BALWalletFragment.java
+ com.example.wallet_bottom_nav_2.ui.wallet.BALWalletFragment
+com/example/wallet_bottom_nav_2/databinding/ActivityCoinmarketcapBinding.java
+ com.example.wallet_bottom_nav_2.databinding.ActivityCoinmarketcapBinding
 com/example/wallet_bottom_nav_2/databinding/FragmentWalletBinding.java
  com.example.wallet_bottom_nav_2.databinding.FragmentWalletBinding
 com/example/wallet_bottom_nav_2/wallet_ETH.java
  com.example.wallet_bottom_nav_2.wallet_ETH
+<<<<<<< HEAD
+com/example/wallet_bottom_nav_2/databinding/FragmentExchangeBinding.java
+ com.example.wallet_bottom_nav_2.databinding.FragmentExchangeBinding
+com/example/wallet_bottom_nav_2/databinding/ActivityAuthPincodeBinding.java
+ com.example.wallet_bottom_nav_2.databinding.ActivityAuthPincodeBinding
+com/example/wallet_bottom_nav_2/MainActivity.java
+ com.example.wallet_bottom_nav_2.MainActivity
+com/example/wallet_bottom_nav_2/before_main.java
+ com.example.wallet_bottom_nav_2.before_main
+ com.example.wallet_bottom_nav_2.before_main$1
+ com.example.wallet_bottom_nav_2.before_main$SplashHandler
+=======
 com/example/wallet_bottom_nav_2/ui/login/LoggedInUserView.java
  com.example.wallet_bottom_nav_2.ui.login.LoggedInUserView
 com/example/wallet_bottom_nav_2/ui/login/LoginResult.java
  com.example.wallet_bottom_nav_2.ui.login.LoginResult
 com/example/wallet_bottom_nav_2/ui/wallet/BALWalletFragment.java
  com.example.wallet_bottom_nav_2.ui.wallet.BALWalletFragment
+>>>>>>> a4a8b82bed966788e50d60ce8537930226b318bc
