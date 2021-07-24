@@ -43,12 +43,8 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme.Wallet_bottomnav2" >
+        <activity android:name="com.example.wallet_bottom_nav_2.SendCrypto" />
         <activity android:name="com.example.wallet_bottom_nav_2.activity_coinmarketcap2" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity android:name="com.example.wallet_bottom_nav_2.wallet_coins" />
         <activity android:name="com.example.wallet_bottom_nav_2.login_1" />
@@ -68,6 +64,11 @@
             android:name="com.example.wallet_bottom_nav_2.auth_pincode"
             android:theme="@style/PinTheme" />
         <activity android:name="com.example.wallet_bottom_nav_2.before_main" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity> <!-- <activity -->
         <!-- android:name=".ui.login.LoginActivity" -->
         <!-- android:label="@string/title_activity_login"> -->

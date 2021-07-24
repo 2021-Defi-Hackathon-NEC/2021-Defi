@@ -1,11 +1,11 @@
 [
     {
-        "merged": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_wallet_btc.xml",
-        "source": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\layout\\activity_wallet_btc.xml"
-    },
-    {
         "merged": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_login_popup_great.xml",
         "source": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\layout\\activity_login_popup_great.xml"
+    },
+    {
+        "merged": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_wallet_btc.xml",
+        "source": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\layout\\activity_wallet_btc.xml"
     },
     {
         "merged": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_wallet.xml",
@@ -70,6 +70,10 @@
     {
         "merged": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
         "source": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_send_crypto.xml",
+        "source": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\layout\\activity_send_crypto.xml"
     },
     {
         "merged": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_exchange.xml",

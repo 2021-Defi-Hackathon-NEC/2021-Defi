@@ -25,9 +25,6 @@ public final class FragmentExchangeBinding implements ViewBinding {
   public final Button button;
 
   @NonNull
-  public final Button button10;
-
-  @NonNull
   public final Button button11;
 
   @NonNull
@@ -58,6 +55,9 @@ public final class FragmentExchangeBinding implements ViewBinding {
   public final Button button9;
 
   @NonNull
+  public final Button buttonSendCrypto;
+
+  @NonNull
   public final EditText editTextNumberDecimal;
 
   @NonNull
@@ -76,15 +76,15 @@ public final class FragmentExchangeBinding implements ViewBinding {
   public final TextView textView29;
 
   private FragmentExchangeBinding(@NonNull ConstraintLayout rootView, @NonNull Button button,
-      @NonNull Button button10, @NonNull Button button11, @NonNull Button button12,
-      @NonNull Button button13, @NonNull Button button14, @NonNull Button button15,
-      @NonNull Button button16, @NonNull Button button2, @NonNull Button button7,
-      @NonNull Button button8, @NonNull Button button9, @NonNull EditText editTextNumberDecimal,
-      @NonNull ScrollView scrollView2, @NonNull TextView textView26, @NonNull TextView textView27,
-      @NonNull TextView textView28, @NonNull TextView textView29) {
+      @NonNull Button button11, @NonNull Button button12, @NonNull Button button13,
+      @NonNull Button button14, @NonNull Button button15, @NonNull Button button16,
+      @NonNull Button button2, @NonNull Button button7, @NonNull Button button8,
+      @NonNull Button button9, @NonNull Button buttonSendCrypto,
+      @NonNull EditText editTextNumberDecimal, @NonNull ScrollView scrollView2,
+      @NonNull TextView textView26, @NonNull TextView textView27, @NonNull TextView textView28,
+      @NonNull TextView textView29) {
     this.rootView = rootView;
     this.button = button;
-    this.button10 = button10;
     this.button11 = button11;
     this.button12 = button12;
     this.button13 = button13;
@@ -95,6 +95,7 @@ public final class FragmentExchangeBinding implements ViewBinding {
     this.button7 = button7;
     this.button8 = button8;
     this.button9 = button9;
+    this.buttonSendCrypto = buttonSendCrypto;
     this.editTextNumberDecimal = editTextNumberDecimal;
     this.scrollView2 = scrollView2;
     this.textView26 = textView26;
@@ -133,12 +134,6 @@ public final class FragmentExchangeBinding implements ViewBinding {
       id = R.id.button;
       Button button = rootView.findViewById(id);
       if (button == null) {
-        break missingId;
-      }
-
-      id = R.id.button10;
-      Button button10 = rootView.findViewById(id);
-      if (button10 == null) {
         break missingId;
       }
 
@@ -202,6 +197,12 @@ public final class FragmentExchangeBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.button_send_crypto;
+      Button buttonSendCrypto = rootView.findViewById(id);
+      if (buttonSendCrypto == null) {
+        break missingId;
+      }
+
       id = R.id.editTextNumberDecimal;
       EditText editTextNumberDecimal = rootView.findViewById(id);
       if (editTextNumberDecimal == null) {
@@ -238,9 +239,10 @@ public final class FragmentExchangeBinding implements ViewBinding {
         break missingId;
       }
 
-      return new FragmentExchangeBinding((ConstraintLayout) rootView, button, button10, button11,
-          button12, button13, button14, button15, button16, button2, button7, button8, button9,
-          editTextNumberDecimal, scrollView2, textView26, textView27, textView28, textView29);
+      return new FragmentExchangeBinding((ConstraintLayout) rootView, button, button11, button12,
+          button13, button14, button15, button16, button2, button7, button8, button9,
+          buttonSendCrypto, editTextNumberDecimal, scrollView2, textView26, textView27, textView28,
+          textView29);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

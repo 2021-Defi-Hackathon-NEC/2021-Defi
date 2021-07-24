@@ -96,6 +96,16 @@
     <string name="klay">KLAY</string>
     <string name="select_coins">Select Coins</string>
     <string name="coinmarketcap">Coin Market Cap</string>
+    <string name="more">More</string>
+    <string name="account">Account</string>
+    <string name="lock_app">Lock App</string>
+    <string name="allow_push_notification">Allow Push Notifications</string>
+    <string name="report_an_issue">Report an Issue</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="terms_of_service">Terms of Service</string>
+    <string name="about_us">About Us</string>
+    <string name="log_out">Log out</string>
+    <string name="push_notifications">Push Notifications</string>
 
 
 </resources>

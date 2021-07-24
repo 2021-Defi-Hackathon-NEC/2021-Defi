@@ -19,8 +19,8 @@
         </shape>
     </item>
 
-    <size
-        android:height="90dp"
-        android:width="90dp"
-        />
+<!--    <size-->
+<!--        android:height="90dp"-->
+<!--        android:width="90dp"-->
+<!--        />-->
 </shape>
