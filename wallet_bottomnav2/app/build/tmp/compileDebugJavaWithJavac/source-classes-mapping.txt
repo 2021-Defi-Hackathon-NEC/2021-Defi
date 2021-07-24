@@ -43,8 +43,8 @@ com/example/wallet_bottom_nav_2/ui/notifications/NotificationsViewModel.java
  com.example.wallet_bottom_nav_2.ui.notifications.NotificationsViewModel
 com/example/wallet_bottom_nav_2/ui/home/HomeViewModel.java
  com.example.wallet_bottom_nav_2.ui.home.HomeViewModel
-com/example/wallet_bottom_nav_2/MainActivity.java
- com.example.wallet_bottom_nav_2.MainActivity
+com/example/wallet_bottom_nav_2/databinding/FragmentHomeBinding.java
+ com.example.wallet_bottom_nav_2.databinding.FragmentHomeBinding
 com/example/wallet_bottom_nav_2/wallet_BTC.java
  com.example.wallet_bottom_nav_2.wallet_BTC
 com/example/wallet_bottom_nav_2/databinding/ActivityLogin1Binding.java
@@ -103,10 +103,10 @@ com/example/wallet_bottom_nav_2/databinding/ActivityLoginPopupGreatBinding.java
  com.example.wallet_bottom_nav_2.databinding.ActivityLoginPopupGreatBinding
 com/example/wallet_bottom_nav_2/databinding/ActivityLoginPopupErrorBinding.java
  com.example.wallet_bottom_nav_2.databinding.ActivityLoginPopupErrorBinding
-com/example/wallet_bottom_nav_2/before_main.java
- com.example.wallet_bottom_nav_2.before_main
- com.example.wallet_bottom_nav_2.before_main$1
- com.example.wallet_bottom_nav_2.before_main$SplashHandler
+com/example/wallet_bottom_nav_2/ui/wallet/BALWalletFragment.java
+ com.example.wallet_bottom_nav_2.ui.wallet.BALWalletFragment
+com/example/wallet_bottom_nav_2/databinding/ActivityCoinmarketcapBinding.java
+ com.example.wallet_bottom_nav_2.databinding.ActivityCoinmarketcapBinding
 com/example/wallet_bottom_nav_2/databinding/FragmentWalletBinding.java
  com.example.wallet_bottom_nav_2.databinding.FragmentWalletBinding
 com/example/wallet_bottom_nav_2/wallet_ETH.java
@@ -115,7 +115,9 @@ com/example/wallet_bottom_nav_2/databinding/FragmentExchangeBinding.java
  com.example.wallet_bottom_nav_2.databinding.FragmentExchangeBinding
 com/example/wallet_bottom_nav_2/databinding/ActivityAuthPincodeBinding.java
  com.example.wallet_bottom_nav_2.databinding.ActivityAuthPincodeBinding
-com/example/wallet_bottom_nav_2/ui/wallet/BALWalletFragment.java
- com.example.wallet_bottom_nav_2.ui.wallet.BALWalletFragment
-com/example/wallet_bottom_nav_2/databinding/FragmentHomeBinding.java
- com.example.wallet_bottom_nav_2.databinding.FragmentHomeBinding
+com/example/wallet_bottom_nav_2/MainActivity.java
+ com.example.wallet_bottom_nav_2.MainActivity
+com/example/wallet_bottom_nav_2/before_main.java
+ com.example.wallet_bottom_nav_2.before_main
+ com.example.wallet_bottom_nav_2.before_main$1
+ com.example.wallet_bottom_nav_2.before_main$SplashHandler

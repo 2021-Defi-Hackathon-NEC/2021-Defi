@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners
+        android:radius="12dp"
+        />
+    <solid
+        android:color="@color/white"
+        />
+    <stroke
+        android:color="@color/dracula_blue"
+        android:width="3dp"
+        />
+    <padding
+        android:left="16dp"
+        android:right="16dp"
+        android:bottom="3dp"
+        />
+    <!-- shadow (밑으로) : 그림자 -->
+    <item android:top="3dp">
+        <shape>
+            <corners android:radius="3dp" />
+            <solid android:color="#1f000000" />
+        </shape>
+    </item>
+
+    <size
+        android:height="90dp"
+        android:width="90dp"
+        />
+</shape>

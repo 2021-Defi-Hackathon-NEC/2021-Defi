@@ -1779,6 +1779,7 @@ int drawable avd_show_password 0x7f080057
 int drawable background_pf 0x7f080058
 int drawable binance 0x7f080059
 int drawable bitcoin 0x7f08005a
+int drawable bitcoin_customize 0x7f0800c0
 int drawable bottom_navigation_selector 0x7f08005b
 int drawable btn_checkbox_checked_mtrl 0x7f08005c
 int drawable btn_checkbox_checked_to_unchecked_mtrl_animation 0x7f08005d
@@ -1788,12 +1789,14 @@ int drawable btn_radio_off_mtrl 0x7f080060
 int drawable btn_radio_off_to_on_mtrl_animation 0x7f080061
 int drawable btn_radio_on_mtrl 0x7f080062
 int drawable btn_radio_on_to_off_mtrl_animation 0x7f080063
+int drawable button_selected 0x7f0800c1
 int drawable button_selector_blue 0x7f080064
 int drawable button_shape 0x7f080065
 int drawable button_shape2 0x7f080066
 int drawable button_shape3 0x7f080067
 int drawable button_shape4 0x7f080068
 int drawable button_shape5 0x7f0800bf
+int drawable button_shape6 0x7f0800c3
 int drawable circle_background_pf_lock_screen 0x7f080069
 int drawable circle_code_empty_pf_lockscreen 0x7f08006a
 int drawable circle_code_fill_pf_lockscreen 0x7f08006b
@@ -1808,6 +1811,7 @@ int drawable design_snackbar_background 0x7f080073
 int drawable dracula_gradient 0x7f080074
 int drawable ethereum 0x7f080075
 int drawable ethereum_classic 0x7f080076
+int drawable ethereum_customize 0x7f0800c2
 int drawable fingerprint_dialog_error 0x7f080077
 int drawable fingerprint_dialog_fp_icon 0x7f080078
 int drawable fingerprint_lockscreen_pf 0x7f080079
@@ -1977,6 +1981,7 @@ int id beginning 0x7f09005d
 int id blocking 0x7f09005e
 int id bottom 0x7f09005f
 int id bounce 0x7f090060
+int id btn_search 0x7f090242
 int id button 0x7f090230
 int id button10 0x7f090231
 int id button11 0x7f09023c
@@ -2091,6 +2096,7 @@ int id easeInOut 0x7f0900ba
 int id easeOut 0x7f0900bb
 int id editPrivate 0x7f0900bc
 int id editTextNumberDecimal 0x7f090236
+int id edit_coinNm 0x7f090243
 int id edit_query 0x7f0900be
 int id elastic 0x7f0900bf
 int id end 0x7f0900c0
@@ -2249,6 +2255,7 @@ int id notification_main_column 0x7f090158
 int id notification_main_column_container 0x7f090159
 int id off 0x7f09015a
 int id on 0x7f09015b
+int id opening_price 0x7f090244
 int id outline 0x7f09015c
 int id outward 0x7f09015d
 int id packed 0x7f09015e
@@ -2526,6 +2533,7 @@ int layout abc_select_dialog_material 0x7f0c001a
 int layout abc_tooltip 0x7f0c001b
 int layout activity_auth_pincode 0x7f0c001c
 int layout activity_before_main 0x7f0c001d
+int layout activity_coinmarketcap 0x7f0c0092
 int layout activity_login1 0x7f0c001e
 int layout activity_login3_ethereum 0x7f0c001f
 int layout activity_login_popup_error 0x7f0c0020
@@ -2702,6 +2710,7 @@ int string character_counter_overflowed_content_description 0x7f12002b
 int string character_counter_pattern 0x7f12002c
 int string chip_text 0x7f12002d
 int string clear_text_end_icon_content_description 0x7f12002e
+int string coinmarketcap 0x7f1200d9
 int string confirm 0x7f1200cb
 int string confirm_device_credential_password 0x7f12002f
 int string default_error_msg 0x7f120030
@@ -2828,6 +2837,7 @@ int string search_menu_title 0x7f12009f
 int string see_more 0x7f1200a0
 int string select_chain 0x7f1200a1
 int string select_chain2 0x7f1200a2
+int string select_coins 0x7f1200da
 int string select_crypto 0x7f1200d1
 int string send_crypto 0x7f1200d2
 int string set_the_amount 0x7f1200d3

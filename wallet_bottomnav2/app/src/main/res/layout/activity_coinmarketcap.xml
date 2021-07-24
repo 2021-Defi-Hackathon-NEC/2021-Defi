@@ -31,7 +31,7 @@
         android:layout_width="216dp"
         android:layout_height="29dp"
         tools:layout_editor_absoluteX="62dp"
-        tools:layout_editor_absoluteY="94dp">
+        tools:layout_editor_absoluteY="94dp" />
 
     <Button
         android:id="@+id/btn_search"
