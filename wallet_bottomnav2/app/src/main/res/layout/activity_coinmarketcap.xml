@@ -7,8 +7,47 @@
     android:orientation="vertical"
     tools:context=".coinmarketcap">
 
+    <View
+        android:id="@+id/view10"
+        android:layout_width="330dp"
+        android:layout_height="600dp"
+        android:background="@drawable/round_box_2"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="30dp" />
 
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:elevation="16dp"
+        android:text="@string/coinmarketcap"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="62dp"
+        tools:layout_editor_absoluteY="56dp" />
 
+    <EditText
+        android:id="@+id/edit_coinNm"
+        android:layout_width="216dp"
+        android:layout_height="29dp"
+        tools:layout_editor_absoluteX="62dp"
+        tools:layout_editor_absoluteY="94dp" />
+
+    <Button
+        android:id="@+id/btn_search"
+        android:layout_width="59dp"
+        android:layout_height="29dp"
+        tools:layout_editor_absoluteX="290dp"
+        tools:layout_editor_absoluteY="94dp" />
+
+    <LinearLayout
+        android:layout_width="191dp"
+        android:layout_height="20dp"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="62dp"
+        tools:layout_editor_absoluteY="146dp">
+=======
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/constraintLayout2"
         android:layout_width="match_parent"
@@ -32,6 +71,7 @@
             app:layout_constraintHorizontal_bias="0.288"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
+>>>>>>> a4a8b82bed966788e50d60ce8537930226b318bc
 
         <TextView
             android:id="@+id/textView23"
