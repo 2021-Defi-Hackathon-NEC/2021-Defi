@@ -276,7 +276,7 @@
                     android:layout_height="40dp"
                     android:layout_gravity="center"
                     android:background="@drawable/round_box_2"
-                    android:backgroundTint="#CCDC2424"
+                    android:backgroundTint="#CC4A569D"
                     android:gravity="right|center"
                     android:includeFontPadding="false"
                     android:insetTop="0dp"
