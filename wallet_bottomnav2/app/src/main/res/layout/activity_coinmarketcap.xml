@@ -73,7 +73,7 @@ tools:context=".coinmarketcap">
             android:orientation="horizontal">
 
             <Button
-                android:id="@+id/btn_all"
+                android:id="@+id/btn_search"
                 android:layout_width="65dp"
                 android:layout_height="28dp"
                 android:layout_marginStart="32dp"
@@ -191,7 +191,7 @@ tools:context=".coinmarketcap">
                 </LinearLayout>
 
                 <TextView
-                    android:id="@+id/coin1_price"
+                    android:id="@+id/opening_price"
                     android:layout_width="83dp"
                     android:layout_height="match_parent"
                     android:gravity="center"
@@ -203,7 +203,7 @@ tools:context=".coinmarketcap">
                 </TextView>
 
                 <TextView
-                    android:id="@+id/coin1_gain_view"
+                    android:id="@+id/high_price"
                     android:layout_width="78dp"
                     android:layout_height="40dp"
                     android:layout_gravity="center"
@@ -259,7 +259,7 @@ tools:context=".coinmarketcap">
                 </LinearLayout>
 
                 <TextView
-                    android:id="@+id/coin2_price"
+                    android:id="@+id/low_price"
                     android:layout_width="83dp"
                     android:layout_height="match_parent"
                     android:gravity="center"
@@ -271,7 +271,7 @@ tools:context=".coinmarketcap">
                 </TextView>
 
                 <TextView
-                    android:id="@+id/coin2_gain_view"
+                    android:id="@+id/trade_price"
                     android:layout_width="78dp"
                     android:layout_height="40dp"
                     android:layout_gravity="center"
@@ -327,7 +327,7 @@ tools:context=".coinmarketcap">
                 </LinearLayout>
 
                 <TextView
-                    android:id="@+id/coin3_price"
+                    android:id="@+id/prev_closing_price"
                     android:layout_width="83dp"
                     android:layout_height="match_parent"
                     android:gravity="center"
@@ -339,7 +339,7 @@ tools:context=".coinmarketcap">
                 </TextView>
 
                 <TextView
-                    android:id="@+id/coin3_gain_view"
+                    android:id="@+id/acc_trade_price_24h"
                     android:layout_width="78dp"
                     android:layout_height="40dp"
                     android:layout_gravity="center"
@@ -395,7 +395,7 @@ tools:context=".coinmarketcap">
                 </LinearLayout>
 
                 <TextView
-                    android:id="@+id/coin4_price"
+                    android:id="@+id/acc_trade_volume_24h"
                     android:layout_width="83dp"
                     android:layout_height="match_parent"
                     android:gravity="center"
