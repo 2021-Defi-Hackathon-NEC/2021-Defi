@@ -40,6 +40,15 @@ com/example/wallet_bottom_nav_2/ui/wallet/WalletFragment.java
  com.example.wallet_bottom_nav_2.ui.wallet.WalletFragment$1
 com/example/wallet_bottom_nav_2/wallet_coins.java
  com.example.wallet_bottom_nav_2.wallet_coins
+<<<<<<< HEAD
+=======
+com/example/wallet_bottom_nav_2/coinmarketcap.java
+ com.example.wallet_bottom_nav_2.coinmarketcap
+ com.example.wallet_bottom_nav_2.coinmarketcap$1
+ com.example.wallet_bottom_nav_2.coinmarketcap$2
+ com.example.wallet_bottom_nav_2.coinmarketcap$3
+ com.example.wallet_bottom_nav_2.coinmarketcap$4
+>>>>>>> 468faf891d5d9a555a8189de693552a3784fd0f6
 com/example/wallet_bottom_nav_2/CustomSpinnerAdapter.java
  com.example.wallet_bottom_nav_2.CustomSpinnerAdapter
  com.example.wallet_bottom_nav_2.CustomSpinnerAdapter$1
@@ -135,5 +144,8 @@ com/example/wallet_bottom_nav_2/ui/wallet/BALWalletFragment.java
  com.example.wallet_bottom_nav_2.ui.wallet.BALWalletFragment
 com/example/wallet_bottom_nav_2/databinding/ActivityQrScannerBinding.java
  com.example.wallet_bottom_nav_2.databinding.ActivityQrScannerBinding
+<<<<<<< HEAD
 com/example/wallet_bottom_nav_2/temp_coinmarketcap.java
  com.example.wallet_bottom_nav_2.temp_coinmarketcap
+=======
+>>>>>>> 468faf891d5d9a555a8189de693552a3784fd0f6

@@ -8,40 +8,15 @@ android:orientation="vertical"
 tools:context=".temp_coinmarketcap">
 
 
-
-<androidx.constraintlayout.widget.ConstraintLayout
-    android:id="@+id/constraintLayout2"
-    android:layout_width="match_parent"
-    android:layout_height="145dp"
-    app:layout_constraintBottom_toBottomOf="parent"
-    app:layout_constraintEnd_toEndOf="parent"
-    app:layout_constraintHorizontal_bias="0.0"
-    app:layout_constraintStart_toStartOf="parent"
-    app:layout_constraintTop_toTopOf="parent"
-    app:layout_constraintVertical_bias="0.0">
-
-    <ImageButton
-        android:id="@+id/imageButton1"
-        android:layout_width="25dp"
-        android:layout_height="25dp"
-        android:background="@color/zxing_transparent"
-        android:padding="0dp"
-        android:scaleType="fitCenter"
-        android:src="@drawable/magnifier"
-        app:layout_constraintBottom_toBottomOf="@+id/edit_coinNm"
-        app:layout_constraintEnd_toEndOf="@+id/edit_coinNm"
-        app:layout_constraintHorizontal_bias="0.93"
-        app:layout_constraintStart_toStartOf="@+id/edit_coinNm"
-        app:layout_constraintTop_toTopOf="@+id/edit_coinNm" />
-
     <LinearLayout
         android:id="@+id/linearlayout3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteX="-89dp">
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
         <TextView
             android:id="@+id/textView23"
@@ -49,31 +24,55 @@ tools:context=".temp_coinmarketcap">
             android:layout_height="wrap_content"
             android:layout_marginLeft="16dp"
             android:layout_marginTop="16dp"
-            android:elevation="16dp"
+            android:elevation="10dp"
             android:text="@string/coinmarketcap"
             android:textColor="#000000"
             android:textSize="25sp"
             android:textStyle="bold" />
 
-        <EditText
-            android:id="@+id/edit_coinNm"
-            android:layout_width="300dp"
-            android:layout_height="40dp"
-            android:layout_marginLeft="16dp"
-            android:layout_marginTop="16dp"
-            android:layout_marginBottom="16dp"
-            android:background="@drawable/round_button"
-            android:drawableRight="@drawable/magnifier_customized"
-            android:hint="Search"
-            android:paddingStart="20dp" />
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp">
+
+            <EditText
+                android:id="@+id/edit_coinNm"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:background="@drawable/round_button"
+                android:hint="Search"
+                android:paddingStart="20dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.144"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <ImageButton
+                android:id="@+id/imageButton1"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:background="@color/zxing_transparent"
+                android:padding="0dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/magnifier"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="@+id/edit_coinNm"
+                app:layout_constraintHorizontal_bias="0.927"
+                app:layout_constraintStart_toStartOf="@+id/edit_coinNm"
+                app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
             android:orientation="horizontal">
 
             <Button
-                android:id="@+id/btn_all"
+                android:id="@+id/btn_search"
                 android:layout_width="65dp"
                 android:layout_height="28dp"
                 android:layout_marginStart="32dp"
@@ -133,65 +132,638 @@ tools:context=".temp_coinmarketcap">
                 android:textSize="10sp"
                 app:iconPadding="0dp" />
         </LinearLayout>
-    </LinearLayout>
 
-</androidx.constraintlayout.widget.ConstraintLayout>
-
-    <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="500dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/constraintLayout2">
-
-        <LinearLayout
+        <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_gravity="center"
-            android:orientation="vertical">
+            android:layout_height="match_parent">
 
-            <LinearLayout
-                android:layout_width="380dp"
-                android:layout_height="60dp"
-                android:layout_gravity="center"
-                android:layout_margin="10dp"
-                android:orientation="horizontal">
-
-                <ImageView
-                    android:id="@+id/coin1_image"
-                    android:layout_width="50dp"
-                    android:layout_height="50dp"
-                    android:layout_gravity="center"
-                    android:layout_marginHorizontal="10dp"
-                    android:src="@drawable/ethereum">
-
-                </ImageView>
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent">
 
                 <LinearLayout
-                    android:layout_width="140dp"
+                    android:layout_width="match_parent"
                     android:layout_height="match_parent"
+                    android:layout_gravity="center"
                     android:orientation="vertical">
 
-                    <TextView
-                        android:id="@+id/coin1_name"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Ethereum"
-                        android:textColor="#000000"
-                        android:textSize="20sp"></TextView>
+                    <LinearLayout
+                        android:layout_width="380dp"
+                        android:layout_height="60dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="10dp"
+                        android:orientation="horizontal">
 
-                    <TextView
-                        android:id="@+id/coin1_shortname"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="ETH"
-                        android:textColor="#CC000000"
-                        android:textSize="15sp"></TextView>
-                </LinearLayout>
+                        <ImageView
+                            android:id="@+id/coin1_image"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_gravity="center"
+                            android:layout_marginHorizontal="10dp"
+                            android:src="@drawable/ethereum">
+
+                        </ImageView>
+
+                        <LinearLayout
+                            android:layout_width="140dp"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/coin1_name"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Ethereum"
+                                android:textColor="#000000"
+                                android:textSize="20sp"></TextView>
+
+                            <TextView
+                                android:id="@+id/coin1_shortname"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="ETH"
+                                android:textColor="#CC000000"
+                                android:textSize="15sp"></TextView>
+                        </LinearLayout>
+
+                        <TextView
+                            android:id="@+id/coin1_price"
+                            android:layout_width="83dp"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:text="$400.00"
+                            android:textColor="#000000"
+                            android:textSize="19sp"
+                            tools:ignore="InvalidId">
+
+                        </TextView>
+
+                        <TextView
+                            android:id="@+id/coin1_gain_view"
+                            android:layout_width="78dp"
+                            android:layout_height="40dp"
+                            android:layout_gravity="center"
+                            android:background="@drawable/round_box_2"
+                            android:backgroundTint="#CCDC2424"
+                            android:gravity="right|center"
+                            android:includeFontPadding="false"
+                            android:insetTop="0dp"
+                            android:insetBottom="0dp"
+                            android:text="+4.31%"
+                            android:textColor="#FFFFFF"
+                            android:textSize="13sp"></TextView>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="380dp"
+                        android:layout_height="60dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="10dp"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/coin2_image"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_gravity="center"
+                            android:layout_marginHorizontal="10dp"
+                            android:src="@drawable/ethereum">
+
+                        </ImageView>
+
+                        <LinearLayout
+                            android:layout_width="140dp"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/coin2_name"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Ethereum"
+                                android:textColor="#000000"
+                                android:textSize="20sp"></TextView>
+
+                            <TextView
+                                android:id="@+id/coin2_shortname"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="ETH"
+                                android:textColor="#CC000000"
+                                android:textSize="15sp"></TextView>
+                        </LinearLayout>
+
+                        <TextView
+                            android:id="@+id/coin2_price"
+                            android:layout_width="83dp"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:text="$400.00"
+                            android:textColor="#000000"
+                            android:textSize="19sp"
+                            tools:ignore="InvalidId">
+
+                        </TextView>
+
+                        <TextView
+                            android:id="@+id/coin2_gain_view"
+                            android:layout_width="78dp"
+                            android:layout_height="40dp"
+                            android:layout_gravity="center"
+                            android:background="@drawable/round_box_2"
+                            android:backgroundTint="#CC4A569D"
+                            android:gravity="right|center"
+                            android:includeFontPadding="false"
+                            android:insetTop="0dp"
+                            android:insetBottom="0dp"
+                            android:text="+4.31%"
+                            android:textColor="#FFFFFF"
+                            android:textSize="13sp"></TextView>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="380dp"
+                        android:layout_height="60dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="10dp"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/coin3_image"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_gravity="center"
+                            android:layout_marginHorizontal="10dp"
+                            android:src="@drawable/ethereum">
+
+                        </ImageView>
+
+                        <LinearLayout
+                            android:layout_width="140dp"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/coin3_name"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Ethereum"
+                                android:textColor="#000000"
+                                android:textSize="20sp"></TextView>
+
+                            <TextView
+                                android:id="@+id/coin3_shortname"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="ETH"
+                                android:textColor="#CC000000"
+                                android:textSize="15sp"></TextView>
+                        </LinearLayout>
+
+                        <TextView
+                            android:id="@+id/coin3_price"
+                            android:layout_width="83dp"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:text="$400.00"
+                            android:textColor="#000000"
+                            android:textSize="19sp"
+                            tools:ignore="InvalidId">
+
+                        </TextView>
+
+                        <TextView
+                            android:id="@+id/coin3_gain_view"
+                            android:layout_width="78dp"
+                            android:layout_height="40dp"
+                            android:layout_gravity="center"
+                            android:background="@drawable/round_box_2"
+                            android:backgroundTint="#CCDC2424"
+                            android:gravity="right|center"
+                            android:includeFontPadding="false"
+                            android:insetTop="0dp"
+                            android:insetBottom="0dp"
+                            android:text="+4.31%"
+                            android:textColor="#FFFFFF"
+                            android:textSize="13sp"></TextView>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="380dp"
+                        android:layout_height="60dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="10dp"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/coin4_image"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_gravity="center"
+                            android:layout_marginHorizontal="10dp"
+                            android:src="@drawable/ethereum">
+
+                        </ImageView>
+
+                        <LinearLayout
+                            android:layout_width="140dp"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/coin4_name"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Ethereum"
+                                android:textColor="#000000"
+                                android:textSize="20sp"></TextView>
+
+                            <TextView
+                                android:id="@+id/coin4_shortname"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="ETH"
+                                android:textColor="#CC000000"
+                                android:textSize="15sp"></TextView>
+                        </LinearLayout>
+
+                        <TextView
+                            android:id="@+id/coin4_price"
+                            android:layout_width="83dp"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:text="$400.00"
+                            android:textColor="#000000"
+                            android:textSize="19sp"
+                            tools:ignore="InvalidId">
+
+                        </TextView>
+
+                        <TextView
+                            android:id="@+id/coin4_gain_view"
+                            android:layout_width="78dp"
+                            android:layout_height="40dp"
+                            android:layout_gravity="center"
+                            android:background="@drawable/round_box_2"
+                            android:backgroundTint="#CCDC2424"
+                            android:gravity="right|center"
+                            android:includeFontPadding="false"
+                            android:insetTop="0dp"
+                            android:insetBottom="0dp"
+                            android:text="+4.31%"
+                            android:textColor="#FFFFFF"
+                            android:textSize="13sp"></TextView>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="380dp"
+                        android:layout_height="60dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="10dp"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/coin5_image"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_gravity="center"
+                            android:layout_marginHorizontal="10dp"
+                            android:src="@drawable/ethereum">
+
+                        </ImageView>
+
+                        <LinearLayout
+                            android:layout_width="140dp"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/coin5_name"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Ethereum"
+                                android:textColor="#000000"
+                                android:textSize="20sp"></TextView>
+
+                            <TextView
+                                android:id="@+id/coin5_shortname"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="ETH"
+                                android:textColor="#CC000000"
+                                android:textSize="15sp"></TextView>
+                        </LinearLayout>
+
+                        <TextView
+                            android:id="@+id/coin5_price"
+                            android:layout_width="83dp"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:text="$400.00"
+                            android:textColor="#000000"
+                            android:textSize="19sp"
+                            tools:ignore="InvalidId">
+
+                        </TextView>
+
+                        <TextView
+                            android:id="@+id/coin5_gain_view"
+                            android:layout_width="78dp"
+                            android:layout_height="40dp"
+                            android:layout_gravity="center"
+                            android:background="@drawable/round_box_2"
+                            android:backgroundTint="#CCDC2424"
+                            android:gravity="right|center"
+                            android:includeFontPadding="false"
+                            android:insetTop="0dp"
+                            android:insetBottom="0dp"
+                            android:text="+4.31%"
+                            android:textColor="#FFFFFF"
+                            android:textSize="13sp"></TextView>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="380dp"
+                        android:layout_height="60dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="10dp"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/coin6_image"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_gravity="center"
+                            android:layout_marginHorizontal="10dp"
+                            android:src="@drawable/ethereum">
+
+                        </ImageView>
+
+                        <LinearLayout
+                            android:layout_width="140dp"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/coin6_name"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Ethereum"
+                                android:textColor="#000000"
+                                android:textSize="20sp"></TextView>
+
+                            <TextView
+                                android:id="@+id/coin6_shortname"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="ETH"
+                                android:textColor="#CC000000"
+                                android:textSize="15sp"></TextView>
+                        </LinearLayout>
+
+                        <TextView
+                            android:id="@+id/coin6_price"
+                            android:layout_width="83dp"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:text="$400.00"
+                            android:textColor="#000000"
+                            android:textSize="19sp"
+                            tools:ignore="InvalidId">
+
+                        </TextView>
+
+                        <TextView
+                            android:id="@+id/coin6_gain_view"
+                            android:layout_width="78dp"
+                            android:layout_height="40dp"
+                            android:layout_gravity="center"
+                            android:background="@drawable/round_box_2"
+                            android:backgroundTint="#CCDC2424"
+                            android:gravity="right|center"
+                            android:includeFontPadding="false"
+                            android:insetTop="0dp"
+                            android:insetBottom="0dp"
+                            android:text="+4.31%"
+                            android:textColor="#FFFFFF"
+                            android:textSize="13sp"></TextView>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="380dp"
+                        android:layout_height="60dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="10dp"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/coin7_image"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_gravity="center"
+                            android:layout_marginHorizontal="10dp"
+                            android:src="@drawable/ethereum">
+
+                        </ImageView>
+
+                        <LinearLayout
+                            android:layout_width="140dp"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/coin7_name"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Ethereum"
+                                android:textColor="#000000"
+                                android:textSize="20sp"></TextView>
+
+                            <TextView
+                                android:id="@+id/coin7_shortname"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="ETH"
+                                android:textColor="#CC000000"
+                                android:textSize="15sp"></TextView>
+                        </LinearLayout>
+
+                        <TextView
+                            android:id="@+id/coin7_price"
+                            android:layout_width="83dp"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:text="$400.00"
+                            android:textColor="#000000"
+                            android:textSize="19sp"
+                            tools:ignore="InvalidId">
+
+                        </TextView>
+
+                        <TextView
+                            android:id="@+id/coin7_gain_view"
+                            android:layout_width="78dp"
+                            android:layout_height="40dp"
+                            android:layout_gravity="center"
+                            android:background="@drawable/round_box_2"
+                            android:backgroundTint="#CCDC2424"
+                            android:gravity="right|center"
+                            android:includeFontPadding="false"
+                            android:insetTop="0dp"
+                            android:insetBottom="0dp"
+                            android:text="+4.31%"
+                            android:textColor="#FFFFFF"
+                            android:textSize="13sp"></TextView>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="380dp"
+                        android:layout_height="60dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="10dp"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/coin8_image"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_gravity="center"
+                            android:layout_marginHorizontal="10dp"
+                            android:src="@drawable/ethereum">
+
+                        </ImageView>
+
+                        <LinearLayout
+                            android:layout_width="140dp"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/coin8_name"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Ethereum"
+                                android:textColor="#000000"
+                                android:textSize="20sp"></TextView>
+
+                            <TextView
+                                android:id="@+id/coin8_shortname"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="ETH"
+                                android:textColor="#CC000000"
+                                android:textSize="15sp"></TextView>
+                        </LinearLayout>
+
+                        <TextView
+                            android:id="@+id/coin8_price"
+                            android:layout_width="83dp"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:text="$400.00"
+                            android:textColor="#000000"
+                            android:textSize="19sp"
+                            tools:ignore="InvalidId">
+
+                        </TextView>
+
+                        <TextView
+                            android:id="@+id/coin8_gain_view"
+                            android:layout_width="78dp"
+                            android:layout_height="40dp"
+                            android:layout_gravity="center"
+                            android:background="@drawable/round_box_2"
+                            android:backgroundTint="#CCDC2424"
+                            android:gravity="right|center"
+                            android:includeFontPadding="false"
+                            android:insetTop="0dp"
+                            android:insetBottom="0dp"
+                            android:text="+4.31%"
+                            android:textColor="#FFFFFF"
+                            android:textSize="13sp"></TextView>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="380dp"
+                        android:layout_height="60dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="10dp"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/coin9_image"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_gravity="center"
+                            android:layout_marginHorizontal="10dp"
+                            android:src="@drawable/ethereum">
+
+                        </ImageView>
+
+                        <LinearLayout
+                            android:layout_width="140dp"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/coin9_name"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Ethereum"
+                                android:textColor="#000000"
+                                android:textSize="20sp"></TextView>
+
+                            <TextView
+                                android:id="@+id/coin9_shortname"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="ETH"
+                                android:textColor="#CC000000"
+                                android:textSize="15sp"></TextView>
+                        </LinearLayout>
+
+                        <TextView
+                            android:id="@+id/coin9_price"
+                            android:layout_width="83dp"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:text="$400.00"
+                            android:textColor="#000000"
+                            android:textSize="19sp"
+                            tools:ignore="InvalidId">
+
+                        </TextView>
+
+                        <TextView
+                            android:id="@+id/coin9_gain_view"
+                            android:layout_width="78dp"
+                            android:layout_height="40dp"
+                            android:layout_gravity="center"
+                            android:background="@drawable/round_box_2"
+                            android:backgroundTint="#CCDC2424"
+                            android:gravity="right|center"
+                            android:includeFontPadding="false"
+                            android:insetTop="0dp"
+                            android:insetBottom="0dp"
+                            android:text="+4.31%"
+                            android:textColor="#FFFFFF"
+                            android:textSize="13sp"></TextView>
+
+                    </LinearLayout>
 
                 <TextView
-                    android:id="@+id/coin1_price"
+                    android:id="@+id/low_price"
                     android:layout_width="83dp"
                     android:layout_height="match_parent"
                     android:gravity="center"
@@ -203,75 +775,7 @@ tools:context=".temp_coinmarketcap">
                 </TextView>
 
                 <TextView
-                    android:id="@+id/coin1_gain_view"
-                    android:layout_width="78dp"
-                    android:layout_height="40dp"
-                    android:layout_gravity="center"
-                    android:background="@drawable/round_box_2"
-                    android:backgroundTint="#CCDC2424"
-                    android:gravity="right|center"
-                    android:includeFontPadding="false"
-                    android:insetTop="0dp"
-                    android:insetBottom="0dp"
-                    android:text="+4.31%"
-                    android:textColor="#FFFFFF"
-                    android:textSize="13sp"></TextView>
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="380dp"
-                android:layout_height="60dp"
-                android:layout_gravity="center"
-                android:layout_margin="10dp"
-                android:orientation="horizontal">
-
-                <ImageView
-                    android:id="@+id/coin2_image"
-                    android:layout_width="50dp"
-                    android:layout_height="50dp"
-                    android:layout_gravity="center"
-                    android:layout_marginHorizontal="10dp"
-                    android:src="@drawable/ethereum">
-
-                </ImageView>
-
-                <LinearLayout
-                    android:layout_width="140dp"
-                    android:layout_height="match_parent"
-                    android:orientation="vertical">
-
-                    <TextView
-                        android:id="@+id/coin2_name"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Ethereum"
-                        android:textColor="#000000"
-                        android:textSize="20sp"></TextView>
-
-                    <TextView
-                        android:id="@+id/coin2_shortname"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="ETH"
-                        android:textColor="#CC000000"
-                        android:textSize="15sp"></TextView>
-                </LinearLayout>
-
-                <TextView
-                    android:id="@+id/coin2_price"
-                    android:layout_width="83dp"
-                    android:layout_height="match_parent"
-                    android:gravity="center"
-                    android:text="$400.00"
-                    android:textColor="#000000"
-                    android:textSize="19sp"
-                    tools:ignore="InvalidId">
-
-                </TextView>
-
-                <TextView
-                    android:id="@+id/coin2_gain_view"
+                    android:id="@+id/trade_price"
                     android:layout_width="78dp"
                     android:layout_height="40dp"
                     android:layout_gravity="center"
@@ -309,25 +813,10 @@ tools:context=".temp_coinmarketcap">
                     android:layout_height="match_parent"
                     android:orientation="vertical">
 
-                    <TextView
-                        android:id="@+id/coin3_name"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Ethereum"
-                        android:textColor="#000000"
-                        android:textSize="20sp"></TextView>
-
-                    <TextView
-                        android:id="@+id/coin3_shortname"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="ETH"
-                        android:textColor="#CC000000"
-                        android:textSize="15sp"></TextView>
                 </LinearLayout>
 
                 <TextView
-                    android:id="@+id/coin3_price"
+                    android:id="@+id/prev_closing_price"
                     android:layout_width="83dp"
                     android:layout_height="match_parent"
                     android:gravity="center"
@@ -339,7 +828,7 @@ tools:context=".temp_coinmarketcap">
                 </TextView>
 
                 <TextView
-                    android:id="@+id/coin3_gain_view"
+                    android:id="@+id/acc_trade_price_24h"
                     android:layout_width="78dp"
                     android:layout_height="40dp"
                     android:layout_gravity="center"
@@ -369,8 +858,9 @@ tools:context=".temp_coinmarketcap">
                     android:layout_gravity="center"
                     android:layout_marginHorizontal="10dp"
                     android:src="@drawable/ethereum">
+            </ScrollView>
 
-                </ImageView>
+        </androidx.constraintlayout.widget.ConstraintLayout>
 
                 <LinearLayout
                     android:layout_width="140dp"
@@ -395,7 +885,7 @@ tools:context=".temp_coinmarketcap">
                 </LinearLayout>
 
                 <TextView
-                    android:id="@+id/coin4_price"
+                    android:id="@+id/acc_trade_volume_24h"
                     android:layout_width="83dp"
                     android:layout_height="match_parent"
                     android:gravity="center"
@@ -597,40 +1087,12 @@ tools:context=".temp_coinmarketcap">
                         android:textColor="#CC000000"
                         android:textSize="15sp"></TextView>
                 </LinearLayout>
-
-                <TextView
-                    android:id="@+id/coin7_price"
-                    android:layout_width="83dp"
-                    android:layout_height="match_parent"
-                    android:gravity="center"
-                    android:text="$400.00"
-                    android:textColor="#000000"
-                    android:textSize="19sp"
-                    tools:ignore="InvalidId">
-
-                </TextView>
-
-                <TextView
-                    android:id="@+id/coin7_gain_view"
-                    android:layout_width="78dp"
-                    android:layout_height="40dp"
-                    android:layout_gravity="center"
-                    android:background="@drawable/round_box_2"
-                    android:backgroundTint="#CCDC2424"
-                    android:gravity="right|center"
-                    android:includeFontPadding="false"
-                    android:insetTop="0dp"
-                    android:insetBottom="0dp"
-                    android:text="+4.31%"
-                    android:textColor="#FFFFFF"
-                    android:textSize="13sp"></TextView>
-
-            </LinearLayout>
+    </LinearLayout>
 
 
-        </LinearLayout>
 
-    </ScrollView>
+
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
