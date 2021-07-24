@@ -71,13 +71,14 @@ tools:context=".temp_coinmarketcap">
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="10dp"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:layout_gravity="center">
 
             <Button
-                android:id="@+id/btn_search"
+                android:id="@+id/btn_all"
                 android:layout_width="65dp"
                 android:layout_height="28dp"
-                android:layout_marginStart="32dp"
+                android:layout_marginStart="18dp"
                 android:background="@drawable/round_button"
                 android:backgroundTint="@color/zxing_transparent"
                 android:gravity="center"
@@ -145,7 +146,7 @@ tools:context=".temp_coinmarketcap">
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                android:fitsSystemWindows="false">
+                android:fillViewport="true">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -153,8 +154,8 @@ tools:context=".temp_coinmarketcap">
                     android:layout_gravity="center"
                     android:orientation="vertical"
                     android:fillViewport="true"
-                    android:focusable ="true"
-                    android:focusableInTouchMode ="false">
+
+                    >
 
                     <LinearLayout
                         android:layout_width="380dp"
