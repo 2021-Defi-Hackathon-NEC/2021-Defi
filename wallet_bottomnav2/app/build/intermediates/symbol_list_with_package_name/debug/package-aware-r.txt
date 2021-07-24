@@ -1909,6 +1909,7 @@ id SHOW_PROGRESS
 id SYM
 id TOP_END
 id TOP_START
+id acc_trade_price_24h
 id accelerate
 id accessibility_action_clickable_span
 id accessibility_custom_action_0
@@ -1991,12 +1992,12 @@ id beginning
 id blocking
 id bottom
 id bounce
+id btOkay
 id btScan
 id btn_all
 id btn_day
 id btn_hour
 id btn_month
-id btn_search
 id btn_topgainers
 id btn_topmovers
 id btn_watchlist
@@ -2019,7 +2020,6 @@ id button22
 id button23
 id button24
 id button3
-id button4
 id button5
 id button6
 id button7
@@ -2059,6 +2059,8 @@ id center
 id centerCrop
 id center_horizontal
 id center_vertical
+id cha1_image
+id cha2_image
 id chain
 id chains
 id checkBox1
@@ -2248,10 +2250,10 @@ id linear
 id linearLayout
 id linearLayout2
 id linearLayout3
-id linearLayout4
 id linearlayout3
 id listMode
 id list_item
+id low_price
 id masked
 id material_clock_display
 id material_clock_face
@@ -2348,6 +2350,7 @@ id percent
 id pin
 id position
 id postLayout
+id prev_closing_price
 id progress_circular
 id progress_horizontal
 id radio
@@ -2499,6 +2502,7 @@ id toggle
 id top
 id topPanel
 id touch_outside
+id trade_price
 id transitionToEnd
 id transitionToStart
 id transition_current_scene
