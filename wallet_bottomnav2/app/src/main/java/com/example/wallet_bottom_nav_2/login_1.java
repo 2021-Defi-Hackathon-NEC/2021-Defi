@@ -16,22 +16,17 @@ public class login_1 extends AppCompatActivity {
         setContentView(R.layout.activity_login1);
 
         ActionBar actionbar = getSupportActionBar();
-        actionbar.hide();
+        if (actionbar != null) { actionbar.hide(); }
 
-        Button imageButton = (Button) findViewById(R.id.button4);
-        imageButton.setOnClickListener(new View.OnClickListener() {
-
+        Button btOkay = findViewById(R.id.btOkay);
+        btOkay.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(), login3_ethereum.class);
-                startActivity(intent);
+            public void onClick(View v) {
+                startActivity(new Intent(getApplication(),login3_ethereum.class));
+                finish();
             }
         });
+
     }
 
-//    public void clickBtn_login3(View view){
-////        Intent intent = new Intent(getApplicationContext(), login3_ethereum.class);
-//        Intent intent = new Intent(this, login3_ethereum.class);
-//        startActivity(intent);
-//    }
 }

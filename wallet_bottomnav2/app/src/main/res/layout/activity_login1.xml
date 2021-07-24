@@ -44,7 +44,7 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <Button
-            android:id="@+id/button4"
+            android:id="@+id/btOkay"
             android:layout_width="270dp"
             android:layout_height="50dp"
             android:layout_marginTop="32dp"
@@ -54,7 +54,6 @@
             android:text="@string/okay_no_problem"
             android:textColor="@color/white"
             android:textSize="20sp"
-            android:onClick="clickBtn_login3"
             app:backgroundTint="@color/dracula_red"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
