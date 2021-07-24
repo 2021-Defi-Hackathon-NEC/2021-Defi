@@ -131,7 +131,7 @@ public class login3_ethereum extends AppCompatActivity {
 
             @Override
             public void onClick(View v) {
-                if ((eth&&(Mnemonic==privatekey))||!eth&&(1==1)) {
+                if ((eth&&(Mnemonic==privatekey))|| !eth) {
                     Intent intent = new Intent(login3_ethereum.this, login_popup_great.class);
                 }
                 else{
