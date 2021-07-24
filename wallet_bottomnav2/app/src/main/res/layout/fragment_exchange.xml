@@ -225,13 +225,14 @@
     </ScrollView>
 
     <Button
-        android:id="@+id/button10"
+        android:id="@+id/button_send_crypto"
         android:layout_width="match_parent"
         android:layout_height="65dp"
         android:layout_margin="16dp"
         android:elevation="9dp"
         android:background="@drawable/button_shape2"
         android:text="@string/send_crypto"
+        android:onClick="clickBtn"
         android:textColor="@color/white"
         android:textSize="20sp"
         app:backgroundTint="@color/dracula_blue"

@@ -4,6 +4,14 @@
         "source": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\drawable-hdpi\\ethereum.PNG"
     },
     {
+        "merged": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_shield.png.flat",
+        "source": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\drawable-mdpi\\ic_shield.png"
+    },
+    {
+        "merged": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_user.png.flat",
+        "source": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\drawable-xxhdpi\\ic_user.png"
+    },
+    {
         "merged": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\anim_spin.xml.flat",
         "source": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\anim\\spin.xml"
     },
@@ -12,12 +20,16 @@
         "source": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\drawable-xxhdpi\\ic_exchange_black.png"
     },
     {
+        "merged": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bitcoin_customize.xml.flat",
+        "source": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\drawable\\bitcoin_customize.xml"
+    },
+    {
         "merged": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\layout_spinner_row.xml.flat",
         "source": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\layout\\spinner_row.xml"
     },
     {
-        "merged": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bitcoin_customize.xml.flat",
-        "source": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\drawable\\bitcoin_customize.xml"
+        "merged": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_heart.png.flat",
+        "source": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\drawable-mdpi\\ic_heart.png"
     },
     {
         "merged": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_user_grey.png.flat",
@@ -30,6 +42,18 @@
     {
         "merged": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_coinmarketcap2.xml.flat",
         "source": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\layout\\activity_coinmarketcap2.xml"
+    },
+    {
+        "merged": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_user.png.flat",
+        "source": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\drawable-mdpi\\ic_user.png"
+    },
+    {
+        "merged": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi_ic_heart.xml.flat",
+        "source": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\drawable-anydpi\\ic_heart.xml"
+    },
+    {
+        "merged": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_user.png.flat",
+        "source": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\drawable-xhdpi\\ic_user.png"
     },
     {
         "merged": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_setting_black.png.flat",
@@ -58,6 +82,10 @@
     {
         "merged": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_qr_code.png.flat",
         "source": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\drawable-mdpi\\qr_code.png"
+    },
+    {
+        "merged": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_notification.png.flat",
+        "source": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\drawable-xxhdpi\\ic_notification.png"
     },
     {
         "merged": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
@@ -104,6 +132,18 @@
         "source": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\drawable-hdpi\\binance.PNG"
     },
     {
+        "merged": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_heart.png.flat",
+        "source": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\drawable-xxhdpi\\ic_heart.png"
+    },
+    {
+        "merged": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_doc.png.flat",
+        "source": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\drawable-mdpi\\ic_doc.png"
+    },
+    {
+        "merged": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi_ic_notification.xml.flat",
+        "source": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\drawable-anydpi\\ic_notification.xml"
+    },
+    {
         "merged": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_qr_code.png.flat",
         "source": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\drawable-xhdpi\\qr_code.png"
     },
@@ -128,6 +168,10 @@
         "source": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\drawable-mdpi\\ic_refresh_black.png"
     },
     {
+        "merged": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_lock.png.flat",
+        "source": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\drawable-xhdpi\\ic_lock.png"
+    },
+    {
         "merged": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_auth_pincode.xml.flat",
         "source": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\layout\\activity_auth_pincode.xml"
     },
@@ -136,8 +180,24 @@
         "source": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\layout\\activity_login3_ethereum.xml"
     },
     {
+        "merged": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_send_crypto.xml.flat",
+        "source": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\layout\\activity_send_crypto.xml"
+    },
+    {
         "merged": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_exchange.xml.flat",
         "source": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\layout\\fragment_exchange.xml"
+    },
+    {
+        "merged": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_doc.png.flat",
+        "source": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\drawable-xxhdpi\\ic_doc.png"
+    },
+    {
+        "merged": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_shield.png.flat",
+        "source": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\drawable-xxhdpi\\ic_shield.png"
+    },
+    {
+        "merged": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_notification.png.flat",
+        "source": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\drawable-mdpi\\ic_notification.png"
     },
     {
         "merged": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_3dots_black.png.flat",
@@ -146,6 +206,10 @@
     {
         "merged": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_refresh_black.png.flat",
         "source": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_refresh_black.png"
+    },
+    {
+        "merged": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi_ic_shield.xml.flat",
+        "source": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\drawable-anydpi\\ic_shield.xml"
     },
     {
         "merged": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_button_shape2.xml.flat",
@@ -184,6 +248,10 @@
         "source": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\drawable\\menu_selector_color.xml"
     },
     {
+        "merged": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_heart.png.flat",
+        "source": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\drawable-xhdpi\\ic_heart.png"
+    },
+    {
         "merged": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ethereum_customize.xml.flat",
         "source": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\drawable\\ethereum_customize.xml"
     },
@@ -198,6 +266,14 @@
     {
         "merged": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
         "source": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_lock.png.flat",
+        "source": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\drawable-mdpi\\ic_lock.png"
+    },
+    {
+        "merged": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_bulb.png.flat",
+        "source": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\drawable-mdpi\\ic_bulb.png"
     },
     {
         "merged": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_button_shape.xml.flat",
@@ -216,12 +292,28 @@
         "source": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\layout\\fragment_home.xml"
     },
     {
+        "merged": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_lock.png.flat",
+        "source": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\drawable-hdpi\\ic_lock.png"
+    },
+    {
+        "merged": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi_ic_bulb.xml.flat",
+        "source": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\drawable-anydpi\\ic_bulb.xml"
+    },
+    {
+        "merged": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_bulb.png.flat",
+        "source": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\drawable-xhdpi\\ic_bulb.png"
+    },
+    {
         "merged": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_bitcoin.PNG.flat",
         "source": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\drawable-hdpi\\bitcoin.PNG"
     },
     {
         "merged": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
         "source": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_doc.png.flat",
+        "source": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\drawable-xhdpi\\ic_doc.png"
     },
     {
         "merged": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_exchange_black.png.flat",
@@ -256,12 +348,24 @@
         "source": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\drawable-xxhdpi\\ic_3dots_black.png"
     },
     {
+        "merged": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_notification.png.flat",
+        "source": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\drawable-hdpi\\ic_notification.png"
+    },
+    {
         "merged": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_button_selected.xml.flat",
         "source": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\drawable\\button_selected.xml"
     },
     {
+        "merged": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi_ic_doc.xml.flat",
+        "source": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\drawable-anydpi\\ic_doc.xml"
+    },
+    {
         "merged": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_logo.PNG.flat",
         "source": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\drawable-hdpi\\logo.PNG"
+    },
+    {
+        "merged": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_doc.png.flat",
+        "source": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\drawable-hdpi\\ic_doc.png"
     },
     {
         "merged": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_exchange_black.png.flat",
@@ -284,6 +388,14 @@
         "source": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\drawable\\button_selector_blue.xml"
     },
     {
+        "merged": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_shield.png.flat",
+        "source": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\drawable-xhdpi\\ic_shield.png"
+    },
+    {
+        "merged": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_heart.png.flat",
+        "source": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\drawable-hdpi\\ic_heart.png"
+    },
+    {
         "merged": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
         "source": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
     },
@@ -298,6 +410,10 @@
     {
         "merged": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_add_blue.png.flat",
         "source": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\drawable-hdpi\\ic_add_blue.png"
+    },
+    {
+        "merged": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_bulb.png.flat",
+        "source": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\drawable-hdpi\\ic_bulb.png"
     },
     {
         "merged": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_wallet_eth.xml.flat",
@@ -320,6 +436,10 @@
         "source": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\drawable\\button_shape3.xml"
     },
     {
+        "merged": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_shield.png.flat",
+        "source": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\drawable-hdpi\\ic_shield.png"
+    },
+    {
         "merged": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_user_grey.png.flat",
         "source": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\drawable-xxhdpi\\ic_user_grey.png"
     },
@@ -336,6 +456,10 @@
         "source": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
+        "merged": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi_ic_lock.xml.flat",
+        "source": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\drawable-anydpi\\ic_lock.xml"
+    },
+    {
         "merged": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_3dots_black.png.flat",
         "source": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\drawable-hdpi\\ic_3dots_black.png"
     },
@@ -346,6 +470,14 @@
     {
         "merged": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
         "source": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi_ic_user.xml.flat",
+        "source": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\drawable-anydpi\\ic_user.xml"
+    },
+    {
+        "merged": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_bulb.png.flat",
+        "source": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\drawable-xxhdpi\\ic_bulb.png"
     },
     {
         "merged": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_user_grey.png.flat",
@@ -366,6 +498,14 @@
     {
         "merged": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_user_grey.png.flat",
         "source": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\drawable-xhdpi\\ic_user_grey.png"
+    },
+    {
+        "merged": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_lock.png.flat",
+        "source": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\drawable-xxhdpi\\ic_lock.png"
+    },
+    {
+        "merged": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_user.png.flat",
+        "source": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\drawable-hdpi\\ic_user.png"
     },
     {
         "merged": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_magnifier_customized.xml.flat",
@@ -394,6 +534,10 @@
     {
         "merged": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_setting_black.png.flat",
         "source": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\drawable-hdpi\\ic_setting_black.png"
+    },
+    {
+        "merged": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_notification.png.flat",
+        "source": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\drawable-xhdpi\\ic_notification.png"
     },
     {
         "merged": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_add_blue.png.flat",

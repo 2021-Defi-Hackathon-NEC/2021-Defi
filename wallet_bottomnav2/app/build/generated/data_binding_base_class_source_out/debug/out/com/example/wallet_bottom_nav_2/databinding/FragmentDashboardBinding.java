@@ -4,6 +4,9 @@ package com.example.wallet_bottom_nav_2.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
+import android.widget.LinearLayout;
+import android.widget.Switch;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -19,12 +22,63 @@ public final class FragmentDashboardBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
-  public final TextView textDashboard;
+  public final Button button17;
 
-  private FragmentDashboardBinding(@NonNull ConstraintLayout rootView,
-      @NonNull TextView textDashboard) {
+  @NonNull
+  public final Button button18;
+
+  @NonNull
+  public final Button button19;
+
+  @NonNull
+  public final Button button20;
+
+  @NonNull
+  public final Button button21;
+
+  @NonNull
+  public final Button button22;
+
+  @NonNull
+  public final Button button23;
+
+  @NonNull
+  public final Button button24;
+
+  @NonNull
+  public final LinearLayout linearLayout3;
+
+  @NonNull
+  public final Switch switch1;
+
+  @NonNull
+  public final Switch switch2;
+
+  @NonNull
+  public final TextView textView31;
+
+  @NonNull
+  public final TextView textView32;
+
+  private FragmentDashboardBinding(@NonNull ConstraintLayout rootView, @NonNull Button button17,
+      @NonNull Button button18, @NonNull Button button19, @NonNull Button button20,
+      @NonNull Button button21, @NonNull Button button22, @NonNull Button button23,
+      @NonNull Button button24, @NonNull LinearLayout linearLayout3, @NonNull Switch switch1,
+      @NonNull Switch switch2, @NonNull TextView textView31, @NonNull TextView textView32) {
     this.rootView = rootView;
-    this.textDashboard = textDashboard;
+    this.button17 = button17;
+    this.button18 = button18;
+    this.button19 = button19;
+    this.button20 = button20;
+    this.button21 = button21;
+    this.button22 = button22;
+    this.button23 = button23;
+    this.button24 = button24;
+    this.linearLayout3 = linearLayout3;
+    this.switch1 = switch1;
+    this.switch2 = switch2;
+    this.textView31 = textView31;
+    this.textView32 = textView32;
   }
 
   @Override
@@ -54,13 +108,87 @@ public final class FragmentDashboardBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.text_dashboard;
-      TextView textDashboard = rootView.findViewById(id);
-      if (textDashboard == null) {
+      id = R.id.button17;
+      Button button17 = rootView.findViewById(id);
+      if (button17 == null) {
         break missingId;
       }
 
-      return new FragmentDashboardBinding((ConstraintLayout) rootView, textDashboard);
+      id = R.id.button18;
+      Button button18 = rootView.findViewById(id);
+      if (button18 == null) {
+        break missingId;
+      }
+
+      id = R.id.button19;
+      Button button19 = rootView.findViewById(id);
+      if (button19 == null) {
+        break missingId;
+      }
+
+      id = R.id.button20;
+      Button button20 = rootView.findViewById(id);
+      if (button20 == null) {
+        break missingId;
+      }
+
+      id = R.id.button21;
+      Button button21 = rootView.findViewById(id);
+      if (button21 == null) {
+        break missingId;
+      }
+
+      id = R.id.button22;
+      Button button22 = rootView.findViewById(id);
+      if (button22 == null) {
+        break missingId;
+      }
+
+      id = R.id.button23;
+      Button button23 = rootView.findViewById(id);
+      if (button23 == null) {
+        break missingId;
+      }
+
+      id = R.id.button24;
+      Button button24 = rootView.findViewById(id);
+      if (button24 == null) {
+        break missingId;
+      }
+
+      id = R.id.linearLayout3;
+      LinearLayout linearLayout3 = rootView.findViewById(id);
+      if (linearLayout3 == null) {
+        break missingId;
+      }
+
+      id = R.id.switch1;
+      Switch switch1 = rootView.findViewById(id);
+      if (switch1 == null) {
+        break missingId;
+      }
+
+      id = R.id.switch2;
+      Switch switch2 = rootView.findViewById(id);
+      if (switch2 == null) {
+        break missingId;
+      }
+
+      id = R.id.textView31;
+      TextView textView31 = rootView.findViewById(id);
+      if (textView31 == null) {
+        break missingId;
+      }
+
+      id = R.id.textView32;
+      TextView textView32 = rootView.findViewById(id);
+      if (textView32 == null) {
+        break missingId;
+      }
+
+      return new FragmentDashboardBinding((ConstraintLayout) rootView, button17, button18, button19,
+          button20, button21, button22, button23, button24, linearLayout3, switch1, switch2,
+          textView31, textView32);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

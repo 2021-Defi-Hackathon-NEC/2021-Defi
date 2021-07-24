@@ -73,6 +73,10 @@ public class MainActivity extends AppCompatActivity {
                 intent = new Intent(this, wallet_coins.class);
                 startActivity(intent);
                 break;
+            case R.id.button_send_crypto: // Send Crypto
+                intent = new Intent(this, SendCrypto.class);
+                startActivity(intent);
+                break;
 //            case R.id.button_confirm: // Confirm
 //                intent = new Intent(this, WalletFragment.class);
 //                startActivity(intent);
