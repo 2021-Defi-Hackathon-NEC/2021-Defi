@@ -43,6 +43,13 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme.Wallet_bottomnav2" >
+        <activity android:name="com.example.wallet_bottom_nav_2.activity_coinmarketcap2" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity android:name="com.example.wallet_bottom_nav_2.wallet_coins" />
         <activity android:name="com.example.wallet_bottom_nav_2.login_1" />
         <activity android:name="com.example.wallet_bottom_nav_2.login3_ethereum" />
@@ -54,17 +61,13 @@
             android:name="com.example.wallet_bottom_nav_2.login_popup_error"
             android:screenOrientation="portrait"
             android:theme="@style/PopupTheme" /> <!-- <activity android:name=".login3_ethereum" /> -->
+        <activity android:name="com.example.wallet_bottom_nav_2.coinmarketcap" />
         <activity android:name="com.example.wallet_bottom_nav_2.wallet_ETH" />
         <activity android:name="com.example.wallet_bottom_nav_2.wallet_BTC" />
         <activity
             android:name="com.example.wallet_bottom_nav_2.auth_pincode"
             android:theme="@style/PinTheme" />
         <activity android:name="com.example.wallet_bottom_nav_2.before_main" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity> <!-- <activity -->
         <!-- android:name=".ui.login.LoginActivity" -->
         <!-- android:label="@string/title_activity_login"> -->
