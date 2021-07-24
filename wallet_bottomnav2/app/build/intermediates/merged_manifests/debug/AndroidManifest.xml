@@ -8,10 +8,10 @@
         android:minSdkVersion="25"
         android:targetSdkVersion="30" />
 
+    <uses-permission android:name="android.permission.CAMERA" />
     <uses-permission android:name="android.permission.USE_FINGERPRINT" />
     <uses-permission android:name="android.permission.VIBRATE" />
-    <uses-permission android:name="android.permission.USE_BIOMETRIC" />
-    <uses-permission android:name="android.permission.CAMERA" /> <!-- Don't require camera, as this requires a rear camera. This allows it to work on the Nexus 7 -->
+    <uses-permission android:name="android.permission.USE_BIOMETRIC" /> <!-- Don't require camera, as this requires a rear camera. This allows it to work on the Nexus 7 -->
     <uses-feature
         android:name="android.hardware.camera"
         android:required="false" />
@@ -44,7 +44,10 @@
         android:testOnly="true"
         android:theme="@style/Theme.Wallet_bottomnav2" >
         <activity android:name="com.example.wallet_bottom_nav_2.SendCrypto" />
-        <activity android:name="com.example.wallet_bottom_nav_2.activity_coinmarketcap2" >
+
+        <!-- temp -->
+        <!-- <activity android:name=".coinmarketcap"></activity> -->
+        <activity android:name="com.example.wallet_bottom_nav_2.temp_coinmarketcap" >
         </activity>
         <activity android:name="com.example.wallet_bottom_nav_2.wallet_coins" />
         <activity android:name="com.example.wallet_bottom_nav_2.login_1" />
@@ -57,7 +60,6 @@
             android:name="com.example.wallet_bottom_nav_2.login_popup_error"
             android:screenOrientation="portrait"
             android:theme="@style/PopupTheme" /> <!-- <activity android:name=".login3_ethereum" /> -->
-        <activity android:name="com.example.wallet_bottom_nav_2.coinmarketcap" />
         <activity android:name="com.example.wallet_bottom_nav_2.wallet_ETH" />
         <activity android:name="com.example.wallet_bottom_nav_2.wallet_BTC" />
         <activity

@@ -13,7 +13,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Wallet_bottomnav2">
         <activity android:name=".SendCrypto"></activity>
-        <activity android:name=".activity_coinmarketcap2">
+
+<!--        temp-->
+<!--        <activity android:name=".coinmarketcap"></activity>-->
+        <activity android:name=".temp_coinmarketcap">
 
         </activity>
         <activity android:name=".wallet_coins" />
@@ -27,7 +30,6 @@
             android:name=".login_popup_error"
             android:screenOrientation="portrait"
             android:theme="@style/PopupTheme" /> <!-- <activity android:name=".login3_ethereum" /> -->
-        <activity android:name=".coinmarketcap" />
         <activity android:name=".wallet_ETH" />
         <activity android:name=".wallet_BTC" />
         <activity
