@@ -106,6 +106,8 @@
     <string name="about_us">About Us</string>
     <string name="log_out">Log out</string>
     <string name="push_notifications">Push Notifications</string>
+    <string name="address">Address</string>
+    <string name="address_here">address will be here</string>
 
 
 </resources>

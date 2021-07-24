@@ -11,7 +11,7 @@ public class ExchangeViewModel extends ViewModel {
 
     public ExchangeViewModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("This is exchange fragment");
+        mText.setValue("3D2oetdNuZUqQHPJmcMDDHYoqkyNVsFk9r");
     }
 
     public LiveData<String> getText() {

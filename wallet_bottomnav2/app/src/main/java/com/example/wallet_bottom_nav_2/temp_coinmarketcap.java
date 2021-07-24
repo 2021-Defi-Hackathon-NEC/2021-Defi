@@ -13,7 +13,7 @@ public class temp_coinmarketcap extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_login1);
+        setContentView(R.layout.activity_coinmarketcap);
 
         ActionBar actionbar = getSupportActionBar();
         actionbar.hide();

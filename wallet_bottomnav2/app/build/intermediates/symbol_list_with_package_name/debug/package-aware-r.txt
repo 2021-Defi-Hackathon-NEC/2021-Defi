@@ -1909,8 +1909,6 @@ id SHOW_PROGRESS
 id SYM
 id TOP_END
 id TOP_START
-id acc_trade_price_24h
-id acc_trade_volume_24h
 id accelerate
 id accessibility_action_clickable_span
 id accessibility_custom_action_0
@@ -1998,10 +1996,7 @@ id btn_all
 id btn_day
 id btn_hour
 id btn_month
-<<<<<<< HEAD
-=======
 id btn_search
->>>>>>> 468faf891d5d9a555a8189de693552a3784fd0f6
 id btn_topgainers
 id btn_topmovers
 id btn_watchlist
@@ -2085,22 +2080,25 @@ id clip_horizontal
 id clip_vertical
 id clockwise
 id code_view
-<<<<<<< HEAD
 id coin1_gain_view
-=======
->>>>>>> 468faf891d5d9a555a8189de693552a3784fd0f6
 id coin1_image
 id coin1_name
+id coin1_price
 id coin1_shortname
+id coin2_gain_view
 id coin2_image
 id coin2_name
+id coin2_price
 id coin2_shortname
+id coin3_gain_view
 id coin3_image
 id coin3_name
+id coin3_price
 id coin3_shortname
 id coin4_gain_view
 id coin4_image
 id coin4_name
+id coin4_price
 id coin4_shortname
 id coin5_gain_view
 id coin5_image
@@ -2117,10 +2115,19 @@ id coin7_image
 id coin7_name
 id coin7_price
 id coin7_shortname
+id coin8_gain_view
+id coin8_image
+id coin8_name
+id coin8_price
+id coin8_shortname
+id coin9_gain_view
+id coin9_image
+id coin9_name
+id coin9_price
+id coin9_shortname
 id collapseActionView
 id confirm_button
 id constraintLayout
-id constraintLayout2
 id container
 id content
 id contentPanel
@@ -2204,7 +2211,6 @@ id groups
 id guideline
 id header_title
 id hideable
-id high_price
 id home
 id homeAsUp
 id honorRequest
@@ -2242,10 +2248,10 @@ id linear
 id linearLayout
 id linearLayout2
 id linearLayout3
+id linearLayout4
 id linearlayout3
 id listMode
 id list_item
-id low_price
 id masked
 id material_clock_display
 id material_clock_face
@@ -2326,7 +2332,6 @@ id notification_main_column
 id notification_main_column_container
 id off
 id on
-id opening_price
 id outline
 id outward
 id packed
@@ -2343,7 +2348,6 @@ id percent
 id pin
 id position
 id postLayout
-id prev_closing_price
 id progress_circular
 id progress_horizontal
 id radio
@@ -2467,6 +2471,8 @@ id textView3
 id textView30
 id textView31
 id textView32
+id textView33
+id textView34
 id textView4
 id textView5
 id textView6
@@ -2493,7 +2499,6 @@ id toggle
 id top
 id topPanel
 id touch_outside
-id trade_price
 id transitionToEnd
 id transitionToStart
 id transition_current_scene
@@ -2771,6 +2776,8 @@ string action_sign_in
 string action_sign_in_short
 string add_contract
 string add_plus
+string address
+string address_here
 string allow_push_notification
 string app_name
 string app_name_pf

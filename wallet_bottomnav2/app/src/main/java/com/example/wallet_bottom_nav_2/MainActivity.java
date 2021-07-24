@@ -51,7 +51,14 @@ public class MainActivity extends AppCompatActivity {
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment_activity_main);
         NavigationUI.setupActionBarWithNavController(this, navController, appBarConfiguration);
         NavigationUI.setupWithNavController(binding.navView, navController);
+
+
+
     }
+
+
+
+
 
     // 코드 수정중
     public void clickBtn(View view){
@@ -101,6 +108,17 @@ public class MainActivity extends AppCompatActivity {
                 Toast.makeText(getApplicationContext(), "Sent!", Toast.LENGTH_SHORT).show();
                 break;
 
+        }
+    }
+
+    public void clickBtn_selected(View view){
+        switch (view.getId()){
+            case R.id.button2:
+                Button selector_selected = (Button) findViewById(R.id.button2);
+                selector_selected.setSelected(!selector_selected.isSelected());
+
+                System.out.println("Connected!");
+                break;
         }
     }
 

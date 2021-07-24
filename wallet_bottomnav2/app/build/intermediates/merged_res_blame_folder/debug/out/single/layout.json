@@ -1,6 +1,5 @@
 [
     {
-<<<<<<< HEAD
         "merged": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_wallet_btc.xml",
         "source": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\layout\\activity_wallet_btc.xml"
     },
@@ -11,98 +10,77 @@
     {
         "merged": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_wallet.xml",
         "source": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\layout\\fragment_wallet.xml"
-=======
-        "merged": "C:\\Users\\rlaco\\Desktop\\git\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_login1.xml",
-        "source": "C:\\Users\\rlaco\\Desktop\\git\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\layout\\activity_login1.xml"
     },
     {
-        "merged": "C:\\Users\\rlaco\\Desktop\\git\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_dashboard.xml",
-        "source": "C:\\Users\\rlaco\\Desktop\\git\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\layout\\fragment_dashboard.xml"
+        "merged": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_auth_pincode.xml",
+        "source": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\layout\\activity_auth_pincode.xml"
     },
     {
-        "merged": "C:\\Users\\rlaco\\Desktop\\git\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_wallet.xml",
-        "source": "C:\\Users\\rlaco\\Desktop\\git\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\layout\\fragment_wallet.xml"
->>>>>>> 468faf891d5d9a555a8189de693552a3784fd0f6
+        "merged": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_login1.xml",
+        "source": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\layout\\activity_login1.xml"
     },
     {
-        "merged": "C:\\Users\\rlaco\\Desktop\\git\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_notifications.xml",
-        "source": "C:\\Users\\rlaco\\Desktop\\git\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\layout\\fragment_notifications.xml"
+        "merged": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_login_popup_error.xml",
+        "source": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\layout\\activity_login_popup_error.xml"
     },
     {
-        "merged": "C:\\Users\\rlaco\\Desktop\\git\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_wallet_btc.xml",
-        "source": "C:\\Users\\rlaco\\Desktop\\git\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\layout\\activity_wallet_btc.xml"
-    },
-    {
-        "merged": "C:\\Users\\rlaco\\Desktop\\git\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_exchange.xml",
-        "source": "C:\\Users\\rlaco\\Desktop\\git\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\layout\\fragment_exchange.xml"
-    },
-    {
-<<<<<<< HEAD
         "merged": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_coin_graph.xml",
         "source": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\layout\\activity_coin_graph.xml"
     },
     {
         "merged": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_coinmarketcap.xml",
         "source": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\layout\\activity_coinmarketcap.xml"
-=======
-        "merged": "C:\\Users\\rlaco\\Desktop\\git\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_wallet_eth.xml",
-        "source": "C:\\Users\\rlaco\\Desktop\\git\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\layout\\activity_wallet_eth.xml"
->>>>>>> 468faf891d5d9a555a8189de693552a3784fd0f6
     },
     {
-        "merged": "C:\\Users\\rlaco\\Desktop\\git\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_qr_scanner.xml",
-        "source": "C:\\Users\\rlaco\\Desktop\\git\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\layout\\activity_qr_scanner.xml"
+        "merged": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_wallet_bal.xml",
+        "source": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\layout\\fragment_wallet_bal.xml"
     },
     {
-        "merged": "C:\\Users\\rlaco\\Desktop\\git\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_wallet_coins.xml",
-        "source": "C:\\Users\\rlaco\\Desktop\\git\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\layout\\activity_wallet_coins.xml"
+        "merged": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_dashboard.xml",
+        "source": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\layout\\fragment_dashboard.xml"
     },
     {
-        "merged": "C:\\Users\\rlaco\\Desktop\\git\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_wallet_bal.xml",
-        "source": "C:\\Users\\rlaco\\Desktop\\git\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\layout\\fragment_wallet_bal.xml"
+        "merged": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_wallet_eth.xml",
+        "source": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\layout\\activity_wallet_eth.xml"
     },
     {
-        "merged": "C:\\Users\\rlaco\\Desktop\\git\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_login_popup_error.xml",
-        "source": "C:\\Users\\rlaco\\Desktop\\git\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\layout\\activity_login_popup_error.xml"
+        "merged": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_login3_ethereum.xml",
+        "source": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\layout\\activity_login3_ethereum.xml"
     },
     {
-        "merged": "C:\\Users\\rlaco\\Desktop\\git\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_send_crypto.xml",
-        "source": "C:\\Users\\rlaco\\Desktop\\git\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\layout\\activity_send_crypto.xml"
+        "merged": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_wallet_coins.xml",
+        "source": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\layout\\activity_wallet_coins.xml"
     },
     {
-        "merged": "C:\\Users\\rlaco\\Desktop\\git\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_login3_ethereum.xml",
-        "source": "C:\\Users\\rlaco\\Desktop\\git\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\layout\\activity_login3_ethereum.xml"
+        "merged": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_qr_scanner.xml",
+        "source": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\layout\\activity_qr_scanner.xml"
     },
     {
-        "merged": "C:\\Users\\rlaco\\Desktop\\git\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_coin_graph.xml",
-        "source": "C:\\Users\\rlaco\\Desktop\\git\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\layout\\activity_coin_graph.xml"
+        "merged": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_before_main.xml",
+        "source": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\layout\\activity_before_main.xml"
     },
     {
-        "merged": "C:\\Users\\rlaco\\Desktop\\git\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_coinmarketcap.xml",
-        "source": "C:\\Users\\rlaco\\Desktop\\git\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\layout\\activity_coinmarketcap.xml"
+        "merged": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_home.xml",
+        "source": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\layout\\fragment_home.xml"
     },
     {
-        "merged": "C:\\Users\\rlaco\\Desktop\\git\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\spinner_row.xml",
-        "source": "C:\\Users\\rlaco\\Desktop\\git\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\layout\\spinner_row.xml"
+        "merged": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\spinner_row.xml",
+        "source": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\layout\\spinner_row.xml"
     },
     {
-        "merged": "C:\\Users\\rlaco\\Desktop\\git\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_login_popup_great.xml",
-        "source": "C:\\Users\\rlaco\\Desktop\\git\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\layout\\activity_login_popup_great.xml"
+        "merged": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\rlaco\\Desktop\\git\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_before_main.xml",
-        "source": "C:\\Users\\rlaco\\Desktop\\git\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\layout\\activity_before_main.xml"
+        "merged": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_send_crypto.xml",
+        "source": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\layout\\activity_send_crypto.xml"
     },
     {
-        "merged": "C:\\Users\\rlaco\\Desktop\\git\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
-        "source": "C:\\Users\\rlaco\\Desktop\\git\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\layout\\activity_main.xml"
+        "merged": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_exchange.xml",
+        "source": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\layout\\fragment_exchange.xml"
     },
     {
-        "merged": "C:\\Users\\rlaco\\Desktop\\git\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_home.xml",
-        "source": "C:\\Users\\rlaco\\Desktop\\git\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\layout\\fragment_home.xml"
-    },
-    {
-        "merged": "C:\\Users\\rlaco\\Desktop\\git\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_auth_pincode.xml",
-        "source": "C:\\Users\\rlaco\\Desktop\\git\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\layout\\activity_auth_pincode.xml"
+        "merged": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_notifications.xml",
+        "source": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\layout\\fragment_notifications.xml"
     }
 ]
