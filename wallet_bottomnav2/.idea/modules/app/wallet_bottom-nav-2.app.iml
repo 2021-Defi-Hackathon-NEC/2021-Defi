@@ -155,5 +155,6 @@
     <orderEntry type="library" name="Gradle: androidx.annotation:annotation-experimental:1.0.0@aar" level="project" />
     <orderEntry type="library" name="Gradle: com.github.thealeksandr:PFLockScreen-Android:1.0.0-beta7@aar" level="project" />
     <orderEntry type="library" name="Gradle: androidx.security:security-identity-credential:1.0.0-alpha02@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.android.volley:volley:1.1.1@aar" level="project" />
   </component>
 </module>

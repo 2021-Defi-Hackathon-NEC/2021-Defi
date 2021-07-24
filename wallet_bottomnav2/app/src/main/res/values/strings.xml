@@ -94,12 +94,8 @@
     <string name="chaerin">chaerin</string>
     <string name="bal">BAL</string>
     <string name="klay">KLAY</string>
-<<<<<<< HEAD
-    <string name="coinmarketcap">coinmarketcap</string>
     <string name="select_coins">Select Coins</string>
-=======
     <string name="coinmarketcap">Coin Market Cap</string>
->>>>>>> a4a8b82bed966788e50d60ce8537930226b318bc
 
 
 </resources>
