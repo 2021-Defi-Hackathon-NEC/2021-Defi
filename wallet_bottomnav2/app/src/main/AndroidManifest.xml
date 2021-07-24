@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.example.wallet_bottom_nav_2">
+    package="com.example.wallet_bottom_nav_2" >
 
     <application
         android:allowBackup="true"
@@ -9,24 +9,26 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Wallet_bottomnav2">
+        android:theme="@style/Theme.Wallet_bottomnav2" >
+        <activity android:name=".coin_graph" >
+        </activity>
         <activity android:name=".wallet_coins" />
-        <activity android:name=".login_1"></activity>
-        <activity android:name=".login3_ethereum"></activity>
+        <activity android:name=".login_1" />
+        <activity android:name=".login3_ethereum" />
         <activity
             android:name=".login_popup_great"
             android:screenOrientation="portrait"
-            android:theme="@style/PopupTheme"></activity>
+            android:theme="@style/PopupTheme" />
         <activity
             android:name=".login_popup_error"
             android:screenOrientation="portrait"
-            android:theme="@style/PopupTheme"></activity> <!-- <activity android:name=".login3_ethereum" /> -->
+            android:theme="@style/PopupTheme" /> <!-- <activity android:name=".login3_ethereum" /> -->
         <activity android:name=".wallet_ETH" />
         <activity android:name=".wallet_BTC" />
         <activity
             android:name=".auth_pincode"
             android:theme="@style/PinTheme" />
-        <activity android:name=".before_main">
+        <activity android:name=".before_main" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
