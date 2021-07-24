@@ -1,10 +1,20 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\User PC\\Documents\\GitHub\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-hdpi-v4\\values-hdpi-v4.xml",
+            "outputFile": "C:\\Users\\geeni\\Desktop\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-hdpi-v4\\values-hdpi-v4.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\User PC\\.gradle\\caches\\transforms-2\\files-2.1\\77c7b97873973e149b09819f46c0a153\\appcompat-1.3.0\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
+                    "source": "C:\\Users\\geeni\\.gradle\\caches\\transforms-2\\files-2.1\\8274e7f6ccc9969f6dc667153d2ec521\\jetified-PFLockScreen-Android-1.0.0-beta7\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,113,158",
+                        "endColumns": "57,44,43",
+                        "endOffsets": "108,153,197"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\geeni\\.gradle\\caches\\transforms-2\\files-2.1\\77c7b97873973e149b09819f46c0a153\\appcompat-1.3.0\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -20,16 +30,6 @@
                         "endLines": "9",
                         "endColumns": "13",
                         "endOffsets": "474"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\User PC\\.gradle\\caches\\transforms-2\\files-2.1\\8274e7f6ccc9969f6dc667153d2ec521\\jetified-PFLockScreen-Android-1.0.0-beta7\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
-                    "from": {
-                        "startLines": "2,3,4",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "55,113,158",
-                        "endColumns": "57,44,43",
-                        "endOffsets": "108,153,197"
                     }
                 }
             ]

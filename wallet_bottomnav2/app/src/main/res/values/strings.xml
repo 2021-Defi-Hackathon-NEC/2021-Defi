@@ -94,6 +94,7 @@
     <string name="chaerin">chaerin</string>
     <string name="bal">BAL</string>
     <string name="klay">KLAY</string>
+    <string name="coinmarketcap">Coin Market Cap</string>
 
 
 </resources>
