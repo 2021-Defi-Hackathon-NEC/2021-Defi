@@ -1,6 +1,14 @@
 package com.example.wallet_bottom_nav_2;
 
-import android.app.Activity;
+import androidx.appcompat.app.AppCompatActivity;
 
-public class coinmarketcap extends Activity {
+import android.os.Bundle;
+
+public class coinmarketcap extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_coinmarketcap);
+    }
 }
