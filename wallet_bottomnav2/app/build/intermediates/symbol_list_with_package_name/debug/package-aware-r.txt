@@ -1910,6 +1910,7 @@ id SYM
 id TOP_END
 id TOP_START
 id acc_trade_price_24h
+id acc_trade_volume_24h
 id accelerate
 id accessibility_action_clickable_span
 id accessibility_custom_action_0
@@ -1998,6 +1999,7 @@ id btn_all
 id btn_day
 id btn_hour
 id btn_month
+id btn_search
 id btn_topgainers
 id btn_topmovers
 id btn_watchlist
@@ -2082,10 +2084,8 @@ id clip_horizontal
 id clip_vertical
 id clockwise
 id code_view
-id coin1_gain_view
 id coin1_image
 id coin1_name
-id coin1_price
 id coin1_shortname
 id coin2_gain_view
 id coin2_image
@@ -2120,7 +2120,6 @@ id coin7_shortname
 id coin8_gain_view
 id coin8_image
 id coin8_name
-id coin8_price
 id coin8_shortname
 id coin9_gain_view
 id coin9_image
@@ -2213,6 +2212,7 @@ id groups
 id guideline
 id header_title
 id hideable
+id high_price
 id home
 id homeAsUp
 id honorRequest
@@ -2334,6 +2334,7 @@ id notification_main_column
 id notification_main_column_container
 id off
 id on
+id opening_price
 id outline
 id outward
 id packed

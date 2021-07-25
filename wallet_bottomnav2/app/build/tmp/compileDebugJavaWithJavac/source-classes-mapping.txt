@@ -42,6 +42,12 @@ com/example/wallet_bottom_nav_2/ui/wallet/WalletFragment.java
  com.example.wallet_bottom_nav_2.ui.wallet.WalletFragment$1
 com/example/wallet_bottom_nav_2/wallet_coins.java
  com.example.wallet_bottom_nav_2.wallet_coins
+com/example/wallet_bottom_nav_2/coinmarketcap.java
+ com.example.wallet_bottom_nav_2.coinmarketcap
+ com.example.wallet_bottom_nav_2.coinmarketcap$1
+ com.example.wallet_bottom_nav_2.coinmarketcap$2
+ com.example.wallet_bottom_nav_2.coinmarketcap$3
+ com.example.wallet_bottom_nav_2.coinmarketcap$4
 com/example/wallet_bottom_nav_2/CustomSpinnerAdapter.java
  com.example.wallet_bottom_nav_2.CustomSpinnerAdapter
  com.example.wallet_bottom_nav_2.CustomSpinnerAdapter$1

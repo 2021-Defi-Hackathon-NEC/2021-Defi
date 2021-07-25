@@ -24,24 +24,24 @@
         "source": "C:\\Users\\rlaco\\Desktop\\git\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\drawable-hdpi\\ic_user_grey.png"
     },
     {
-        "merged": "C:\\Users\\rlaco\\Desktop\\git\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ethereum.PNG.flat",
-        "source": "C:\\Users\\rlaco\\Desktop\\git\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\drawable-hdpi\\ethereum.PNG"
-    },
-    {
         "merged": "C:\\Users\\rlaco\\Desktop\\git\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ethereum_classic.PNG.flat",
         "source": "C:\\Users\\rlaco\\Desktop\\git\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\drawable-hdpi\\ethereum_classic.PNG"
+    },
+    {
+        "merged": "C:\\Users\\rlaco\\Desktop\\git\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ethereum.PNG.flat",
+        "source": "C:\\Users\\rlaco\\Desktop\\git\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\drawable-hdpi\\ethereum.PNG"
     },
     {
         "merged": "C:\\Users\\rlaco\\Desktop\\git\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_bitcoin.PNG.flat",
         "source": "C:\\Users\\rlaco\\Desktop\\git\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\drawable-hdpi\\bitcoin.PNG"
     },
     {
-        "merged": "C:\\Users\\rlaco\\Desktop\\git\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi_ic_heart.xml.flat",
-        "source": "C:\\Users\\rlaco\\Desktop\\git\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\drawable-anydpi\\ic_heart.xml"
-    },
-    {
         "merged": "C:\\Users\\rlaco\\Desktop\\git\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bitcoin_customize.xml.flat",
         "source": "C:\\Users\\rlaco\\Desktop\\git\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\drawable\\bitcoin_customize.xml"
+    },
+    {
+        "merged": "C:\\Users\\rlaco\\Desktop\\git\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi_ic_heart.xml.flat",
+        "source": "C:\\Users\\rlaco\\Desktop\\git\\2021-Defi\\wallet_bottomnav2\\app\\src\\main\\res\\drawable-anydpi\\ic_heart.xml"
     },
     {
         "merged": "C:\\Users\\rlaco\\Desktop\\git\\2021-Defi\\wallet_bottomnav2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_user_grey.png.flat",

@@ -75,7 +75,7 @@
             android:layout_gravity="center">
 
             <Button
-                android:id="@+id/btn_all"
+                android:id="@+id/btn_search"
                 android:layout_width="65dp"
                 android:layout_height="28dp"
                 android:layout_marginStart="18dp"
@@ -198,7 +198,7 @@
                         </LinearLayout>
 
                         <TextView
-                            android:id="@+id/coin1_price"
+                            android:id="@+id/opening_price"
                             android:layout_width="83dp"
                             android:layout_height="match_parent"
                             android:gravity="center"
@@ -209,7 +209,7 @@
                         </TextView>
 
                         <TextView
-                            android:id="@+id/coin1_gain_view"
+                            android:id="@+id/high_price"
                             android:layout_width="78dp"
                             android:layout_height="40dp"
                             android:layout_gravity="center"
@@ -672,7 +672,7 @@
                         </LinearLayout>
 
                         <TextView
-                            android:id="@+id/coin8_price"
+                            android:id="@+id/acc_trade_volume_24h"
                             android:layout_width="83dp"
                             android:layout_height="match_parent"
                             android:gravity="center"
