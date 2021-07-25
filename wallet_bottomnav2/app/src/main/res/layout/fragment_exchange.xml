@@ -195,15 +195,34 @@
 
             </LinearLayout>
 
-            <TextView
-                android:id="@+id/textView28"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_margin="9dp"
-                android:text="@string/select_crypto"
-                android:textColor="#000000"
-                android:textSize="16sp"
-                android:textStyle="bold" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView28"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="9dp"
+                    android:text="@string/select_crypto"
+                    android:textColor="#000000"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView40"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:textColor="@color/dracula_blue"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:layout_margin="9dp"
+                    android:text="Coin here" />
+            </LinearLayout>
 
             <HorizontalScrollView
                 android:layout_width="match_parent"
@@ -221,6 +240,7 @@
                         android:layout_gravity="center"
                         android:layout_margin="9dp"
                         android:layout_weight="1"
+                        android:onClick="clickBtn_coinSelected"
                         android:drawableLeft="@drawable/bitcoin_customize"
                         android:background="@drawable/button_selected"
                         android:text="@string/btc"
@@ -234,6 +254,7 @@
                         android:layout_gravity="center"
                         android:layout_margin="9dp"
                         app:backgroundTint="#FFFFFF"
+                        android:onClick="clickBtn_coinSelected"
                         android:drawableLeft="@drawable/ethereum_customize"
                         android:background="@drawable/button_selected"
                         android:text="@string/eth"
@@ -243,12 +264,14 @@
                         android:id="@+id/button14"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_weight="1"
                         android:layout_gravity="center"
                         android:layout_margin="9dp"
-                        app:backgroundTint="#FFFFFF"
+                        android:layout_weight="1"
+                        android:onClick="clickBtn_coinSelected"
                         android:background="@drawable/button_selected"
-                        android:text="@string/bal" />
+                        android:drawableLeft="@drawable/binance_customized"
+                        android:text="@string/bnb"
+                        app:backgroundTint="#FFFFFF" />
 
                     <Button
                         android:id="@+id/button15"
@@ -258,8 +281,10 @@
                         android:layout_gravity="center"
                         android:layout_margin="9dp"
                         app:backgroundTint="#FFFFFF"
+                        android:onClick="clickBtn_coinSelected"
                         android:background="@drawable/button_selected"
-                        android:text="@string/klay" />
+                        android:drawableLeft="@drawable/ethereum_classic_customized"
+                        android:text="@string/etc" />
 
                     <Button
                         android:id="@+id/button16"
@@ -269,8 +294,10 @@
                         android:layout_gravity="center"
                         android:layout_margin="9dp"
                         app:backgroundTint="#FFFFFF"
+                        android:onClick="clickBtn_coinSelected"
                         android:background="@drawable/button_selected"
-                        android:text="@string/nec" />
+                        android:drawableLeft="@drawable/link_customized"
+                        android:text="@string/link" />
                 </LinearLayout>
 
             </HorizontalScrollView>
