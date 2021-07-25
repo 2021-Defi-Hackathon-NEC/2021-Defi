@@ -2059,6 +2059,8 @@ int id button_next 0x7f090094
 int id button_right 0x7f090095
 int id button_send_crypto 0x7f090096
 int id button_show_more 0x7f090097
+int id button_show_more2 0x7f09029b
+int id button_show_more3 0x7f09029c
 int id button_wallet1 0x7f090098
 int id button_wallet2 0x7f090099
 int id button_wallet3 0x7f09009a
