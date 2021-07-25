@@ -42,9 +42,9 @@ public class login2 extends AppCompatActivity {
         addButton = (Button) findViewById(R.id.addButton);
 
         //Button Setting
-        Mnemonic.setVisibility(View.GONE);
-        nextButton.setVisibility(View.GONE);
-        addButton.setVisibility(View.GONE);
+        /*Mnemonic.setVisibility(View.INVISIBLE);
+        nextButton.setVisibility(View.INVISIBLE);
+        addButton.setVisibility(View.INVISIBLE);*/
 
         //Spinner
         super.onCreate(savedInstanceState);
