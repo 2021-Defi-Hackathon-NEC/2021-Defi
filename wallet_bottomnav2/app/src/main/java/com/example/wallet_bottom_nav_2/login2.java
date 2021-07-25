@@ -85,15 +85,14 @@ public class login2 extends AppCompatActivity {
 
                 @Override
                 public void afterTextChanged(Editable editable) {
-                    if (editable.length() > 3){
-                        write=true;
-                    }
+                    if (editable.length() > 3) write = true;
                 }
             });
         }
         else{
             write=true;
         }
+
 
         privatekey.addTextChangedListener(new TextWatcher() {
             @Override
@@ -106,11 +105,7 @@ public class login2 extends AppCompatActivity {
 
             @Override
             public void afterTextChanged(Editable editable) {
-                if (editable.length() > 3) {
-                    nextButton.setClickable(true);
-                } else {
-                    nextButton.setClickable(false);
-                }
+                nextButton.setClickable(editable.length() > 3 && write);
             }
         });
 
@@ -118,16 +113,20 @@ public class login2 extends AppCompatActivity {
 
             @Override
             public void onClick(View v) {
-                if ((eth&&(Mnemonic==privatekey))|| !eth) {
-                    Intent intent = new Intent(login2.this, login_popup_great.class);
+                if (eth) {
+                    if (Mnemonic==privatekey){
+                        Intent intent = new Intent(login2.this, login_popup_great.class);
+                    }
+                    else{
+                        Intent intent = new Intent(login2.this, login_popup_error.class);
+                    }
                 }
                 else{
-                    Intent intent = new Intent(login2.this, login_popup_error.class);
+                    Intent intent = new Intent(login2.this, login_popup_great.class);
                 }
             }
 
         });
-
 
         ActionBar actionbar = getSupportActionBar();
         actionbar.hide();
