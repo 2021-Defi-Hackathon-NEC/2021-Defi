@@ -25,9 +25,9 @@ We are composed of front end and back end.
 |------	|----------	|------	|---------	|---	|
 | Jimin Kim |  Team Leader & Front-end dev(Java) 	|      	|         	|   	|
 | Juwon Lee | full-stack dev(React Native, Flutter)	|      	|         	|   	|
-| Chaerim Kim | Back-end dev(Java)	| Coin send&receive, smart contact, market price status |         	| Computer Science Engineering |
+| Chaerin Kim | Back-end dev(Java)	| Coin send&receive, smart contact, market price status |         	| Computer Science Engineering |
 | Hanhui Kim | Back-end dev(Java) |      	|         	|   	|
-| Ahn Hyejin	| Front-end dev(Java) 	|      	|         	|   	|
+| Hyejin Ahn	| Front-end dev(Java) 	|      	|         	|   	|
 
 
 
