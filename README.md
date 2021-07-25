@@ -15,14 +15,14 @@
 ## 🤩 Let me introduce
 Hello! We are undergraduate students who are interested in blockchain in Korea. 
 We are interested in blockchain application technologies such as de-fi.
-We are still lacking, but I'm honored to have the opportunity to implement it myself!
-We are composed of front end and back end.
+We are still lacking, but We're honored to have the opportunity to implement it ourselves!
+We are composed of front-end dev and back-end dev.
 
 | Name 	| Position 	| Role 	| comment | major |
 |------	|----------	|------	|---------	|---	|
 | Jimin Kim |  Front-end dev(Java) 	| (Android) Coin send&receive, Wallet main, dashboard	| @mimm | Korean Language and Literature, Software	|
 | Juwon Lee | Full-stack dev(Flutter(Dart))	| (Cross Platform App) Wallet App | @2-zoo1 | Library and Information Science, Computer Cyber Security |
-| Chaerin Kim | Back-end dev(Java)	| Coin send&receive, smart contract, market price status |         	| Computer Science and Engineering |
+| Chaerin Kim | Back-end dev(Java)	| Coin send&receive, smart contract, market price status | @Chaerin Kim  	| Computer Science and Engineering |
 | Hanhui Kim | Back-end dev(Java) | Login	|         	| Mathematics, Statistics |
 | Hyejin Ahn	| Front-end dev(Java) 	| (Android) login, pincode, recommendation	| @geniee44 	| Cyber Security, Economy |
 
