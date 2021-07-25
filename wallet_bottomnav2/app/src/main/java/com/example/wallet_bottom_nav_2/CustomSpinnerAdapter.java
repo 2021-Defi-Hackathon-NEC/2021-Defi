@@ -16,7 +16,7 @@ public class CustomSpinnerAdapter extends ArrayAdapter<String>{
     int[] spinnerImages;
     Context mContext;
 
-    public CustomSpinnerAdapter(@NonNull login3_ethereum context, String[] titles, int[] images) {
+    public CustomSpinnerAdapter(@NonNull login2 context, String[] titles, int[] images) {
         super(context, R.layout.spinner_row);
         this.spinnerCoins = titles;
         this.spinnerImages = images;
