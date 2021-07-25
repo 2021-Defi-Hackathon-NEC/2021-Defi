@@ -169,23 +169,29 @@
 
                 <EditText
                     android:id="@+id/textView34"
-                    android:layout_width="wrap_content"
+                    android:layout_width="338dp"
                     android:layout_height="wrap_content"
+                    android:layout_gravity="center"
                     android:layout_margin="9dp"
                     android:layout_weight="1"
-                    android:layout_gravity="center"
                     android:text="@string/address_here"
                     android:textColor="@color/dracula_blue"
                     android:textSize="16sp"
                     android:textStyle="bold" />
 
                 <ImageButton
-                    android:id="@+id/imageButton3"
-                    android:layout_gravity="center"
-                    android:layout_marginRight="50dp"
+                    android:id="@+id/btScan"
+                    style="@style/Widget.AppCompat.ImageButton"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/bitcoin" />
+                    android:layout_gravity="center"
+                    android:layout_marginRight="30dp"
+                    android:adjustViewBounds="true"
+                    android:backgroundTint="#00FFFFFF"
+                    android:maxWidth="55dp"
+                    android:maxHeight="55dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/ic_scan" />
 
             </LinearLayout>
 

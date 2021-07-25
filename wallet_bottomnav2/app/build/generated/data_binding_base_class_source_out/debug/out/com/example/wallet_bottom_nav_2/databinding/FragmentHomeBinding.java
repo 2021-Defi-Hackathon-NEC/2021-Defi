@@ -4,6 +4,7 @@ package com.example.wallet_bottom_nav_2.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.ScrollView;
 import android.widget.TextView;
@@ -27,6 +28,12 @@ public final class FragmentHomeBinding implements ViewBinding {
   public final TextView balance4;
 
   @NonNull
+  public final Button buttonShowMore2;
+
+  @NonNull
+  public final Button buttonShowMore3;
+
+  @NonNull
   public final ImageView imageView;
 
   @NonNull
@@ -44,27 +51,21 @@ public final class FragmentHomeBinding implements ViewBinding {
   @NonNull
   public final TextView textView6;
 
-  @NonNull
-  public final View view10;
-
-  @NonNull
-  public final View view9;
-
   private FragmentHomeBinding(@NonNull ConstraintLayout rootView, @NonNull TextView balance3,
-      @NonNull TextView balance4, @NonNull ImageView imageView, @NonNull ScrollView scrollView,
-      @NonNull TextView textView21, @NonNull TextView textView22, @NonNull TextView textView23,
-      @NonNull TextView textView6, @NonNull View view10, @NonNull View view9) {
+      @NonNull TextView balance4, @NonNull Button buttonShowMore2, @NonNull Button buttonShowMore3,
+      @NonNull ImageView imageView, @NonNull ScrollView scrollView, @NonNull TextView textView21,
+      @NonNull TextView textView22, @NonNull TextView textView23, @NonNull TextView textView6) {
     this.rootView = rootView;
     this.balance3 = balance3;
     this.balance4 = balance4;
+    this.buttonShowMore2 = buttonShowMore2;
+    this.buttonShowMore3 = buttonShowMore3;
     this.imageView = imageView;
     this.scrollView = scrollView;
     this.textView21 = textView21;
     this.textView22 = textView22;
     this.textView23 = textView23;
     this.textView6 = textView6;
-    this.view10 = view10;
-    this.view9 = view9;
   }
 
   @Override
@@ -106,6 +107,18 @@ public final class FragmentHomeBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.button_show_more2;
+      Button buttonShowMore2 = rootView.findViewById(id);
+      if (buttonShowMore2 == null) {
+        break missingId;
+      }
+
+      id = R.id.button_show_more3;
+      Button buttonShowMore3 = rootView.findViewById(id);
+      if (buttonShowMore3 == null) {
+        break missingId;
+      }
+
       id = R.id.imageView;
       ImageView imageView = rootView.findViewById(id);
       if (imageView == null) {
@@ -142,20 +155,9 @@ public final class FragmentHomeBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.view10;
-      View view10 = rootView.findViewById(id);
-      if (view10 == null) {
-        break missingId;
-      }
-
-      id = R.id.view9;
-      View view9 = rootView.findViewById(id);
-      if (view9 == null) {
-        break missingId;
-      }
-
-      return new FragmentHomeBinding((ConstraintLayout) rootView, balance3, balance4, imageView,
-          scrollView, textView21, textView22, textView23, textView6, view10, view9);
+      return new FragmentHomeBinding((ConstraintLayout) rootView, balance3, balance4,
+          buttonShowMore2, buttonShowMore3, imageView, scrollView, textView21, textView22,
+          textView23, textView6);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

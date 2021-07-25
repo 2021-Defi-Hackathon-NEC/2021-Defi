@@ -2060,6 +2060,8 @@ id button_next
 id button_right
 id button_send_crypto
 id button_show_more
+id button_show_more2
+id button_show_more3
 id button_wallet1
 id button_wallet2
 id button_wallet3
@@ -2998,6 +3000,7 @@ string title_send
 string title_wallet
 string today_s_recommendation
 string transaction_successful
+string usd
 string use_pin_pf
 string wallet_address
 string welcome
