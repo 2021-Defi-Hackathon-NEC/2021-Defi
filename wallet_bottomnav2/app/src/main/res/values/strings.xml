@@ -108,6 +108,7 @@
     <string name="push_notifications">Push Notifications</string>
     <string name="address">Address</string>
     <string name="address_here">address will be here</string>
+    <string name="name_here">Name here</string>
 
 
 </resources>

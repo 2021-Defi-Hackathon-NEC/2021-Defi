@@ -27,15 +27,33 @@
                 android:textSize="34sp"
                 android:textStyle="bold" />
 
-            <TextView
-                android:id="@+id/textView27"
+            <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="9dp"
-                android:text="Select The Recipient"
-                android:textColor="#000000"
-                android:textSize="16sp"
-                android:textStyle="bold" />
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView27"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="9dp"
+                    android:text="Select The Recipient : "
+                    android:textColor="#000000"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView35"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:textColor="@color/dracula_blue"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:layout_margin="9dp"
+                    android:text="@string/name_here" />
+            </LinearLayout>
 
             <HorizontalScrollView
                 android:layout_width="match_parent"
@@ -64,16 +82,22 @@
                         android:layout_gravity="center"
                         android:layout_margin="9dp"
                         android:layout_weight="1"
+                        android:clickable="true"
+                        android:focusable="true"
                         android:onClick="clickBtn_selected"
                         android:background="@drawable/button_selected"
                         android:text="@string/geniee"
-                        app:backgroundTint="#FFFFFF" />
+                        app:backgroundTint="#FFFFFF"
+                         />
 
                     <Button
                         android:id="@+id/button7"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:onClick="clickBtn_selected"
                         android:layout_gravity="center"
                         android:layout_margin="9dp"
                         app:backgroundTint="#FFFFFF"
@@ -86,6 +110,9 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:onClick="clickBtn_selected"
                         android:layout_gravity="center"
                         android:layout_margin="9dp"
                         app:backgroundTint="#FFFFFF"
@@ -97,6 +124,9 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:onClick="clickBtn_selected"
                         android:layout_gravity="center"
                         android:layout_margin="9dp"
                         app:backgroundTint="#FFFFFF"
@@ -108,6 +138,9 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:onClick="clickBtn_selected"
                         android:layout_gravity="center"
                         android:layout_margin="9dp"
                         app:backgroundTint="#FFFFFF"
@@ -129,15 +162,33 @@
                 android:layout_margin="9dp"
                 android:text="@string/address" />
 
-            <TextView
-                android:id="@+id/textView34"
+            <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textColor="@color/dracula_blue"
-                android:textSize="16sp"
-                android:textStyle="bold"
-                android:layout_margin="9dp"
-                android:text="@string/address_here" />
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/textView34"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="9dp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:text="@string/address_here"
+                    android:textColor="@color/dracula_blue"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <ImageButton
+                    android:id="@+id/imageButton3"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="50dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/bitcoin" />
+
+            </LinearLayout>
+
             <TextView
                 android:id="@+id/textView28"
                 android:layout_width="wrap_content"

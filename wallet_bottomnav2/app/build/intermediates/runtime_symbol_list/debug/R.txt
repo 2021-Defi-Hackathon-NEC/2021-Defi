@@ -1899,6 +1899,7 @@ int id BOTTOM_START 0x7f090002
 int id CTRL 0x7f090003
 int id FUNCTION 0x7f090004
 int id META 0x7f090005
+int id Mnemonic 0x7f09028d
 int id NO_DEBUG 0x7f090006
 int id SHIFT 0x7f090007
 int id SHOW_ALL 0x7f090008
@@ -1965,6 +1966,7 @@ int id action_text 0x7f090044
 int id actions 0x7f090045
 int id activity_chooser_view_content 0x7f090046
 int id add 0x7f090047
+int id addButton 0x7f09028e
 int id alertTitle 0x7f090048
 int id aligned 0x7f090049
 int id all 0x7f09004a
@@ -2019,7 +2021,6 @@ int id button22 0x7f09007a
 int id button23 0x7f09007b
 int id button24 0x7f09007c
 int id button3 0x7f09007d
-int id button4 0x7f09007e
 int id button5 0x7f09007f
 int id button6 0x7f090080
 int id button7 0x7f090081
@@ -2223,6 +2224,7 @@ int id image 0x7f090146
 int id imageButton 0x7f090147
 int id imageButton1 0x7f090148
 int id imageButton2 0x7f090149
+int id imageButton3 0x7f090293
 int id imageButton4 0x7f09014a
 int id imageButton5 0x7f09014b
 int id imageButton6 0x7f09014c
@@ -2323,6 +2325,7 @@ int id navigation_home 0x7f0901aa
 int id navigation_notifications 0x7f0901ab
 int id navigation_wallet 0x7f0901ac
 int id never 0x7f0901ad
+int id nextButton 0x7f090290
 int id noScroll 0x7f0901ae
 int id none 0x7f0901af
 int id normal 0x7f0901b0
@@ -2463,6 +2466,7 @@ int id textView21 0x7f090236
 int id textView22 0x7f090237
 int id textView23 0x7f090238
 int id textView24 0x7f090239
+int id textView25 0x7f090291
 int id textView26 0x7f09023a
 int id textView27 0x7f09023b
 int id textView28 0x7f09023c
@@ -2473,6 +2477,7 @@ int id textView31 0x7f090240
 int id textView32 0x7f090241
 int id textView33 0x7f090242
 int id textView34 0x7f090243
+int id textView35 0x7f090292
 int id textView4 0x7f090244
 int id textView5 0x7f090245
 int id textView6 0x7f090246
@@ -2908,6 +2913,7 @@ int string mtrl_picker_toggle_to_calendar_input_mode 0x7f1200a1
 int string mtrl_picker_toggle_to_day_selection 0x7f1200a2
 int string mtrl_picker_toggle_to_text_input_mode 0x7f1200a3
 int string mtrl_picker_toggle_to_year_selection 0x7f1200a4
+int string name_here 0x7f1200e7
 int string nav_app_bar_navigate_up_description 0x7f1200a5
 int string nav_app_bar_open_drawer_description 0x7f1200a6
 int string nec 0x7f1200a7

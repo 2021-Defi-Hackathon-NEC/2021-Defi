@@ -8,11 +8,13 @@ import static android.content.Context.CLIPBOARD_SERVICE;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
+import android.speech.tts.TextToSpeech;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -30,12 +32,15 @@ import androidx.navigation.ui.NavigationUI;
 
 import com.example.wallet_bottom_nav_2.databinding.ActivityMainBinding;
 
+import org.w3c.dom.Text;
+
+import java.util.HashMap;
+
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
     private ActivityMainBinding binding;
 
-//    private Button btn1;
-//    private View view1;
+    HashMap<String, String> address_map = new HashMap<String, String>(); // 지갑 주소 저장
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -117,13 +122,44 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     }
 
     public void clickBtn_selected(View view){
-        switch (view.getId()){
-            case R.id.button2:
-                Button selector_selected = (Button) findViewById(R.id.button2);
-                selector_selected.setSelected(!selector_selected.isSelected());
+        final TextView recipient = findViewById(R.id.textView35);
+        final EditText address = findViewById(R.id.textView34);
+        Button selector_selected;
 
-                System.out.println("Connected!");
+        // 임시 - address 추가하는 방식으로 되어 있는데 곧 수정할게요
+        switch (view.getId()){
+            case R.id.button2: // Geniee
+                selector_selected = (Button) findViewById(R.id.button2);
+                selector_selected.setSelected(!selector_selected.isSelected());
+                address_map.put(selector_selected.getText().toString(), "1");
                 break;
+            case R.id.button7: // Hanhui
+                selector_selected = (Button) findViewById(R.id.button7);
+                selector_selected.setSelected(!selector_selected.isSelected());
+                address_map.put(selector_selected.getText().toString(), "2");
+                break;
+            case R.id.button11: // Jimin
+                selector_selected = (Button) findViewById(R.id.button11);
+                selector_selected.setSelected(!selector_selected.isSelected());
+                address_map.put(selector_selected.getText().toString(), "3");
+                break;
+            case R.id.button12: // zoo1
+                selector_selected = (Button) findViewById(R.id.button12);
+                selector_selected.setSelected(!selector_selected.isSelected());
+                address_map.put(selector_selected.getText().toString(), "4");
+                break;
+            case R.id.button13: // chaerin
+                selector_selected = (Button) findViewById(R.id.button13);
+                selector_selected.setSelected(!selector_selected.isSelected());
+                address_map.put(selector_selected.getText().toString(), "0x0508e99B9Cf2f07c639a05A52743aE6a1Dd48bEB");
+                break;
+            default:
+                throw new IllegalStateException("Unexpected value: " + view.getId());
+        }
+        if (selector_selected.isSelected()){
+            recipient.setText(selector_selected.getText().toString()); // 버튼 클릭 후 받는 사람 이름 표시
+            address.setText(address_map.get(selector_selected.getText().toString()));
+            Toast.makeText(getApplicationContext(), "Connected with " + selector_selected.getText().toString() + "!", Toast.LENGTH_SHORT).show();
         }
     }
 

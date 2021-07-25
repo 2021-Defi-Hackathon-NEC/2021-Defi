@@ -31,31 +31,6 @@ public class ExchangeFragment extends Fragment implements View.OnClickListener{
         binding = FragmentExchangeBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
 
-
-        // 버튼 눌린 상태 커스텀
-        View view = inflater.inflate(R.layout.fragment_exchange, container, false);
-        final Button selector_selected = (Button) view.findViewById(R.id.button2);
-        // 클릭시 선택된다.
-        selector_selected.setOnClickListener(this);
-
-
-
-        //    // 클릭시 포커스를 준다.
-        //        selector_focused.setOnClickListener(new View.OnClickListener() {
-        //        @Override
-        //        public void onClick(View view) {
-        //            selector_focused.requestFocus();
-        //        }
-        //    })
-        //
-        //    // 클릭시 비사용 모드로 바꾼다.
-        //        selector_endabled.setOnClickListener(new View.OnClickListener() {
-        //        @Override
-        //        public void onClick(View view) {
-        //            selector_endabled.setEnabled(false);
-        //        }
-        //    })
-
         // address 텍스트뷰 반환
         final TextView textView = binding.textView34;
         exchangeViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
@@ -64,6 +39,14 @@ public class ExchangeFragment extends Fragment implements View.OnClickListener{
                 textView.setText(s);
             }
         });
+
+        // 버튼 눌린 상태 커스텀
+        View view = inflater.inflate(R.layout.fragment_exchange, container, false);
+        final Button selector_selected = (Button) view.findViewById(R.id.button2);
+        // 클릭시 선택된다.
+        selector_selected.setOnClickListener(this);
+
+
         return root;
 
 

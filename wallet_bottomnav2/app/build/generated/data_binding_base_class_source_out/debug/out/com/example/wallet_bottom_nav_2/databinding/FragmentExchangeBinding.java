@@ -6,6 +6,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageButton;
 import android.widget.ScrollView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
@@ -61,6 +62,9 @@ public final class FragmentExchangeBinding implements ViewBinding {
   public final EditText editTextNumberDecimal;
 
   @NonNull
+  public final ImageButton imageButton3;
+
+  @NonNull
   public final ScrollView scrollView2;
 
   @NonNull
@@ -79,16 +83,20 @@ public final class FragmentExchangeBinding implements ViewBinding {
   public final TextView textView33;
 
   @NonNull
-  public final TextView textView34;
+  public final EditText textView34;
+
+  @NonNull
+  public final TextView textView35;
 
   private FragmentExchangeBinding(@NonNull ConstraintLayout rootView, @NonNull Button button,
       @NonNull Button button11, @NonNull Button button12, @NonNull Button button13,
       @NonNull Button button14, @NonNull Button button15, @NonNull Button button16,
       @NonNull Button button2, @NonNull Button button7, @NonNull Button button8,
       @NonNull Button button9, @NonNull Button buttonSendCrypto,
-      @NonNull EditText editTextNumberDecimal, @NonNull ScrollView scrollView2,
-      @NonNull TextView textView26, @NonNull TextView textView27, @NonNull TextView textView28,
-      @NonNull TextView textView29, @NonNull TextView textView33, @NonNull TextView textView34) {
+      @NonNull EditText editTextNumberDecimal, @NonNull ImageButton imageButton3,
+      @NonNull ScrollView scrollView2, @NonNull TextView textView26, @NonNull TextView textView27,
+      @NonNull TextView textView28, @NonNull TextView textView29, @NonNull TextView textView33,
+      @NonNull EditText textView34, @NonNull TextView textView35) {
     this.rootView = rootView;
     this.button = button;
     this.button11 = button11;
@@ -103,6 +111,7 @@ public final class FragmentExchangeBinding implements ViewBinding {
     this.button9 = button9;
     this.buttonSendCrypto = buttonSendCrypto;
     this.editTextNumberDecimal = editTextNumberDecimal;
+    this.imageButton3 = imageButton3;
     this.scrollView2 = scrollView2;
     this.textView26 = textView26;
     this.textView27 = textView27;
@@ -110,6 +119,7 @@ public final class FragmentExchangeBinding implements ViewBinding {
     this.textView29 = textView29;
     this.textView33 = textView33;
     this.textView34 = textView34;
+    this.textView35 = textView35;
   }
 
   @Override
@@ -217,6 +227,12 @@ public final class FragmentExchangeBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.imageButton3;
+      ImageButton imageButton3 = rootView.findViewById(id);
+      if (imageButton3 == null) {
+        break missingId;
+      }
+
       id = R.id.scrollView2;
       ScrollView scrollView2 = rootView.findViewById(id);
       if (scrollView2 == null) {
@@ -254,15 +270,21 @@ public final class FragmentExchangeBinding implements ViewBinding {
       }
 
       id = R.id.textView34;
-      TextView textView34 = rootView.findViewById(id);
+      EditText textView34 = rootView.findViewById(id);
       if (textView34 == null) {
+        break missingId;
+      }
+
+      id = R.id.textView35;
+      TextView textView35 = rootView.findViewById(id);
+      if (textView35 == null) {
         break missingId;
       }
 
       return new FragmentExchangeBinding((ConstraintLayout) rootView, button, button11, button12,
           button13, button14, button15, button16, button2, button7, button8, button9,
-          buttonSendCrypto, editTextNumberDecimal, scrollView2, textView26, textView27, textView28,
-          textView29, textView33, textView34);
+          buttonSendCrypto, editTextNumberDecimal, imageButton3, scrollView2, textView26,
+          textView27, textView28, textView29, textView33, textView34, textView35);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

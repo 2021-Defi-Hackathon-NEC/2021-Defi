@@ -1900,6 +1900,7 @@ id BOTTOM_START
 id CTRL
 id FUNCTION
 id META
+id Mnemonic
 id NO_DEBUG
 id SHIFT
 id SHOW_ALL
@@ -1966,6 +1967,7 @@ id action_text
 id actions
 id activity_chooser_view_content
 id add
+id addButton
 id alertTitle
 id aligned
 id all
@@ -2020,7 +2022,6 @@ id button22
 id button23
 id button24
 id button3
-id button4
 id button5
 id button6
 id button7
@@ -2224,6 +2225,7 @@ id image
 id imageButton
 id imageButton1
 id imageButton2
+id imageButton3
 id imageButton4
 id imageButton5
 id imageButton6
@@ -2324,6 +2326,7 @@ id navigation_home
 id navigation_notifications
 id navigation_wallet
 id never
+id nextButton
 id noScroll
 id none
 id normal
@@ -2464,6 +2467,7 @@ id textView21
 id textView22
 id textView23
 id textView24
+id textView25
 id textView26
 id textView27
 id textView28
@@ -2474,6 +2478,7 @@ id textView31
 id textView32
 id textView33
 id textView34
+id textView35
 id textView4
 id textView5
 id textView6
@@ -2909,6 +2914,7 @@ string mtrl_picker_toggle_to_calendar_input_mode
 string mtrl_picker_toggle_to_day_selection
 string mtrl_picker_toggle_to_text_input_mode
 string mtrl_picker_toggle_to_year_selection
+string name_here
 string nav_app_bar_navigate_up_description
 string nav_app_bar_open_drawer_description
 string nec
