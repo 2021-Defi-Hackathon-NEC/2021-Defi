@@ -111,7 +111,7 @@
                 android:text="@string/market_price"
                 android:textColor="@color/white"
                 android:textAllCaps="false"
-                android:onClick="clickBtn"
+                android:clickable="false"
                 app:backgroundTint="@color/dracula_blue" />
 
 

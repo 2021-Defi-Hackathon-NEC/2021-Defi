@@ -1779,6 +1779,7 @@ drawable avd_hide_password
 drawable avd_show_password
 drawable background_pf
 drawable binance
+drawable binance2
 drawable binance_customized
 drawable binance_customized2
 drawable bitcoin
