@@ -72,10 +72,7 @@ public class login2 extends AppCompatActivity {
             }
         });
 
-        //        한희님 여기예요
-//        여기 고칠거 많아요
-//        주목해주세요
-        nextButton.setOnClickListener(new View.OnClickListener(){
+        /*nextButton.setOnClickListener(new View.OnClickListener(){
 
             @Override
             public void onClick(View v) {
@@ -87,8 +84,7 @@ public class login2 extends AppCompatActivity {
                 }
             }
 
-        });
-
+        });*/
 
         /*if(eth){
             Mnemonic.setVisibility(View.VISIBLE);
@@ -112,7 +108,6 @@ public class login2 extends AppCompatActivity {
         else{
             write=true;
         }*/
-
 
         /*pri_key.addTextChangedListener(new TextWatcher() {
             @Override
@@ -148,7 +143,17 @@ public class login2 extends AppCompatActivity {
 
         });*/
 
+
+
         ActionBar actionbar = getSupportActionBar();
         actionbar.hide();
+    }
+    public void onClicked (View view){
+        if (1==1){  //private key, Mnemonic compare
+            Intent intent = new Intent(login2.this, login_popup_great.class);
+        }
+        else{
+            Intent intent = new Intent(login2.this, login_popup_error.class);
+        }
     }
 }
