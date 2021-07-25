@@ -34,8 +34,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     private ActivityMainBinding binding;
 
-    private Button btn1;
-    private View view1;
+//    private Button btn1;
+//    private View view1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -55,10 +55,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         NavigationUI.setupActionBarWithNavController(this, navController, appBarConfiguration);
         NavigationUI.setupWithNavController(binding.navView, navController);
 
-        btn1 = (Button)findViewById(R.id.button2);
-        view1 = findViewById(R.id.button2);
-
-        btn1.setOnClickListener(this);
+//        btn1 = (Button)findViewById(R.id.button2);
+//        view1 = findViewById(R.id.button2);
+//
+//        btn1.setOnClickListener(this);
     }
 
 
@@ -129,10 +129,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     @Override
     public void onClick(View view) {
-        switch (view.getId()){
-            case R.id.button2:
-                view1.setVisibility(View.GONE);
-        }
+//        switch (view.getId()){
+//            case R.id.button2:
+//                view1.setVisibility(View.GONE);
+//        }
     }
 
 
