@@ -24,7 +24,7 @@ We are composed of front end and back end.
 | Juwon Lee | Full-stack dev(Flutter(Dart))	| (Cross Platform App) Wallet App | @2-zoo1 | Library and Information Science, Computer Cyber Security |
 | Chaerin Kim | Back-end dev(Java)	| Coin send&receive, smart contract, market price status |         	| Computer Science and Engineering |
 | Hanhui Kim | Back-end dev(Java) | Login	|         	| Mathematics, Statistics |
-| Hyejin Ahn	| Front-end dev(Java) 	| (Android) login, pincode authentication	|         	| Cyber Security |
+| Hyejin Ahn	| Front-end dev(Java) 	| (Android) login, pincode, recommendation	| @geniee44 	| Cyber Security, Economy |
 
 
 ## 🔍 Development Topic
