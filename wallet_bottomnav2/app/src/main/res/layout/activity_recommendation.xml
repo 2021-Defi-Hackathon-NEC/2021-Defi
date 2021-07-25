@@ -68,8 +68,8 @@
                             android:gravity="center"/>
                         <ImageView
                             android:id="@+id/coin1_image"
-                            android:layout_width="50dp"
-                            android:layout_height="50dp"
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
                             android:layout_gravity="center"
                             android:layout_marginHorizontal="10dp"
                             android:src="@drawable/ripple"/>
@@ -101,7 +101,7 @@
 
                         <TextView
                             android:id="@+id/coin1_price"
-                            android:layout_width="83dp"
+                            android:layout_width="80dp"
                             android:layout_height="match_parent"
                             android:gravity="center"
                             android:text="$0.60"
@@ -113,7 +113,7 @@
 
                         <TextView
                             android:id="@+id/coin1_gain_view"
-                            android:layout_width="78dp"
+                            android:layout_width="80dp"
                             android:layout_height="40dp"
                             android:layout_gravity="center"
                             android:background="@drawable/round_box_2"
@@ -173,8 +173,8 @@
                         </TextView>
                         <ImageView
                             android:id="@+id/coin2_image"
-                            android:layout_width="50dp"
-                            android:layout_height="50dp"
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
                             android:layout_gravity="center"
                             android:layout_marginHorizontal="10dp"
                             android:src="@drawable/binance"/>
@@ -206,7 +206,7 @@
 
                         <TextView
                             android:id="@+id/coin2_price"
-                            android:layout_width="83dp"
+                            android:layout_width="80dp"
                             android:layout_height="match_parent"
                             android:gravity="center"
                             android:text="$298.3"
@@ -218,7 +218,7 @@
 
                         <TextView
                             android:id="@+id/coin2_gain_view"
-                            android:layout_width="78dp"
+                            android:layout_width="80dp"
                             android:layout_height="40dp"
                             android:layout_gravity="center"
                             android:background="@drawable/round_box_2"
@@ -291,10 +291,13 @@
 
                     <ImageButton
                         android:id="@+id/img_btn_news1"
-                        android:layout_width="200dp"
+                        android:layout_width="170dp"
                         android:layout_height="110dp"
                         android:scaleType="fitCenter"
-                        app:srcCompat="@drawable/news1" />
+                        app:srcCompat="@drawable/news1"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:background="@color/zxing_transparent"/>
 
                     <LinearLayout
                         android:layout_width="wrap_content"
@@ -326,10 +329,13 @@
 
                     <ImageButton
                         android:id="@+id/img_btn_news2"
-                        android:layout_width="200dp"
+                        android:layout_width="170dp"
                         android:layout_height="110dp"
                         android:scaleType="fitCenter"
-                        app:srcCompat="@drawable/news2" />
+                        app:srcCompat="@drawable/news2"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:background="@color/zxing_transparent"/>
 
                     <LinearLayout
                         android:layout_width="wrap_content"
