@@ -1,4 +1,4 @@
-# 2021-Defi
+# 2021-Defi-Android
 ## 🛒 Noisy Empty Carts (NEC) 🛒
 ### 2021 Defi Online Hackathon
 
