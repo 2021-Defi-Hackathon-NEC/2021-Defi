@@ -19,7 +19,7 @@ public class recommendation extends AppCompatActivity {
         ImageButton btn_news1 = (ImageButton) findViewById(R.id.img_btn_news1);
         ImageButton btn_news2 = (ImageButton) findViewById(R.id.img_btn_news2);
     }
-    public void onClick (View v){
+    /*public void onClick (View v){
         Intent intent = new Intent(Intent.ACTION_VIEW);
         switch (v.getId()){
             case R.id.img_btn_news1:
@@ -31,5 +31,13 @@ public class recommendation extends AppCompatActivity {
                 startActivity(intent);
                 break;
         }
+    }*/
+    public void onNews1Clicked (View view){
+        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.coinmarketcal.com/en/news/amazon-wants-to-hire-a-digital-currency-and-blockchain-product-lead"));
+        startActivity(intent);
+    }
+    public void onNews2Clicked (View view){
+        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.coinmarketcal.com/en/news/uk-treasury-moves-toward-implementing-fatfs-crypto-travel-rule-with-public-consultation"));
+        startActivity(intent);
     }
 }
