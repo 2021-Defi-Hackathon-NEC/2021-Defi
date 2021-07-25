@@ -56,3 +56,6 @@ https://www.figma.com/file/4VVxSNByaq9H1vKdQLSWDe/De-Fi?node-id=0%3A1
 <img src="/img/main (10).png"  width="180">
 <img src="/img/main (3).png"  width="180">
 <img src="/img/main (1).png"  width="180"></nobr>
+
+## Cross Platform version
+https://github.com/2021-Defi-Hackathon-NEC/2021-defi-crossPlatform
