@@ -1,6 +1,6 @@
 # 2021-Defi-Android
 ## 🛒 Noisy Empty Carts (NEC) 🛒
-### 2021 TAEBIT De-fi Hackathon Android app
+### 2021 Defi Online Hackathon
 
 * Hackcthon Introduction
 
@@ -20,9 +20,9 @@ We are composed of front end and back end.
 
 | Name 	| Position 	| Role 	| comment | major |
 |------	|----------	|------	|---------	|---	|
-| Jimin Kim |  Front-end dev(Java) 	| (Android) Coin send&receive, Wallet main, dashboard	| @mimm | Korean Language&Literature, Software	|
+| Jimin Kim |  Front-end dev(Java) 	| (Android) Coin send&receive, Wallet main, dashboard	| @mimm | Korean Language and Literature, Software	|
 | Juwon Lee | full-stack dev(Flutter(Dart))	| (Cross Platform App) Wallet App | @2-zoo1 | Library and Information Science, Computer Cyber Security |
-| Chaerin Kim | Back-end dev(Java)	| Coin send&receive, smart contract, market price status |         	| Computer Science Engineering |
+| Chaerin Kim | Back-end dev(Java)	| Coin send&receive, smart contract, market price status |         	| Computer Science and Engineering |
 | Hanhui Kim | Back-end dev(Java) | Login	|         	| Mathematics, Statistics |
 | Hyejin Ahn	| Front-end dev(Java) 	| (Android) login, pincode authentication	|         	| Cyber Security |
 
