@@ -12,6 +12,9 @@
 
   https://taebit.gitbook.io/taebit-global-defi-hackathon/
   
+  
+  
+  
 ## 🤩 Let me introduce
 Hello! We are undergraduate students who are interested in blockchain in Korea. 
 We are interested in blockchain application technologies such as de-fi.
@@ -27,10 +30,16 @@ We are composed of front end and back end.
 | Ahn Hyejin	| Front-end dev(Java) 	|      	|         	|   	|
 
 
+
+
+
 ## 🔍 Development Topic
 We are trying to develop a cryptocurrency multi-chain wallet using the service provided by TAEBIT based on JAVA and Swift. Considering various factors such as Gas, Private Key, we will produce a user-friendly Android/IOS app
 
 <img src="/img/Taebitwallet.jpg"  width="700">
+
+
+
 
 
 ## 🎨 Prototype(With Figma)
