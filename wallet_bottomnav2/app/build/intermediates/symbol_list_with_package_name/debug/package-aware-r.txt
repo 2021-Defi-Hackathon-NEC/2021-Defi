@@ -1779,6 +1779,7 @@ drawable avd_hide_password
 drawable avd_show_password
 drawable background_pf
 drawable binance
+drawable binance_customized
 drawable bitcoin
 drawable bitcoin_customize
 drawable bottom_navigation_selector
@@ -1812,6 +1813,7 @@ drawable design_snackbar_background
 drawable dracula_gradient
 drawable ethereum
 drawable ethereum_classic
+drawable ethereum_classic_customized
 drawable ethereum_customize
 drawable fingerprint_dialog_error
 drawable fingerprint_dialog_fp_icon
@@ -1845,6 +1847,7 @@ drawable ic_notifications_black_24dp
 drawable ic_receive
 drawable ic_receive_customized
 drawable ic_refresh_black
+drawable ic_scan
 drawable ic_send
 drawable ic_send_customized
 drawable ic_setting_black
@@ -1852,6 +1855,7 @@ drawable ic_shield
 drawable ic_user
 drawable ic_user_grey
 drawable link
+drawable link_customized
 drawable logo
 drawable magnifier
 drawable magnifier_customized
@@ -2243,7 +2247,6 @@ id image
 id imageButton
 id imageButton1
 id imageButton2
-id imageButton3
 id imageButton4
 id imageButton5
 id imageButton6
@@ -2504,6 +2507,7 @@ id textView37
 id textView38
 id textView39
 id textView4
+id textView40
 id textView5
 id textView6
 id textView7
@@ -2820,6 +2824,7 @@ string balance
 string balance_here
 string balancer
 string bitcoin
+string bnb
 string bottom_sheet_behavior
 string bottomsheet_action_expand_halfway
 string btc
@@ -2841,6 +2846,7 @@ string done
 string enter_a_private_key
 string enter_mnemonic
 string error_icon_content_description
+string etc
 string eth
 string eth_wallet
 string ethereum
@@ -2879,6 +2885,7 @@ string jimmim
 string klay
 string krw
 string large_text
+string link
 string lock_app
 string lock_screen_title_pf
 string log_out

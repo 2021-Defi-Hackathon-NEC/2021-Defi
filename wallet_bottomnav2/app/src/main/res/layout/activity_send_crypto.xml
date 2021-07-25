@@ -43,6 +43,7 @@
             android:textColor="@color/white"
             android:layout_margin="16dp"
             android:textSize="20sp"
+            android:textAllCaps="false"
             android:text="@string/done" />
     </LinearLayout>
 

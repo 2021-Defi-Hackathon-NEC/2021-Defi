@@ -87,20 +87,6 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
-            <TextView
-                android:id="@+id/textView22"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="30dp"
-                android:layout_marginTop="9dp"
-                android:elevation="16dp"
-                android:text="@string/today_s_recommendation"
-                android:textColor="#000000"
-                android:textSize="16sp"
-                android:textStyle="bold"
-                app:layout_constraintStart_toStartOf="@+id/view9"
-                app:layout_constraintTop_toTopOf="@+id/view9" />
-
             <Button
                 android:id="@+id/button_show_more2"
                 android:layout_width="330dp"
@@ -108,26 +94,12 @@
                 android:layout_gravity="center"
                 android:layout_margin="16dp"
                 android:background="@drawable/button_shape2"
-                android:text="@string/show_more"
+                android:text="@string/today_s_recommendation"
                 android:textColor="@color/white"
+                android:textAllCaps="false"
                 android:onClick="clickBtn"
                 app:backgroundTint="@color/dracula_red" />
 
-
-
-            <TextView
-                android:id="@+id/textView23"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="30dp"
-                android:layout_marginTop="16dp"
-                android:elevation="16dp"
-                android:text="@string/market_price"
-                android:textColor="#000000"
-                android:textSize="16sp"
-                android:textStyle="bold"
-                app:layout_constraintStart_toStartOf="@+id/view10"
-                app:layout_constraintTop_toTopOf="@+id/view10" />
 
             <Button
                 android:id="@+id/button_show_more3"
@@ -136,8 +108,9 @@
                 android:layout_gravity="center"
                 android:layout_margin="16dp"
                 android:background="@drawable/button_shape2"
-                android:text="@string/show_more"
+                android:text="@string/market_price"
                 android:textColor="@color/white"
+                android:textAllCaps="false"
                 android:onClick="clickBtn"
                 app:backgroundTint="@color/dracula_blue" />
 

@@ -86,7 +86,7 @@
     <string name="add_contract">Add\nContract</string>
     <string name="geniee">Geniee</string>
     <string name="hhkim">hhkim</string>
-    <string name="select_crypto">Select Crypto</string>
+    <string name="select_crypto">Select Crypto : </string>
     <string name="btc">BTC</string>
     <string name="eth">ETH</string>
     <string name="set_the_amount">Set the Amount</string>
@@ -122,6 +122,13 @@
     <string name="transaction_successful">Transaction Successful</string>
     <string name="done">Done</string>
     <string name="usd">USD</string>
+    <string name="bnb">BNB</string>
+    <string name="etc">ETC</string>
+    <string name="link">LINK</string>
+    <string name="BNB_wallet">BNB Wallet</string>
+    <string name="Chainlink">Chainlink</string>
+    <string name="binance_coin">Binance Coin</string>
+    <string name="ethereum_classic">Ethereum Classic</string>
 
 
 </resources>
