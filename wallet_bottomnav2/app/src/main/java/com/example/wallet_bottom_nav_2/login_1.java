@@ -22,7 +22,7 @@ public class login_1 extends AppCompatActivity {
         btOkay.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(getApplication(),login3_ethereum.class));
+                startActivity(new Intent(getApplication(),login2.class));
                 finish();
             }
         });

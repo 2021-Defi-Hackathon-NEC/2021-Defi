@@ -1900,7 +1900,6 @@ id BOTTOM_START
 id CTRL
 id FUNCTION
 id META
-id Mnemonic
 id NO_DEBUG
 id SHIFT
 id SHOW_ALL
@@ -1967,7 +1966,6 @@ id action_text
 id actions
 id activity_chooser_view_content
 id add
-id addButton
 id alertTitle
 id aligned
 id all
@@ -2022,6 +2020,7 @@ id button22
 id button23
 id button24
 id button3
+id button4
 id button5
 id button6
 id button7
@@ -2168,8 +2167,8 @@ id dropdown_menu
 id easeIn
 id easeInOut
 id easeOut
-id editPrivate
 id editTextNumberDecimal
+id editTextTextPassword
 id edit_coinNm
 id edit_query
 id elastic
@@ -2325,7 +2324,6 @@ id navigation_home
 id navigation_notifications
 id navigation_wallet
 id never
-id nextButton
 id noScroll
 id none
 id normal
@@ -2466,7 +2464,6 @@ id textView21
 id textView22
 id textView23
 id textView24
-id textView25
 id textView26
 id textView27
 id textView28
@@ -2623,7 +2620,7 @@ layout activity_before_main
 layout activity_coin_graph
 layout activity_coinmarketcap
 layout activity_login1
-layout activity_login3_ethereum
+layout activity_login2
 layout activity_login_popup_error
 layout activity_login_popup_great
 layout activity_main

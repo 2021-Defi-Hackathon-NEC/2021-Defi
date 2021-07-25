@@ -27,8 +27,6 @@ com/example/wallet_bottom_nav_2/databinding/ActivityWalletCoinsBinding.java
  com.example.wallet_bottom_nav_2.databinding.ActivityWalletCoinsBinding
 com/example/wallet_bottom_nav_2/PreferenceManager.java
  com.example.wallet_bottom_nav_2.PreferenceManager
-com/example/wallet_bottom_nav_2/databinding/ActivityLogin3EthereumBinding.java
- com.example.wallet_bottom_nav_2.databinding.ActivityLogin3EthereumBinding
 com/example/wallet_bottom_nav_2/databinding/ActivitySendCryptoBinding.java
  com.example.wallet_bottom_nav_2.databinding.ActivitySendCryptoBinding
 com/example/wallet_bottom_nav_2/data/LoginRepository.java
@@ -68,6 +66,9 @@ com/example/wallet_bottom_nav_2/databinding/FragmentHomeBinding.java
 com/example/wallet_bottom_nav_2/ui/notifications/NotificationsFragment.java
  com.example.wallet_bottom_nav_2.ui.notifications.NotificationsFragment
  com.example.wallet_bottom_nav_2.ui.notifications.NotificationsFragment$1
+com/example/wallet_bottom_nav_2/login2.java
+ com.example.wallet_bottom_nav_2.login2
+ com.example.wallet_bottom_nav_2.login2$1
 com/example/wallet_bottom_nav_2/databinding/ActivityCoinGraphBinding.java
  com.example.wallet_bottom_nav_2.databinding.ActivityCoinGraphBinding
 com/example/wallet_bottom_nav_2/databinding/ActivityLogin1Binding.java
@@ -76,6 +77,8 @@ com/example/wallet_bottom_nav_2/data/model/LoggedInUser.java
  com.example.wallet_bottom_nav_2.data.model.LoggedInUser
 com/example/wallet_bottom_nav_2/databinding/ActivityWalletBtcBinding.java
  com.example.wallet_bottom_nav_2.databinding.ActivityWalletBtcBinding
+com/example/wallet_bottom_nav_2/databinding/ActivityLogin2Binding.java
+ com.example.wallet_bottom_nav_2.databinding.ActivityLogin2Binding
 com/example/wallet_bottom_nav_2/temp_coinmarketcap.java
  com.example.wallet_bottom_nav_2.temp_coinmarketcap
 com/example/wallet_bottom_nav_2/ui/exchange/ExchangeFragment.java
@@ -90,12 +93,6 @@ com/example/wallet_bottom_nav_2/ui/notifications/NotificationsViewModel.java
  com.example.wallet_bottom_nav_2.ui.notifications.NotificationsViewModel
 com/example/wallet_bottom_nav_2/BuildConfig.java
  com.example.wallet_bottom_nav_2.BuildConfig
-com/example/wallet_bottom_nav_2/login3_ethereum.java
- com.example.wallet_bottom_nav_2.login3_ethereum
- com.example.wallet_bottom_nav_2.login3_ethereum$1
- com.example.wallet_bottom_nav_2.login3_ethereum$2
- com.example.wallet_bottom_nav_2.login3_ethereum$2$1
- com.example.wallet_bottom_nav_2.login3_ethereum$3
 com/example/wallet_bottom_nav_2/ui/login/LoginViewModelFactory.java
  com.example.wallet_bottom_nav_2.ui.login.LoginViewModelFactory
 com/example/wallet_bottom_nav_2/MyListener.java
