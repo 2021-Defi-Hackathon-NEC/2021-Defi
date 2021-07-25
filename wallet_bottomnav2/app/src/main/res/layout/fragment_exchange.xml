@@ -285,7 +285,7 @@
                 android:id="@+id/editTextNumberDecimal"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="9dp"
+                android:layout_margin="6dp"
                 android:ems="10"
                 android:inputType="numberDecimal" />
 

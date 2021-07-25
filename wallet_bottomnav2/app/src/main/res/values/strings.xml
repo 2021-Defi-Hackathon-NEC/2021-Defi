@@ -119,6 +119,9 @@
         HM Treasury, the U.K. government\'s finance ministry...
     </string>
     <string name="sent">Sent</string>
+    <string name="transaction_successful">Transaction Successful</string>
+    <string name="done">Done</string>
+    <string name="usd">USD</string>
 
 
 </resources>

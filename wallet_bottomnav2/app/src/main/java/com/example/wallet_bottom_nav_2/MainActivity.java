@@ -18,6 +18,7 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.wallet_bottom_nav_2.ui.exchange.ExchangeFragment;
 import com.example.wallet_bottom_nav_2.ui.wallet.BALWalletFragment;
 import com.example.wallet_bottom_nav_2.ui.wallet.WalletFragment;
 import com.example.wallet_bottom_nav_2.ui.wallet.WalletViewModel;
@@ -94,7 +95,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 intent = new Intent(this, SendCrypto.class);
                 startActivity(intent);
                 break;
-//            case R.id.button_confirm: // Confirm
+//            case R.id.button_done: // Send Crypto
 //                intent = new Intent(this, WalletFragment.class);
 //                startActivity(intent);
 //                break;

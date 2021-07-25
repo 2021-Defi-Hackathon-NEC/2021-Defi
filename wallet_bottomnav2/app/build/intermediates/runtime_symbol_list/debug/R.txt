@@ -1818,7 +1818,11 @@ int drawable fingerprint_lockscreen_pf 0x7f08007e
 int drawable ic_3dots_black 0x7f08007f
 int drawable ic_add_blue 0x7f080080
 int drawable ic_bulb 0x7f080081
+int drawable ic_checked 0x7f0800d2
+int drawable ic_checked_customized 0x7f0800d3
 int drawable ic_clock_black_24dp 0x7f080082
+int drawable ic_copy 0x7f0800d4
+int drawable ic_copy_customized 0x7f0800d5
 int drawable ic_dashboard_black_24dp 0x7f080083
 int drawable ic_doc 0x7f080084
 int drawable ic_exchange_black 0x7f080085
@@ -1837,7 +1841,11 @@ int drawable ic_mtrl_chip_checked_circle 0x7f080091
 int drawable ic_mtrl_chip_close_circle 0x7f080092
 int drawable ic_notification 0x7f080093
 int drawable ic_notifications_black_24dp 0x7f080094
+int drawable ic_receive 0x7f0800d6
+int drawable ic_receive_customized 0x7f0800d7
 int drawable ic_refresh_black 0x7f080095
+int drawable ic_send 0x7f0800d8
+int drawable ic_send_customized 0x7f0800d9
 int drawable ic_setting_black 0x7f080096
 int drawable ic_shield 0x7f080097
 int drawable ic_user 0x7f080098
@@ -2044,6 +2052,7 @@ int id button_8 0x7f09008e
 int id button_9 0x7f09008f
 int id button_confirm 0x7f090090
 int id button_delete 0x7f090091
+int id button_done 0x7f090299
 int id button_finger_print 0x7f090092
 int id button_left 0x7f090093
 int id button_next 0x7f090094
@@ -2490,6 +2499,7 @@ int id textView35 0x7f090248
 int id textView36 0x7f090296
 int id textView37 0x7f090297
 int id textView38 0x7f090298
+int id textView39 0x7f09029a
 int id textView4 0x7f090249
 int id textView5 0x7f09024a
 int id textView6 0x7f09024b
@@ -2824,6 +2834,7 @@ int string confirm 0x7f12003b
 int string confirm_device_credential_password 0x7f12003c
 int string default_error_msg 0x7f12003d
 int string description_fingerprint_icon_pf 0x7f12003e
+int string done 0x7f1200ec
 int string enter_a_private_key 0x7f12003f
 int string enter_mnemonic 0x7f120040
 int string error_icon_content_description 0x7f120041
@@ -2960,6 +2971,7 @@ int string select_chain2 0x7f1200bf
 int string select_coins 0x7f1200c0
 int string select_crypto 0x7f1200c1
 int string send_crypto 0x7f1200c2
+int string sent 0x7f1200ed
 int string set_the_amount 0x7f1200c3
 int string settings 0x7f1200c4
 int string settings_pf 0x7f1200c5
@@ -2984,6 +2996,7 @@ int string title_receive 0x7f1200d7
 int string title_send 0x7f1200d8
 int string title_wallet 0x7f1200d9
 int string today_s_recommendation 0x7f1200da
+int string transaction_successful 0x7f1200ee
 int string use_pin_pf 0x7f1200db
 int string wallet_address 0x7f1200dc
 int string welcome 0x7f1200dd
