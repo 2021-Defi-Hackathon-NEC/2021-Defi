@@ -23,7 +23,7 @@ We are composed of front-end dev and back-end dev.
 | Jimin Kim |  Front-end dev(Java) 	| (Android) Coin send&receive, Wallet main, dashboard	| @mimm | Korean Language and Literature, Software	|
 | Juwon Lee | Front-end dev(Flutter(Dart))	| (Cross Platform App) Wallet App | @2-zoo1 | Library and Information Science, Computer Cyber Security |
 | Chaerin Kim | Back-end dev(Java)	| Coin send&receive, smart contract, market price status | @Chaerin Kim  	| Computer Science and Engineering |
-| Hanhui Kim | Back-end dev(Java) | Login	|         	| Mathematics, Statistics |
+| Hanhui Kim | Back-end dev(Java) | Login, QR	| @한희	| Mathematics, Statistics |
 | Hyejin Ahn	| Front-end dev(Java) 	| (Android) login, pincode, recommendation	| @geniee44 	| Cyber Security, Economy |
 
 
