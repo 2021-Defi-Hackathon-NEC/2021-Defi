@@ -61,9 +61,13 @@ public class login2 extends AppCompatActivity {
             @Override
             public void onItemSelected(AdapterView<?> adapterView, View view, int i, long id) {
                 selected_coin_idx = spinner_coins.getSelectedItemPosition();
-                String item = adapterView.getItemAtPosition(i).toString();
+                String item = spinner_coins.getSelectedItem().toString();
                 //button
-                if ( item.equals("Ethereum") )   { eth = true; }
+                if ( item.equals("Ethereum") ){
+                    eth = true;
+                    Mnemonic.setVisibility(View.VISIBLE);
+                    addButton.setVisibility(View.VISIBLE);
+                }
             }
 
             @Override
@@ -72,7 +76,7 @@ public class login2 extends AppCompatActivity {
             }
         });
 
-        if(eth){
+        /*if(eth){
             Mnemonic.setVisibility(View.VISIBLE);
             addButton.setVisibility(View.VISIBLE);
 
@@ -93,7 +97,7 @@ public class login2 extends AppCompatActivity {
         }
         else{
             write=true;
-        }
+        }*/
 
 
         /*pri_key.addTextChangedListener(new TextWatcher() {
