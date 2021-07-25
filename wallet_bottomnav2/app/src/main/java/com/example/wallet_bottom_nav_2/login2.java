@@ -26,13 +26,17 @@ public class login2 extends AppCompatActivity {
     int[] spinnerImages;
     int selected_coin_idx = 0;
 
+    //Button
+    EditText Mnemonic, pri_key;
+    Button nextButton, addButton;
+
     /*//Button
     private EditText Mnemonic = (EditText) findViewById(R.id.Mnemonic)
     private Button nextButton = (Button) findViewById(R.id.nextButton);
     private Button addButton = (Button) findViewById(R.id.addButton);
-    private EditText privatekey = (EditText) findViewById(R.id.editPassword);
+    private EditText privatekey = (EditText) findViewById(R.id.editPassword);*/
     boolean eth = false;
-    boolean write = false;*/
+    boolean write = false;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -40,6 +44,12 @@ public class login2 extends AppCompatActivity {
         Mnemonic.setVisibility(View.GONE);
         nextButton.setVisibility(View.GONE);
         addButton.setVisibility(View.GONE);*/
+
+        //Button Initialize
+        Mnemonic = (EditText) findViewById(R.id.Mnemonic);
+        pri_key = (EditText) findViewById(R.id.editPassword);
+        nextButton = (Button) findViewById(R.id.nextButton);
+        addButton = (Button) findViewById(R.id.addButton);
 
         //Spinner
         super.onCreate(savedInstanceState);
