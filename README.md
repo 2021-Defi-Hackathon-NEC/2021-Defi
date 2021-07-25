@@ -12,9 +12,6 @@
 
   https://taebit.gitbook.io/taebit-global-defi-hackathon/
   
-  
-  
-  
 ## 🤩 Let me introduce
 Hello! We are undergraduate students who are interested in blockchain in Korea. 
 We are interested in blockchain application technologies such as de-fi.
@@ -23,23 +20,17 @@ We are composed of front end and back end.
 
 | Name 	| Position 	| Role 	| comment | major |
 |------	|----------	|------	|---------	|---	|
-| Jimin Kim |  Team Leader & Front-end dev(Java) 	|      	|         	|   	|
+| Jimin Kim |  Front-end dev(Java) 	| (Android) Coin send&receive, Wallet main, dashboard	|         	| Korean Language&Literature, Software	|
 | Juwon Lee | full-stack dev(React Native, Flutter)	|      	|         	|   	|
-| Chaerin Kim | Back-end dev(Java)	| Coin send&receive, smart contact, market price status |         	| Computer Science Engineering |
+| Chaerin Kim | Back-end dev(Java)	| Coin send&receive, smart contract, market price status |         	| Computer Science Engineering |
 | Hanhui Kim | Back-end dev(Java) |      	|         	|   	|
-| Hyejin Ahn	| Front-end dev(Java) 	|      	|         	|   	|
-
-
-
+| Ahn Hyejin	| Front-end dev(Java) 	|      	|         	|   	|
 
 
 ## 🔍 Development Topic
 We are trying to develop a cryptocurrency multi-chain wallet using the service provided by TAEBIT based on JAVA and Swift. Considering various factors such as Gas, Private Key, we will produce a user-friendly Android/IOS app
 
 <img src="/img/Taebitwallet.jpg"  width="700">
-
-
-
 
 
 ## 🎨 Prototype(With Figma)
