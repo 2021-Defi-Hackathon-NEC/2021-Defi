@@ -2997,6 +2997,7 @@ int string title_send 0x7f1200d8
 int string title_wallet 0x7f1200d9
 int string today_s_recommendation 0x7f1200da
 int string transaction_successful 0x7f1200ee
+int string usd 0x7f1200ef
 int string use_pin_pf 0x7f1200db
 int string wallet_address 0x7f1200dc
 int string welcome 0x7f1200dd
