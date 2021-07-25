@@ -27,19 +27,19 @@ public class login2 extends AppCompatActivity {
     int selected_coin_idx = 0;
 
     //Button
-    private EditText Mnemonic = (EditText) findViewById(R.id.Mnemonic);
+    /*private EditText Mnemonic = (EditText) findViewById(R.id.Mnemonic);
     private Button nextButton = (Button) findViewById(R.id.nextButton);
     private Button addButton = (Button) findViewById(R.id.addButton);
     private EditText privatekey = (EditText) findViewById(R.id.editPassword);
     boolean eth = false;
-    boolean write = false;
+    boolean write = false;*/
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         //Button Setting
-        Mnemonic.setVisibility(View.GONE);
+        /*Mnemonic.setVisibility(View.GONE);
         nextButton.setVisibility(View.GONE);
-        addButton.setVisibility(View.GONE);
+        addButton.setVisibility(View.GONE);*/
 
         //Spinner
         super.onCreate(savedInstanceState);
@@ -61,7 +61,8 @@ public class login2 extends AppCompatActivity {
             @Override
             public void onItemSelected(AdapterView<?> adapterView, View view, int i, long id) {
                 selected_coin_idx = spinner_coins.getSelectedItemPosition();
-                if ( i == 1 )   { eth = true; }
+                //button
+                /*if ( i == 1 )   { eth = true; }*/
             }
 
             @Override
@@ -70,7 +71,7 @@ public class login2 extends AppCompatActivity {
             }
         });
 
-        if(eth){
+        /*if(eth){
             Mnemonic.setVisibility(View.VISIBLE);
             addButton.setVisibility(View.VISIBLE);
 
@@ -92,9 +93,9 @@ public class login2 extends AppCompatActivity {
         else{
             write=true;
         }
+*/
 
-
-        privatekey.addTextChangedListener(new TextWatcher() {
+        /*privatekey.addTextChangedListener(new TextWatcher() {
             @Override
             public void beforeTextChanged(CharSequence charSequence, int i, int i1, int i2) {
             }
@@ -107,9 +108,9 @@ public class login2 extends AppCompatActivity {
             public void afterTextChanged(Editable editable) {
                 nextButton.setClickable(editable.length() > 3 && write);
             }
-        });
+        });*/
 
-        nextButton.setOnClickListener(new View.OnClickListener(){
+        /*nextButton.setOnClickListener(new View.OnClickListener(){
 
             @Override
             public void onClick(View v) {
@@ -126,7 +127,7 @@ public class login2 extends AppCompatActivity {
                 }
             }
 
-        });
+        });*/
 
         ActionBar actionbar = getSupportActionBar();
         actionbar.hide();
