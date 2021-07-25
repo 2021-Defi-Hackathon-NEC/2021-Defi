@@ -7,8 +7,8 @@
     tools:context=".recommendation">
 
     <LinearLayout
-        android:layout_width="409dp"
-        android:layout_height="729dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -53,8 +53,8 @@
                     android:layout_height="wrap_content"
                     android:orientation="vertical">
                     <LinearLayout
-                        android:layout_width="380dp"
-                        android:layout_height="60dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:layout_margin="10dp"
                         android:orientation="horizontal">
@@ -65,27 +65,24 @@
                             android:text="1"
                             android:textSize="20sp"
                             android:textColor="#000000"
-                            android:gravity="center">
-                        </TextView>
+                            android:gravity="center"/>
                         <ImageView
                             android:id="@+id/coin1_image"
                             android:layout_width="50dp"
                             android:layout_height="50dp"
                             android:layout_gravity="center"
                             android:layout_marginHorizontal="10dp"
-                            android:src="@drawable/ripple">
-
-                        </ImageView>
+                            android:src="@drawable/ripple"/>
 
                         <LinearLayout
-                            android:layout_width="120dp"
+                            android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:orientation="vertical"
                             android:layout_gravity="center">
 
                             <TextView
                                 android:id="@+id/coin1_name"
-                                android:layout_width="wrap_content"
+                                android:layout_width="115dp"
                                 android:layout_height="wrap_content"
                                 android:text="Ripple"
                                 android:textColor="#000000"
@@ -157,11 +154,11 @@
                 </LinearLayout>
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    android:layout_height="wrap_content"
                     android:orientation="vertical">
                     <LinearLayout
-                        android:layout_width="380dp"
-                        android:layout_height="60dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:layout_margin="10dp"
                         android:orientation="horizontal">
@@ -180,12 +177,10 @@
                             android:layout_height="50dp"
                             android:layout_gravity="center"
                             android:layout_marginHorizontal="10dp"
-                            android:src="@drawable/binance">
-
-                        </ImageView>
+                            android:src="@drawable/binance"/>
 
                         <LinearLayout
-                            android:layout_width="120dp"
+                            android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:orientation="vertical"
                             android:layout_gravity="center">
@@ -271,14 +266,12 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:orientation="vertical"
-                app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="parent"
-                app:layout_constraintVertical_bias="0.82">
+                app:layout_constraintTop_toTopOf="parent">
 
                 <TextView
                     android:id="@+id/textView38"
@@ -289,8 +282,7 @@
                     android:text="Hot News"
                     android:textColor="#000000"
                     android:textSize="26sp"
-                    android:textStyle="bold">
-                </TextView>
+                    android:textStyle="bold"/>
 
                 <LinearLayout
                     android:layout_width="wrap_content"
@@ -303,27 +295,30 @@
                         android:layout_height="110dp"
                         android:scaleType="fitCenter"
                         app:srcCompat="@drawable/news1" />
+
                     <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
                         android:orientation="vertical">
+
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="Amazon wants to hire a digital currency and blockchain product lead"
-                            android:textSize="15sp"
-                            android:textColor="#000000">
+                            android:textColor="#000000"
+                            android:textSize="15sp">
 
                         </TextView>
+
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:gravity="center_vertical"
-                            android:text="@string/news1">
-                        </TextView>
+                            android:text="@string/news1"/>
 
                     </LinearLayout>
                 </LinearLayout>
+
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -335,24 +330,26 @@
                         android:layout_height="110dp"
                         android:scaleType="fitCenter"
                         app:srcCompat="@drawable/news2" />
+
                     <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
                         android:orientation="vertical">
+
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="UK Treasury moves toward implementing FATF's crypto 'travel rule' with public consultation"
-                            android:textSize="15sp"
-                            android:textColor="#000000">
+                            android:textColor="#000000"
+                            android:textSize="15sp">
 
                         </TextView>
+
                         <TextView
-                            android:layout_width="match_parent"
+                            android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:gravity="center_vertical"
-                            android:text="@string/news2">
-                        </TextView>
+                            android:text="@string/news2"/>
 
                     </LinearLayout>
                 </LinearLayout>

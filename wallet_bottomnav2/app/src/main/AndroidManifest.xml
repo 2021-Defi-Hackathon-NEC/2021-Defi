@@ -14,11 +14,7 @@
         android:theme="@style/Theme.Wallet_bottomnav2">
 
         <activity android:name=".before_main">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
 
         <activity android:name=".login_1" />
@@ -26,7 +22,16 @@
 
         </activity>
         <activity android:name=".SendCrypto" />
-        <activity android:name=".coinmarketcap"></activity>
+        <activity android:name=".coinmarketcap">
+
+        </activity>
+        <activity android:name=".recommendation">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity android:name=".wallet_coins" />
 
         <activity

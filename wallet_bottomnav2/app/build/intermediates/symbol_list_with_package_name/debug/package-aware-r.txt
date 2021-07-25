@@ -1869,6 +1869,8 @@ drawable mtrl_popupmenu_background
 drawable mtrl_popupmenu_background_dark
 drawable mtrl_tabs_default_indicator
 drawable navigation_empty_icon
+drawable news1
+drawable news2
 drawable notification_action_background
 drawable notification_bg
 drawable notification_bg_low
@@ -1882,6 +1884,9 @@ drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
 drawable qr_code
+drawable rec_graph1
+drawable rec_graph2
+drawable ripple
 drawable ripple_selector_key_pf
 drawable ripple_selector_side_pf
 drawable round_box
@@ -2084,8 +2089,10 @@ id clip_horizontal
 id clip_vertical
 id clockwise
 id code_view
+id coin1_gain_view
 id coin1_image
 id coin1_name
+id coin1_price
 id coin1_shortname
 id coin2_gain_view
 id coin2_image
@@ -2234,6 +2241,8 @@ id imageView2
 id imageView4
 id imageView5
 id imageView_spinner_image
+id img_btn_news1
+id img_btn_news2
 id info
 id invisible
 id inward
@@ -2479,6 +2488,9 @@ id textView32
 id textView33
 id textView34
 id textView35
+id textView36
+id textView37
+id textView38
 id textView4
 id textView5
 id textView6
@@ -2630,6 +2642,7 @@ layout activity_login_popup_error
 layout activity_login_popup_great
 layout activity_main
 layout activity_qr_scanner
+layout activity_recommendation
 layout activity_send_crypto
 layout activity_wallet_btc
 layout activity_wallet_coins
@@ -2918,6 +2931,8 @@ string name_here
 string nav_app_bar_navigate_up_description
 string nav_app_bar_open_drawer_description
 string nec
+string news1
+string news2
 string next
 string next_pf
 string no_fingerprints_message_pf
@@ -2935,6 +2950,8 @@ string privacy_policy
 string prompt_email
 string prompt_password
 string push_notifications
+string rec1
+string rec2
 string received
 string report_an_issue
 string search_menu_title

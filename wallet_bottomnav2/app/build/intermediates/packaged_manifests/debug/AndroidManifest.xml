@@ -44,17 +44,20 @@
         android:testOnly="true"
         android:theme="@style/Theme.Wallet_bottomnav2" >
         <activity android:name="com.example.wallet_bottom_nav_2.before_main" >
+        </activity>
+        <activity android:name="com.example.wallet_bottom_nav_2.login_1" />
+        <activity android:name="com.example.wallet_bottom_nav_2.login2" >
+        </activity>
+        <activity android:name="com.example.wallet_bottom_nav_2.SendCrypto" />
+        <activity android:name="com.example.wallet_bottom_nav_2.coinmarketcap" >
+        </activity>
+        <activity android:name="com.example.wallet_bottom_nav_2.recommendation" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.example.wallet_bottom_nav_2.login_1" />
-        <activity android:name="com.example.wallet_bottom_nav_2.login2" >
-        </activity>
-        <activity android:name="com.example.wallet_bottom_nav_2.SendCrypto" />
-        <activity android:name="com.example.wallet_bottom_nav_2.coinmarketcap" />
         <activity android:name="com.example.wallet_bottom_nav_2.wallet_coins" />
         <activity
             android:name="com.example.wallet_bottom_nav_2.login_popup_great"

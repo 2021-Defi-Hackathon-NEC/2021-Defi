@@ -1868,6 +1868,8 @@ int drawable mtrl_popupmenu_background 0x7f0800b0
 int drawable mtrl_popupmenu_background_dark 0x7f0800b1
 int drawable mtrl_tabs_default_indicator 0x7f0800b2
 int drawable navigation_empty_icon 0x7f0800b3
+int drawable news1 0x7f0800cd
+int drawable news2 0x7f0800ce
 int drawable notification_action_background 0x7f0800b4
 int drawable notification_bg 0x7f0800b5
 int drawable notification_bg_low 0x7f0800b6
@@ -1881,6 +1883,9 @@ int drawable notification_template_icon_low_bg 0x7f0800bd
 int drawable notification_tile_bg 0x7f0800be
 int drawable notify_panel_notification_icon_bg 0x7f0800bf
 int drawable qr_code 0x7f0800c0
+int drawable rec_graph1 0x7f0800cf
+int drawable rec_graph2 0x7f0800d0
+int drawable ripple 0x7f0800d1
 int drawable ripple_selector_key_pf 0x7f0800c1
 int drawable ripple_selector_side_pf 0x7f0800c2
 int drawable round_box 0x7f0800c3
@@ -2083,8 +2088,10 @@ int id clip_horizontal 0x7f0900ba
 int id clip_vertical 0x7f0900bb
 int id clockwise 0x7f0900bc
 int id code_view 0x7f0900bd
+int id coin1_gain_view 0x7f090292
 int id coin1_image 0x7f0900be
 int id coin1_name 0x7f0900bf
+int id coin1_price 0x7f090293
 int id coin1_shortname 0x7f0900c0
 int id coin2_gain_view 0x7f0900c1
 int id coin2_image 0x7f0900c2
@@ -2233,6 +2240,8 @@ int id imageView2 0x7f090150
 int id imageView4 0x7f090151
 int id imageView5 0x7f090152
 int id imageView_spinner_image 0x7f090153
+int id img_btn_news1 0x7f090294
+int id img_btn_news2 0x7f090295
 int id info 0x7f090154
 int id invisible 0x7f090155
 int id inward 0x7f090156
@@ -2478,6 +2487,9 @@ int id textView32 0x7f090245
 int id textView33 0x7f090246
 int id textView34 0x7f090247
 int id textView35 0x7f090248
+int id textView36 0x7f090296
+int id textView37 0x7f090297
+int id textView38 0x7f090298
 int id textView4 0x7f090249
 int id textView5 0x7f09024a
 int id textView6 0x7f09024b
@@ -2629,6 +2641,7 @@ int layout activity_login_popup_error 0x7f0c0022
 int layout activity_login_popup_great 0x7f0c0023
 int layout activity_main 0x7f0c0024
 int layout activity_qr_scanner 0x7f0c0025
+int layout activity_recommendation 0x7f0c0096
 int layout activity_send_crypto 0x7f0c0026
 int layout activity_wallet_btc 0x7f0c0027
 int layout activity_wallet_coins 0x7f0c0028
@@ -2917,6 +2930,8 @@ int string name_here 0x7f1200a5
 int string nav_app_bar_navigate_up_description 0x7f1200a6
 int string nav_app_bar_open_drawer_description 0x7f1200a7
 int string nec 0x7f1200a8
+int string news1 0x7f1200e8
+int string news2 0x7f1200e9
 int string next 0x7f1200a9
 int string next_pf 0x7f1200aa
 int string no_fingerprints_message_pf 0x7f1200ab
@@ -2934,6 +2949,8 @@ int string privacy_policy 0x7f1200b6
 int string prompt_email 0x7f1200b7
 int string prompt_password 0x7f1200b8
 int string push_notifications 0x7f1200b9
+int string rec1 0x7f1200ea
+int string rec2 0x7f1200eb
 int string received 0x7f1200ba
 int string report_an_issue 0x7f1200bb
 int string search_menu_title 0x7f1200bc
