@@ -53,7 +53,7 @@ public class before_main extends AppCompatActivity {
     private class SplashHandler implements Runnable {
         public void run(){
             if (isLoggedIn) {
-                startActivity(new Intent(getApplication(), MainActivity.class));
+                startActivity(new Intent(getApplication(), login_1.class));
             } else {
 //                startActivity(new Intent(getApplication(), login_1.class));
                 startActivity(new Intent(getApplication(), login_1.class));

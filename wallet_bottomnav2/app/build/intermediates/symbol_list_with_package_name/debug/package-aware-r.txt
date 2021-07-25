@@ -2487,7 +2487,6 @@ id textView19
 id textView2
 id textView20
 id textView21
-id textView22
 id textView23
 id textView24
 id textView25
@@ -2548,7 +2547,6 @@ id unlabeled
 id up
 id useLogo
 id view
-id view10
 id view2
 id view3
 id view4
@@ -2556,7 +2554,6 @@ id view5
 id view6
 id view7
 id view8
-id view9
 id view_offset_helper
 id view_tree_lifecycle_owner
 id view_tree_saved_state_registry_owner
@@ -2778,6 +2775,8 @@ mipmap ic_launcher_round
 navigation mobile_navigation
 plurals mtrl_badge_content_description
 raw zxing_beep
+string BNB_wallet
+string Chainlink
 string _0_00
 string abc_action_bar_home_description
 string abc_action_bar_up_description
@@ -2823,6 +2822,7 @@ string bal_wallet
 string balance
 string balance_here
 string balancer
+string binance_coin
 string bitcoin
 string bnb
 string bottom_sheet_behavior
@@ -2850,6 +2850,7 @@ string etc
 string eth
 string eth_wallet
 string ethereum
+string ethereum_classic
 string exposed_dropdown_menu_content_description
 string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
