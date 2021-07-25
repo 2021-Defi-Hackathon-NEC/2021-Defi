@@ -6,6 +6,7 @@ import android.content.ClipboardManager;
 import static android.content.Context.CLIPBOARD_SERVICE;
 
 import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.speech.tts.TextToSpeech;
@@ -24,7 +25,9 @@ import com.example.wallet_bottom_nav_2.ui.wallet.WalletFragment;
 import com.example.wallet_bottom_nav_2.ui.wallet.WalletViewModel;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
+import androidx.annotation.Nullable;
 import androidx.appcompat.app.ActionBar;
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.navigation.NavController;
 import androidx.navigation.Navigation;
@@ -32,6 +35,8 @@ import androidx.navigation.ui.AppBarConfiguration;
 import androidx.navigation.ui.NavigationUI;
 
 import com.example.wallet_bottom_nav_2.databinding.ActivityMainBinding;
+import com.google.zxing.integration.android.IntentIntegrator;
+import com.google.zxing.integration.android.IntentResult;
 
 import org.w3c.dom.Text;
 
@@ -170,6 +175,44 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             address.setText(address_map.get(selector_selected.getText().toString()));
             Toast.makeText(getApplicationContext(), "Connected with " + selector_selected.getText().toString() + "!", Toast.LENGTH_SHORT).show();
         }
+    }
+
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+        IntentResult result = IntentIntegrator.parseActivityResult(requestCode, resultCode, data);
+        if (result != null) {
+            if (result.getContents() != null) {
+                AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this);
+                builder.setTitle("Result");
+                builder.setMessage(result.getContents());
+                builder.setPositiveButton("OK", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        dialog.dismiss();
+                    }
+                });
+                builder.show();
+//                Toast.makeText(getApplicationContext(), "Scanned : " + result.getContents(), Toast.LENGTH_LONG).show();
+            } else {
+                Toast.makeText(getApplicationContext(), "OOPS ... You did not scan anything", Toast.LENGTH_SHORT).show();
+            }
+        }
+
+//        if (result.getContents() != null) {
+//            AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this);
+//            builder.setTitle("Result");
+//            builder.setMessage(result.getContents());
+//            builder.setPositiveButton("OK", new DialogInterface.OnClickListener() {
+//                @Override
+//                public void onClick(DialogInterface dialog, int which) {
+//                    dialog.dismiss();
+//                }
+//            });
+//            builder.show();
+//        } else {
+//            Toast.makeText(getApplicationContext(), "OOPS ... You did not scan anything", Toast.LENGTH_SHORT).show();
+//        }
     }
 
     @Override
