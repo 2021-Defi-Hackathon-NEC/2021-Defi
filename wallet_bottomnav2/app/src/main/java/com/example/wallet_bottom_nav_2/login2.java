@@ -61,9 +61,9 @@ public class login2 extends AppCompatActivity {
             @Override
             public void onItemSelected(AdapterView<?> adapterView, View view, int i, long id) {
                 selected_coin_idx = spinner_coins.getSelectedItemPosition();
-                //button
+                /*//button
                 Mnemonic.setVisibility(View.VISIBLE);
-                addButton.setVisibility(View.VISIBLE);
+                addButton.setVisibility(View.VISIBLE);*/
             }
 
             @Override
@@ -71,6 +71,25 @@ public class login2 extends AppCompatActivity {
 
             }
         });
+
+        //        한희님 여기예요
+//        여기 고칠거 많아요
+//        주목해주세요
+        nextButton.setOnClickListener(new View.OnClickListener(){
+
+            @Override
+            public void onClick(View v) {
+                if (1==1) {
+                    Intent intent = new Intent(login2.this, login_popup_great.class);
+                }
+                else{
+                    Intent intent = new Intent(login2.this, login_popup_error.class);
+                }
+            }
+
+        });
+
+
         /*if(eth){
             Mnemonic.setVisibility(View.VISIBLE);
             addButton.setVisibility(View.VISIBLE);
