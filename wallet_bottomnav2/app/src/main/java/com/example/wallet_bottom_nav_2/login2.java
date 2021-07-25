@@ -27,6 +27,9 @@ public class login2 extends AppCompatActivity {
     int selected_coin_idx = 0;
 
     //Button
+    EditText Mnemonic, pri_key;
+    Button nextButton, addButton;
+    boolean eth, write;
     /*private EditText Mnemonic = (EditText) findViewById(R.id.Mnemonic);
     private Button nextButton = (Button) findViewById(R.id.nextButton);
     private Button addButton = (Button) findViewById(R.id.addButton);
@@ -36,10 +39,20 @@ public class login2 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        //Initialize
+        Mnemonic = (EditText) findViewById(R.id.Mnemonic);
+        pri_key = (EditText) findViewById(R.id.editPassword);
+        nextButton = (Button) findViewById(R.id.nextButton);
+        addButton = (Button) findViewById(R.id.addButton);
+        eth=false;
+        write=false;
+
         //Button Setting
-        /*Mnemonic.setVisibility(View.GONE);
+        Mnemonic.setVisibility(View.GONE);
         nextButton.setVisibility(View.GONE);
-        addButton.setVisibility(View.GONE);*/
+        addButton.setVisibility(View.GONE);
+
+        String passwordInput = Mnemonic.getText().toString().trim();
 
         //Spinner
         super.onCreate(savedInstanceState);
