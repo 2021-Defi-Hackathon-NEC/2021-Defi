@@ -91,12 +91,12 @@ public class auth_pincode extends AppCompatActivity {
             builder = new PFFLockScreenConfiguration.Builder(this).
                     setMode(PFFLockScreenConfiguration.MODE_AUTH)
                     .setTitle("Enter the Password")
-                    .setLeftButton("취소")
+                    .setLeftButton("Cancel")
                     .setNextButton("Continue")
                     .setCodeLength(6);
         }else {
-            Log.d("encoded_pin_code","저장된 핀코드 확인 ...");
-            Toast.makeText(getApplicationContext(), "저장된 핀번호가 없습니다. 핀번호를 생성해주세요.", Toast.LENGTH_LONG).show();
+            Log.d("encoded_pin_code","Checking the password ...");
+            Toast.makeText(getApplicationContext(), "There is no saved password. Please create it.", Toast.LENGTH_LONG).show();
             builder = new PFFLockScreenConfiguration.Builder(this).
                     setMode(PFFLockScreenConfiguration.MODE_CREATE)
                     .setTitle("Create a Password")
@@ -111,7 +111,7 @@ public class auth_pincode extends AppCompatActivity {
         fragment.setOnLeftButtonClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(getApplicationContext(), "핀번호가 초기화되었습니다.", Toast.LENGTH_LONG);
+                Toast.makeText(getApplicationContext(), "Password has been initialized.", Toast.LENGTH_LONG);
 
                 /*
                  * 테스트용 핀번호 초기화 코드
@@ -131,14 +131,14 @@ public class auth_pincode extends AppCompatActivity {
         fragment.setLoginListener(new PFLockScreenFragment.OnPFLockScreenLoginListener() {
             @Override
             public void onCodeInputSuccessful() {
-                Log.d("encoded_pin_code", "인증 성공");
-                Toast.makeText(context, "핀번호 인증에 성공하였습니다.", Toast.LENGTH_LONG).show();
+                Log.d("encoded_pin_code", "Authentication complete");
+                Toast.makeText(context, "Password is certified", Toast.LENGTH_LONG).show();
                 finish();
             }
 
             @Override
             public void onFingerprintSuccessful() {
-                Log.d("encoded_pin_code", "지문 인증 성공");
+                Log.d("encoded_pin_code", "Fingerprint Authentication success");
             }
 
             @Override
@@ -149,7 +149,7 @@ public class auth_pincode extends AppCompatActivity {
 
             @Override
             public void onFingerprintLoginFailed() {
-                Log.d("encoded_pin_code", "지문 인증 실패");
+                Log.d("encoded_pin_code", "Fingerprint Authentication fail");
             }
         });
 
@@ -158,14 +158,14 @@ public class auth_pincode extends AppCompatActivity {
             public void onCodeCreated(String encodedCode) {
                 editor.putString("encoded_pin_code", encodedCode);
                 editor.commit();
-                Log.d("encoded_pin_code", "핀 번호 생성 완료 : " + encodedCode);
+                Log.d("encoded_pin_code", "Password generation completed : " + encodedCode);
                 Toast.makeText(getApplicationContext(), "Password generated Successfully", Toast.LENGTH_LONG).show();
                 finish();
             }
 
             @Override
             public void onNewCodeValidationFailed() {
-                Toast.makeText(getApplicationContext(), "핀번호를 이전과 똑같이 입력해주세요.", Toast.LENGTH_LONG).show();
+                Toast.makeText(getApplicationContext(), "Enter the password again.", Toast.LENGTH_LONG).show();
             }
         });
         getSupportFragmentManager().beginTransaction().replace(R.id.auth_pincode_container, fragment).commit();
@@ -181,7 +181,7 @@ public class auth_pincode extends AppCompatActivity {
                             return;
                         }
                         if(result.getError() != null) {
-                            Toast.makeText(auth_pincode.this, "핀 정보를 가져올 수 없습니다.", Toast.LENGTH_SHORT).show();
+                            Toast.makeText(auth_pincode.this, "There is no password data.", Toast.LENGTH_SHORT).show();
                             return;
                         }
                         showLockScreenFragment(result.getResult());
