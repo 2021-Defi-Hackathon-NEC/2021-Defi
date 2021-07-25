@@ -11,14 +11,29 @@
 * Hackathon Tutorial
 
   https://taebit.gitbook.io/taebit-global-defi-hackathon/
+  
+## 🤩 Let me introduce
+Hello! We are undergraduate students who are interested in blockchain in Korea. 
+We are interested in blockchain application technologies such as de-fi.
+We are still lacking, but I'm honored to have the opportunity to implement it myself!
+We are composed of front end and back end.
 
-## Development Topic
+| Name 	| Position 	| Role 	| comment | major |
+|------	|----------	|------	|---------	|---	|
+| Jimin Kim |  Team Leader & Front-end dev(Java) 	|      	|         	|   	|
+| Juwon Lee | full-stack dev(React Native, Flutter)	|      	|         	|   	|
+| Chaerim Kim | Back-end dev(Java)	| Coin send&receive, smart contact, market price status |         	| Computer Science Engineering |
+| Hanhui Kim | Back-end dev(Java) |      	|         	|   	|
+| Ahn Hyejin	| Front-end dev(Java) 	|      	|         	|   	|
+
+
+## 🔍 Development Topic
 We are trying to develop a cryptocurrency multi-chain wallet using the service provided by TAEBIT based on JAVA and Swift. Considering various factors such as Gas, Private Key, we will produce a user-friendly Android/IOS app
 
 <img src="/img/Taebitwallet.jpg"  width="700">
 
 
-## Prototype(With Figma)
+## 🎨 Prototype(With Figma)
 https://www.figma.com/file/4VVxSNByaq9H1vKdQLSWDe/De-Fi?node-id=0%3A1
 
 <nobr><img src="/img/login (4).png"  width="180">
