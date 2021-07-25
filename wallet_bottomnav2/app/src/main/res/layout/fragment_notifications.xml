@@ -183,7 +183,7 @@
                 android:layout_marginStart="16dp"
                 android:layout_marginLeft="16dp"
                 android:layout_marginTop="9dp"
-                android:text="@string/geniee"
+                android:text="@string/hash_1"
                 app:layout_constraintStart_toStartOf="parent" />
 
             <View
@@ -217,7 +217,7 @@
                 android:layout_marginStart="16dp"
                 android:layout_marginLeft="16dp"
                 android:layout_marginTop="9dp"
-                android:text="@string/hhkim"
+                android:text="@string/hash_2"
                 app:layout_constraintStart_toStartOf="parent" />
 
             <View
@@ -251,7 +251,7 @@
                 android:layout_marginStart="16dp"
                 android:layout_marginLeft="16dp"
                 android:layout_marginTop="9dp"
-                android:text="@string/chaerin"
+                android:text="@string/hash_3"
                 app:layout_constraintStart_toStartOf="parent" />
 
             <View
@@ -285,7 +285,7 @@
                 android:layout_marginStart="16dp"
                 android:layout_marginLeft="16dp"
                 android:layout_marginTop="9dp"
-                android:text="@string/zoo1"
+                android:text="@string/hash_1"
                 app:layout_constraintStart_toStartOf="parent" />
 
             <View
@@ -319,7 +319,7 @@
                 android:layout_marginStart="16dp"
                 android:layout_marginLeft="16dp"
                 android:layout_marginTop="9dp"
-                android:text="@string/jimmim"
+                android:text="@string/hash_2"
                 app:layout_constraintStart_toStartOf="parent" />
 
             <View
