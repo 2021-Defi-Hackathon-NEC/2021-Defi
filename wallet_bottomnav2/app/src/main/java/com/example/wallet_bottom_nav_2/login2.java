@@ -28,7 +28,7 @@ public class login2 extends AppCompatActivity {
 
     //Button
     EditText Mnemonic, pri_key;
-    Button nextButton, addButton;
+    Button nextButton, addButton;k
 
     boolean eth = false;
     boolean write = false;
