@@ -15,6 +15,9 @@
 ## Development Topic
 We are trying to develop a cryptocurrency multi-chain wallet using the service provided by TAEBIT based on JAVA and Swift. Considering various factors such as Gas, Private Key, we will produce a user-friendly Android/IOS app
 
+<img src="/img/Taebitwallet.png"  width="400">
+
+
 ## Prototype(With Figma)
 https://www.figma.com/file/4VVxSNByaq9H1vKdQLSWDe/De-Fi?node-id=0%3A1
 
