@@ -24,7 +24,7 @@ We are composed of front end and back end.
 | Juwon Lee | full-stack dev(React Native, Flutter)	|      	|         	|   	|
 | Chaerin Kim | Back-end dev(Java)	| Coin send&receive, smart contract, market price status |         	| Computer Science Engineering |
 | Hanhui Kim | Back-end dev(Java) | Login	|         	| Mathematics, Statistics |
-| Ahn Hyejin	| Front-end dev(Java) 	|      	|         	|   	|
+| Ahn Hyejin	| Front-end dev(Java) 	| (Android) login, pincode authentication	|         	| Cyber Security |
 
 
 ## 🔍 Development Topic
