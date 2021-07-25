@@ -2168,8 +2168,8 @@ id dropdown_menu
 id easeIn
 id easeInOut
 id easeOut
+id editPassword
 id editTextNumberDecimal
-id editTextTextPassword
 id edit_coinNm
 id edit_query
 id elastic

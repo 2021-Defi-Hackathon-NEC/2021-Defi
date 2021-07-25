@@ -46,7 +46,13 @@
         <activity android:name="com.example.wallet_bottom_nav_2.before_main" >
         </activity>
         <activity android:name="com.example.wallet_bottom_nav_2.login_1" />
-        <activity android:name="com.example.wallet_bottom_nav_2.login2" />
+        <activity android:name="com.example.wallet_bottom_nav_2.login2" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity android:name="com.example.wallet_bottom_nav_2.SendCrypto" />
         <activity android:name="com.example.wallet_bottom_nav_2.coinmarketcap" />
         <activity android:name="com.example.wallet_bottom_nav_2.wallet_coins" />
@@ -66,11 +72,6 @@
         <activity
             android:name="com.example.wallet_bottom_nav_2.MainActivity"
             android:label="@string/app_name" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity android:name="com.example.wallet_bottom_nav_2.ui.wallet.BALWalletFragment" />
         <activity android:name="com.example.wallet_bottom_nav_2.temp_coinmarketcap" />
