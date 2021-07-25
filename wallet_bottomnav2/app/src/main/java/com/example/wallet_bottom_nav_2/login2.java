@@ -30,26 +30,21 @@ public class login2 extends AppCompatActivity {
     EditText Mnemonic, pri_key;
     Button nextButton, addButton;
 
-    /*//Button
-    private EditText Mnemonic = (EditText) findViewById(R.id.Mnemonic)
-    private Button nextButton = (Button) findViewById(R.id.nextButton);
-    private Button addButton = (Button) findViewById(R.id.addButton);
-    private EditText privatekey = (EditText) findViewById(R.id.editPassword);*/
     boolean eth = false;
     boolean write = false;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        /*//Button Setting
-        Mnemonic.setVisibility(View.GONE);
-        nextButton.setVisibility(View.GONE);
-        addButton.setVisibility(View.GONE);*/
-
         //Button Initialize
         Mnemonic = (EditText) findViewById(R.id.Mnemonic);
         pri_key = (EditText) findViewById(R.id.editPassword);
         nextButton = (Button) findViewById(R.id.nextButton);
         addButton = (Button) findViewById(R.id.addButton);
+
+        //Button Setting
+        Mnemonic.setVisibility(View.GONE);
+        nextButton.setVisibility(View.GONE);
+        addButton.setVisibility(View.GONE);
 
         //Spinner
         super.onCreate(savedInstanceState);
@@ -81,11 +76,11 @@ public class login2 extends AppCompatActivity {
             }
         });
 
-        /*if(eth){
+        if(eth){
             Mnemonic.setVisibility(View.VISIBLE);
             addButton.setVisibility(View.VISIBLE);
 
-            Mnemonic.addTextChangedListener(new TextWatcher() {
+            /*Mnemonic.addTextChangedListener(new TextWatcher() {
                 @Override
                 public void beforeTextChanged(CharSequence charSequence, int i, int i1, int i2) {
                 }
@@ -98,14 +93,14 @@ public class login2 extends AppCompatActivity {
                 public void afterTextChanged(Editable editable) {
                     if (editable.length() > 3) write = true;
                 }
-            });
+            });*/
         }
         else{
             write=true;
-        }*/
+        }
 
 
-        /*privatekey.addTextChangedListener(new TextWatcher() {
+        /*pri_key.addTextChangedListener(new TextWatcher() {
             @Override
             public void beforeTextChanged(CharSequence charSequence, int i, int i1, int i2) {
             }
@@ -125,7 +120,7 @@ public class login2 extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 if (eth) {
-                    if (Mnemonic==privatekey){
+                    if (Mnemonic==pri_key){
                         Intent intent = new Intent(login2.this, login_popup_great.class);
                     }
                     else{
