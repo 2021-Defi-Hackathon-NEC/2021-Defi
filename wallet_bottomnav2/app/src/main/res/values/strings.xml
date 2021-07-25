@@ -61,7 +61,8 @@
     <string name="eth_wallet">ETH Wallet</string>
     <string name="wallet_address">Wallet Address</string>
     <string name="hash_1">0xbe80ceed72e1798c11367abd7f836f</string>
-    <string name="taebit_wallet">TAEBIT<br>WALLET</br></string>
+<!--    br 태그로 줄바꿈하시면 애뮬레이터에서 줄바꿈 반영이 안 됩니다 ㅠㅠ-->
+    <string name="taebit_wallet">TAEBIT\nWALLET</string>
     <string name="enter_a_private_key">Enter a Private Key</string>
     <string name="enter_mnemonic">Enter Mnemonic</string>
     <string name="received">Received</string>
@@ -117,6 +118,7 @@
     <string name="news2">
         HM Treasury, the U.K. government\'s finance ministry...
     </string>
+    <string name="sent">Sent</string>
 
 
 </resources>

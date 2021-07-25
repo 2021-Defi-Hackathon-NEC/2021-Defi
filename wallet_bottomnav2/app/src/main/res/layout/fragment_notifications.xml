@@ -44,11 +44,10 @@
             android:id="@+id/imageButton4"
             android:layout_width="75dp"
             android:layout_height="75dp"
-            android:background="@drawable/button_shape3"
-            android:backgroundTint="@color/dracula_blue"
+            android:backgroundTint="@color/white"
             android:onClick="clickBtn_toast_msg"
             android:padding="30dp"
-            android:src="@drawable/ic_refresh_black"
+            android:src="@drawable/ic_send_customized"
             tools:ignore="MissingConstraints" />
 
         <ImageButton
@@ -56,11 +55,10 @@
             android:layout_width="75dp"
             android:layout_height="75dp"
             android:layout_marginStart="29dp"
-            android:background="@drawable/button_shape3"
-            android:backgroundTint="@color/dracula_blue"
+            android:backgroundTint="@color/white"
             android:onClick="clickBtn_toast_msg"
             android:padding="30dp"
-            android:src="@drawable/ic_refresh_black"
+            android:src="@drawable/ic_receive_customized"
             tools:ignore="MissingConstraints" />
 
         <ImageButton
@@ -69,11 +67,10 @@
             android:layout_height="75dp"
             android:layout_marginStart="30dp"
             android:layout_marginLeft="30dp"
-            android:background="@drawable/button_shape3"
-            android:backgroundTint="@color/dracula_blue"
+            android:backgroundTint="@color/white"
             android:onClick="clickBtn_toast_msg"
             android:padding="30dp"
-            android:src="@drawable/ic_refresh_black"
+            android:src="@drawable/ic_copy_customized"
             tools:ignore="MissingConstraints" />
     </LinearLayout>
 
@@ -94,6 +91,7 @@
             android:layout_marginEnd="16dp"
             android:padding="5dp"
             android:text="@string/title_send"
+            android:textStyle="bold"
             android:textColor="@color/dracula_blue"
             android:textAlignment="center" />
 
@@ -106,6 +104,7 @@
             android:layout_marginEnd="16dp"
             android:padding="5dp"
             android:text="@string/title_receive"
+            android:textStyle="bold"
             android:textColor="@color/dracula_blue"
             android:textAlignment="center" />
 
@@ -117,6 +116,7 @@
             android:layout_marginStart="36dp"
             android:padding="5dp"
             android:text="@string/title_copy"
+            android:textStyle="bold"
             android:textColor="@color/dracula_blue"
             android:textAlignment="center" />
 
@@ -183,7 +183,7 @@
                 android:layout_marginStart="16dp"
                 android:layout_marginLeft="16dp"
                 android:layout_marginTop="9dp"
-                android:text="TextView"
+                android:text="@string/geniee"
                 app:layout_constraintStart_toStartOf="parent" />
 
             <View
@@ -205,7 +205,7 @@
                 android:layout_marginStart="16dp"
                 android:layout_marginLeft="16dp"
                 android:layout_marginTop="16dp"
-                android:text="@string/received"
+                android:text="@string/sent"
                 android:textColor="@color/black"
                 android:textStyle="bold"
                 app:layout_constraintStart_toStartOf="parent" />
@@ -217,7 +217,7 @@
                 android:layout_marginStart="16dp"
                 android:layout_marginLeft="16dp"
                 android:layout_marginTop="9dp"
-                android:text="TextView"
+                android:text="@string/hhkim"
                 app:layout_constraintStart_toStartOf="parent" />
 
             <View
@@ -251,7 +251,7 @@
                 android:layout_marginStart="16dp"
                 android:layout_marginLeft="16dp"
                 android:layout_marginTop="9dp"
-                android:text="TextView"
+                android:text="@string/chaerin"
                 app:layout_constraintStart_toStartOf="parent" />
 
             <View
@@ -273,7 +273,7 @@
                 android:layout_marginStart="16dp"
                 android:layout_marginLeft="16dp"
                 android:layout_marginTop="16dp"
-                android:text="@string/received"
+                android:text="@string/sent"
                 android:textColor="@color/black"
                 android:textStyle="bold"
                 app:layout_constraintStart_toStartOf="parent" />
@@ -285,7 +285,7 @@
                 android:layout_marginStart="16dp"
                 android:layout_marginLeft="16dp"
                 android:layout_marginTop="9dp"
-                android:text="TextView"
+                android:text="@string/zoo1"
                 app:layout_constraintStart_toStartOf="parent" />
 
             <View
@@ -319,7 +319,7 @@
                 android:layout_marginStart="16dp"
                 android:layout_marginLeft="16dp"
                 android:layout_marginTop="9dp"
-                android:text="TextView"
+                android:text="@string/jimmim"
                 app:layout_constraintStart_toStartOf="parent" />
 
             <View
