@@ -30,9 +30,12 @@ import androidx.navigation.ui.NavigationUI;
 
 import com.example.wallet_bottom_nav_2.databinding.ActivityMainBinding;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
     private ActivityMainBinding binding;
+
+    private Button btn1;
+    private View view1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -52,8 +55,10 @@ public class MainActivity extends AppCompatActivity {
         NavigationUI.setupActionBarWithNavController(this, navController, appBarConfiguration);
         NavigationUI.setupWithNavController(binding.navView, navController);
 
+        btn1 = (Button)findViewById(R.id.button2);
+        view1 = findViewById(R.id.button2);
 
-
+        btn1.setOnClickListener(this);
     }
 
 
@@ -121,6 +126,15 @@ public class MainActivity extends AppCompatActivity {
                 break;
         }
     }
+
+    @Override
+    public void onClick(View view) {
+        switch (view.getId()){
+            case R.id.button2:
+                view1.setVisibility(View.GONE);
+        }
+    }
+
 
     // 클립보드에 복사
 
