@@ -1,6 +1,6 @@
 # 2021-Defi-Android
 ## 🛒 Noisy Empty Carts (NEC) 🛒
-### 2021 Defi Online Hackathon
+### 2021 TAEBIT De-fi Hackathon Android app
 
 * Hackcthon Introduction
 
