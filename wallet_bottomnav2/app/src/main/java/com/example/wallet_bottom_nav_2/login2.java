@@ -59,7 +59,7 @@ public class login2 extends AppCompatActivity {
         spinnerImages = new int[]{R.drawable.bitcoin
                 , R.drawable.ethereum
                 , R.drawable.ethereum_classic
-                , R.drawable.binance
+                , R.drawable.binance_customized2
                 , R.drawable.link};
 
         CustomSpinnerAdapter customSpinnerAdapter = new CustomSpinnerAdapter(login2.this, spinnerNames, spinnerImages);

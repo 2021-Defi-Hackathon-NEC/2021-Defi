@@ -1780,6 +1780,7 @@ drawable avd_show_password
 drawable background_pf
 drawable binance
 drawable binance_customized
+drawable binance_customized2
 drawable bitcoin
 drawable bitcoin_customize
 drawable bottom_navigation_selector
@@ -2654,7 +2655,6 @@ layout activity_login2
 layout activity_login_popup_error
 layout activity_login_popup_great
 layout activity_main
-layout activity_qr_scanner
 layout activity_recommendation
 layout activity_send_crypto
 layout activity_wallet_btc
