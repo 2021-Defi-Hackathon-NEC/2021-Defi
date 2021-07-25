@@ -143,17 +143,20 @@ public class login2 extends AppCompatActivity {
 
         });*/
 
-
+        nextButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if (1==1){  //private key, Mnemonic compare
+                    Intent intent = new Intent(login2.this, login_popup_great.class);
+                }
+                else{
+                    Intent intent = new Intent(login2.this, login_popup_error.class);
+                }
+            }
+        });
 
         ActionBar actionbar = getSupportActionBar();
         actionbar.hide();
     }
-    public void onClicked (View view){
-        if (1==1){  //private key, Mnemonic compare
-            Intent intent = new Intent(login2.this, login_popup_great.class);
-        }
-        else{
-            Intent intent = new Intent(login2.this, login_popup_error.class);
-        }
-    }
+
 }
