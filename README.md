@@ -28,7 +28,7 @@ We are composed of front end and back end.
 
 
 ## 🔍 Development Topic
-We are trying to develop a cryptocurrency multi-chain wallet using the service provided by TAEBIT based on JAVA and Swift. Considering various factors such as Gas, Private Key, we will produce a user-friendly Android/IOS app
+We are trying to develop a cryptocurrency multi-chain wallet using the service provided by TAEBIT based on JAVA, Dart(Flutter) and Solidity. Considering various factors such as Gas, Private Key, we will produce a user-friendly Android/IOS app.
 
 <img src="/img/Taebitwallet.jpg"  width="700">
 
