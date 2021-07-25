@@ -6711,7 +6711,7 @@
         E-commerce giant Amazon appears set to toe the digital currency waters, outlining...
     </string><string name="news2">
         HM Treasury, the U.K. government\'s finance ministry...
-    </string><string name="rec1">• Judge allows Ripple to depose ex-SEC Official<br>• New Partnership: BankDhofar</br></string><string name="sent">Sent</string><string name="transaction_successful">Transaction Successful</string><string name="done">Done</string><string name="usd">USD</string><string name="bnb">BNB</string><string name="link">LINK</string><string name="etc">ETC</string></file><file path="C:\Users\User PC\Documents\GitHub\2021-Defi\wallet_bottomnav2\app\src\main\res\values\styles.xml" qualifiers=""><style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+    </string><string name="rec1">• Judge allows Ripple to depose ex-SEC Official<br>• New Partnership: BankDhofar</br></string><string name="sent">Sent</string><string name="transaction_successful">Transaction Successful</string><string name="done">Done</string><string name="usd">USD</string><string name="bnb">BNB</string><string name="link">LINK</string><string name="etc">ETC</string><string name="BNB_wallet">BNB Wallet</string><string name="Chainlink">Chainlink</string><string name="ethereum_classic">Ethereum Classic</string><string name="binance_coin">Binance Coin</string></file><file path="C:\Users\User PC\Documents\GitHub\2021-Defi\wallet_bottomnav2\app\src\main\res\values\styles.xml" qualifiers=""><style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
         
         <item name="colorPrimary">@color/white</item>
         <item name="colorPrimaryDark">@color/white</item>
