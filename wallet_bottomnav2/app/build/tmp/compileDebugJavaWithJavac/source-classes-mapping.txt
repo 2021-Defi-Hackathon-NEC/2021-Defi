@@ -46,10 +46,8 @@ com/example/wallet_bottom_nav_2/coinmarketcap.java
  com.example.wallet_bottom_nav_2.coinmarketcap$2
  com.example.wallet_bottom_nav_2.coinmarketcap$3
  com.example.wallet_bottom_nav_2.coinmarketcap$4
-com/example/wallet_bottom_nav_2/CustomSpinnerAdapter.java
- com.example.wallet_bottom_nav_2.CustomSpinnerAdapter
- com.example.wallet_bottom_nav_2.CustomSpinnerAdapter$1
- com.example.wallet_bottom_nav_2.CustomSpinnerAdapter$ViewHolder
+com/example/wallet_bottom_nav_2/ui/login/LoginResult.java
+ com.example.wallet_bottom_nav_2.ui.login.LoginResult
 com/example/wallet_bottom_nav_2/databinding/ActivityWalletEthBinding.java
  com.example.wallet_bottom_nav_2.databinding.ActivityWalletEthBinding
 com/example/wallet_bottom_nav_2/ui/home/HomeViewModel.java
@@ -66,9 +64,8 @@ com/example/wallet_bottom_nav_2/databinding/FragmentHomeBinding.java
 com/example/wallet_bottom_nav_2/ui/notifications/NotificationsFragment.java
  com.example.wallet_bottom_nav_2.ui.notifications.NotificationsFragment
  com.example.wallet_bottom_nav_2.ui.notifications.NotificationsFragment$1
-com/example/wallet_bottom_nav_2/login2.java
- com.example.wallet_bottom_nav_2.login2
- com.example.wallet_bottom_nav_2.login2$1
+com/example/wallet_bottom_nav_2/ui/wallet/BALWalletFragment.java
+ com.example.wallet_bottom_nav_2.ui.wallet.BALWalletFragment
 com/example/wallet_bottom_nav_2/databinding/ActivityCoinGraphBinding.java
  com.example.wallet_bottom_nav_2.databinding.ActivityCoinGraphBinding
 com/example/wallet_bottom_nav_2/databinding/ActivityLogin1Binding.java
@@ -86,9 +83,8 @@ com/example/wallet_bottom_nav_2/ui/exchange/ExchangeFragment.java
  com.example.wallet_bottom_nav_2.ui.exchange.ExchangeFragment$1
 com/example/wallet_bottom_nav_2/Capture.java
  com.example.wallet_bottom_nav_2.Capture
-com/example/wallet_bottom_nav_2/login_1.java
- com.example.wallet_bottom_nav_2.login_1
- com.example.wallet_bottom_nav_2.login_1$1
+com/example/wallet_bottom_nav_2/databinding/ActivityQrScannerBinding.java
+ com.example.wallet_bottom_nav_2.databinding.ActivityQrScannerBinding
 com/example/wallet_bottom_nav_2/ui/notifications/NotificationsViewModel.java
  com.example.wallet_bottom_nav_2.ui.notifications.NotificationsViewModel
 com/example/wallet_bottom_nav_2/BuildConfig.java
@@ -137,9 +133,13 @@ com/example/wallet_bottom_nav_2/wallet_ETH.java
  com.example.wallet_bottom_nav_2.wallet_ETH
 com/example/wallet_bottom_nav_2/ui/login/LoggedInUserView.java
  com.example.wallet_bottom_nav_2.ui.login.LoggedInUserView
-com/example/wallet_bottom_nav_2/ui/login/LoginResult.java
- com.example.wallet_bottom_nav_2.ui.login.LoginResult
-com/example/wallet_bottom_nav_2/ui/wallet/BALWalletFragment.java
- com.example.wallet_bottom_nav_2.ui.wallet.BALWalletFragment
-com/example/wallet_bottom_nav_2/databinding/ActivityQrScannerBinding.java
- com.example.wallet_bottom_nav_2.databinding.ActivityQrScannerBinding
+com/example/wallet_bottom_nav_2/login_1.java
+ com.example.wallet_bottom_nav_2.login_1
+ com.example.wallet_bottom_nav_2.login_1$1
+com/example/wallet_bottom_nav_2/login2.java
+ com.example.wallet_bottom_nav_2.login2
+ com.example.wallet_bottom_nav_2.login2$1
+com/example/wallet_bottom_nav_2/CustomSpinnerAdapter.java
+ com.example.wallet_bottom_nav_2.CustomSpinnerAdapter
+ com.example.wallet_bottom_nav_2.CustomSpinnerAdapter$1
+ com.example.wallet_bottom_nav_2.CustomSpinnerAdapter$ViewHolder
