@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.Handler;
 import android.os.Looper;
 import android.text.Editable;
 import android.text.TextWatcher;
@@ -20,6 +21,9 @@ import android.os.Bundle;
 import static android.widget.Toast.*;
 
 public class login2 extends AppCompatActivity {
+
+    private boolean isLoggedIn;
+
     //Spinner
     private Spinner spinner_coins;
     String[] spinnerNames;
@@ -35,6 +39,10 @@ public class login2 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
+        Handler hd = new Handler(Looper.getMainLooper());
+        hd.postDelayed(new login2.SplashHandler(), 10000);
+
         //Button Initialize
         Mnemonic = (EditText) findViewById(R.id.Mnemonic);
         pri_key = (EditText) findViewById(R.id.editPassword);
@@ -143,7 +151,7 @@ public class login2 extends AppCompatActivity {
 
         });*/
 
-        nextButton.setOnClickListener(new View.OnClickListener() {
+        /*nextButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 if (1==1){  //private key, Mnemonic compare
@@ -153,10 +161,24 @@ public class login2 extends AppCompatActivity {
                     Intent intent = new Intent(login2.this, login_popup_error.class);
                 }
             }
-        });
+        });*/
 
         ActionBar actionbar = getSupportActionBar();
         actionbar.hide();
+
+
+    }
+
+    private class SplashHandler implements Runnable {
+        public void run(){
+            if (isLoggedIn) {
+                startActivity(new Intent(getApplication(), auth_pincode.class));
+            } else {
+//                startActivity(new Intent(getApplication(), login_1.class));
+                startActivity(new Intent(getApplication(), auth_pincode.class));
+            }
+            login2.this.finish();
+        }
     }
 
 }

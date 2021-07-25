@@ -43,18 +43,12 @@ public final class FragmentHomeBinding implements ViewBinding {
   public final TextView textView21;
 
   @NonNull
-  public final TextView textView22;
-
-  @NonNull
-  public final TextView textView23;
-
-  @NonNull
   public final TextView textView6;
 
   private FragmentHomeBinding(@NonNull ConstraintLayout rootView, @NonNull TextView balance3,
       @NonNull TextView balance4, @NonNull Button buttonShowMore2, @NonNull Button buttonShowMore3,
       @NonNull ImageView imageView, @NonNull ScrollView scrollView, @NonNull TextView textView21,
-      @NonNull TextView textView22, @NonNull TextView textView23, @NonNull TextView textView6) {
+      @NonNull TextView textView6) {
     this.rootView = rootView;
     this.balance3 = balance3;
     this.balance4 = balance4;
@@ -63,8 +57,6 @@ public final class FragmentHomeBinding implements ViewBinding {
     this.imageView = imageView;
     this.scrollView = scrollView;
     this.textView21 = textView21;
-    this.textView22 = textView22;
-    this.textView23 = textView23;
     this.textView6 = textView6;
   }
 
@@ -137,18 +129,6 @@ public final class FragmentHomeBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.textView22;
-      TextView textView22 = rootView.findViewById(id);
-      if (textView22 == null) {
-        break missingId;
-      }
-
-      id = R.id.textView23;
-      TextView textView23 = rootView.findViewById(id);
-      if (textView23 == null) {
-        break missingId;
-      }
-
       id = R.id.textView6;
       TextView textView6 = rootView.findViewById(id);
       if (textView6 == null) {
@@ -156,8 +136,7 @@ public final class FragmentHomeBinding implements ViewBinding {
       }
 
       return new FragmentHomeBinding((ConstraintLayout) rootView, balance3, balance4,
-          buttonShowMore2, buttonShowMore3, imageView, scrollView, textView21, textView22,
-          textView23, textView6);
+          buttonShowMore2, buttonShowMore3, imageView, scrollView, textView21, textView6);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

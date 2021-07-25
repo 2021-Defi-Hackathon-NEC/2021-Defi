@@ -1,6 +1,7 @@
 package com.example.wallet_bottom_nav_2;
 
 import android.content.Context;
+import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Build;
 import android.os.Bundle;
@@ -133,7 +134,8 @@ public class auth_pincode extends AppCompatActivity {
             public void onCodeInputSuccessful() {
                 Log.d("encoded_pin_code", "Authentication complete");
                 Toast.makeText(context, "Password is certified", Toast.LENGTH_LONG).show();
-                finish();
+                // finish();
+                startActivity(new Intent(getApplication(), MainActivity.class));
             }
 
             @Override
