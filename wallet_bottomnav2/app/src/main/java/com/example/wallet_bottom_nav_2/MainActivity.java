@@ -177,6 +177,36 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         }
     }
 
+    @SuppressLint("NonConstantResourceId")
+    public void clickBtn_coinSelected(View view){
+        final TextView coin = findViewById(R.id.textView40); // coin
+        Button selector_selected;
+
+        switch (view.getId()) {
+            case R.id.button8: // BTC
+                selector_selected = (Button) findViewById(R.id.button8);
+                break;
+            case R.id.button9: // ETH
+                selector_selected = (Button) findViewById(R.id.button9);
+                break;
+            case R.id.button14: // BNB
+                selector_selected = (Button) findViewById(R.id.button14);
+                break;
+            case R.id.button15: // ETC
+                selector_selected = (Button) findViewById(R.id.button15);
+                break;
+            case R.id.button16: // LINK
+                selector_selected = (Button) findViewById(R.id.button16);
+                break;
+            default:
+                throw new IllegalStateException("Unexpected value: " + view.getId());
+        }
+        if (true){
+            coin.setText(selector_selected.getText().toString()); // 버튼 클릭 후 코인 이름 표시
+            Toast.makeText(getApplicationContext(), "You Chose " + selector_selected.getText().toString() + "!", Toast.LENGTH_SHORT).show();
+        }
+    }
+
     @Override
     protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
         super.onActivityResult(requestCode, resultCode, data);

@@ -61,9 +61,9 @@ public class login2 extends AppCompatActivity {
             @Override
             public void onItemSelected(AdapterView<?> adapterView, View view, int i, long id) {
                 selected_coin_idx = spinner_coins.getSelectedItemPosition();
-                String item = adapterView.getItemAtPosition(i).toString();
-                //button
-                if ( item.equals("Ethereum") )   { eth = true; }
+                /*//button
+                Mnemonic.setVisibility(View.VISIBLE);
+                addButton.setVisibility(View.VISIBLE);*/
             }
 
             @Override
@@ -72,7 +72,21 @@ public class login2 extends AppCompatActivity {
             }
         });
 
-        if(eth){
+        /*nextButton.setOnClickListener(new View.OnClickListener(){
+
+            @Override
+            public void onClick(View v) {
+                if (1==1) {
+                    Intent intent = new Intent(login2.this, login_popup_great.class);
+                }
+                else{
+                    Intent intent = new Intent(login2.this, login_popup_error.class);
+                }
+            }
+
+        });*/
+
+        /*if(eth){
             Mnemonic.setVisibility(View.VISIBLE);
             addButton.setVisibility(View.VISIBLE);
 
@@ -93,8 +107,7 @@ public class login2 extends AppCompatActivity {
         }
         else{
             write=true;
-        }
-
+        }*/
 
         /*pri_key.addTextChangedListener(new TextWatcher() {
             @Override
@@ -130,7 +143,20 @@ public class login2 extends AppCompatActivity {
 
         });*/
 
+        nextButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if (1==1){  //private key, Mnemonic compare
+                    Intent intent = new Intent(login2.this, login_popup_great.class);
+                }
+                else{
+                    Intent intent = new Intent(login2.this, login_popup_error.class);
+                }
+            }
+        });
+
         ActionBar actionbar = getSupportActionBar();
         actionbar.hide();
     }
+
 }
