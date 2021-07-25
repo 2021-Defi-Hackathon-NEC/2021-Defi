@@ -6,364 +6,380 @@
     android:layout_height="match_parent"
     tools:context=".recommendation">
 
-    <LinearLayout
+    <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent">
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
-
-        <TextView
-            android:id="@+id/textView36"
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="15dp"
-            android:layout_marginTop="15dp"
-            android:text="Investment Information"
-            android:textColor="#000000"
-            android:textSize="26sp"
-            android:textStyle="bold" />
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
 
-        <TextView
-            android:id="@+id/textView37"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="15dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginBottom="15dp"
-            android:text="Today's recommendation"
-            android:textColor="#000000"
-            android:textSize="20sp" />
 
-        <androidx.constraintlayout.widget.ConstraintLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-
-            <LinearLayout
+            <TextView
+                android:id="@+id/textView36"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent">
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="15dp"
+                android:text="Investment Information"
+                android:textColor="#000000"
+                android:textSize="26sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView37"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="15dp"
+                android:text="Today's recommendation"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:orientation="vertical">
+                    android:orientation="vertical"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_gravity="center"
-                        android:layout_margin="10dp"
-                        android:orientation="horizontal">
-
-                        <TextView
-                            android:layout_width="20dp"
-                            android:layout_height="50dp"
-                            android:text="1"
-                            android:textSize="20sp"
-                            android:textColor="#000000"
-                            android:gravity="center"/>
-                        <ImageView
-                            android:id="@+id/coin1_image"
-                            android:layout_width="40dp"
-                            android:layout_height="40dp"
-                            android:layout_gravity="center"
-                            android:layout_marginHorizontal="10dp"
-                            android:src="@drawable/ripple"/>
+                        android:orientation="vertical">
 
                         <LinearLayout
-                            android:layout_width="wrap_content"
+                            android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:orientation="vertical"
-                            android:layout_gravity="center">
+                            android:layout_gravity="center"
+                            android:layout_margin="10dp"
+                            android:orientation="horizontal">
 
                             <TextView
-                                android:id="@+id/coin1_name"
-                                android:layout_width="115dp"
-                                android:layout_height="wrap_content"
-                                android:text="Ripple"
+                                android:layout_width="20dp"
+                                android:layout_height="50dp"
+                                android:gravity="center"
+                                android:text="1"
                                 android:textColor="#000000"
-                                android:textSize="20sp">
+                                android:textSize="20sp" />
+
+                            <ImageView
+                                android:id="@+id/coin1_image"
+                                android:layout_width="40dp"
+                                android:layout_height="40dp"
+                                android:layout_gravity="center"
+                                android:layout_marginHorizontal="10dp"
+                                android:src="@drawable/ripple" />
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/coin1_name"
+                                    android:layout_width="115dp"
+                                    android:layout_height="wrap_content"
+                                    android:text="Ripple"
+                                    android:textColor="#000000"
+                                    android:textSize="20sp"></TextView>
+
+                                <TextView
+                                    android:id="@+id/coin1_shortname"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="XRP"
+                                    android:textColor="#CC000000"
+                                    android:textSize="15sp"></TextView>
+                            </LinearLayout>
+
+                            <TextView
+                                android:id="@+id/coin1_price"
+                                android:layout_width="80dp"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:text="$0.60"
+                                android:textColor="#000000"
+                                android:textSize="19sp"
+                                tools:ignore="InvalidId">
+
                             </TextView>
 
                             <TextView
-                                android:id="@+id/coin1_shortname"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:text="XRP"
-                                android:textColor="#CC000000"
-                                android:textSize="15sp">
+                                android:id="@+id/coin1_gain_view"
+                                android:layout_width="80dp"
+                                android:layout_height="40dp"
+                                android:layout_gravity="center"
+                                android:background="@drawable/round_box_2"
+                                android:backgroundTint="#CC4A569D"
+                                android:gravity="right|center"
+                                android:includeFontPadding="false"
+                                android:insetTop="0dp"
+                                android:insetBottom="0dp"
+                                android:text="-0.93%"
+                                android:textColor="#FFFFFF"
+                                android:textSize="13sp"
+                                android:textStyle="bold">
+
                             </TextView>
                         </LinearLayout>
 
-                        <TextView
-                            android:id="@+id/coin1_price"
-                            android:layout_width="80dp"
-                            android:layout_height="match_parent"
-                            android:gravity="center"
-                            android:text="$0.60"
-                            android:textColor="#000000"
-                            android:textSize="19sp"
-                            tools:ignore="InvalidId">
-
-                        </TextView>
-
-                        <TextView
-                            android:id="@+id/coin1_gain_view"
-                            android:layout_width="80dp"
-                            android:layout_height="40dp"
-                            android:layout_gravity="center"
-                            android:background="@drawable/round_box_2"
-                            android:backgroundTint="#CC4A569D"
-                            android:gravity="right|center"
-                            android:includeFontPadding="false"
-                            android:insetTop="0dp"
-                            android:insetBottom="0dp"
-                            android:text="-0.93%"
-                            android:textColor="#FFFFFF"
-                            android:textSize="13sp"
-                            android:textStyle="bold">
-
-                        </TextView>
-                    </LinearLayout>
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:orientation="horizontal">
-                        <TextView
-                            android:layout_width="190dp"
-                            android:layout_height="100dp"
-                            android:layout_marginStart="30dp"
-                            android:text="@string/rec1"
-                            android:textSize="16sp"
-                            android:textColor="#000000"
-                            android:lineSpacingExtra="5sp">
-
-                        </TextView>
-                        <ImageView
-                            android:layout_width="150dp"
-                            android:layout_height="100dp"
-                            android:src="@drawable/rec_graph1"
-                            android:layout_marginStart="10dp">
-
-                        </ImageView>
-                    </LinearLayout>
-                </LinearLayout>
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical">
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center"
-                        android:layout_margin="10dp"
-                        android:orientation="horizontal">
-
-                        <TextView
-                            android:layout_width="20dp"
-                            android:layout_height="50dp"
-                            android:text="2"
-                            android:textSize="20sp"
-                            android:textColor="#000000"
-                            android:gravity="center">
-                        </TextView>
-                        <ImageView
-                            android:id="@+id/coin2_image"
-                            android:layout_width="40dp"
-                            android:layout_height="40dp"
-                            android:layout_gravity="center"
-                            android:layout_marginHorizontal="10dp"
-                            android:src="@drawable/binance"/>
-
                         <LinearLayout
-                            android:layout_width="wrap_content"
+                            android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:orientation="vertical"
-                            android:layout_gravity="center">
+                            android:orientation="horizontal">
 
                             <TextView
-                                android:id="@+id/coin2_name"
+                                android:layout_width="190dp"
+                                android:layout_height="100dp"
+                                android:layout_marginStart="30dp"
+                                android:lineSpacingExtra="5sp"
+                                android:text="@string/rec1"
+                                android:textColor="#000000"
+                                android:textSize="16sp">
+
+                            </TextView>
+
+                            <ImageView
+                                android:layout_width="150dp"
+                                android:layout_height="100dp"
+                                android:layout_marginStart="10dp"
+                                android:src="@drawable/rec_graph1">
+
+                            </ImageView>
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_margin="10dp"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="20dp"
+                                android:layout_height="50dp"
+                                android:gravity="center"
+                                android:text="2"
+                                android:textColor="#000000"
+                                android:textSize="20sp"></TextView>
+
+                            <ImageView
+                                android:id="@+id/coin2_image"
+                                android:layout_width="40dp"
+                                android:layout_height="40dp"
+                                android:layout_gravity="center"
+                                android:layout_marginHorizontal="10dp"
+                                android:src="@drawable/binance" />
+
+                            <LinearLayout
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Binance Coin"
+                                android:layout_gravity="center"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/coin2_name"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Binance Coin"
+                                    android:textColor="#000000"
+                                    android:textSize="20sp"></TextView>
+
+                                <TextView
+                                    android:id="@+id/coin2_shortname"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="BNB"
+                                    android:textColor="#CC000000"
+                                    android:textSize="15sp"></TextView>
+                            </LinearLayout>
+
+                            <TextView
+                                android:id="@+id/coin2_price"
+                                android:layout_width="80dp"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:text="$298.3"
                                 android:textColor="#000000"
-                                android:textSize="20sp">
+                                android:textSize="19sp"
+                                tools:ignore="InvalidId">
+
                             </TextView>
 
                             <TextView
-                                android:id="@+id/coin2_shortname"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:text="BNB"
-                                android:textColor="#CC000000"
-                                android:textSize="15sp">
+                                android:id="@+id/coin2_gain_view"
+                                android:layout_width="80dp"
+                                android:layout_height="40dp"
+                                android:layout_gravity="center"
+                                android:background="@drawable/round_box_2"
+                                android:backgroundTint="#CCDC2424"
+                                android:gravity="right|center"
+                                android:includeFontPadding="false"
+                                android:insetTop="0dp"
+                                android:insetBottom="0dp"
+                                android:text="+0.49%"
+                                android:textColor="#FFFFFF"
+                                android:textSize="13sp"
+                                android:textStyle="bold">
+
                             </TextView>
                         </LinearLayout>
 
-                        <TextView
-                            android:id="@+id/coin2_price"
-                            android:layout_width="80dp"
-                            android:layout_height="match_parent"
-                            android:gravity="center"
-                            android:text="$298.3"
-                            android:textColor="#000000"
-                            android:textSize="19sp"
-                            tools:ignore="InvalidId">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
 
-                        </TextView>
+                            <TextView
+                                android:layout_width="190dp"
+                                android:layout_height="100dp"
+                                android:layout_marginStart="30dp"
+                                android:lineSpacingExtra="5sp"
+                                android:text="@string/rec2"
+                                android:textColor="#000000"
+                                android:textSize="16sp">
 
-                        <TextView
-                            android:id="@+id/coin2_gain_view"
-                            android:layout_width="80dp"
-                            android:layout_height="40dp"
-                            android:layout_gravity="center"
-                            android:background="@drawable/round_box_2"
-                            android:backgroundTint="#CCDC2424"
-                            android:gravity="right|center"
-                            android:includeFontPadding="false"
-                            android:insetTop="0dp"
-                            android:insetBottom="0dp"
-                            android:text="+0.49%"
-                            android:textColor="#FFFFFF"
-                            android:textSize="13sp"
-                            android:textStyle="bold">
+                            </TextView>
 
-                        </TextView>
-                    </LinearLayout>
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:orientation="horizontal">
-                        <TextView
-                            android:layout_width="190dp"
-                            android:layout_height="100dp"
-                            android:layout_marginStart="30dp"
-                            android:text="@string/rec2"
-                            android:textSize="16sp"
-                            android:textColor="#000000"
-                            android:lineSpacingExtra="5sp">
+                            <ImageView
+                                android:layout_width="150dp"
+                                android:layout_height="100dp"
+                                android:layout_marginStart="10dp"
+                                android:src="@drawable/rec_graph2">
 
-                        </TextView>
-                        <ImageView
-                            android:layout_width="150dp"
-                            android:layout_height="100dp"
-                            android:src="@drawable/rec_graph2"
-                            android:layout_marginStart="10dp">
-
-                        </ImageView>
+                            </ImageView>
+                        </LinearLayout>
                     </LinearLayout>
                 </LinearLayout>
-            </LinearLayout>
-        </androidx.constraintlayout.widget.ConstraintLayout>
+            </androidx.constraintlayout.widget.ConstraintLayout>
 
-        <androidx.constraintlayout.widget.ConstraintLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
-
-            <LinearLayout
+            <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.0"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent">
-
-                <TextView
-                    android:id="@+id/textView38"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="15dp"
-                    android:layout_marginTop="10dp"
-                    android:text="Hot News"
-                    android:textColor="#000000"
-                    android:textSize="26sp"
-                    android:textStyle="bold"/>
+                android:layout_height="match_parent">
 
                 <LinearLayout
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:orientation="horizontal">
+                    android:orientation="vertical"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
 
-                    <ImageButton
-                        android:id="@+id/img_btn_news1"
-                        android:layout_width="170dp"
-                        android:layout_height="110dp"
-                        android:scaleType="fitCenter"
-                        app:srcCompat="@drawable/news1"
-                        android:layout_marginStart="10dp"
-                        android:layout_marginEnd="10dp"
-                        android:onClick="onNews1Clicked"
-                        android:background="@color/zxing_transparent" />
+                    <TextView
+                        android:id="@+id/textView38"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="15dp"
+                        android:layout_marginTop="10dp"
+                        android:text="Hot News"
+                        android:textColor="#000000"
+                        android:textSize="26sp"
+                        android:textStyle="bold" />
 
                     <LinearLayout
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:orientation="vertical">
+                        android:orientation="horizontal">
 
-                        <TextView
-                            android:layout_width="match_parent"
+                        <ImageButton
+                            android:id="@+id/img_btn_news1"
+                            android:layout_width="170dp"
+                            android:layout_height="110dp"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginEnd="10dp"
+                            android:background="@color/zxing_transparent"
+                            android:onClick="onNews1Clicked"
+                            android:scaleType="fitCenter"
+                            app:srcCompat="@drawable/news1" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Amazon wants to hire a digital currency and blockchain product lead"
-                            android:textColor="#000000"
-                            android:textSize="15sp">
+                            android:orientation="vertical">
 
-                        </TextView>
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Amazon wants to hire a digital currency and blockchain product lead"
+                                android:textColor="#000000"
+                                android:textSize="15sp">
 
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:gravity="center_vertical"
-                            android:text="@string/news1"/>
+                            </TextView>
 
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="center_vertical"
+                                android:text="@string/news1" />
+
+                        </LinearLayout>
                     </LinearLayout>
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal">
-
-                    <ImageButton
-                        android:id="@+id/img_btn_news2"
-                        android:layout_width="170dp"
-                        android:layout_height="110dp"
-                        android:scaleType="fitCenter"
-                        app:srcCompat="@drawable/news2"
-                        android:layout_marginStart="10dp"
-                        android:layout_marginEnd="10dp"
-                        android:onClick="onNews2Clicked"
-                        android:background="@color/zxing_transparent"/>
 
                     <LinearLayout
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:orientation="vertical">
+                        android:orientation="horizontal">
 
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:text="UK Treasury moves toward implementing FATF's crypto 'travel rule' with public consultation"
-                            android:textColor="#000000"
-                            android:textSize="15sp">
+                        <ImageButton
+                            android:id="@+id/img_btn_news2"
+                            android:layout_width="170dp"
+                            android:layout_height="110dp"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginEnd="10dp"
+                            android:background="@color/zxing_transparent"
+                            android:onClick="onNews2Clicked"
+                            android:scaleType="fitCenter"
+                            app:srcCompat="@drawable/news2" />
 
-                        </TextView>
-
-                        <TextView
+                        <LinearLayout
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:gravity="center_vertical"
-                            android:text="@string/news2"/>
+                            android:orientation="vertical">
 
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="UK Treasury moves toward implementing FATF's crypto 'travel rule' with public consultation"
+                                android:textColor="#000000"
+                                android:textSize="15sp">
+
+                            </TextView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="center_vertical"
+                                android:text="@string/news2" />
+
+                        </LinearLayout>
                     </LinearLayout>
+
+
                 </LinearLayout>
-
-
-            </LinearLayout>
-        </androidx.constraintlayout.widget.ConstraintLayout>
-    </LinearLayout>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </LinearLayout>
+    </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>

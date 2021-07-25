@@ -41,11 +41,6 @@ public class login2 extends AppCompatActivity {
         nextButton = (Button) findViewById(R.id.nextButton);
         addButton = (Button) findViewById(R.id.addButton);
 
-        //Button Setting
-        /*Mnemonic.setVisibility(View.INVISIBLE);
-        nextButton.setVisibility(View.INVISIBLE);
-        addButton.setVisibility(View.INVISIBLE);*/
-
         //Spinner
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login2);
@@ -67,7 +62,7 @@ public class login2 extends AppCompatActivity {
             public void onItemSelected(AdapterView<?> adapterView, View view, int i, long id) {
                 selected_coin_idx = spinner_coins.getSelectedItemPosition();
                 //button
-                /*if ( i == 1 )   { eth = true; }*/
+                if ( i == 1 )   { eth = true; }
             }
 
             @Override
@@ -80,7 +75,7 @@ public class login2 extends AppCompatActivity {
             Mnemonic.setVisibility(View.VISIBLE);
             addButton.setVisibility(View.VISIBLE);
 
-            /*Mnemonic.addTextChangedListener(new TextWatcher() {
+            Mnemonic.addTextChangedListener(new TextWatcher() {
                 @Override
                 public void beforeTextChanged(CharSequence charSequence, int i, int i1, int i2) {
                 }
@@ -93,7 +88,7 @@ public class login2 extends AppCompatActivity {
                 public void afterTextChanged(Editable editable) {
                     if (editable.length() > 3) write = true;
                 }
-            });*/
+            });
         }
         else{
             write=true;
