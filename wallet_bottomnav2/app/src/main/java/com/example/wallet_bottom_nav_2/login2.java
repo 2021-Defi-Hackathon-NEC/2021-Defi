@@ -61,8 +61,9 @@ public class login2 extends AppCompatActivity {
             @Override
             public void onItemSelected(AdapterView<?> adapterView, View view, int i, long id) {
                 selected_coin_idx = spinner_coins.getSelectedItemPosition();
+                String item = adapterView.getItemAtPosition(i).toString();
                 //button
-                if ( i == 1 )   { eth = true; }
+                if ( item.equals("Ethereum") )   { eth = true; }
             }
 
             @Override

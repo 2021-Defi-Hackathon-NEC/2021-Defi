@@ -101,18 +101,19 @@
                 app:layout_constraintStart_toStartOf="@+id/view9"
                 app:layout_constraintTop_toTopOf="@+id/view9" />
 
-            <View
-                android:id="@+id/view9"
+            <Button
+                android:id="@+id/button_show_more2"
                 android:layout_width="330dp"
-                android:layout_height="90dp"
+                android:layout_height="60dp"
                 android:layout_gravity="center"
-                android:layout_marginTop="9dp"
-                android:background="@drawable/round_box_2"
-                android:elevation="9dp"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.512"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/textView21" />
+                android:layout_margin="16dp"
+                android:background="@drawable/button_shape2"
+                android:text="@string/show_more"
+                android:textColor="@color/white"
+                android:onClick="clickBtn"
+                app:backgroundTint="@color/dracula_red" />
+
+
 
             <TextView
                 android:id="@+id/textView23"
@@ -128,18 +129,17 @@
                 app:layout_constraintStart_toStartOf="@+id/view10"
                 app:layout_constraintTop_toTopOf="@+id/view10" />
 
-            <View
-                android:id="@+id/view10"
+            <Button
+                android:id="@+id/button_show_more3"
                 android:layout_width="330dp"
-                android:layout_height="330dp"
+                android:layout_height="60dp"
                 android:layout_gravity="center"
-                android:layout_marginTop="16dp"
-                android:background="@drawable/round_box_2"
-                android:elevation="9dp"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.512"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/view9" />
+                android:layout_margin="16dp"
+                android:background="@drawable/button_shape2"
+                android:text="@string/show_more"
+                android:textColor="@color/white"
+                android:onClick="clickBtn"
+                app:backgroundTint="@color/dracula_blue" />
 
 
         </LinearLayout>

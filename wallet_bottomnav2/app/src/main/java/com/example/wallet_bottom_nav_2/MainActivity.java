@@ -95,6 +95,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 intent = new Intent(this, SendCrypto.class);
                 startActivity(intent);
                 break;
+            case R.id.button_show_more2: // Show More -> coinmarketcap
+                intent = new Intent(this, recommendation.class);
+                startActivity(intent);
+                break;
+            case R.id.button_show_more3: // Show More -> coinmarketcap
+                intent = new Intent(this, coinmarketcap.class);
+                startActivity(intent);
+                break;
 //            case R.id.button_done: // Send Crypto
 //                intent = new Intent(this, WalletFragment.class);
 //                startActivity(intent);
